@@ -35,6 +35,7 @@ Documentación oficial e Informe de Proyecto colaborativo para el modelo de nego
 
 U202413214 - Cataño Zárate, Jesús Miguel
 U202414928 - Fernadnez Linares, Alvaro Sebastian
+
 ---
 
 *Abril, 2026*
