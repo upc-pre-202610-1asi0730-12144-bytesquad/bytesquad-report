@@ -37,6 +37,8 @@ U202413214 - Cataño Zárate, Jesús Miguel
 
 U202414928 - Fernadnez Linares, Alvaro Sebastian
 
+U202414970 - Gallardo Morales, Carla Alejandra
+
 ---
 
 *Abril, 2026*
