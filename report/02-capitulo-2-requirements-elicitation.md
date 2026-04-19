@@ -23,7 +23,7 @@
 ### 2.2.2. Registro de entrevistas.
 
 #### Entrevistado 1
-<img src="./assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
+<img src="../assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -35,7 +35,7 @@
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 #### Entrevistado 2
-<img src="./assets/foto-entrevista-2.png" alt="foto-entrevista-2" width="400" height="149">
+<img src="../assets/foto-entrevista-2.png" alt="foto-entrevista-2" width="400" height="149">
 
 | Campo | Detalle |
 | :--- | :--- |
