@@ -12,6 +12,11 @@ Me defino como una persona responsable, organizada y con una fuerte orientación
 
 Soy Lui Gamero, estudiante de ingeniería de Software, actualmente me encuentro cursando el cuarto ciclo de la carrera y desde el cuarto año de secundario mi interés se fijó en los problemas de la programación, ya cuento con experiencia en programación con C++ lo que considero que es una base sólida en la buena estructura de la programación, además de ello me considera analista y creativo al poder resolver problemas confusos o complejos.
 
+<img src="../assets/foto-carla-f.png" alt="foto-lui-f" width="200" height="280">
+
+Soy Carla Alejandra Gallardo Morales, tengo 19 años. Desde que me incorporé en la Universidad Peruana de Ciencias Aplicadas en el periodo 2024-01, es decir que ahora mismo estoy cursando el quinto ciclo de la carrera de Ing. de Software, he adquirido y desarrollado distintos conocimientos a cerca de la programación, específicamente en el lenguaje C++ y Java, además, de forma autodidacta y extracurricular, he profundizado en el lenguaje Python, lo que ha ampliado mi perspectiva sobre la lógica y resolución de problemas.
+Dentro del equipo, mi contribución se basa en el apoyo continuo del desarrollo del backend y frontend de nuestro aplicativo, asimismo ayudo en la implementación del informe de nuestro proyecto.
+
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 ### 1.2.2 Lean UX Process
