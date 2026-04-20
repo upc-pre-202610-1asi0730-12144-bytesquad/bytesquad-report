@@ -139,5 +139,23 @@ Debe tener un aspecto moderno, deportivo y ágil. Para los usuarios, debe ser ex
 **Otras suposiciones** que tenemos es que ciertos gimnasios ya tengan este tipo de sistemas o que cierta maquinaria venga con telemetría ya incluída. En consecuencia, nuestra idea carecería de valor. Por ende, es importante tener en mente que si un gimnasio ya posee este sistema debemos proponer una mejora.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
+Hipótesis 1:
+
+**Creemos que proporcionar** un panel de control web de alertas preventivas de mantenimiento a los gerentes de operaciones les permitirá anticiparse a las fallas mecánicas.
+
+**Sabremos que** hemos tenido éxito
+
+**Cuando veamos** que el tiempo de inactividad de las máquinas se reduce en un 40%.
+
+Hipótesis 2:
+
+**Creemos que** ofrecer una funcionalidad en la aplicación web que sugiera horarios de menor demanda a los clientes frecuentes les ayudará a evitar largos tiempos de espera para usar sus equipos.
+
+**Sabremos que** nuestra solución es acertada
+
+**Cuando veamos** que la retención de usuarios del gimnasio se incrementa en un 15%.
+
 #### 1.2.2.4. Lean UX Canvas.
+
 ## 1.3. Segmentos objetivos
