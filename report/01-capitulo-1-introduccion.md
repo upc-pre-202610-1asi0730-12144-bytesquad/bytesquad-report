@@ -159,3 +159,9 @@ Hipótesis 2:
 #### 1.2.2.4. Lean UX Canvas.
 
 ## 1.3. Segmentos objetivos
+
+**Segmento 1:**
+Administradores y Gerentes de Operaciones
+Profesionales encargados de la rentabilidad, el mantenimiento y la gestión diaria de las sedes del gimnasio. Suelen tomar decisiones bajo presión y manejan presupuestos operativos. Tienen un nivel de conocimiento tecnológico intermedio, por lo que requieren interfaces limpias, dashboards analíticos fáciles de interpretar y reportes financieros (como cálculos de ROI o impacto financiero por inactividad) generados de manera automatizada.
+
+**Segmento 2:** Clientes frecuentes de gimnasio Hombres y mujeres de 18 a 45 años, estudiantes universitarios o profesionales, con una rutina activa y tiempo limitado para entrenar. Valoran la eficiencia durante su estadía en el recinto deportivo. Buscan herramientas digitales rápidas y responsivas accesibles desde sus dispositivos móviles para optimizar su tiempo de entrenamiento y evitar aglomeraciones.
