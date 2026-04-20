@@ -33,12 +33,62 @@ Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack uti
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
 La gestión operativa y el mantenimiento de equipos en centros deportivos representan un desafío crítico en la actualidad. Una administración deficiente, caracterizada por el desconocimiento del estado real y la disponibilidad de las máquinas, desencadena consecuencias operativas y financieras severas para las empresas. De acuerdo con ResQ (s.f.), cuando se producen fallas repentinas en los equipos por falta de monitoreo, los costos de reparación suelen ser entre 3 y 5 veces más altos en comparación con los gastos de un mantenimiento preventivo programado.
 
 Además del impacto económico directo, la experiencia del cliente se ve profundamente perjudicada. El 70% de los usuarios finales manifiesta una alta insatisfacción al descubrir que su máquina preferida se encuentra averiada en el momento de su entrenamiento (Athletic Business, 2024, como se citó en DINGG, 2025). Esta falta de visibilidad impide que los usuarios organicen su tiempo adecuadamente, generando desánimo e incrementando significativamente la probabilidad de que cancelen sus suscripciones. Paralelamente, para la administración del establecimiento, esta carencia de información centralizada y en tiempo real se traduce en una planificación de mantenimiento ineficiente y en una toma de decisiones imprecisa respecto a la reubicación, reparación o compra de nuevos equipos.
 
+
+**What (Qué):**
+
+El problema es la baja administración que se le dan a las máquinas, de tal manera que se ignoran el estado y disponibilidad de estas. Según ResQ (s.f), las fallas repentinas de las máquinas ocasionan que los costos de reparación sean 3 o 5 veces más caros de lo normal. Por otro lado, el 70% de usuarios finales muestran insatisfacción cuando su máquina preferida está dañada (Athletic Business, 2024, como se citó en DINGG, 2025).
+Esto repercute en que los usuarios finales no tengan la capacidad de organizar su tiempo adecuadamente al no saber si una máquina está disponible o si está en mantenimiento. Incluso, es posible que se desanimen y cancelen su suscripción. Por otro lado, con respecto a la administración, la planificación del mantenimiento y la toma de decisiones fundamentadas sobre la compra o reubicación de equipos termina siendo imprecisa.
+https://dingg.app/blogs/your-5-step-operational-plan-to-handle-equipment-failures
+
+**When (Cuándo):**
+
+El problema surge y se intensifica drásticamente durante las "horas pico" de los gimnasios (generalmente temprano por la mañana y después de las 6:00 PM). En estos momentos, los usuarios deben lidiar con instalaciones abarrotadas y disputar el uso de máquinas populares (como trotadoras o racks de sentadillas), lo que implica tiempos de espera que rompen el ritmo de sus entrenamientos.
+Desde la perspectiva administrativa, el problema del mantenimiento surge de forma imprevista. Las roturas de cables o fallos de motor en máquinas cardiovasculares ocurren súbitamente en medio de la operación diaria, obligando a poner carteles de "Fuera de Servicio" que generan malestar general.
+
+**Where (Dónde):**
+
+El principal lugar donde se encuentran los mayores clientes potenciales sería en las cadenas de gimnasios de tamaño mediano y grande en Lima, así como en centros deportivos universitarios. Estos establecimientos poseen una gran cantidad de activos costosos distribuidos en espacios amplios y, en muchos casos, cuentan con múltiples sedes, lo que dificulta bastante el control manual de qué se usa, cuánto se usa y dónde hace falta más equipamiento.
+
+**Who (Quién):**
+
+El problema afecta principalmente a dos grupos bien definidos: los administradores de los gimnasios y los usuarios/clientes (feligreses del fitness).
+Por un lado, los administradores y dueños lidian con presupuestos ajustados. Al no tener telemetría, deben adivinar cuándo hacer mantenimiento o qué máquinas comprar. Esto representa una gran dificultad operativa y un riesgo de pérdida económica por mala gestión de activos.
+Por otro lado, los usuarios se ven directamente afectados por la falta de disponibilidad. Llegan al local y deben caminar por todo el recinto buscando una máquina libre, lo cual genera estrés y pérdida de tiempo.
+La solución que proponemos está pensada para que los administradores utilicen un dashboard analítico que les alerte de mantenimientos y muestre estadísticas de uso. Asimismo, está diseñada para que los clientes, mediante una app móvil, puedan consultar la "temperatura" (disponibilidad) de las máquinas en tiempo real antes de salir de casa o mientras están en el local.
+
+**Why (Por qué):**
+
+En primer lugar, la principal causa del problema es la carencia de sistemas de telemetría e IoT en los gimnasios tradicionales. La gestión se basa en la observación visual de los entrenadores y en reportes manuales cuando algo ya falló. Esto puede confirmarse gracias a MantainNow (2025), un error común de las organizaciones es que el mantenimiento que se realiza es reactivo. Es decir, se efectúa una vez el daño ya está hecho.
+
+https://www.maintainnow.app/learn/guides/mro-maintenance-repair-operations-a-practical-guide
+
+En segundo lugar, otro factor es la incapacidad de procesar datos de flujo de personas en tiempo real. Aunque algunos gimnasios tienen torniquetes de ingreso, esto solo indica cuánta gente hay en el local, pero no indica qué están usando. En consecuencia, la gestión de la capacidad se vuelve deficiente, haciendo que los clientes pierdan tiempo y que los administradores presenten dificultades para optimizar sus locales. Esto lo confirma Rework (s.f), en donde menciona que el aforo no debería percibirse por cantidad si no por acumulación de usuarios en las máquinas. O sea, 78 personas pueden encontrarse dentro de un local con un aforo de 100 personas. No obstante, estas se agruparán en máquinas específicas, dejando el resto con un porcentaje de uso significativamente menor.
+
+**How (Cómo):**
+
+La plataforma funcionará mediante un sistema dual (Web App para usuarios y Dashboard para administradores) alimentado por dispositivos IoT. En las instalaciones se utilizarán cámaras simples con reconocimiento en el Edge (o sensores de uso) que solo enviarán datos de estado (Ocupado/Libre) y tiempo a nuestra base de datos, respetando la privacidad (no se graba video).
+La mayoría de los clientes preferirán acceder mediante dispositivos móviles, por lo que la interfaz en Angular será responsiva. Verán un catálogo de máquinas agrupadas por tipo (Cardio, Pesas, etc.) con indicadores de colores (ej. Verde: Libre, Rojo: Ocupado) como un mapa de calor.
+Los administradores ingresarán mediante un login seguro (JWT) a un panel donde visualizarán gráficos de barras de uso histórico, alertas de "Mantenimiento requerido (Límite de 500 horas superado)", y recomendaciones para reubicar equipos poco usados.
+
+**How much (Cuánto):**
+
+La ineficiencia en la gestión de activos dentro de los centros fitness desencadena un impacto financiero que compromete severamente la rentabilidad del negocio. En primer lugar, la dependencia de un modelo reactivo infla el Sobrecosto Operativo (OPEX), dado que la ejecución de mantenimientos correctivos de emergencia resulta entre 3 a 5 veces más costosa que una estrategia preventiva planificada (Oxmaint, 2023). Este sobrecosto se agrava con la Depreciación Acelerada de Activos (CAPEX) considerando que el equipamiento cardiovascular comercial exige inversiones iniciales de $3,000 a $8,000 USD por unidad (Top Fitness, 2024), una falla correctiva mayor (como el reemplazo de un motor AC por fricción) puede consumir hasta el 40% de su valor residual, fulminando el Retorno de Inversión (ROI) proyectado. Finalmente, esta precariedad logística golpea el indicador más crítico: la retención. Con una tasa de abandono (Churn Rate) anual de la industria que oscila entre el 30% y el 40%, la inoperatividad de los equipos y la consecuente congestión de los locales se posicionan consistentemente en el "Top 3" de motivos de cancelación (Energym, 2023). Sabiendo que el Costo de Adquisición de Clientes (CAC) es 5 veces mayor que el costo de retenerlos (IHRSA, 2023), el downtime constante de las máquinas puede convertirse en una fuga de capital insostenible.
+
+Energym. (2023). *Why do gym members cancel their memberships?* https://energym.io/blogs/braingains/why-do-gym-members-cancel-their-memberships
+
+Oxmaint. (2023). *Corrective vs. preventive work orders*. https://www.oxmaint.com/blog/post/corrective-vs-preventive-work-orders
+
+Top Fitness Store. (2024). *Commercial & professional treadmills*. https://www.topfitness.com/collections/commercial-treadmills
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements.
+
+Nuestro servicio ofrece una plataforma de telemetría y visualización en tiempo real para monitorear el uso, desgaste y disponibilidad de las máquinas de ejercicio. Hemos observado que los gimnasios enfrentan sobrecostos por mantenimientos reactivos y tiempos prolongados de equipos inoperativos, a la par que los usuarios experimentan largos tiempos de espera para entrenar durante las horas pico, reduciendo la tasa de retención. ¿De qué manera podemos visibilizar la ocupación y el estado de los activos para optimizar la planificación preventiva de la gerencia y permitir a los usuarios ejecutar sus rutinas sin tiempos muertos?
 #### 1.2.2.2. Lean UX Assumptions.
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
