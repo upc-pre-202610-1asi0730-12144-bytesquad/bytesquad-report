@@ -1,6 +1,15 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1 Descripción de la Startup
+**Descripción general:**
+LocalSync nace para cerrar la brecha entre la gestión tradicional de recintos deportivos y la innovación tecnológica impulsada por el Internet de las Cosas (IoT). Somos una startup comprometida con la optimización de los activos físicos y la mejora de la experiencia del usuario en gimnasios, asegurando que la toma de decisiones basada en datos reemplace a la intuición, maximizando la rentabilidad y la satisfacción del cliente.
+
+**Misión:**
+La misión de LocalSync es ofrecer un servicio inteligente de monitoreo y analítica de uso de equipos deportivos, orientado a gimnasios y centros de fitness universitarios. Buscamos optimizar sus procesos operativos y de mantenimiento mediante el uso de IoT (cámaras con visión computacional y sensores en el Edge) para transformar el uso físico de las máquinas en datos accionables gestionados eficientemente en la nube.
+
+**Visión:**
+La visión de LocalSync es ser la plataforma líder en telemetría y gestión de activos deportivos en Perú, promoviendo una administración moderna y predictiva que impulse a los gimnasios hacia una transformación digital eficiente y a la vanguardia de la tecnología.
+
 ### 1.1.2 Perfiles de integrante del equipo
 
 <img src="../assets/foto-alvaro-f.png" alt="foto-alvaro-f" width="200" height="280">
@@ -24,6 +33,7 @@ Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack uti
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements.
 #### 1.2.2.2. Lean UX Assumptions.
