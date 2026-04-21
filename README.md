@@ -37,6 +37,9 @@ U202413214 - Cataño Zárate, Jesús Miguel
 
 U202414928 - Fernadnez Linares, Alvaro Sebastian
 
+U202410344 - Espinoza Orrego, Valentino Andre 
+
+
 ---
 
 *Abril, 2026*
