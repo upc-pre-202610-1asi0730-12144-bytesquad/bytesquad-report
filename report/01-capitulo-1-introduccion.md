@@ -12,24 +12,88 @@ La visión de LocalSync es ser la plataforma líder en telemetría y gestión de
 
 ### 1.1.2 Perfiles de integrante del equipo
 
-<img src="../assets/foto-alvaro-f.png" alt="foto-alvaro-f" width="200" height="280">
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="../assets/foto-alvaro-f.png" alt="Foto de Alvaro" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Alvaro Sebastian Fernanadez Linares</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202414928</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy Alvaro Sebastian Fernanadez Linares, estudiante de 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++ y bases sólidas en Java, lenguajes que me han permitido especializarme en el desarrollo backend, enfocándome en la lógica de negocio y la funcionalidad del servidor.
+        Me defino como una persona responsable, organizada y con una fuerte orientación al trabajo en equipo y la eficiencia. Para este ciclo, mi objetivo en Desarrollo de Aplicaciones Open Source es trasladar mi experiencia en desarrollo estructurado hacia entornos colaborativos. Aspiro a integrar mis habilidades técnicas con la filosofía de código abierto para crear soluciones que no solo sean eficientes, sino también accesibles y transparentes, entendiendo que el futuro de la ingeniería de software se construye colectivamente.
+    </td>
+  </tr>
+</table>
 
-Soy Alvaro Sebastian Fernanadez Linares (Codigo: u202414928), estudiante de 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++ y bases sólidas en Java, lenguajes que me han permitido especializarme en el desarrollo backend, enfocándome en la lógica de negocio y la funcionalidad del servidor.
-Me defino como una persona responsable, organizada y con una fuerte orientación al trabajo en equipo y la eficiencia. Para este ciclo, mi objetivo en Desarrollo de Aplicaciones Open Source es trasladar mi experiencia en desarrollo estructurado hacia entornos colaborativos. Aspiro a integrar mis habilidades técnicas con la filosofía de código abierto para crear soluciones que no solo sean eficientes, sino también accesibles y transparentes, entendiendo que el futuro de la ingeniería de software se construye colectivamente.
 
-<img src="../assets/foto-lui-f.png" alt="foto-lui-f" width="200" height="280">
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="../assets/foto-lui-f.png" alt="Foto de Lui" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Lui Mathias Gamero Miranda</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202419335</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy Lui Gamero, estudiante de ingeniería de Software, actualmente me encuentro cursando el cuarto ciclo de la carrera y desde el cuarto año de secundario mi interés se fijó en los problemas de la programación, ya cuento con experiencia en programación con C++ lo que considero que es una base sólida en la buena estructura de la programación, además de ello me considera analista y creativo al poder resolver problemas confusos o complejos.
+    </td>
+  </tr>
+</table>
 
-Soy Lui Gamero, estudiante de ingeniería de Software, actualmente me encuentro cursando el cuarto ciclo de la carrera y desde el cuarto año de secundario mi interés se fijó en los problemas de la programación, ya cuento con experiencia en programación con C++ lo que considero que es una base sólida en la buena estructura de la programación, además de ello me considera analista y creativo al poder resolver problemas confusos o complejos.
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="../assets/foto-carla-f.png" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Carla Alejandra Gallardo Morales</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202414970 </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy Carla Alejandra Gallardo Morales, tengo 19 años. Desde que me incorporé en la Universidad Peruana de Ciencias Aplicadas en el periodo 2024-01, es decir que ahora mismo estoy cursando el quinto ciclo de la carrera de Ing. de Software, he adquirido y desarrollado distintos conocimientos a cerca de la programación, específicamente en el lenguaje C++ y Java, además, de forma autodidacta y extracurricular, he profundizado en el lenguaje Python, lo que ha ampliado mi perspectiva sobre la lógica y resolución de problemas.
+      <br/><br/>
+        Dentro del equipo, mi contribución se basa en el apoyo continuo del desarrollo del backend y frontend de nuestro aplicativo, asimismo ayudo en la implementación del informe de nuestro proyecto.
+    </td>
+  </tr>
+</table>
 
-<img src="../assets/foto-carla-f.png" alt="foto-lui-f" width="200" height="280">
 
-Soy Carla Alejandra Gallardo Morales, tengo 19 años. Desde que me incorporé en la Universidad Peruana de Ciencias Aplicadas en el periodo 2024-01, es decir que ahora mismo estoy cursando el quinto ciclo de la carrera de Ing. de Software, he adquirido y desarrollado distintos conocimientos a cerca de la programación, específicamente en el lenguaje C++ y Java, además, de forma autodidacta y extracurricular, he profundizado en el lenguaje Python, lo que ha ampliado mi perspectiva sobre la lógica y resolución de problemas.
-Dentro del equipo, mi contribución se basa en el apoyo continuo del desarrollo del backend y frontend de nuestro aplicativo, asimismo ayudo en la implementación del informe de nuestro proyecto.
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="../assets/foto-jesus-c.png" alt="foto-jesus-c" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Jesús Miguel Cataño Zárate</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202413214 </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+     Soy Jesús Miguel Cataño Zárate. Actualmente estudio el 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++,C# y experiencia usando Java, para desarrollos moviles y HTML,JS,Node.Js en cuanto a paginas web. 
+      <br/><br/>
+        Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack utilizando Spring Boot y Angular para la creación de arquitecturas escalables y eficientes. Por otro lado, desempeño el rol de Team Leader dentro de mi grupo, asumiendo la responsabilidad de guiar y coordinar al equipo para trabajar de manera efectiva.
+    </td>
+  </tr>
+</table>
 
-<img src="../assets/foto-jesus-c.png" alt="foto-jesus-c" width="200" height="280">
 
-Soy Jesús Miguel Cataño Zárate, (Codigo: u202413214). Actualmente estudio el 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++,C# y experiencia usando Java, para desarrollos moviles y HTML,JS,Node.Js en cuanto a paginas web. 
-Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack utilizando Spring Boot y Angular para la creación de arquitecturas escalables y eficientes. Por otro lado, desempeño el rol de Team Leader dentro de mi grupo, asumiendo la responsabilidad de guiar y coordinar al equipo para trabajar de manera efectiva.
+
+
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
