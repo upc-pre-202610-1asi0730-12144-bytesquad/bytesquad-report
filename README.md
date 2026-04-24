@@ -39,6 +39,7 @@ U202414928 - Fernadnez Linares, Alvaro Sebastian
 
 U202410344 - Espinoza Orrego, Valentino Andre 
 
+U202414970 - Gallardo Morales, Carla Alejandra
 
 ---
 
