@@ -20,6 +20,17 @@ En este apartado se evalúan las estrategias de los competidores de Qlic y se co
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Desarrollar estrategias y tácticas efectivas para enfrentar a nuestros competidores requiere de un enfoque cuidadoso y planificado. A continuación se presentan algunas estrategias y tácticas que podrían ser consideradas para tener una ventaja competitiva frente a otras alternativas:
+
+**Diferenciación por telemetría pasiva y automatización:** A diferencia de competidores como Virtuagym o Fitco, que dependen de que el usuario reserve manualmente una máquina o clase , SpotTrack se diferencia al eliminar la interacción manual mediante el uso de hardware IoT Edge. Esta ventaja permite recolectar datos reales de uso de forma pasiva, ofreciendo un mapa de calor en vivo que refleja la realidad del local sin errores humanos. Además, se aplicará un modelo B2B SaaS con planes escalables desde los $69 USD mensuales, facilitando el acceso a gimnasios medianos y grandes en Lima.
+
+**Optimización de la rentabilidad y soporte preventivo:** 
+Mientras que los sistemas tradicionales presentan una "ceguera intramuros" al ignorar si una máquina está averiada , nuestra táctica principal de acercamiento será demostrar el ahorro directo en el OPEX. Al migrar de un mantenimiento correctivo (que es de 3 a 5 veces más costoso) a uno preventivo y predictivo , los administradores logran maximizar la vida útil de sus activos. Para asegurar la adopción, se ofrecerá un piloto gratuito de 30 días instalando hardware en zonas críticas (como el área de cardio), demostrando el retorno de inversión con datos tangibles antes del cierre de venta.
+
+**Innovación tecnológica enfocada en la privacidad y eficiencia:**
+SpotTrack se posicionará como líder en tecnología Edge Computing, procesando el reconocimiento de imágenes directamente en el dispositivo para enviar únicamente paquetes ligeros de datos (JSON) a la nube. Esta táctica no solo evita la saturación de la red Wi-Fi del gimnasio —una de las debilidades identificadas frente a la competencia — sino que garantiza la privacidad total al no grabar ni transmitir video de los usuarios. Esto permite ofrecer un dashboard gerencial con métricas claras y alertas automáticas que superan la funcionalidad de los ERP tradicionales que solo gestionan accesos y membresías.
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 
@@ -39,7 +50,41 @@ En este apartado se evalúan las estrategias de los competidores de Qlic y se co
 13. ¿Qué información exacta te resultaría más útil ver en una pantalla o aplicación mientras estás dentro del recinto para no perder el ritmo de tu rutina?
 
 ### 2.2.2. Registro de entrevistas.
+SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
 
+### Entrevistado 1
+ 
+<img src="../assets/EntrevistaAlexander.jpeg" alt="EntrevistaAlexander" width="400" height="150">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Alexander Gutierrez |
+| **Edad** | 31 años |
+| **Ocupación** | Administrador de Gimnasio (Sport Life La Molina) |
+| **Link** | https://youtu.be/T1oRNCtUen8 |
+| **Resumen** | La entrevista presenta a Alexander Gutiérrez, Administrador de gimnasio en Sport Life La Molina, quien comenta que el mantenimiento actual es rápido, salvo cuando requieren repuestos importados. Reconoce que gestionan la congestión en horas pico ofreciendo ejercicios alternativos o pesos libres a los clientes. Señala que un mapa de calor le ayudaría a prever la demanda específica de ciertos días, y que las alertas automáticas de mantenimiento predictivo serían magníficas para anticipar el desgaste de piezas clave (como las fajas de las trotadoras) antes de que se rompan. \n\nEn cuanto al panel de control, Alexander valora métricas sobre asignación de rutinas, ingreso de invitados y comentarios de post-venta. Considera que la tecnología de cámaras podría generar reservas en adultos mayores, aunque sería bien aceptada por los jóvenes. Finalmente, destaca que un piloto gratuito lo convencería de pagar la suscripción si en 30 días arroja datos precisos sobre los horarios pico y el uso de máquinas de alta demanda, justificando así futuras compras y optimizando la gestión del local. |
+
+### Entrevistado 2
+
+<img src="../assets/EntrevistaLuis.jpeg" alt="EntrevistaLuis" width="400" height="150">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Luis Romero |
+| **Edad** | 51 años |
+| **Ocupación** | Administrador de Gimnasio (UPC y YMCAID) |
+| **Link** | https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW |
+| **Resumen** | Luis Romero, Administrador de gimnasio en la UPC y YMCAID, destaca que la gestión en universidades es mucho más lenta que en gimnasios comerciales, donde una reparación puede tardar solo un día frente a varias semanas por burocracia. Señala que las fallas en equipos generan quejas inmediatas y afectan la renovación de membresías. \n\nPara manejar la congestión en horas pico, promueve compartir máquinas, pero considera clave el uso de mapas de calor en gimnasios grandes. Valora especialmente las alertas de mantenimiento predictivo, ya que ayudan a no olvidar revisiones. Prefiere equipos de musculación nacionales por repuestos rápidos y cardio importado. \n\nResalta la importancia de sensores (sobre todo en trotadoras) para medir uso y anticipar fallas. En su panel ideal prioriza asistencia, quejas y renovaciones. También ve útil el uso de cámaras con procesamiento Edge para supervisión sin afectar la privacidad. Finalmente, un piloto gratuito lo convencería si ofrece datos precisos sobre afluencia y uso para tomar decisiones de mantenimiento o reemplazo. | 
+
+
+
+
+
+
+
+
+
+SEGMENTO 2: Clientes Frecuentes de Gimnasio
 #### Entrevistado 1
 <img src="../assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
 
