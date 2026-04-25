@@ -66,6 +66,24 @@ En este apartado se evalúan las estrategias de los competidores de Qlic y se co
 
 ### 2.2.3. Análisis de entrevistas.
 
+**SEGMENTO 1: Administradores de Gimnasios y Gerentes de Operaciones**
+
+#### Entrevista 1
+#### Hábitos y Entorno:
+Alexander gestiona el mantenimiento de manera ágil, excepto cuando requiere repuestos importados que retrasan el proceso. Durante las "horas pico", el personal debe intervenir activamente ofreciendo ejercicios alternativos o pesos libres a los clientes para manejar la saturación. Muestra un alto interés en utilizar herramientas tecnológicas para prever la demanda específica de ciertos días.
+
+#### Frustraciones Principales (Pain Points):
+* **Falta de mantenimiento predictivo:** Le preocupa el desgaste súbito de piezas críticas, como las fajas de las trotadoras, antes de que se rompan por completo.
+* **Gestión basada en la intuición:** Siente la necesidad de contar con datos reales para justificar futuras compras de maquinaria en lugar de basarse en percepciones.
+* **Barreras tecnológicas generacionales:** Teme que el uso de cámaras para telemetría pueda generar desconfianza sobre la privacidad en usuarios de mayor edad.
+
+#### Fidelización y Retención:
+Alexander considera que un piloto de 30 días con datos precisos sobre el uso de máquinas de alta demanda sería el factor determinante para justificar la inversión y optimizar la gestión del local.
+
+
+
+**SEGMENTO 2: Clientes Frecuentes de Gimnasios**
+
 #### Entrevista 1
 #### Hábitos y Entorno:
 Joan suele asistir en **"hora punta"**, lo que implica una saturación casi total del local. Aunque su intención es seguir una planificación rigurosa, la falta de disponibilidad de equipos lo obliga a **improvisar constantemente**, alterando el orden de su rutina según las máquinas que se van liberando.
