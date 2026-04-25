@@ -81,6 +81,19 @@ Alexander gestiona el mantenimiento de manera ágil, excepto cuando requiere rep
 Alexander considera que un piloto de 30 días con datos precisos sobre el uso de máquinas de alta demanda sería el factor determinante para justificar la inversión y optimizar la gestión del local.
 
 
+### Entrevista 2
+#### Hábitos y Entorno:
+Luis identifica que la gestión en gimnasios universitarios es mucho más lenta debido a la burocracia institucional, lo que puede extender una reparación de un día a varias semanas. Actualmente, su estrategia para manejar la congestión se basa en promover que los usuarios compartan las máquinas. Valora las alertas automáticas para no olvidar las revisiones preventivas periódicas.
+
+#### Frustraciones Principales (Pain Points):
+* **Impacto en la experiencia del usuario:** Las fallas en los equipos generan quejas inmediatas que afectan directamente la percepción de calidad del servicio.
+* **Incertidumbre operativa:** Necesita sensores, especialmente en el área de cardio, para medir el uso real y anticipar fallas mecánicas.
+* **Falta de métricas de control:** En su panel ideal, prioriza tener visibilidad sobre la asistencia, las quejas y las renovaciones para mantener el control total.
+
+#### Fidelización y Retención:
+Para Luis, las fallas técnicas constantes son un factor crítico que perjudica la renovación de membresías. Un sistema que ofrezca datos precisos de afluencia lo convencería de pagar por la solución.
+
+
 
 **SEGMENTO 2: Clientes Frecuentes de Gimnasios**
 
