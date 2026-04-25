@@ -95,6 +95,7 @@ SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
 
 
 
+
 SEGMENTO 2: Clientes Frecuentes de Gimnasio
 #### Entrevistado 1
 <img src="../assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
