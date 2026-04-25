@@ -91,6 +91,24 @@ La visión de LocalSync es ser la plataforma líder en telemetría y gestión de
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td rowspan="3" align="center">
+      <img src="../assets/foto-valentino-f.jpeg" alt="Foto de Valentino" width="650"/>
+    </td>
+    <td><b>Nombre:</b> Valentino Andre Espinoza Orrego</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202410344</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy estudiante de Ingeniería de Software en la UPC, con interés en el desarrollo de soluciones tecnológicas y el aprendizaje continuo. Me enfoco en fortalecer mis habilidades técnicas y analíticas, así como en el trabajo colaborativo para resolver problemas de manera eficiente. Busco participar en proyectos que me permitan aplicar mis conocimientos y adquirir experiencia práctica, contribuyendo de manera responsable al logro de objetivos y al desarrollo de soluciones funcionales. 
+      Mi aporte al equipo a nivel técnico, combino el análisis de producto con la ejecución técnica para entregar soluciones escalables. Líder en la definición de historias de usuario y aseguramiento de la calidad en interfaces
+    </td>
+  </tr>
+</table>
 
 
 
