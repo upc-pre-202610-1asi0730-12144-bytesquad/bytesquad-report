@@ -78,6 +78,17 @@ SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
 
 
 
+### Entrevistado 3
+
+<img src="../assets/EntrevistaPercy.jpeg" alt="EntrevistaPercy" width="400" height="150">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Percy Baraybar |
+| **Edad** | 30 años |
+| **Ocupación** | Administrador de Gimnasio (Smartfit Miraflores) |
+| **Link** | https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z |
+| **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
 
 
