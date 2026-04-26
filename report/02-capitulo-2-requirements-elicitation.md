@@ -91,11 +91,6 @@ SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
 | **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
 
-
-
-
-
-
 SEGMENTO 2: Clientes Frecuentes de Gimnasio
 #### Entrevistado 1
 <img src="../assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
@@ -122,6 +117,48 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 ### 2.2.3. Análisis de entrevistas.
+
+**SEGMENTO 1: Administradores de Gimnasios y Gerentes de Operaciones**
+
+#### Entrevista 1
+#### Hábitos y Entorno:
+Alexander gestiona el mantenimiento de manera ágil, excepto cuando requiere repuestos importados que retrasan el proceso. Durante las "horas pico", el personal debe intervenir activamente ofreciendo ejercicios alternativos o pesos libres a los clientes para manejar la saturación. Muestra un alto interés en utilizar herramientas tecnológicas para prever la demanda específica de ciertos días.
+
+#### Frustraciones Principales (Pain Points):
+* **Falta de mantenimiento predictivo:** Le preocupa el desgaste súbito de piezas críticas, como las fajas de las trotadoras, antes de que se rompan por completo.
+* **Gestión basada en la intuición:** Siente la necesidad de contar con datos reales para justificar futuras compras de maquinaria en lugar de basarse en percepciones.
+* **Barreras tecnológicas generacionales:** Teme que el uso de cámaras para telemetría pueda generar desconfianza sobre la privacidad en usuarios de mayor edad.
+
+#### Fidelización y Retención:
+Alexander considera que un piloto de 30 días con datos precisos sobre el uso de máquinas de alta demanda sería el factor determinante para justificar la inversión y optimizar la gestión del local.
+
+
+### Entrevista 2
+#### Hábitos y Entorno:
+Luis identifica que la gestión en gimnasios universitarios es mucho más lenta debido a la burocracia institucional, lo que puede extender una reparación de un día a varias semanas. Actualmente, su estrategia para manejar la congestión se basa en promover que los usuarios compartan las máquinas. Valora las alertas automáticas para no olvidar las revisiones preventivas periódicas.
+
+#### Frustraciones Principales (Pain Points):
+* **Impacto en la experiencia del usuario:** Las fallas en los equipos generan quejas inmediatas que afectan directamente la percepción de calidad del servicio.
+* **Incertidumbre operativa:** Necesita sensores, especialmente en el área de cardio, para medir el uso real y anticipar fallas mecánicas.
+* **Falta de métricas de control:** En su panel ideal, prioriza tener visibilidad sobre la asistencia, las quejas y las renovaciones para mantener el control total.
+
+#### Fidelización y Retención:
+Para Luis, las fallas técnicas constantes son un factor crítico que perjudica la renovación de membresías. Un sistema que ofrezca datos precisos de afluencia lo convencería de pagar por la solución.
+
+### Entrevista 3
+#### Hábitos y Entorno:
+Al gestionar un gimnasio de alto volumen, Percy destaca que el mantenimiento correctivo es extremadamente costoso y crítico para la operación. Aplica una "gestión de piso" manual, pero admite que le falta una herramienta visual para que el socio entienda la capacidad real del local en tiempo real.
+
+#### Frustraciones Principales (Pain Points):
+* **Cuellos de botella estratégicos:** Las fallas en máquinas de alta demanda bloquean el flujo de entrenamiento y generan riesgos de no renovación.
+* **Planificación subjetiva:** Se siente frustrado al tener que optimizar el mix de máquinas basado en percepciones y no en datos reales de uso.
+* **Tiempo de inactividad (Downtime):** El registro del tiempo que un equipo pasa fuera de servicio es uno de los datos más críticos que necesita monitorear.
+
+#### Fidelización y Retención:
+Percy afirma que la implementación de FitNode Analytics sería exitosa si logra una reducción mínima del 20% en las quejas de los usuarios por disponibilidad de equipos.
+
+
+**SEGMENTO 2: Clientes Frecuentes de Gimnasios**
 
 #### Entrevista 1
 #### Hábitos y Entorno:
