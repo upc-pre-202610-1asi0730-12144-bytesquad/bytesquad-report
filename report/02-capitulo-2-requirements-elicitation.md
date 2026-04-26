@@ -116,6 +116,18 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 | **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
+#### Entrevistado 3
+<img src="../assets/foto-entrevista-6.png" alt="foto-entrevista-2" width="400" height="149">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Diego Quispe |
+| **Ocupación** | Estudiante universitario (U. de Lima) y trabajador a medio tiempo |
+| **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
+| **Duración** | Variable (afectada por la alta afluencia) |
+| **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
+
 ### 2.2.3. Análisis de entrevistas.
 
 **SEGMENTO 1: Administradores de Gimnasios y Gerentes de Operaciones**
@@ -182,6 +194,18 @@ Fabián organiza sus sesiones con una **división muscular estricta** (ej. marte
 
 #### Fidelización y Retención:
 A diferencia de otros usuarios, Fabián muestra una **fidelidad estable** hacia su centro actual; indica que ni la saturación ocasional ni el estado técnico de los equipos son factores que lo llevarían a cancelar su membresía.
+
+#### Entrevista 3:
+#### Hábitos y Entorno:
+Diego organiza sus sesiones mediante una división por grupos musculares (pecho, espalda, brazo, pierna). Entrena en el horario de máxima afluencia nocturna, describiendo el lugar como "un mercado" lleno de colas. Para lograr cumplir con sus ejercicios, suele turnarse en las máquinas compartiéndolas con grupos de hasta tres o cuatro personas.
+
+#### Frustraciones Principales (Pain Points):
+* **Pérdida de intensidad muscular:** Al exceder su tiempo ideal de descanso (1 a 3 minutos) esperando que se libere un equipo, siente que el músculo se enfría y pierde la adrenalina, generándole la sensación de tener que "volver a iniciar de nuevo".
+
+* **Exceso de tiempo inactivo:** Le resulta muy frustrante pasar grandes lapsos de tiempo esperando simplemente para poder utilizar los equipos debido a la sobrepoblación.
+
+#### Fidelización y Retención:
+Diego muestra una fidelidad estable, indicando que la saturación del lugar no ha sido un motivo para cancelar su membresía. Su forma de lidiar con el problema es adaptar sus horarios durante los fines de semana, buscando ventanas de tiempo (entre la mañana y la tarde) donde el acceso sea más fluido.
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
