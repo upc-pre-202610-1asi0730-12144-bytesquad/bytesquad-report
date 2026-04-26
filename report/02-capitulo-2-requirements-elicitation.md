@@ -290,6 +290,11 @@ Para estructurar la sección Empathy Mapping de tu proyecto SpotTrack, adaptarem
 ![Empathy Mapping Alexis Villanueva](../assets/Empathy%20Mapping%20Alexis%20Villanueva.png)
 
 
+**Segmento 2**
+![Empathy Mapping Andre Mendoza](../assets/Empathy%20Mapping%20Andre%20Mendoza.png)
+
+
+
 
 
 
