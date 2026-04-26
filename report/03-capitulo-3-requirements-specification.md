@@ -125,3 +125,66 @@ El Impact Mapping nos ayuda a evitar perdernos en largas listas de tareas y aseg
 
 
 ## 3.3. Product Backlog
+
+| Orden | ID | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | US14 | Motor de sugerencia de rutinas alternativas | Como cliente frecuente, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento. | 8 |
+| 2 | US30 | Analítica predictiva de compras e inversión | Como dueño del negocio, quiero reportes basados en la tasa de uso para proyectar inversiones y simular el ROI, para tomar decisiones sobre qué equipos adquirir o descartar. | 8 |
+| 3 | US27 | Estadísticas de reubicación multisede | Como administrador de una cadena, quiero estadísticas cruzadas entre sedes, para identificar y trasladar máquinas de locales con baja demanda a los más saturados. | 8 |
+| 4 | US09 | Visualización del mapa de calor en vivo | Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas. | 8 |
+| 5 | US29 | Calculadora de impacto financiero por inactividad | Como dueño del negocio, quiero cuantificar la pérdida monetaria estimada por cada hora de inactividad de una máquina, para entender el impacto real de las averías. | 8 |
+| 6 | US17 | Acumulación automática de horas de uso | Como administrador, quiero ver gráficos con la sumatoria de minutos reales de uso de cada máquina, para comprender la demanda real sin tener que vigilar el local. | 8 |
+| 7 | US22 | Alerta predictiva de mantenimiento | Como gerente de operaciones, quiero recibir alertas automáticas cuando un equipo supere sus horas seguras de uso, para realizar mantenimientos preventivos antes de que fallen. | 8 |
+| 8 | US25 | Calendario inteligente de bloqueos de reserva | Como cliente frecuente, quiero que el sistema me sugiera horarios alternativos de baja afluencia cuando intente reservar en una hora pico, para garantizar la disponibilidad de los equipos y evitar las aglomeraciones durante mi entrenamiento. | 8 |
+| 9 | US16 | Sistema de reserva exprés en horas pico | Como cliente frecuente, quiero separar virtualmente una máquina libre por 10 minutos durante horas pico, para asegurar su uso mientras me dirijo a ella. | 8 |
+| 10 | US13 | Sistema de recompensas de Crowdsourcing | Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos si hay discrepancias. | 8 |
+| 11 | TS20 | Obtener sugerencias de rutinas API | Como Developer, quiero implementar el endpoint GET api/v1/routines/alternatives, para correr el algoritmo de reemplazo de ejercicios según aforo. | 8 |
+| 12 | TS27 | Simular Retorno de Inversión / ROI API | Como Developer, quiero implementar el endpoint POST /api/v1/analytics/roi-projection, para correr simulaciones de rentabilidad de compra basadas en telemetría de estrés. | 8 |
+| 13 | US07 | Inicio de sesión con validación JWT | Como usuario (administrador o cliente), quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente. | 5 |
+| 14 | US10 | Filtrado del inventario por tipo de máquina | Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina. | 5 |
+| 15 | US11 | Cambio de sucursal para revisión de aforo | Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa. | 5 |
+| 16 | US15 | Filtrado de alternativas por grupo muscular | Como cliente frecuente, quiero que las rutinas sugeridas respeten mi grupo muscular objetivo y omitan máquinas averiadas, para tener opciones realmente útiles. | 5 |
+| 17 | US18 | Identificación de equipos subutilizados | Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte. | 5 |
+| 18 | US19 | Visualización de picos de estrés del local | Como dueño del negocio, quiero ver gráficos que destaquen las horas donde el aforo de máquinas supera el 90%, para identificar cuellos de botella diarios. | 5 |
+| 19 | US21 | Monitoreo de estado de hardware Edge IoT | Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado. | 5 |
+| 20 | US23 | Despacho automatizado de tickets técnicos | Como gerente de operaciones, quiero que el sistema convierta una alerta en un ticket técnico y notifique al soporte, para agilizar la reparación. | 5 |
+| 21 | US26 | Gestión de activos físicos y altas | Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor. | 5 |
+| 22 | US28 | Gestión automatizada de stock de repuestos | Como administrador, quiero controlar el inventario de piezas clave y recibir alertas de reabastecimiento, para que los técnicos siempre tengan insumos disponibles. | 5 |
+| 23 | US20 | Exportación de analíticas de uso | Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento. | 5 |
+| 24 | US12 | Notificaciones push de resolución de disponibilidad | Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere. | 5 |
+| 25 | US24 | Notificación de restablecimiento a los usuarios | Como administrador, quiero que el sistema notifique a los clientes cuando un equipo reportado es reparado, para mejorar su percepción del servicio. | 5 |
+| 26 | TS12 | Registrar evento de telemetría IoT API | Como Developer, quiero implementar el endpoint POST api/v1/telemetry, para recibir y procesar pasivamente el estado emitido por los sensores Edge. | 5 |
+| 27 | TS14 | Obtener picos de afluencia por día API | Como Developer, quiero implementar el endpoint GET /api/v1/analytics/peak-hours, para procesar e identificar los bloques horarios de máximo estrés en la sede. | 5 |
+| 28 | TS15 | Exportar reporte gerencial API | Como Developer, quiero implementar el endpoint GET api/v1/analytics/export/pdf, para generar archivos físicos de formato de stream PDF sobre resumen mensual sobre demanda y uso. | 5 |
+| 29 | TS18 | Crear reserva exprés API | Como Developer, quiero implementar el endpoint POST api/v1/reservations, para ejecutar bloqueos lógicos de máquinas durante horas de alta demanda. | 5 |
+| 30 | TS24 | Generar alerta predictiva API | Como Developer, quiero implementar el endpoint POST /api/v1/alerts, consumido de forma interna, para alertar sobre equipos que exceden los rangos operativos seguros. | 5 |
+| 31 | TS25 | Programar bloqueo de mantenimiento API | Como Developer, quiero implementar el endpoint POST /api/v1/maintenance-blocks, para validar si los agendamientos preventivos cruzan con picos de uso. | 5 |
+| 32 | TS26 | Calcular impacto financiero por inactividad API | Como Developer, quiero implementar el endpoint GET /api/v1/analytics/financial-impact, para procesar métricas que conviertan horas muertas en estimaciones monetarias. | 5 |
+| 33 | TS29 | Crear Suscripción de Gimnasio API | Como Developer, quiero implementar el endpoint POST /api/v1/subscriptions, para inicializar el licenciamiento SaaS de un nuevo administrador que contrata el servicio. | 5 |
+| 34 | US08 | Gestión de preferencias y perfil | Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente. | 3 |
+| 35 | US04 | Selección de planes de suscripción SaaS | Como visitante o administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio. | 3 |
+| 36 | US05 | Envío de formulario de contacto | Como visitante, quiero poder llenar un formulario con mis datos y mensaje, para solicitar información al equipo de ventas de Spot Track. | 3 |
+| 37 | TS01 | Registrar usuario API | Como Developer, quiero implementar el endpoint POST api/v1/auth/register, para permitir el registro de nuevos usuarios en la base de datos de forma segura. | 3 |
+| 38 | TS02 | Login de usuario API | Como Developer, quiero implementar el endpoint POST /api/v1/auth/login, para generar credenciales de acceso JWT y mantener la sesión del usuario. | 3 |
+| 39 | TS04 | Actualizar perfil API | Como Developer, quiero implementar el endpoint PUT api/v1/users/{id}, para permitir la modificación de los datos personales del usuario. | 3 |
+| 40 | TS05 | Crear nueva máquina API | Como Developer, quiero implementar el endpoint POST api/v1/machines, para registrar nuevos equipos vinculados a la telemetría IoT. | 3 |
+| 41 | TS06 | Listar máquinas por sede API | Como Developer, quiero implementar el endpoint GET api/v1/machines, para devolver el inventario completo filtrado por sucursal. | 3 |
+| 42 | TS08 | Actualizar/Reubicar máquina API | Como Developer, quiero implementar el endpoint PUT /api/v1/machines/{id}, para permitir la reasignación de sede o actualización de atributos físicos. | 3 |
+| 43 | TS10 | Registrar repuesto en inventario API | Como Developer, quiero implementar el endpoint POST api/v1/inventory, para agregar nuevas piezas al stock de mantenimiento. | 3 |
+| 44 | TS11 | Actualizar stock de repuesto API | Como Developer, quiero implementar el endpoint PUT api/v1/inventory/{id}/stock, para descontar materiales cuando se resuelve un ticket técnico. | 3 |
+| 45 | TS13 | Listar historial de uso general API | Como Developer, quiero implementar el endpoint GET api/v1/telemetry, para proveer la data cruda que alimenta los gráficos históricos de uso. | 3 |
+| 46 | TS16 | Registrar estado manual de máquina API | Como Developer, quiero implementar el endpoint POST api/v1/machines/{id}/manual-reports, para habilitar la funcionalidad de Crowdsourcing en la app. | 3 |
+| 47 | TS17 | Sumar puntos de recompensa API | Como Developer, quiero implementar el endpoint PUT api/v1/users/{id}/points, para retribuir la colaboración del usuario que actualiza estados manualmente. | 3 |
+| 48 | TS19 | Cancelar reserva exprés API | Como Developer, quiero implementar el endpoint PUT api/v1/reservations/{id}/cancel, para limpiar el bloqueo virtual cuando expira el temporizador o el usuario lo aborta. | 3 |
+| 49 | TS21 | Crear ticket de mantenimiento API | Como Developer, quiero implementar el endpoint POST api/v1/tickets, para registrar formalmente una incidencia y alterar la disponibilidad pública de un equipo. | 3 |
+| 50 | TS22 | Listar tickets activos/históricos API | Como Developer, quiero implementar el endpoint GET /api/v1/tickets, para proveer el backlog de trabajo técnico al equipo. | 3 |
+| 51 | TS23 | Resolver ticket técnico API | Como Developer, quiero implementar el endpoint PUT /api/v1/tickets/{id}/resolve, para cerrar la incidencia y regresar la máquina al mapa de calor público. | 3 |
+| 52 | TS28 | Enviar Lead desde Landing Page API | Como Developer, quiero implementar el endpoint POST /api/v1/leads, para conectar el formulario público de la web con el CRM o base de datos de ventas. | 3 |
+| 53 | TS30 | Registrar token para Push Notifications API | Como Developer, quiero implementar el endpoint POST /api/v1/notifications/tokens, para guardar identificadores únicos de dispositivos móviles que permiten enviar alertas al usuario. | 3 |
+| 54 | US01 | Descripción principal en el Hero Section | Como visitante, quiero ver un mensaje claro en la parte superior junto con botones de acción (CTAs), para entender rápidamente cómo SpotTrack optimiza la gestión de gimnasios. | 2 |
+| 55 | US02 | Presentación de pilares del producto | Como visitante, quiero explorar la sección "About Us", para conocer la misión y visión que respalda a SpotTrack Analytics. | 2 |
+| 56 | US03 | Visualización de Soluciones y Características | Como visitante, quiero visualizar seis tarjetas principales con las funcionalidades, para comprender el uso de sensores IoT y almacenamiento en la nube. | 2 |
+| 57 | US06 | Acceso al portal desde la navegación | Como visitante o cliente potencial, quiero tener botones de Login y Demo a la vista, para ingresar a la plataforma de forma rápida desde la landing page. | 2 |
+| 58 | TS03 | Mostrar perfil de usuario API | Como Developer, quiero implementar el endpoint GET api/v1/users/{id}, para proveer al frontend los datos del perfil del usuario autenticado. | 2 |
+| 59 | TS07 | Mostrar máquina por Id API | Como Developer, quiero implementar el endpoint GET /api/v1/machines/{id}, para proveer el detalle específico físico y lógico de un equipo. | 2 |
+| 60 | TS09 | Dar de baja máquina API | Como Developer, quiero implementar el endpoint DELETE api/v1/machines/{id}, para aplicar un soft-delete a los equipos retirados de operación. | 2 |
