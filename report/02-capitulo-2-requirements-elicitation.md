@@ -147,7 +147,14 @@ Fabián organiza sus sesiones con una **división muscular estricta** (ej. marte
 A diferencia de otros usuarios, Fabián muestra una **fidelidad estable** hacia su centro actual; indica que ni la saturación ocasional ni el estado técnico de los equipos son factores que lo llevarían a cancelar su membresía.
 
 ## 2.3. Needfinding.
+Este apartado detalla los resultados derivados de la investigación con usuarios. Se presenta documentación clave —incluyendo User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y el escenario As-Is— que permite diagnosticar el contexto actual, necesidades y emociones del público objetivo. Todo ello con el fin de validar estratégicamente las decisiones de diseño centradas en el usuario.
+
 ### 2.3.1. User Personas.
+**Segmento 1**
+![User Persona Alexis Villanueva](../assets/User%20Persona%20Alexis%20Villanueva.png){width=500px}
+
+
+
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
