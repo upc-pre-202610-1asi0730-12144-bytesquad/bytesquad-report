@@ -1,6 +1,8 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+El mapeo de escenarios "To-Be" proyecta el flujo de trabajo futuro tras aplicar las mejoras propuestas, permitiendo visualizar el proceso ideal. Esta herramienta facilita la identificación de los cambios necesarios en el modelo actual y el diseño de soluciones optimizadas. Al ofrecer una imagen clara del resultado final, simplifica la comunicación de la visión del proyecto y alinea a todos los involucrados bajo un mismo objetivo, lo que garantiza una planificación y ejecución mucho más efectivas.
+
 **Segmento 1: Administradores y Gerentes de Operaciones**
 ![To be Mapping Administrador de gimnasio](../assets/To%20be%20Mapping%20Administrador%20de%20gimnasio.jpeg)
 
