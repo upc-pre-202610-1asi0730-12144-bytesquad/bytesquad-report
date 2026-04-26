@@ -295,6 +295,8 @@ Para estructurar la sección Empathy Mapping de tu proyecto SpotTrack, adaptarem
 
 ### 2.3.5. As is Scenario Mapping
 
+El mapeo de escenarios "As-is" será clave en nuestra estrategia para entender los procesos actuales, detectar oportunidades de mejora y trazar la ruta hacia nuestras metas.
+
 **Segmento 1: Administrador y Gerente de Operaciones**
  ![As is Scenario Mapping administrador de gimnasios](../assets/As%20is%20Scenario%20Mapping%20administrador%20de%20gimnasios.jpeg)
 
