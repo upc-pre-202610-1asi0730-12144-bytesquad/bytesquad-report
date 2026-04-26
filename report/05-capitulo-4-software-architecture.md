@@ -83,3 +83,7 @@
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
+<div align= "center">
+  <align>
+    <img src="../assets/diagrama-base-datos/ERD.PNG" alt="bounded" width="500"/>
+  </div> <br>
