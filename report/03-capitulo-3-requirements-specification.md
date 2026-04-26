@@ -119,4 +119,9 @@
 | **TS27** | Simular Retorno de Inversión / ROI API | Como Developer, quiero implementar el endpoint POST /api/v1/analytics/roi-projection, para correr simulaciones de rentabilidad de compra basadas en telemetría de estrés. | **Escenario 1: Simulación de ROI y recuperación**<br>**Given** que existe una demanda insatisfecha proyectada e identificada para un modelo de equipo.<br>**When** el cliente envía un request POST adjuntando el costo de adquisición de la nueva máquina.<br>**Then** el sistema devuelve un objeto JSON con la proyección de recuperación de inversión en meses y un status 200 OK. | EP08 |
 
 ## 3.2. Impact Mapping.
+El Impact Mapping nos ayuda a evitar perdernos en largas listas de tareas y asegura que todo lo que construyamos esté alineado con los objetivos reales del negocio
+
+![IMPACT MAPPING](../assets/IMPACT%20MAPPING.png)
+
+
 ## 3.3. Product Backlog
