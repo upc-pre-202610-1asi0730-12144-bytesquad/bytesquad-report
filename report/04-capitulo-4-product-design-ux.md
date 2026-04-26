@@ -159,7 +159,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 √≠conos de acceso r√
 
 ### 4.3.2. Landing Page Mock-up.
 
-<img src="../assets/mockups/landing_mockup.png" width="600">
+<img src="../assets/landing/landing1.png" width="600">
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
