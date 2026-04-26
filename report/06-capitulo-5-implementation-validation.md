@@ -123,7 +123,7 @@ La Landing Page promocional de SpotTrack fue desarrollada utilizando HTML5, CSS3
 * GitHub Actions procesó la solicitud y publicó el sitio web asignándole un certificado SSL gratuito y una URL pública.
 
 * **Repositorio:** `https://github.com/SpotTrack/SpotTrack-website`
-* **URL desplegada:** 
+* **URL desplegada:** `https://spottrack.github.io/SpotTrack-website/`
 
 
 ### 5.2. Landing Page, Services & Applications Implementation
@@ -183,12 +183,13 @@ En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-| Repository        | Branch  | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
-|-------------------|---------|-----------|----------------|---------------------|------------------|
-| SpotTrack-website | develop |           |                |                     |                  |
-| SpotTrack-website | develop |           |                |                     |                  |
-| SpotTrack-website | develop |           |                |                     |                  |
-| SpotTrack-website | develop |           |                |                     |                  |
+| Repository        | Branch  | Commit Id                              | Commit Message                | Commit Message Body          | Commit on (Date) |
+|-------------------|---------|----------------------------------------|-------------------------------|------------------------------|------------------|
+| SpotTrack-website | develop |cd7207c544f9ec13272766754d752cdc7ba9a871|feat:add-landing-1             |feat:add-landing-1            | 26/042026        |
+| SpotTrack-website | develop |ce6d742d7e1f835abc6ce1e5489513f11a057640|docs: update del main en el landingpage |docs: update del main en el landingpage | 26/042026        |
+| SpotTrack-website | develop |614e9f04f22d42fd1852086b91e8c4574a1fbe21|added-some-sections-to-index   |added-some-sections-to-index  | 26/042026        |
+| SpotTrack-website | develop |e69be6fe7671b3e2e832f7f230ffe8a58dee1eca|feature:add footer and contact |feature:add footer and contact| 26/042026        |
+| SpotTrack-website | develop |f34a15c79dd45c8f97c8bd460e58be220d23fe4b|landing:add login              |landing:add login             | 26/042026        |
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -209,7 +210,7 @@ Se creó el repositorio denominado SpotTrack-website dentro de la organización 
 
 El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow.
 
-Se verificó el despliegue exitoso accediendo a la URL pública: 
+Se verificó el despliegue exitoso accediendo a la URL pública: https://spottrack.github.io/SpotTrack-website/ 
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -217,11 +218,13 @@ Se desplegó la landing page usando el servicio de GitHub Pages. Se configuró p
 
 <img src="../assets/landing/landing1.png" alt="bounded" width="500"/>
 
-URL de Landing Page Desplegada: 
+URL de Landing Page Desplegada: https://spottrack.github.io/SpotTrack-website/ 
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
+
+<img src="../assets/evidence-insights.png" alt="bounded" width="500"/>
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
