@@ -34,20 +34,48 @@ SpotTrack se posicionará como líder en tecnología Edge Computing, procesando 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 
-#### Segmento objetivo 1:
-1. Para empezar, cuéntame un poco sobre ti: ¿Cómo te llamas?, ¿a qué te dedicas y hace cuánto tiempo entrenas en un gimnasio?
-2. ¿Con qué frecuencia asistes al gimnasio durante la semana y en qué horarios sueles ir?
-3. ¿Por qué prefieres (o te ves obligado a ir en) esos horarios?
-4. ¿Cómo describes el ambiente y la cantidad de personas en tu gimnasio durante las horas en las que sueles entrenar?
-5. ¿Llevas una rutina estricta (ej. hoy toca pecho/espalda) o decides qué hacer cuando llegas?
-6. Cuéntame sobre la última vez que llegaste al gimnasio y estaba demasiado lleno. ¿Cómo adaptaste tu rutina?
-7. ¿Qué es lo que más te frustra cuando la máquina o equipo que necesitas usar está ocupado por mucho tiempo?
-8. ¿Alguna vez has tenido que cambiar completamente tu entrenamiento porque encontraste equipos con el cartel de "fuera de servicio"? ¿Cómo lidiaste con esa situación?
-9. ¿Sientes que pierdes tiempo durante tus sesiones de entrenamiento? Si es así, ¿en qué momentos específicos ocurre?
-10. ¿El estado o la disponibilidad de las máquinas ha influido alguna vez en tu decisión de renovar o cancelar tu membresía en un gimnasio?
-11. Si tuvieras una herramienta para mejorar la gestión de tu tiempo dentro del gimnasio, ¿qué cambiarías?
-12. Imagina que, antes de salir de tu casa o de la universidad/trabajo, pudieras revisar en tu celular un semáforo o mapa que te indique qué máquinas específicas están libres, ocupadas o en mantenimiento en ese momento. ¿En qué medida cambiaría tu forma de entrenar?
-13. ¿Qué información exacta te resultaría más útil ver en una pantalla o aplicación mientras estás dentro del recinto para no perder el ritmo de tu rutina?
+#### Segmento 1: Administradores y Gerentes de Operaciones
+
+Antes de las preguntas: Por favor, indícanos la siguiente información para registrar tu participación:
+Nombre:
+Cargo / Ocupación (confirmar si es administrador de sede o gerente de operaciones)
+Edad
+Gimnasio / Institución a la que pertenece:
+
+1. Cuéntame sobre tu experiencia actual gestionando el mantenimiento y la disponibilidad de las máquinas en tu sede. 
+2. ¿Cómo es el proceso exacto desde que una máquina falla hasta que el técnico la repara?
+3. ¿Qué impacto financiero y operativo notas cuando una máquina de alta demanda (como una trotadora o rack de sentadillas) se avería repentinamente?
+4. ¿Tienen un presupuesto asignado para mantenimiento correctivo de emergencia o afecta directamente la rentabilidad del mes?
+5. Durante las "horas pico" (mañanas o después de las 6:00 PM), ¿cómo manejan la congestión del local y las quejas de los usuarios por los tiempos de espera?
+6. Si pudieras contar con un "mapa de calor" en tiempo real que te muestre qué máquinas están libres, ocupadas o en mantenimiento, ¿de qué manera utilizarías esa información en tu gestión diaria?
+7. ¿Qué tan valioso sería para ti recibir alertas automáticas de "mantenimiento predictivo" (por ejemplo, saber que una cinta de correr superó las 500 horas de uso y necesita revisión) antes de que se rompa?
+8. A la hora de tomar decisiones de inversión, como comprar máquinas nuevas o trasladar equipos de una sede a otra, ¿en qué información o reportes te basas actualmente?
+¿Te daría más seguridad basar esas compras en estadísticas exactas de uso generadas por sensores?
+9.  Si abres tu computadora el lunes por la mañana para revisar cómo le fue a tu local el fin de semana, ¿cuáles son los 3 datos principales que necesitas ver en un dashboard para sentir que tienes el control total?
+10. Para implementar este sistema, planeamos usar pequeñas cámaras con procesamiento Edge (que solo detectan si la máquina está ocupada o libre, sin grabar ni guardar video de las personas). ¿Tendrías o crees que tus clientes tendrían alguna preocupación sobre la privacidad con este enfoque?
+11. Pensando en tu staff de piso (entrenadores, personal de limpieza), ¿cómo crees que un sistema de alertas automatizado cambiaría la rutina de su día a día?
+12. Si te ofrecemos hacer un plan piloto gratuito de FitNode Analytics durante un mes, instalando los sensores en una zona específica (como la zona de cardio), ¿cuál es el principal resultado o métrica que necesitarías ver para convencerte de pagar una suscripción mensual por el servicio?
+
+
+#### Segmento 2: Clientes frecuentes a gimnasios
+Antes de las preguntas: Por favor, indícanos la siguiente información para registrar tu participación:
+Nombre:
+Ocupación (confirmar si es estudiante universitario, oficinista, etc.):
+Edad
+Gimnasio al que asistes regularmente:
+
+1. ¿Con qué frecuencia asistes al gimnasio durante la semana y en qué horarios sueles ir?
+2. ¿Por qué prefieres (o te ves obligado a ir en) esos horarios?
+3. ¿Cómo describes el ambiente y la cantidad de personas en tu gimnasio durante las horas en las que sueles entrenar?
+4. ¿Llevas una rutina estricta (ej. hoy toca pecho/espalda) o decides qué hacer cuando llegas?
+5. Cuéntame sobre la última vez que llegaste al gimnasio y estaba demasiado lleno. ¿Cómo adaptaste tu rutina?
+6. ¿Qué es lo que más te frustra cuando la máquina o equipo que necesitas usar está ocupado por mucho tiempo?
+7. ¿Alguna vez has tenido que cambiar completamente tu entrenamiento porque encontraste equipos con el cartel de "fuera de servicio"? ¿Cómo lidiaste con esa situación?
+8. ¿Sientes que pierdes tiempo durante tus sesiones de entrenamiento? Si es así, ¿en qué momentos específicos ocurre?
+9. ¿El estado o la disponibilidad de las máquinas ha influido alguna vez en tu decisión de renovar o cancelar tu membresía en un gimnasio?
+10. Si tuvieras una herramienta para mejorar la gestión de tu tiempo dentro del gimnasio, ¿qué cambiarías?
+11. Imagina que, antes de salir de tu casa o de la universidad/trabajo, pudieras revisar en tu celular un semáforo o mapa que te indique qué máquinas específicas están libres, ocupadas o en mantenimiento en ese momento. ¿En qué medida cambiaría tu forma de entrenar?
+12. ¿Qué información exacta te resultaría más útil ver en una pantalla o aplicación mientras estás dentro del recinto para no perder el ritmo de tu rutina?
 
 ### 2.2.2. Registro de entrevistas.
 SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
@@ -116,6 +144,18 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 | **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
+#### Entrevistado 3
+<img src="../assets/foto-entrevista-6.png" alt="foto-entrevista-2" width="400" height="149">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Diego Quispe |
+| **Ocupación** | Estudiante universitario (U. de Lima) y trabajador a medio tiempo |
+| **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
+| **Duración** | Variable (afectada por la alta afluencia) |
+| **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
+
 ### 2.2.3. Análisis de entrevistas.
 
 **SEGMENTO 1: Administradores de Gimnasios y Gerentes de Operaciones**
@@ -182,6 +222,18 @@ Fabián organiza sus sesiones con una **división muscular estricta** (ej. marte
 
 #### Fidelización y Retención:
 A diferencia de otros usuarios, Fabián muestra una **fidelidad estable** hacia su centro actual; indica que ni la saturación ocasional ni el estado técnico de los equipos son factores que lo llevarían a cancelar su membresía.
+
+#### Entrevista 3:
+#### Hábitos y Entorno:
+Diego organiza sus sesiones mediante una división por grupos musculares (pecho, espalda, brazo, pierna). Entrena en el horario de máxima afluencia nocturna, describiendo el lugar como "un mercado" lleno de colas. Para lograr cumplir con sus ejercicios, suele turnarse en las máquinas compartiéndolas con grupos de hasta tres o cuatro personas.
+
+#### Frustraciones Principales (Pain Points):
+* **Pérdida de intensidad muscular:** Al exceder su tiempo ideal de descanso (1 a 3 minutos) esperando que se libere un equipo, siente que el músculo se enfría y pierde la adrenalina, generándole la sensación de tener que "volver a iniciar de nuevo".
+
+* **Exceso de tiempo inactivo:** Le resulta muy frustrante pasar grandes lapsos de tiempo esperando simplemente para poder utilizar los equipos debido a la sobrepoblación.
+
+#### Fidelización y Retención:
+Diego muestra una fidelidad estable, indicando que la saturación del lugar no ha sido un motivo para cancelar su membresía. Su forma de lidiar con el problema es adaptar sus horarios durante los fines de semana, buscando ventanas de tiempo (entre la mañana y la tarde) donde el acceso sea más fluido.
 
 ## 2.3. Needfinding.
 Este apartado detalla los resultados derivados de la investigación con usuarios. Se presenta documentación clave —incluyendo User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y el escenario As-Is— que permite diagnosticar el contexto actual, necesidades y emociones del público objetivo. Todo ello con el fin de validar estratégicamente las decisiones de diseño centradas en el usuario.
