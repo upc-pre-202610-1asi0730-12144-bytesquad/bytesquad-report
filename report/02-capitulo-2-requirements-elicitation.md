@@ -313,7 +313,7 @@ En esta sección se presenta el proceso de Big Picture Event Storming realizado 
 
   <div align= "center">
   <align>
-    <img src="../assets/event-storming/big-picture.png" alt="Big picture event storming" width="500"/>
+    <img src="../assets/event-storming/event_storming.PNG" alt="Big picture event storming" width="500"/>
   </div> <br>
 
 
