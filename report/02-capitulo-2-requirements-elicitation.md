@@ -277,6 +277,8 @@ Esta sección presenta los User Journey Maps para nuestros segmentos clave, pers
 **Segmento 1: Administradores y Gerentes de Operaciones**
 ![Journey Map Alexis Villanueva](../assets/Journey%20Map%20Alexis%20Villanueva.png)
 
+**Segmento 2: Clientes frecuentes de gimnasio**
+![Journey Map Andrea Mendoza](../assets/Journey%20Map%20Andrea%20Mendoza.png)
 
 
 
