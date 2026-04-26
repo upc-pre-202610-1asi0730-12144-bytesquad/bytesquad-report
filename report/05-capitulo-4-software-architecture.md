@@ -55,15 +55,19 @@
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-  <div align= "center">
-  <align>
-    <img src="../assets/diagrama-clase/diagrama-clase1.png" alt="bounded" width="500"/>
-  </div> <br>
-
-  <div align= "center">
-  <align>
-    <img src="../assets/diagrama-clase/diagrama-clase2.png" alt="bounded" width="500"/>
-  </div> <br>
+![diagram0](../assets/class-diagrams/diagram0.png)
+![diagram1](../assets/class-diagrams/diagram1.png)
+![diagram2](../assets/class-diagrams/diagram2.png)
+![diagram3](../assets/class-diagrams/diagram3.png)
+![diagram4](../assets/class-diagrams/diagram4.png)
+![diagram5](../assets/class-diagrams/diagram5.png)
+![diagram6](../assets/class-diagrams/diagram6.png)
+![diagram7](../assets/class-diagrams/diagram7.png)
+![diagram8](../assets/class-diagrams/diagram8.png)
+![diagram9](../assets/class-diagrams/diagram9.png)
+![diagram10](../assets/class-diagrams/diagram10.png)
+![diagram11](../assets/class-diagrams/diagram11.png)
+![diagram12](../assets/class-diagrams/diagram12.png)
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
