@@ -236,7 +236,21 @@ Diego organiza sus sesiones mediante una división por grupos musculares (pecho,
 Diego muestra una fidelidad estable, indicando que la saturación del lugar no ha sido un motivo para cancelar su membresía. Su forma de lidiar con el problema es adaptar sus horarios durante los fines de semana, buscando ventanas de tiempo (entre la mañana y la tarde) donde el acceso sea más fluido.
 
 ## 2.3. Needfinding.
+Este apartado detalla los resultados derivados de la investigación con usuarios. Se presenta documentación clave —incluyendo User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y el escenario As-Is— que permite diagnosticar el contexto actual, necesidades y emociones del público objetivo. Todo ello con el fin de validar estratégicamente las decisiones de diseño centradas en el usuario.
+
 ### 2.3.1. User Personas.
+**Segmento 1**
+![User Persona Alexis Villanueva](../assets/User%20Persona%20Alexis%20Villanueva.png)
+
+
+**Segmento 2**
+
+![User Persona Andrea Mendoza](../assets/User%20Persona%20Andrea%20Mendoza.png)
+
+
+
+
+
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
