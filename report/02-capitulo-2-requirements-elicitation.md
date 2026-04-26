@@ -151,7 +151,14 @@ Este apartado detalla los resultados derivados de la investigación con usuarios
 
 ### 2.3.1. User Personas.
 **Segmento 1**
-![User Persona Alexis Villanueva](../assets/User%20Persona%20Alexis%20Villanueva.png){width=500px}
+![User Persona Alexis Villanueva](../assets/User%20Persona%20Alexis%20Villanueva.png)
+
+
+**Segmento 2**
+
+![User Persona Andrea Mendoza](../assets/User%20Persona%20Andrea%20Mendoza.png)
+
+
 
 
 
