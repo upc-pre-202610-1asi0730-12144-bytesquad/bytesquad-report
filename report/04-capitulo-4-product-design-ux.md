@@ -154,7 +154,13 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 √≠conos de acceso r√
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+<img src="../assets/wireframes/landing_wireframe.png" width="600">
+
 ### 4.3.2. Landing Page Mock-up.
+
+<img src="../assets/mockups/landing_mockup.png" width="600">
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
