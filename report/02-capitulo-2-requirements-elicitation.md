@@ -311,3 +311,23 @@ En esta sección se presenta el proceso de Big Picture Event Storming realizado 
 
 
 ## 2.5. Ubiquitous Language.
+
+Para mejorar la cohesión del equipo, adoptaremos el Ubiquitous Language. Esta herramienta facilitará la comprensión de los objetivos y agilizará la resolución de dudas en el proyecto.
+
+**Telemetry (Telemetría):** Recopilación automática y a distancia de datos sobre el uso físico de las máquinas de ejercicio mediante dispositivos IoT, enviando esta información a la nube.
+
+**Heat Map (Mapa de calor):** Representación visual y semaforizada en la aplicación que indica la disponibilidad de las máquinas en tiempo real mediante colores (ej. Verde: Libre, Rojo: Ocupado).
+
+**IoT Edge (Procesamiento en el borde):** Tecnología utilizada en los sensores o cámaras que procesa la información directamente en el dispositivo físico, enviando únicamente el estado en formato JSON a la base de datos para no saturar la red y respetar la privacidad de los usuarios.
+
+**Predictive Maintenance (Mantenimiento predictivo):**Estrategia y alertas automatizadas para realizar revisiones a los equipos antes de que fallen, basándose en el acumulado de horas límite de uso seguro reportadas por los sensores.
+
+**Corrective Maintenance (Mantenimiento correctivo):**Reparación de emergencia y costosa que se realiza cuando una máquina falla repentinamente durante la operación del local.
+
+**Downtime (Tiempo de inactividad):**Periodo crítico durante el cual una máquina de ejercicio se encuentra fuera de servicio por avería, generando tiempos de espera y molestia en los usuarios.
+
+**Churn Rate (Tasa de abandono):** Porcentaje anual de usuarios que deciden no renovar o cancelar su membresía del gimnasio, frecuentemente impulsado por la frustración ante instalaciones abarrotadas y máquinas inoperativas.
+
+**Subutilization (Subutilización):** Condición estadística en la que una máquina específica registra una tasa de uso excepcionalmente baja en comparación con otras, lo que sugiere al administrador que debe ser reubicada.
+
+**Crowdsourcing (Colaboración masiva):** Acción mediante la cual los propios usuarios del gimnasio actualizan el estado de disponibilidad de un equipo en la plataforma a cambio de puntos de recompensa.
