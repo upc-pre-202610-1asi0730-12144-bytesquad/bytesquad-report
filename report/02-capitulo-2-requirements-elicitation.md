@@ -296,9 +296,10 @@ Para estructurar la sección Empathy Mapping de tu proyecto SpotTrack, adaptarem
 ### 2.3.5. As is Scenario Mapping
 
 **Segmento 1: Administrador y Gerente de Operaciones**
-
  ![As is Scenario Mapping administrador de gimnasios](../assets/As%20is%20Scenario%20Mapping%20administrador%20de%20gimnasios.jpeg)
 
+**Segmento 2: Cliente Frecuente de Gimnasio**
+![As is Scenario Mapping Cliente Frecuente de gimnasio](../assets/As%20is%20Scenario%20Mapping%20Cliente%20Frecuente%20de%20gimnasio.jpeg)
 
 
 
