@@ -1,5 +1,14 @@
 # Capítulo III: Requirements Specification
-## 3.1. User Stories.
+
+## 3.1. To-Be Scenario Mapping
+**Segmento 1: Administradores y Gerentes de Operaciones**
+![To be Mapping Administrador de gimnasio](../assets/To%20be%20Mapping%20Administrador%20de%20gimnasio.jpeg)
+
+
+**Segmento 2: Clientes frecuentes de gimnasio**
+![To be Mapping Cliente freucuente de gimnasio](../assets/As%20is%20Scenario%20Mapping%20Cliente%20Frecuente%20de%20gimnasio.jpeg)
+
+## 3.2. User Stories.
 
 **Épicas**
 | Epic ID | Título | Descripción | Relacionado con|
