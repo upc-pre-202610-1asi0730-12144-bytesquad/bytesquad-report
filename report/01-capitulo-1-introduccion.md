@@ -86,7 +86,7 @@ La visión de LocalSync es ser la plataforma líder en telemetría y gestión de
       <b>Descripción:</b><br/>
      Soy Jesús Miguel Cataño Zárate. Actualmente estudio el 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++,C# y experiencia usando Java, para desarrollos moviles y HTML,JS,Node.Js en cuanto a paginas web. 
       <br/><br/>
-        Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack utilizando Spring Boot y Angular para la creación de arquitecturas escalables y eficientes. Por otro lado, desempeño el rol de Team Leader dentro de mi grupo, asumiendo la responsabilidad de guiar y coordinar al equipo para trabajar de manera efectiva.
+        Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack utilizando para la creación de arquitecturas escalables y eficientes. Por otro lado, desempeño el rol de Team Leader dentro de mi grupo, asumiendo la responsabilidad de guiar y coordinar al equipo para trabajar de manera efectiva.
     </td>
   </tr>
 </table>
