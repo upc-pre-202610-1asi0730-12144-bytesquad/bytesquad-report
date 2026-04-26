@@ -1,0 +1,226 @@
+@startuml SpotTrack_Backend
+skinparam classAttributeIconSize 0
+
+package "Core Enums" {
+  enum UserRole {
+    ADMIN
+    CLIENT
+    TECHNICIAN
+  }
+
+  enum MachineStatus {
+    AVAILABLE
+    IN_USE
+    MAINTENANCE
+    OUT_OF_ORDER
+  }
+
+  enum TicketPriority {
+    LOW
+    MEDIUM
+    HIGH
+    CRITICAL
+  }
+
+  enum TicketStatus {
+    OPEN
+    IN_PROGRESS
+    CLOSED
+  }
+}
+
+package "User & Gym Context" {
+
+  class Gym {
+    + id: string
+    + name: string
+    + subscriptionTier: string
+    + createdAt: Date
+  }
+
+  class Branch {
+    + id: string
+    + name: string
+    + address: string
+    + city: string
+  }
+
+  class Zone {
+    + id: string
+    + name: string
+    + capacityLimit: int
+  }
+
+  abstract class User {
+    + id: string
+    + email: string
+    + fullName: string
+    + role: UserRole
+    + isActive: boolean
+  }
+
+  class Admin extends User
+  class Client extends User
+  class Technician extends User
+
+  class Membership {
+    + id: string
+    + planType: string
+    + startDate: Date
+    + endDate: Date
+    + isActive(): boolean
+  }
+
+  Gym "1" *-- "*" Branch
+  Branch "1" *-- "*" Zone
+  Gym "1" o-- "*" User
+  Client "1" -- "1..*" Membership
+}
+
+package "Equipment & IoT Context" {
+
+  class Equipment {
+    + id: string
+    + name: string
+    + model: string
+    + serialNumber: string
+    + status: MachineStatus
+    + totalUsageHours: double
+    + lastMaintenanceDate: Date
+    + updateStatus(status: MachineStatus)
+    + addUsage(hours: double)
+    + needsMaintenance(): boolean
+  }
+
+  class IoTDevice {
+    + id: string
+    + macAddress: string
+    + firmwareVersion: string
+    + isConnected: boolean
+    + lastHeartbeat: Date
+    + sendHeartbeat(): boolean
+  }
+
+  abstract class Sensor {
+    + id: string
+    + type: string
+    + lastReading: double
+    + timestamp: Date
+    + readData(): double
+  }
+
+  class MotionSensor extends Sensor
+  class WeightSensor extends Sensor
+
+  class UsageSession {
+    + id: string
+    + startTime: Date
+    + endTime: Date
+    + duration(): double
+  }
+
+  Zone "1" *-- "*" Equipment
+  Equipment "1" -- "1" IoTDevice
+  IoTDevice "1" *-- "1..*" Sensor
+  Equipment "1" *-- "*" UsageSession
+}
+
+package "Monitoring Context" {
+
+  interface Observer {
+    + update(event: DomainEvent)
+  }
+
+  class EventPublisher {
+    - observers: List<Observer>
+    + subscribe(o: Observer)
+    + unsubscribe(o: Observer)
+    + notify(event: DomainEvent)
+  }
+
+  abstract class DomainEvent {
+    + id: string
+    + timestamp: Date
+  }
+
+  class EquipmentStatusChanged extends DomainEvent {
+    + equipmentId: string
+    + newStatus: MachineStatus
+  }
+
+  class UsageDetected extends DomainEvent {
+    + equipmentId: string
+    + duration: double
+  }
+
+  EventPublisher --> Observer
+}
+
+package "Maintenance Context" {
+
+  class MaintenanceTicket {
+    + id: string
+    + equipmentId: string
+    + priority: TicketPriority
+    + status: TicketStatus
+    + createdAt: Date
+    + closedAt: Date
+    + assignTechnician(techId: string)
+    + close()
+  }
+
+  class MaintenanceLog {
+    + id: string
+    + description: string
+    + cost: double
+    + date: Date
+  }
+
+  class SparePart {
+    + id: string
+    + name: string
+    + stockQuantity: int
+    + updateStock(qty: int)
+  }
+
+  Equipment "1" -- "*" MaintenanceTicket
+  MaintenanceTicket "1" -- "*" MaintenanceLog
+  MaintenanceTicket "*" -- "1" Technician
+  Gym "1" *-- "*" SparePart
+}
+
+package "Analytics Context" {
+
+  class EquipmentUsageStats {
+    + id: string
+    + equipmentId: string
+    + totalUsageHours: double
+    + averageDailyUsage: double
+    + calculateWear(): double
+  }
+
+  class Alert {
+    + id: string
+    + message: string
+    + severity: string
+    + createdAt: Date
+  }
+
+  class Notification {
+    + id: string
+    + message: string
+    + read: boolean
+    + send()
+  }
+
+  Equipment "1" -- "1" EquipmentUsageStats
+  Equipment "1" -- "*" Alert
+  User "1" -- "*" Notification
+}
+
+Equipment --> EventPublisher : publishes
+MaintenanceTicket ..> Equipment : relatedTo
+Alert ..> Observer : implements
+Notification ..> Observer : implements
+
+@enduml
