@@ -283,6 +283,17 @@ Esta sección presenta los User Journey Maps para nuestros segmentos clave, pers
 
 
 ### 2.3.4. Empathy Mapping.
+
+Para estructurar la sección Empathy Mapping de tu proyecto SpotTrack, adaptaremos la información de tus dos User Personas principales: Alexis Villanueva (Administrador de Gimnasio) y Andrea Mendoza (Cliente Frecuente). A continuación, presento el mapeo de empatía detallado para cada uno, basado en el contenido de tu documento:
+
+**Segmento 1**
+![Empathy Mapping Alexis Villanueva](../assets/Empathy%20Mapping%20Alexis%20Villanueva.png)
+
+
+
+
+
+
 ## 2.4. Big Picture EventStorming.
 
 En esta sección se presenta el proceso de Big Picture Event Storming realizado por el equipo, con el propósito de comprender el dominio del negocio de manera general y visualizar sus procesos más relevantes. A través de una sesión colaborativa, se identificaron los principales eventos del dominio, los actores involucrados y sus relaciones, permitiendo obtener una primera visión integral del funcionamiento del sistema. Este modelado de alto nivel ayudó a reconocer flujos clave del negocio, así como posibles problemas, oportunidades y puntos de mejora dentro del contexto del proyecto.
