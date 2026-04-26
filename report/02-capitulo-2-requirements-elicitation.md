@@ -287,28 +287,10 @@ Esta sección presenta los User Journey Maps para nuestros segmentos clave, pers
 
 En esta sección se presenta el proceso de Big Picture Event Storming realizado por el equipo, con el propósito de comprender el dominio del negocio de manera general y visualizar sus procesos más relevantes. A través de una sesión colaborativa, se identificaron los principales eventos del dominio, los actores involucrados y sus relaciones, permitiendo obtener una primera visión integral del funcionamiento del sistema. Este modelado de alto nivel ayudó a reconocer flujos clave del negocio, así como posibles problemas, oportunidades y puntos de mejora dentro del contexto del proyecto.
 
-Para realizar el Big Picture Event Storming se utilizaron 3 pasos importantes:
 
-- **Step 1: Generating Domain Events** <br>
-  En esta primera etapa se reconocieron los eventos más importantes del dominio del negocio, es decir, aquellos sucesos significativos que reflejan un cambio relevante dentro del sistema. Estos eventos fueron redactados en pasado, ya que representan hechos que ya ocurrieron, y sirvieron como punto de partida para entender el comportamiento general del negocio.
-
-  <div>
-    <img src="../assets/step1-bigpicture.png" alt="Big picture event storming (step 1)" width="500"/>
-  </div> <br>
-
-- **Step 2: Sorting Domain Events (chronologically)** <br>
-  Luego, los eventos identificados se organizaron de manera cronológica, con el fin de representar el flujo general de las actividades del negocio. Esta secuencia permitió observar con mayor claridad cómo se conectan los distintos sucesos y cómo evolucionan los procesos dentro del dominio.
-
-    <div>
-    <img src="../assets/step3-bigpicture.png" alt="Big picture event storming (step 1)" width="500"/>
-  </div> <br>
-  
-
-- **Step 3: Adding Actors and External systems** <br>
-  Finalmente, se añadieron los actores y sistemas externos que intervienen en los procesos del negocio. Esto permitió identificar quiénes participan en cada interacción y qué elementos externos influyen en el desarrollo de los eventos, brindando así una visión más completa del contexto en el que opera el sistema.
-
-<div>
-    <img src="../assets/step2-bigpicture.png" alt="Big picture event storming (step 1)" width="500"/>
+  <div align= "center">
+  <align>
+    <img src="../assets/event-storming/big-picture.png" alt="Big picture event storming" width="500"/>
   </div> <br>
 
 
