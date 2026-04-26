@@ -152,19 +152,17 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 
 | Team Member (Last Name, First Name) | GitHub Username | Requirements & Analysis | Landing Page Development | Configuration & Deployment |
 | :---: | :---: |:-----------------------:|:------------------------:|:--------------------------:|
-| Cataño Zarate, Jesus Miguel | [UsuarioGitHub]  |            C            |            C             |             C              |
-| Espinoza Orrego, Valentino Andre | [UsuarioGitHub]  |            L            |            C             |             C              |
-| Fernández Linares, Alvaro Sebastian | [UsuarioGitHub]  |            C            |            C             |             C              |
-| Gamero Miranda, Lui Mathias | LuiGamero  |            C            |            L             |             C              |
-| Gallardo Morales, Carla Alejandra | [UsuarioGitHub] |            C            |            C             |             L              |
+| Cataño Zarate, Jesus Miguel | jcus1510  |            C            |            C             |             C              |
+| Espinoza Orrego, Valentino Andre | valentinoespinoza13  |            L            |            C             |             C              |
+| Fernández Linares, Alvaro Sebastian | ORION-tech-c  |            C            |            C             |             C              |
+| Gamero Miranda, Lui Mathias | lug07m  |            C            |            L             |             C              |
+| Gallardo Morales, Carla Alejandra | Carlsss28 |            C            |            C             |             L              |
 
 ##### 5.2.1.3. Sprint Backlog 1
 
 En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del tablero de trello.
 
 **Link del tablero:** https://trello.com/b/6LoJKkoI/sprint-backlog
-
-> **[INSERTAR CAPTURA DEL TABLERO DE TRELLO CON TODAS LAS TARJETAS EN "DONE"]**
 
 | User Story ID | Id | Description | Estimation (hours) | Assigned to | Status (To-do / InProcess / To-Review / Done) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -185,17 +183,23 @@ En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-| Repository        | Branch | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
-|-------------------|--------|-----------|----------------|---------------------|------------------|
-| SpotTrack-website |        |           |                |                     |                  |
-| SpotTrack-website |        |           |                |                     |                  |
-| SpotTrack-website |        |           |                |                     |                  |
-| SpotTrack-website |        |           |                |                     |                  |
+| Repository        | Branch  | Commit Id | Commit Message | Commit Message Body | Commit on (Date) |
+|-------------------|---------|-----------|----------------|---------------------|------------------|
+| SpotTrack-website | develop |           |                |                     |                  |
+| SpotTrack-website | develop |           |                |                     |                  |
+| SpotTrack-website | develop |           |                |                     |                  |
+| SpotTrack-website | develop |           |                |                     |                  |
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
 En esta entrega, el equipo de desarrolladores de SpotTrack ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
 
+<img src="../assets/landing/landing1.png" alt="bounded" width="500"/>
+<img src="../assets/landing/landing2.png" alt="bounded" width="500"/>
+<img src="../assets/landing/landing3.png" alt="bounded" width="500"/>
+<img src="../assets/landing/landing4.png" alt="bounded" width="500"/>
+<img src="../assets/landing/landing5.png" alt="bounded" width="500"/>
+<img src="../assets/landing/landing6.png" alt="bounded" width="500"/>
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -211,7 +215,9 @@ Se verificó el despliegue exitoso accediendo a la URL pública:
 
 Se desplegó la landing page usando el servicio de GitHub Pages. Se configuró para utilizar la rama main como base del proyecto a desplegar.
 
-URL de Landing Page Desplegada:
+<img src="../assets/landing/landing1.png" alt="bounded" width="500"/>
+
+URL de Landing Page Desplegada: 
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
