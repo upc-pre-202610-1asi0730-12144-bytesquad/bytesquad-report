@@ -239,6 +239,8 @@ Diego muestra una fidelidad estable, indicando que la saturación del lugar no h
 Este apartado detalla los resultados derivados de la investigación con usuarios. Se presenta documentación clave —incluyendo User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y el escenario As-Is— que permite diagnosticar el contexto actual, necesidades y emociones del público objetivo. Todo ello con el fin de validar estratégicamente las decisiones de diseño centradas en el usuario.
 
 ### 2.3.1. User Personas.
+Esta sección presenta los User Personas, arquetipos detallados de nuestro público objetivo. Basados en entrevistas reales y un análisis de la competencia, estos perfiles reflejan fielmente las características, necesidades y comportamientos de nuestros usuarios potenciales.
+
 **Segmento 1**
 ![User Persona Alexis Villanueva](../assets/User%20Persona%20Alexis%20Villanueva.png)
 
@@ -247,11 +249,28 @@ Este apartado detalla los resultados derivados de la investigación con usuarios
 
 ![User Persona Andrea Mendoza](../assets/User%20Persona%20Andrea%20Mendoza.png)
 
-
-
-
-
 ### 2.3.2. User Task Matrix.
+La User Task Matrix nos ayuda a organizar lo que los usuarios hacen en SpotTrack para trabajar primero en lo más importante, beneficiando tanto al usuario como al negocio.
+
+| Tarea | Frecuencia (Alexis) | Importancia (Alexis) | Frecuencia (Andrea) | Importancia (Andrea) |
+| :--- | :--- | :--- | :--- | :--- |
+| Revisar disponibilidad de máquinas en tiempo real | Alta | Alta | Alta | Alta |
+| Identificar máquinas con alto uso/desgaste | Alta | Alta | Baja | Media |
+| Recibir alertas de mantenimiento predictivo | Media | Alta | Baja | Media |
+| Planificar mantenimiento de equipos | Media | Alta | Muy Baja | Media |
+| Analizar estadísticas de uso (dashboard) | Media | Alta | Baja | Media |
+| Reubicar máquinas según demanda | Baja | Alta | Muy Baja | Baja |
+| Consultar mapa de calor antes de ir al gym | Muy Baja | Media | Alta | Alta |
+| Evitar tiempos de espera en máquinas | Baja | Media | Alta | Alta |
+| Buscar máquinas libres dentro del gimnasio | Muy Baja | Baja | Alta | Alta |
+| Recibir notificaciones de disponibilidad | Baja | Media | Media | Alta |
+| Reportar máquinas averiadas | Baja | Media | Media | Media |
+| Tomar decisiones de compra de equipos | Baja | Alta | Muy Baja | Baja |
+| Optimizar distribución del espacio del gimnasio | Baja | Alta | Baja | Media |
+| Reducir quejas por saturación | Media | Alta | Alta | Alta |
+| Mejorar experiencia del usuario final | Media | Alta | Alta | Alta |
+
+
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 ## 2.4. Big Picture EventStorming.
