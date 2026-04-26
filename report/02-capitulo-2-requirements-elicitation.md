@@ -93,6 +93,17 @@ Luis identifica que la gestión en gimnasios universitarios es mucho más lenta 
 #### Fidelización y Retención:
 Para Luis, las fallas técnicas constantes son un factor crítico que perjudica la renovación de membresías. Un sistema que ofrezca datos precisos de afluencia lo convencería de pagar por la solución.
 
+### Entrevista 3
+#### Hábitos y Entorno:
+Al gestionar un gimnasio de alto volumen, Percy destaca que el mantenimiento correctivo es extremadamente costoso y crítico para la operación. Aplica una "gestión de piso" manual, pero admite que le falta una herramienta visual para que el socio entienda la capacidad real del local en tiempo real.
+
+#### Frustraciones Principales (Pain Points):
+* **Cuellos de botella estratégicos:** Las fallas en máquinas de alta demanda bloquean el flujo de entrenamiento y generan riesgos de no renovación.
+* **Planificación subjetiva:** Se siente frustrado al tener que optimizar el mix de máquinas basado en percepciones y no en datos reales de uso.
+* **Tiempo de inactividad (Downtime):** El registro del tiempo que un equipo pasa fuera de servicio es uno de los datos más críticos que necesita monitorear.
+
+#### Fidelización y Retención:
+Percy afirma que la implementación de FitNode Analytics sería exitosa si logra una reducción mínima del 20% en las quejas de los usuarios por disponibilidad de equipos.
 
 
 **SEGMENTO 2: Clientes Frecuentes de Gimnasios**
