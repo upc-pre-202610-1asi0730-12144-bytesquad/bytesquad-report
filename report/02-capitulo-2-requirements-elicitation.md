@@ -293,7 +293,11 @@ Para estructurar la sección Empathy Mapping de tu proyecto SpotTrack, adaptarem
 **Segmento 2**
 ![Empathy Mapping Andre Mendoza](../assets/Empathy%20Mapping%20Andre%20Mendoza.png)
 
+### 2.3.5. As is Scenario Mapping
 
+**Segmento 1: Administrador y Gerente de Operaciones**
+
+ ![As is Scenario Mapping administrador de gimnasios](../assets/As%20is%20Scenario%20Mapping%20administrador%20de%20gimnasios.jpeg)
 
 
 
