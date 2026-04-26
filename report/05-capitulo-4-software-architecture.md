@@ -53,8 +53,21 @@
   </div> <br>
 
 ### 4.6.2. Software Architecture Context Diagram.
+
+<div align= "center">
+  <align>
+    <img src="../assets/c4-diagrams/context-diagram-spottrack.png" alt="bounded" width="500"/>
+  </div> <br>
+
 ### 4.6.3. Software Architecture Container Diagrams.
+<div align= "center">
+  <align>
+    <img src="../assets/c4-diagrams/conteiner-diagram-spottrack.png" alt="bounded" width="500"/>
+  </div> <br>
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
