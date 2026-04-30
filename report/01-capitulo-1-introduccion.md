@@ -240,6 +240,82 @@ Hipótesis 2:
 
 #### 1.2.2.4. Lean UX Canvas.
 
+**Título de la iniciativa:** SpotTrack   
+**Fecha:** 10 de abril de 2026  
+**Iteración:** v1 - Basado en Elicitación de Requisitos  
+
+---
+
+## 1. Problema de Negocio (Business Problem)
+¿Qué problema tiene el negocio que estás intentando resolver? 
+
+- Los gimnasios tradicionales carecen de telemetría y sistemas IoT, dependiendo de reportes manuales y operando a ciegas sobre la disponibilidad de sus equipos.  
+- Esta mala gestión desencadena un modelo reactivo donde los mantenimientos correctivos son entre 3 a 5 veces más caros que los preventivos.  
+- Existe una mala distribución de los equipos e inventario, con algunas máquinas subutilizadas y otras sobreexplotadas.  
+- Esta ineficiencia causa hacinamiento en "horas pico", generando que el 70% de los usuarios sienta frustración al encontrar máquinas averiadas o muy solicitadas. Esto incrementa la tasa de abandono (Churn Rate), la cual oscila entre el 30% y 40%.  
+
+---
+
+## 2. Resultados de Negocio (Business Outcomes)
+¿Cómo sabrás que resolviste el problema del negocio? ¿Qué vas a medir? 
+
+- Se reducirán los gastos en mantenimiento correctivo en un 20% al transicionar hacia mantenimientos preventivos.  
+- Disminuirá significativamente la cantidad de equipos reportados como "Fuera de Servicio" (Downtime).  
+- Los administradores reubicarán máquinas poco usadas de locales con baja demanda hacia locales con alta demanda.  
+- La saturación y el flujo de usuarios en horas pico se distribuirá mejor, reduciéndose en un 15%.  
+
+---
+
+## 3. Usuarios (Users)
+¿En qué tipos de usuarios y clientes deberías enfocarte primero? 
+
+- **B2B (Administradores):** Administradores de sedes, Gerentes de Operaciones y técnicos de mantenimiento en cadenas de gimnasios medianas/grandes y centros deportivos universitarios. Manejan presupuestos de OPEX/CAPEX y sienten frustración al operar a ciegas.  
+- **B2C (Usuarios finales):** Clientes frecuentes del gimnasio (18-40 años), como estudiantes universitarios u oficinistas, que asisten principalmente en "horas pico", tienen poco tiempo libre y se frustran con las filas y equipos averiados.  
+
+---
+
+## 4. Resultados y Beneficios del Usuario (User Outcomes & Benefits)
+¿Por qué tus usuarios buscarían tu producto o servicio?  
+
+- **Para Administradores:** Obtendrán una plataforma predictiva que optimizará el ROI de sus máquinas y les evitará gastos inesperados. Podrán anticipar el desgaste de una máquina y programar su mantenimiento antes de que falle.  
+- **Para Usuarios Finales:** Obtendrán previsibilidad y un mejor control de su tiempo, logrando finalizar sus rutinas más rápido al evitar zonas congestionadas.  
+
+---
+
+## 5. Soluciones (Solutions)
+¿Qué podemos crear que resuelva el problema?  
+
+- Integración de dispositivos IoT (cámaras con visión computacional en el Edge) para recopilar ocupación respetando la privacidad.  
+- Web App (Angular) con un "Mapa de Calor" en vivo que muestra disponibilidad (verde, amarillo, rojo).  
+- Dashboard gerencial con tracking automático de horas de uso y paneles estadísticos.  
+- Alertas de mantenimiento predictivo y generación automática de tickets técnicos.  
+- Motor de sugerencia de rutinas alternativas y sistema de "reserva exprés" de 15 minutos.  
+
+---
+
+## 6. Hipótesis (Hypotheses)
+
+- Creemos que se reducirá el nivel de frustración por aglomeraciones en un 15% si el cliente frecuente obtiene previsibilidad de tiempo mediante un mapa de calor en tiempo real.  
+- Creemos que se logrará una reducción de costos operativos si el gerente de operaciones puede anticipar fallas automatizando el conteo de horas de uso con sensores IoT.  
+- Creemos que se tomarán decisiones de inversión más eficientes si el administrador obtiene respaldo estadístico mediante paneles de uso vs inactividad.  
+
+---
+
+## 7. ¿Qué es lo más importante que necesitamos aprender primero?
+
+- El mayor riesgo es la viabilidad técnica y logística: instalación del hardware y dependencia de la red Wi-Fi.  
+- Validar si los gimnasios ya cuentan con telemetría propia en equipos modernos.  
+- Confirmar si los administradores adoptarán mantenimiento predictivo basado en datos.  
+
+---
+
+## 8. ¿Cuál es la menor cantidad de trabajo para aprender lo siguiente?
+
+- Ejecutar un piloto gratuito de 30 días instalando hardware en una zona crítica del gimnasio.  
+- Medir uso real del sistema, adopción del mapa de calor y validar el retorno de inversión antes de lanzar el modelo SaaS.  
+
+
+
 ## 1.3. Segmentos objetivos
 
 **Segmento 1:**
