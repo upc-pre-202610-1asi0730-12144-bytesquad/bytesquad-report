@@ -14,7 +14,7 @@ La visión de LocalSync es ser la plataforma líder en telemetría y gestión de
 
 <table>
   <tr>
-    <td rowspan="4" align="center">
+    <td rowspan="4" aling="center">
       <img src="../assets/foto-alvaro-f.png" alt="Foto de Alvaro" width="650"/>
     </td>
     <td><b>Nombre:</b> Alvaro Sebastian Fernanadez Linares</td>
