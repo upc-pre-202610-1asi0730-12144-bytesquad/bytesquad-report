@@ -89,7 +89,7 @@ El Impact Mapping nos ayuda a evitar perdernos en largas listas de tareas y aseg
 
 ## 3.3. Product Backlog
 
-| Orden | ID | Título | Descripción | Story Points |
+| # Orden | User Story Id | Título | Descripción | Story Points (1/ 2/ 3/ 5/ 8/) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | US14 | Motor de sugerencia de rutinas alternativas | Como cliente frecuente, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento. | 8 |
 | 2 | US30 | Analítica predictiva de compras e inversión | Como dueño del negocio, quiero reportes basados en la tasa de uso para proyectar inversiones y simular el ROI, para tomar decisiones sobre qué equipos adquirir o descartar. | 8 |
