@@ -200,78 +200,138 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-![TASKFLOW-07](../assets/TASKFLOWS/TASKFLOW-07.jpg)
-![WFM-07](../assets/WIREFLOWS%20MOBILE/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png) 
-![WF-07](../assets/WIREFLOWS/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png)
-![TASKFLOW-08](../assets/TASKFLOWS/TASKFLOW-08.jpg)
+1. <strong>Wireflow 1:</strong> Selección de planes de suscripción SaaS
 
-![WFM-08](../assets/WIREFLOWS%20MOBILE/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
-![WF-08](../assets/WIREFLOWS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
-![TASKFLOW-09](../assets/TASKFLOWS/TASKFLOW-09.jpg)
-![WFM-09](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
-![WF-O9](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
-![TASKFLOW-10](../assets/TASKFLOWS/TASKFLOW-10.jpg)
-![WFM-10](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
-![WF-10](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
-![TASKFLOW-11](../assets/TASKFLOWS/TASKFLOW-11.jpg)
-![WFM-11](../assets/WIREFLOWS%20MOBILE/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
-![WF-11](../assets/WIREFLOWS/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
-![TASKFLOW-12](../assets/TASKFLOWS/TASKFLOW-12.jpg)
-![WFM-12](../assets/WIREFLOWS%20MOBILE/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
-![WF-12](../assets/WIREFLOWS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
-![TASKFLOW-13](../assets/TASKFLOWS/TASKFLOW-13.jpg)
-![WFM-13](../assets/WIREFLOWS%20MOBILE/US13_%20Reporte%20de%20máquina.png)
-![WF-13](../assets/WIREFLOWS/US13_%20Reporte%20de%20máquina.png)
-![TASKFLOW-14](../assets/TASKFLOWS/TASKFLOW-14.jpg)
-![WFM-14](../assets/WIREFLOWS%20MOBILE/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
-![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
-![task.png](../assets/TASKFLOWS/TASKFLOW-16.png)
-![WF-16](../assets/WIREFLOWS/Frame%2017.png)
-![task.png](assets/TASKFLOWS/TASKFLOW-17.png)
-![WF-17](../assets/WIREFLOWS/S16%20-%20reserva%20express.png)
-![task.png](../assets/TASKFLOWS/TASKFLOW-18.png)
-![WF-18](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
-![task.png](../assets/TASKFLOWS/TASKFLOW-19.png)
+- User goal: Como administrador, quiero visualizar la comparativa de precios. 
+
+<strong>User story asociada:</strong> 
+<br> US04: Como administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow1_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+2. <strong>Wireflow 2:</strong> Envío de formulario de Contacto
+
+- User goal: Como visitante, quiero poder llenar un formulario con mis datos y mensaje. 
+
+<strong>User story asociada:</strong> 
+<br> US05: Como visitante, quiero poder llenar un formulario con mis datos y mensaje, para solicitar información al equipo de ventas de Spot Track.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow5_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+3. <strong>Wireflow 3:</strong> Acceso al portal desde la navegación
+
+- User goal: Como visitante o cliente potencial, quiero tener botones de Login y Demo.
+
+<strong>User story asociada:</strong> 
+<br> US06: Como visitante o cliente potencial, quiero tener botones de Login y Demo a la vista, para ingresar a la plataforma de forma rápida desde la landing page.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow6_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+4. <strong>Wireflow 4:</strong> Inicio de sesión con validación JWT
+
+- User goal: Como usuario, quiero iniciar sesión de forma segura generando un token.
+
+<strong>User story asociada:</strong> 
+<br> US07: Como usuario, quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow7_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  5. <strong>Wireflow 5:</strong> Gestión de preferencias y perfil
+
+- User goal: Como usuario, quiero actualizar mi información personal y cambiar el idioma
+
+<strong>User story asociada:</strong> 
+<br> US08: Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow8_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+ 6. <strong>Wireflow 6:</strong> Visualización del mapa de calor en VIVO
+
+- User goal: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real.
+
+<strong>User story asociada:</strong> 
+<br> US09: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow9_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+ 7. <strong>Wireflow 7:</strong> Filtrado del inventario por tipo de máquina
+
+- User goal: Como cliente frecuente, quiero seleccionar etiquetas en el mapa.
+
+<strong>User story asociada:</strong> 
+<br> US10: Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow10_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
 
-![task.png](../assets/TASKFLOWS/TASKFLOW-20.png)
-![WF-20](../assets/WIREFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
-![task.png](assets/TASKFLOWS/TASKFLOW-21.png)
-![WF-20](../assets/WIREFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+ 8. <strong>Wireflow 8:</strong> Cambio de sucursal para revisión de aforo
 
-![TASKFLOW-21](../assets/TASKFLOWS/TASKFLOW-21.png)
-![WF-21](../assets/WIREFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
-![WFM-21](../assets/WIREFLOWS%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+- User goal: Como cliente frecuente, quiero seleccionar otras sedes en la app.
 
-![TASKFLOW-22](../assets/TASKFLOWS/TASKFLOW-22.png)
-![WF-22-UMBRAL](../assets/WIREFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
-![WF-22](../assets/WIREFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
-![WFM-22-UMBRAL](../assets/WIREFLOWS%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
-![WFM-22](../assets/WIREFLOWS%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+<strong>User story asociada:</strong> 
+<br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
 
-![TASKFLOW-23](../assets/TASKFLOWS/TASKFLOW-23.png)
-![WF-23](../assets/WIREFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
-![WFM-23](../assets/WIREFLOWS%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow11_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![TASKFLOW-24](../assets/TASKFLOWS/TASKFLOW-24.png)
-![WF-24](../assets/WIREFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
-![WFM-24](../assets/WIREFLOWS%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+   9. <strong>Wireflow 9:</strong> Notificaciones push de resolución de disponibilidad
 
-![TASKFLOW-25](../assets/TASKFLOWS/TASKFLOW-25.png)
-![WF-25](../assets/WIREFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
-![WFM-25](../assets/WIREFLOWS%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+- User goal: Como cliente frecuente, quiero activar una campana de aviso.
 
-![TASKFLOW-26](../assets/TASKFLOWS/TASKFLOW-26.png)
-![WF-26](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
-![WFM-26](../assets/WIREFLOWS%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+<strong>User story asociada:</strong> 
+<br> US12: Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
 
-![TASKFLOW-29](../assets/TASKFLOWS/TASKFLOW-29.png)
-![WF-29](../assets/WIREFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
-![WFM-29](../assets/WIREFLOWS%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow12_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![TASKFLOW-30](../assets/TASKFLOWS/TASKFLOW-30.png)
-![WF-30](../assets/WIREFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
-![WFM-30](../assets/WIREFLOWS%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+   10. <strong>Wireflow 10:</strong> Sistema de recompensas de Crowdsourcing
+
+- User goal: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil.
+
+<strong>User story asociada:</strong> 
+<br> US13: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow13_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+   11. <strong>Wireflow 11:</strong> Motor de sugerencia de rutinas alternativas
+
+- User goal: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos.
+
+<strong>User story asociada:</strong> 
+<br> US14: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow14_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
 ### 4.4.2. Web Applications Mock-ups.
 
