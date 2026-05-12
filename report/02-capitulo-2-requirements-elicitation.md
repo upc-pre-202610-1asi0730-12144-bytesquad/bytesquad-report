@@ -1,7 +1,7 @@
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 
-En este apartado se evalúan las estrategias de los competidores de Qlic y se comparan sus fortalezas y debilidades.
+En este apartado se evalúan las estrategias de los competidores de SpotTrack y se comparan sus fortalezas y debilidades.
 
 ### 2.1.1. Análisis competitivo. 
 | Categoría | Criterio | FitNode Analytics | Fitco | GYMMaster | Virtuagym |
