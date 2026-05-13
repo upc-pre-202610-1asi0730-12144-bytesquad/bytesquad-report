@@ -335,27 +335,119 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 ### 4.4.2. Web Applications Mock-ups.
 
-![MOCKUP-FRAME-17](../assets/MOCKUPS/Frame%2017.png)
-![MOCKUP-LANDING](../assets/MOCKUPS/landing_mockup.png)
-![MOCKUP-S16](../assets/MOCKUPS/S16%20-%20reserva%20express.png)
-![MOCKUP-US07](../assets/MOCKUPS/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png)
-![MOCKUP-US08](../assets/MOCKUPS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
-![MOCKUP-US09-US10](../assets/MOCKUPS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
-![MOCKUP-US11](../assets/MOCKUPS/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
-![MOCKUP-US12](../assets/MOCKUPS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
-![MOCKUP-US13](../assets/MOCKUPS/US13_%20Reporte%20de%20máquina.png)
-![MOCKUP-US14](../assets/MOCKUPS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
-![MOCKUP-US20](../assets/MOCKUPS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
-![MOCKUP-US21](../assets/MOCKUPS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
-![MOCKUP-US22-UMBRAL](../assets/MOCKUPS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
-![MOCKUP-US22](../assets/MOCKUPS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
-![MOCKUP-US23](../assets/MOCKUPS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
-![MOCKUP-US24](../assets/MOCKUPS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
-![MOCKUP-US25](../assets/MOCKUPS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
-![MOCKUP-US26](../assets/MOCKUPS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
-![MOCKUP-US27](../assets/MOCKUPS/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png)
-![MOCKUP-US29](../assets/MOCKUPS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
-![MOCKUP-US30](../assets/MOCKUPS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+1. <strong>Mockup 1:</strong> Selección de planes de suscripción SaaS
+
+<strong>User story asociada:</strong> 
+<br> US04: Como administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup4_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+2. <strong>Mockup 2:</strong> Envío de formulario de Contacto
+
+<strong>User story asociada:</strong> 
+<br> US05: Como visitante, quiero poder llenar un formulario con mis datos y mensaje, para solicitar información al equipo de ventas de Spot Track.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup5_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+3. <strong>Mockup 3:</strong> Acceso al portal desde la navegación
+
+<strong>User story asociada:</strong> 
+<br> US06: Como visitante o cliente potencial, quiero tener botones de Login y Demo a la vista, para ingresar a la plataforma de forma rápida desde la landing page.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup6_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+4. <strong>Mockup 4:</strong> Inicio de sesión con validación JWT
+
+<strong>User story asociada:</strong> 
+<br> US07: Como usuario, quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup7_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  5. <strong>Mockup 5:</strong> Gestión de preferencias y perfil
+
+<strong>User story asociada:</strong> 
+<br> US08: Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup8_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+ 6. <strong>Mockup 6:</strong> Visualización del mapa de calor en VIVO
+
+<strong>User story asociada:</strong> 
+<br> US09: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup9_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+ 7. <strong>Mockup 7:</strong> Filtrado del inventario por tipo de máquina
+
+<strong>User story asociada:</strong> 
+<br> US10: Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup10_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+
+ 8. <strong>Mockup 8:</strong> Cambio de sucursal para revisión de aforo
+
+<strong>User story asociada:</strong> 
+<br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
+
+<<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup11_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+
+   9. <strong>Mockup 9:</strong> Notificaciones push de resolución de disponibilidad
+
+<strong>User story asociada:</strong> 
+<br> US12: Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup12_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+
+   10. <strong>Mockup 10:</strong> Sistema de recompensas de Crowdsourcing
+
+<strong>User story asociada:</strong> 
+<br> US13: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup13_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+   11. <strong>Mockup 11:</strong> Motor de sugerencia de rutinas alternativas
+
+<strong>User story asociada:</strong> 
+<br> US14: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
+
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup14_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
