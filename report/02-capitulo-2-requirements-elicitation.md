@@ -156,6 +156,19 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 | **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
 
+#### Video unificado
+| Entrevista | Marca de tiempo | Entrevistado |
+| :--- | :--- | :--- |
+| 1 | 00:00:00 | Alexander Gutierrez |
+| 2 | 13:49:09 | Luis Romero |
+| 3 | 26:43:21 | Percy Baraybar | 
+| 4 | 36:57:01 | Joan Steffano Quispe Gamez |
+| 5 | 41:31:08 | Fabián Suárez |
+| 6 | 46:26:11 | Diego Quispe |
+
+| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] | (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=oDOyRi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+
+
 ### 2.2.3. Análisis de entrevistas.
 
 **SEGMENTO 1: Administradores de Gimnasios y Gerentes de Operaciones**
