@@ -1355,6 +1355,131 @@ El mock-up presenta la sección **"Rutinas y Ejercicios"** con tres vistas en pr
 * **Happy Path:** Al encontrarse con una máquina inhabilitada u ocupada dentro de su rutina programada, el usuario solicita alternativas. El motor de recomendación mapea el grupo muscular y devuelve una lista de ejercicios biomecánicamente equivalentes (ej. sustituir press de banca por flexiones) utilizando el equipo disponible.
 * **Unhappy Path:** Si la base de datos no logra resolver una equivalencia factible para ese ejercicio dadas las restricciones actuales del entorno, la UI presenta un *empty state* comunicando que temporalmente no hay rutinas alternativas disponibles.
 
+## US16: Sistema de reserva exprés en horas pico
+
+![UF-14](../assets/USERFLOWS/us16diagram.png){ width=90%}
+
+* **User Goal:** Como cliente frecuente, quiero separar virtualmente una máquina libre por 10 minutos durante horas pico, para asegurar su uso mientras me dirijo a ella.
+* **Happy Path:** El cliente accede al Mapa de Disponibilidad y selecciona una máquina en estado verde. Al presionar Separar, el sistema bloquea el equipo, cambia su icono a amarillo y activa el cronómetro de 10 minutos en la pestaña Mis Reservas. Al llegar a la ubicación física y validar su identidad antes de que el tiempo se agote, el sistema vincula automáticamente la sesión, cambia el estado a rojo (ocupado) y finaliza la reserva virtual para dar inicio al cobro o uso regular.
+* **Unhappy Path:** El cliente genera una reserva virtual, lo que provoca que la máquina pase a estado amarillo y quede restringida para otros usuarios. Sin embargo, el contador de 10 minutos llega a cero sin que el sistema detecte una activación física o inicio de sesión en el equipo. Ante esto, la plataforma ejecuta un reinicio automático de estado: la reserva desaparece del panel del cliente, se emite una notificación de "Reserva Expirada" y la máquina regresa instantáneamente al color verde en el mapa general para estar disponible nuevamente.
+
+## US17: Acumulación automática de horas de uso (EP08)
+![UF-17](../assets/USERFLOWS/US17_%20Acumulación%20automática%20de%20horas%20de%20uso%20(EP08).png){ width=90%}
+
+* **User Goal:** Como administrador, quiero ver gráficos con la sumatoria de horas reales de uso de las máquinas, para comprender la demanda real sin tener que vigilar el local.
+* **Happy Path:** El administrador ingresa a Reportes y visualiza los gráficos de uso generados por los sensores IoT. Al revisar el tiempo inactivo, el sistema calcula y detalla automáticamente la pérdida monetaria por cada máquina. Finalmente, al aplicar un filtro de fechas, la plataforma recalcula y actualiza toda la información al instante.
+* **Unhappy Path:** El administrador ingresa a Reportes, pero el backend no logra comunicarse con los sensores IoT. El sistema no se cae, sino que muestra un estado de alerta ("Sin conexión con los equipos") y los gráficos aparecen en cero o con el último dato en caché.
+
+
+## US18: Identificación de equipos subutilizados (EP05)
+
+![UF-18](../assets/USERFLOWS/US18_%20Identificación%20de%20equipos%20subutilizados%20(EP05).png){ width=90% }
+
+
+* **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
+* **Happy Path:** El administrador ingresa a la sección de Reportes para evaluar la ineficiencia operativa de la sede. El sistema procesa las estadísticas de ocupación recopiladas por los sensores y resalta automáticamente en una tabla aquellas máquinas cuya tasa de uso es inferior al parámetro base. Finalmente, el administrador hace clic en "Exportar CSV" y la plataforma descarga exitosamente un archivo con la data detallada para su análisis externo.
+* **Unhappy Path:** El administrador visualiza correctamente la tabla consolidada de equipos subutilizados y procede a hacer clic en "Exportar CSV". Debido a un error de conexión con el servidor, la generación del documento falla y el sistema despliega una notificación de error advirtiendo que no es posible descargar el archivo.
+
+
+## US19: Visualización de picos de estrés del local (EP05) 
+
+![UF-19](../assets/USERFLOWS/US19_%20Visualización%20de%20picos%20de%20estrés%20del%20local%20(EP05)%20(1).png){ width=90% }
+* **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
+* **Happy Path:** El administrador accede al módulo de Reportes en SpotTrack, donde el sistema genera automáticamente un gráfico de picos de estrés resaltando en rojo las horas con aforo superior al 90%. Al activar la comparativa intersemanal, la interfaz superpone dos líneas de tendencia, permitiendo al dueño del negocio identificar cuellos de botella diarios y comparar el comportamiento de la demanda entre distintos periodos de forma inmediata.
+* **Unhappy Path:** Debido a un error de red, el sistema no puede procesar el porcentaje de uso. En lugar del gráfico de estrés, se muestra un estado de carga infinito o un aviso de "Error al cargar analíticas de aforo", sugiriendo reintentar la consulta.
+
+
+## US20 Exportación de analíticas de uso (Epic: EP05)
+
+![UF-20](../assets/USERFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=90% }
+![UFM-20](../assets/USERFLOW%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=50% }
+
+* **User Goal**: Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento.
+  
+
+* **Happy Path:** El usuario accede a la sección de Reportes y Analíticas, selecciona el período y las sedes deseadas, y genera el reporte en formato CSV o PDF. El sistema procesa la solicitud y muestra una confirmación de "PDF generado correctamente" junto con la opción de descarga inmediata del archivo.
+* **Unhappy Path:** Si no existen datos registrados para el período o la sede seleccionada, o si ocurre un fallo durante la generación del archivo, el sistema no puede completar la exportación y muestra un mensaje de error indicando la imposibilidad de generar el reporte, sin ofrecer archivo de descarga.
+
+
+## US21 Monitoreo de estado de hardware Edge IoT (Epic_ EP05)
+
+![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=90% }
+![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=50% }
+
+* **User Goal:** Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado.
+* **Happy Path:** El sistema detecta automáticamente la reconexión de un sensor IoT previamente desconectado y notifica al administrador mediante un mensaje de éxito con opción de descarga de reporte.
+* **Unhappy Path:** Si el sensor permanece desconectado tras el intento de sincronización, la interfaz alerta al administrador sobre la falla crítica de conexión, manteniendo el estado de "Desconectado" en el reporte de alertas.
+
+## US22 Alerta predictiva de mantenimiento (Epic_ EP06) CONFIGURAR UMBRAL
+
+
+![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=90% }
+![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=50% }
+
+* **User Goal:**
+* **Happy Path:** El administrador ajusta los parámetros de los umbrales (batería, tiempos de inactividad, horas críticas) en el panel de configuración, y el sistema guarda los cambios aplicando las nuevas reglas a los modelos predictivos.
+* **Unhappy Path:** Ante valores de configuración fuera de los rangos técnicos permitidos (ej. un intervalo de ping inexistente), el sistema bloquea la acción de guardado y requiere el ajuste de los parámetros.
+
+## US23 Despacho automatizado de tickets técnicos (Epic_ EP06)
+
+![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=90% }
+![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=50% }
+
+* **User Goal:**
+* **Happy Path:** El usuario técnico crea un ticket completando todos los campos requeridos (ID máquina, descripción, prioridad), y el sistema lo integra en el tablero de mantenimiento en tiempo real.
+* **Unhappy Path (Missing fields):** Si el formulario se envía sin descripción o prioridad, la UI invalida la creación del ticket y solicita completar la información obligatoria.
+* **Unhappy Path (Incorrect data):** Al ingresar datos técnicos inconsistentes o IDs de máquinas inexistentes, el sistema muestra un error de validación impidiendo el despacho del ticket.
+
+## US24 Notificación de restablecimiento a los usuarios (Epic_ EP06)
+
+![UF-24](../assets/USERFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=90% }
+![UFM-24](../assets/USERFLOW%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=50% }
+* **User Goal:** Como administrador, quiero que el sistema notifique a los clientes cuando un equipo reportado es reparado, para mejorar su percepción del servicio.
+* **Happy Path:** Tras la resolución de una incidencia en el centro de mantenimiento, el sistema actualiza automáticamente el mapa de disponibilidad, habilitando nuevamente la máquina para los usuarios finales.
+* **Unhappy Path:** Si la resolución del ticket es parcial o el problema persiste tras la intervención técnica, la máquina permanece inhabilitada en el mapa de disponibilidad, manteniendo la alerta de estado crítico en el centro de mantenimiento.
+
+## US25 Calendario inteligente de bloqueos de reserva(Epic_ EP04)
+
+![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=90% }
+![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=50% } 
+
+* **User Goal:** Como gerente de operaciones, quiero que el sistema agende los mantenimientos preventivos exclusivamente en horarios valle, para no afectar la disponibilidad en horas de alta demanda.
+* **Happy Path:** El usuario selecciona un activo desde el mapa de disponibilidad, completa el formulario de reserva con datos válidos y el sistema confirma la operación exitosamente.
+* **Unhappy Path:** Si el usuario intenta realizar una reserva con campos obligatorios vacíos o ingresa datos inválidos (como horarios conflictivos), la UI presenta validaciones en rojo indicando los errores específicos.
+
+## US26 Gestión de activos físicos y altas (Epic_ EP07)
+
+![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=90% }
+![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=50% }
+* **User Goal:**Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor. 
+* **Happy Path:** El administrador completa el formulario de registro de nueva máquina con datos correctos (nombre, tipo, sede, ID de sensor) y el sistema lo añade al inventario global.
+* **Unhappy Path:** Si existen campos faltantes o datos inválidos (como un ID de sensor ya existente), el flujo se detiene y la interfaz resalta los campos que requieren corrección antes de permitir el guardado.
+
+## US28: Gestión automatizada de stock de repuestos
+
+![UF-14](../assets/USERFLOWS/us18diagram.png){ width=90%}
+
+* **User Goal:** Como administrador, quiero controlar el inventario de piezas clave y recibir alertas de reabastecimiento, para que los técnicos siempre tengan insumos disponibles.
+* **Happy Path:** El administrador accede al formulario de "Nuevo Ticket de Mantenimiento" y selecciona los repuestos necesarios para la reparación. Al guardar el ticket, el sistema descuenta automáticamente las unidades del inventario y, si el nivel cae por debajo del umbral mínimo, actualiza el estado del repuesto a "Stock Crítico" (color rojo/amarillo en la tabla). Finalmente, el administrador visualiza la alerta en el panel de "Almacén de Repuestos" y el sistema genera una sugerencia de pedido de compra basada en la cantidad faltante para optimizar el inventario.
+* **Unhappy Path:** El administrador intenta registrar un ticket de mantenimiento seleccionando un repuesto cuyo stock actual es insuficiente para la operación. Al intentar confirmar la acción, la plataforma despliega una alerta de error indicando que no hay existencias suficientes en el almacén, impidiendo el registro del ticket para evitar inconsistencias en el inventario. El sistema resalta automáticamente el repuesto agotado en la lista y redirige al usuario a la sección de compras para gestionar el reabastecimiento antes de permitir la finalización del ticket técnico.
+
+## US29 Calculadora de impacto financiero por inactividad (Epic: EP08)
+
+![UF-29](../assets/USERFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=90% }
+![UFM-29](../assets/USERFLOW%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=50% }
+* **User Goal:**
+* **Happy Path:** El sistema calcula y presenta automáticamente el impacto financiero de la inactividad de activos, mostrando métricas clave como la pérdida por inactividad ($1,872), el costo de mantenimiento ($5,150), el ahorro potencial con mantenimiento predictivo ($1,840) y el ROI promedio de recuperación de inversión (7.2 meses).
+* **Unhappy Path:** Si los activos no cuentan con datos de operación o historial de inactividad registrado, o si los parámetros financieros ingresados son incompletos o inválidos, la calculadora no puede generar los indicadores y muestra los campos vacíos o un mensaje de error indicando la imposibilidad de calcular el impacto financiero.
+
+## US30 Analítica predictiva de compras e inversión (Epic_ EP08)
+
+![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=90% }
+![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=50% }
+* **User Goal:**
+* **Happy Path:** El sistema procesa los datos financieros y de uso para generar proyecciones de ROI y recomendaciones de inversión automáticas basadas en la salud de los activos.
+* **Unhappy Path:** Ante la falta de datos históricos suficientes o la introducción de parámetros de cálculo inconsistentes en el simulador, el motor de análisis muestra un estado de error o campos vacíos informando la imposibilidad de generar la proyección.
+
+
 ## 4.5. Web Applications Prototyping.
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQB69P8G4G2dQKd17O9Wj0ugAVQ5T99voYxAnWVz-UJhSYI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=zbX1cQ
