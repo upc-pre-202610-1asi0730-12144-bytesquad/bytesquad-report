@@ -57,15 +57,27 @@ Se utiliza una escala de espaciado predecible basada en múltiplos de 4 y 8 píx
 
 Para estructurar el ecosistema de SpotTrack de forma práctica, utilizamos una categorización principal basada en la audiencia. Al final del día, toda la arquitectura de la información se rige por un modelo de **jerarquía visual (visual hierarchy)**, priorizando el contenido de mayor a menor importancia según lo que cada tipo de usuario necesita ver primero al entrar.
 
-![INFO-ADMIN](../assets/INFO/INFO-ADMIN.jpg)
+<div align= "center">
+  <align>
+    <img src="../assets/info/INFO-ADMIN.jpg" alt="wireflow" width="500"/>
+  </div> <br>
+
 **Plataforma Administrativa (Dashboard B2B)**
 Su estructura jerárquica se divide de frente por módulos operativos (Inventario, Tickets, Estadísticas). Dentro de estos, los datos se categorizan por tópicos (para agrupar las máquinas según la sucursal) y de forma cronológica (para ordenar las alertas predictivas y el historial de horas de uso de más reciente a más antiguo).
 
-![INFO-CLIENT](../assets/INFO/INFO-CLIENT.jpg)
+<div align= "center">
+  <align>
+    <img src="../assets/info/INFO-CLIENT.jpg" alt="wireflow" width="500"/>
+  </div> <br>
+
 **Aplicación Móvil (Web App B2C)**
 Diseñada para la inmediatez. La jerarquía visual coloca el mapa de calor en tiempo real como el componente absoluto y principal de la pantalla, subordinando opciones secundarias (como el perfil o recompensas) a menús de navegación. El catálogo de máquinas aplica una categorización directa por tópicos (ej. "Fuerza", "Cardio") para que el cliente filtre y encuentre lo que busca sin dar tantas vueltas.
 
-![INFO-LANDING-PAGE](../assets/INFO/INFO-LANDING-PAGE.jpg)
+<div align= "center">
+  <align>
+    <img src="../assets/info/INFO-LANDING-PAGE.jpg" alt="wireflow" width="500"/>
+  </div> <br>
+
 **Landing Page Comercial**
 Sigue una jerarquía visual descendente (top-down) para guiar la lectura. El flujo arranca con lo más importante arriba (Hero Section con la propuesta de valor) y decanta hacia los detalles específicos más abajo (features, tabla de precios y formulario de contacto). El texto y las tarjetas están categorizados explícitamente según la audiencia, separando qué gana el dueño del gimnasio y qué gana el usuario final.
 https://miro.com/app/board/uXjVHcq90QA=/?share_link_id=360970048482
@@ -175,6 +187,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     <img src="../assets/wireframe/wireframe4_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+
 2. <strong>Wireframe 2:</strong> Envío de formulario de Contacto
 
 <strong>User story asociada:</strong> 
@@ -201,19 +214,33 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 <strong>User story asociada:</strong> 
 <br> US07: Como usuario, quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe7_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
-  5. <strong>Wireframe 5:</strong> Gestión de preferencias y perfil
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe7.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+5. <strong>Wireframe 5:</strong> Gestión de preferencias y perfil
 
 <strong>User story asociada:</strong> 
 <br> US08: Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe8_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe8.png" alt="wireflow" width="500"/>
   </div> <br>
 
  6. <strong>Wireframe 6:</strong> Visualización del mapa de calor en VIVO
@@ -221,9 +248,16 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 <strong>User story asociada:</strong> 
 <br> US09: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe9_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe9.png" alt="wireflow" width="500"/>
   </div> <br>
 
  7. <strong>Wireframe 7:</strong> Filtrado del inventario por tipo de máquina
@@ -231,9 +265,16 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 <strong>User story asociada:</strong> 
 <br> US10: Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe10_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe10.png" alt="wireflow" width="500"/>
   </div> <br>
 
 
@@ -242,31 +283,52 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 <strong>User story asociada:</strong> 
 <br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe11_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe11.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-   9. <strong>Wireframe 9:</strong> Notificaciones push de resolución de disponibilidad
+
+9. <strong>Wireframe 9:</strong> Notificaciones push de resolución de disponibilidad
 
 <strong>User story asociada:</strong> 
 <br> US12: Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe12_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe12.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-   10. <strong>Wireframe 10:</strong> Sistema de recompensas de Crowdsourcing
+
+10. <strong>Wireframe 10:</strong> Sistema de recompensas de Crowdsourcing
 
 <strong>User story asociada:</strong> 
 <br> US13: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
 
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe13_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe13.png" alt="wireflow" width="500"/>
   </div> <br>
 
    11. <strong>Wireframe 11:</strong> Motor de sugerencia de rutinas alternativas
@@ -274,9 +336,16 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 <strong>User story asociada:</strong> 
 <br> US14: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
 
+- web
 <div align= "center">
   <align>
     <img src="../assets/wireframe/wireframe14_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe14.png" alt="wireflow" width="500"/>
   </div> <br>
 
 Us...:
