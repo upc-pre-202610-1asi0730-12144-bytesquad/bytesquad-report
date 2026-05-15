@@ -1541,14 +1541,57 @@ El mock-up presenta la sección **"Rutinas y Ejercicios"** con tres vistas en pr
  
 **Aplicación de principios de diseño:**
  
-- **Arquitectura de información – Labeling System:** Las etiquetas de grupo muscular ("Pectorales", "Piernas", "Espalda", "Hombros", "Brazos") sobre los filtros de la sección corresponden al sistema de categorización por tópicos definido para la aplicación móvil. El sistema de filtros en la parte superior del listado y del drawer permite al usuario acotar las alternativas al grupo muscular que está trabajando.
-- **Estado integrado en el catálogo:** Cada tarjeta de ejercicio incorpora la disponibilidad de la máquina en tiempo real (conectado con US09) mediante el badge de estado ("Disponible" en verde, "Ocupado" en rojo), evitando que el usuario tenga que regresar al mapa para verificar si la alternativa sugerida está realmente libre.
-- **Alternativas disponibles en contexto:** Cuando una máquina está ocupada (ej. "Rack Sentadilla #2 – Ocupado"), la tarjeta del ejercicio afectado expande automáticamente una subsección "⚡ Alternativas disponibles:" con una lista de máquinas alternativas y su estado (Libre), junto al CTA "Ver en el Mapa" en dorado. Este patrón de diseño contextual elimina la fricción de búsqueda manual.
-- **Drawer de rutinas alternativas:** El panel lateral "Rutinas alternativas" se despliega como un drawer desde la derecha de la pantalla, presentando las sugerencias en tarjetas compactas con la misma estructura visual que el listado principal (nombre, máquina, etiquetas, estado). La coherencia de componentes entre el listado principal y el drawer aplica el principio de consistencia y familiaridad.
-- **Diseño inclusivo:** El buscador ("Buscar ejercicio o máquina...") en la parte superior del listado y del drawer permite a usuarios con necesidades específicas encontrar ejercicios por nombre sin depender exclusivamente de los filtros de categoría, ampliando la accesibilidad de la función a diferentes perfiles de uso.
-- **Principio de prevención de errores:** El sistema contempla el escenario sin alternativas disponibles (criterio de aceptación US14, escenario 2), donde el motor sugiere ejercicios de peso corporal o estiramiento, garantizando que el usuario siempre reciba una respuesta útil del sistema y nunca llegue a un estado de error o pantalla vacía.
+- **Visibilidad del estado del sistema:** El uso de tarjetas de métricas con indicadores de tendencia (flechas verdes/rojas) permite al usuario entender el rendimiento actual respecto al mes anterior de un solo vistazo.
+
+- **Arquitectura de información:** Los datos están agrupados de lo general a lo específico. Primero las métricas globales, luego la distribución visual (gráficos) y finalmente el detalle tabular con impacto financiero.
+
+- **Contraste semántico:** En la tabla de inactividad, se utilizan etiquetas de color (Rojo - Alto, Amarillo - Medio, Verde - Bajo) para categorizar el impacto, facilitando la toma de decisiones basada en la urgencia económica.
 
 ![MOCKUP-US16](../assets/mockups/US16%20Sistema%20de%20reserva%20exprés%20en%20horas%20pico%20(Epic_%20EP04).png)
+
+
+<strong>User story asociada:</strong> 
+<br> US17: Como administrador, quiero ver gráficos con la sumatoria de minutos reales de uso de cada máquina, para comprender la demanda real sin tener que vigilar el local.
+
+![MOCKUP-US17](../assets/MOCKUPS/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png)
+
+**Descripción del mock-up:**
+Este mock-up presenta el módulo de **Reportes y Analíticas**. En la parte superior se muestran KPIs clave (Horas totales, Tasa de ocupación, Picos y Tiempo inactivo). Incluye un gráfico de barras para la comparativa semanal y una "Tabla de Inactividad e Impacto Operativo" que traduce el tiempo muerto de las máquinas en pérdida monetaria ($), permitiendo al administrador ver el costo de oportunidad. 
+
+**Aplicación de principios de diseño:**
+ 
+- **Visibilidad del estado del sistema:** El uso de tarjetas de métricas con indicadores de tendencia (flechas verdes/rojas) permite al usuario entender el rendimiento actual respecto al mes anterior de un solo vistazo.
+- **Arquitectura de información:** Los datos están agrupados de lo general a lo específico. Primero las métricas globales, luego la distribución visual (gráficos) y finalmente el detalle tabular con impacto financiero.
+- **Contraste semántico:** En la tabla de inactividad, se utilizan etiquetas de color (Rojo - Alto, Amarillo - Medio, Verde - Bajo) para categorizar el impacto, facilitando la toma de decisiones basada en la urgencia económica.
+
+<strong>User story asociada:</strong> 
+<br> US18: Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
+
+![MOCKUP-US18](../assets/MOCKUPS/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
+
+**Descripción del mock-up:**
+La interfaz se centra en el "Reporte de Ineficiencia Operativa". Presenta una lista de equipos filtrados automáticamente por el motor de análisis que operan por debajo del 60% (parámetro base). Cada fila incluye una barra de progreso visual de la "Tasa de Uso" y una sección de "Recomendaciones del Sistema" que sugiere acciones como reubicación o promociones selectivas.
+
+**Aplicación de principios de diseño:**
+ 
+- **Prevención de errores y ayuda:** La sección de "Recomendaciones del Sistema" actúa como una guía proactiva, transformando datos brutos en insights accionables para el gerente.
+- **Reconocimiento antes que recuerdo:** El uso de barras de progreso horizontales dentro de la tabla permite comparar visualmente el rendimiento de las máquinas sin tener que leer y procesar cada número individualmente.
+- **Consistencia funcional:** El botón de "Exportar CSV" mantiene la ubicación y estilo de otros reportes, asegurando que el usuario sepa siempre cómo llevarse la data a herramientas externas como Excel.
+
+<strong>User story asociada:</strong> 
+<br> US19: Como dueño del negocio, quiero ver gráficos que destaquen las horas donde el aforo de máquinas supera el 90%, para identificar cuellos de botella diarios.
+
+![MOCKUP-US19](../assets/MOCKUPS/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
+
+**Descripción del mock-up:**
+Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visualiza el aforo del local a lo largo del día. El gráfico de líneas permite identificar rápidamente los intervalos de tiempo que superan el umbral crítico (> 90%). Además, cuenta con un selector de "Rango Personalizado" para el análisis de periodos específicos.
+
+**Aplicación de principios de diseño:**
+ 
+- **Jerarquía visual (Énfasis):** El gráfico de líneas utiliza puntos de datos destacados para marcar los momentos de máxima saturación, permitiendo que el dueño identifique "cuellos de botella" en segundos.
+- **Diseño centrado en el usuario:** El tooltip interactivo en el gráfico de barras (comparando "Semana Actual" vs "Capacidad") proporciona precisión de datos "on-demand", evitando saturar la pantalla con números permanentes.
+- **Minimalismo (Ley de Hick):** A pesar de manejar gran cantidad de datos de sensores IoT, la interfaz se mantiene limpia utilizando un fondo negro puro y acentos en amarillo (#f5bc36) para no distraer al usuario de la información crítica: la saturación del local.
+
 ![MOCKUP-US20](../assets/mockups/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
 ![MOCKUP-US21](../assets/mockups/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 ![MOCKUP-US22-UMBRAL](../assets/mockups/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
