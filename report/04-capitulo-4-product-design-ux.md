@@ -721,10 +721,23 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US04: Como administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio.
 
+
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup4_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+**Descripción del mock-up:**
+ 
+El mock-up de esta historia se ubica en la **Landing Page** (vista web de escritorio) y presenta la sección de **"Planes y Precios"** mediante tres tarjetas de suscripción dispuestas en un layout de tres columnas sobre fondo negro (`#000000`), respetando el grid de 12 columnas definido en las Web Style Guidelines.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Jerarquía visual:** El plan "Mid" ($109/mes) se posiciona como el más destacado mediante una tarjeta enmarcada con borde dorado (`#f5bc36`) y una etiqueta de "Más Popular" en la parte superior, guiando la atención del usuario hacia la opción recomendada. Esta distinción sigue el principio de énfasis para dirigir la toma de decisión sin abrumar.
+- **Contraste y legibilidad:** Los precios se presentan en tipografía primaria Bold de gran tamaño sobre fondo oscuro, garantizando un ratio de contraste elevado y facilitando el escaneo rápido de la información.
+- **Consistencia:** Los tres planes comparten la misma estructura interna (nombre del plan, precio mensual, lista de características con íconos de check en verde/teal, y un botón de CTA), aplicando el principio de consistencia del Design System para reducir la carga cognitiva.
+- **Diseño inclusivo:** El uso de íconos de verificación junto al texto (no solo color) garantiza que la información sea legible para personas con deficiencias en la percepción del color. Los botones de CTA ("Demo Gratis", "Comenzar Ahora →", "Contactar") presentan etiquetas claras y áreas de toque suficientes.
+- **Arquitectura de información:** La sección sigue la jerarquía descendente de la Landing Page: el usuario llega a esta sección después de haber comprendido el producto en el Hero Section y las Features, siguiendo el flujo lógico de decisión de compra.
 
 2. <strong>Mockup 2:</strong> Envío de formulario de Contacto
 
@@ -736,6 +749,19 @@ Us...:
     <img src="../assets/mockups/mockup5_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción del mock-up:**
+ 
+El mock-up muestra la página de **"Contacto"** en dos estados: el formulario vacío (estado inicial) y el formulario con datos completados por el usuario "Carla Gallardo" (estado de llenado en progreso). Ambos estados se presentan en desktop para ilustrar el flujo completo de interacción.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Principio de visibilidad del estado del sistema:** Los campos del formulario muestran claramente el estado de foco mediante un borde destacado en color dorado (`#f5bc36`) cuando el usuario está escribiendo en ellos, tal como se aprecia en el campo "Mensaje" del estado activo. Esto confirma al usuario que la interfaz está respondiendo a su interacción.
+- **Minimalismo y carga cognitiva reducida:** El formulario se compone únicamente de los campos estrictamente necesarios: Nombre, Email y Mensaje. Esta decisión de diseño, alineada con el principio de simplicidad, reduce la fricción para el usuario y aumenta la probabilidad de completar el formulario.
+- **Tipografía secundaria:** Los placeholders ("Tu nombre completo", "tu@email.com", "Cuéntanos sobre tu gimnasio y tus necesidades") utilizan la tipografía secundaria en color gris sutil, cumpliendo una función orientativa sin competir con el contenido ingresado.
+- **CTA prominente:** El botón "Enviar" ocupa el ancho completo del contenedor del formulario, con fondo dorado (`#f5bc36`) y texto negro, siguiendo las convenciones de CTA del Design System y maximizando el área de interacción.
+- **Arquitectura de información:** La página de Contacto se accede desde el menú de navegación superior fija de la Landing Page, coherente con el sistema de Navegación One-Page Scroll definido. El footer con copyright refuerza la identidad de marca.
+- **Diseño inclusivo:** Los campos tienen etiquetas visibles por encima de los inputs (no solo placeholders), asegurando que la etiqueta no desaparezca al comenzar a escribir, lo que favorece la usabilidad para usuarios con dificultades cognitivas o de memoria de corto plazo.
+
 3. <strong>Mockup 3:</strong> Acceso al portal desde la navegación
 
 <strong>User story asociada:</strong> 
@@ -746,67 +772,194 @@ Us...:
     <img src="../assets/mockups/mockup6_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción del mock-up:**
+ 
+Esta historia se refleja de forma transversal en todos los mock-ups de la **Landing Page** a través de la **barra de navegación superior fija (Sticky Top Navbar)**. El mock-up muestra claramente los botones "Iniciar Sesión" (texto plano) y "Demo Gratis" (botón con fondo dorado `#f5bc36`) posicionados en el extremo derecho del navbar, tanto en la vista de escritorio como en la vista compacta.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Affordance y reconocimiento:** El botón "Demo Gratis" adopta el color de acento primario del Design System (`#f5bc36`) con texto negro de alto contraste, señalando inmediatamente al usuario que es la acción principal y prioritaria. El enlace "Iniciar Sesión" mantiene un estilo secundario, jerarquizando las opciones de acceso.
+- **Persistencia de la navegación:** Al ser un navbar sticky, ambos botones permanecen accesibles en todo momento del scroll de la landing page, eliminando la necesidad de que el usuario regrese al inicio para encontrar el acceso. Este comportamiento aplica el principio de eficiencia de uso.
+- **Labeling System:** Las etiquetas "Iniciar Sesión" y "Demo Gratis" fueron definidas explícitamente en el Labeling System de la Arquitectura de Información del producto, empleando lenguaje claro y orientado a la acción, libre de tecnicismos.
+- **Diseño inclusivo:** El alto contraste del botón dorado sobre el fondo oscuro del navbar asegura visibilidad para usuarios con baja agudeza visual. El tamaño del target del botón cumple con las recomendaciones de al menos 44x44px para interacción táctil.
+
+
 4. <strong>Mockup 4:</strong> Inicio de sesión con validación JWT
 
 <strong>User story asociada:</strong> 
 <br> US07: Como usuario, quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup7.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup7_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del mock-up:**
+ 
+El mock-up presenta la pantalla de **"Iniciar Sesión"** en tres variantes: el formulario vacío (estado inicial), el formulario con credenciales de cliente ingresadas ("cliente@email.com") y, en la versión web, el panel de navegación demo que permite al evaluador explorar los distintos flujos. Las versiones mobile y web (desktop) del mismo formulario se muestran para evidenciar el diseño responsive.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Jerarquía visual clara:** El logo de SpotTrack encabeza la pantalla, seguido del título "Iniciar Sesión" en tipografía primaria Bold, la descripción en tipografía secundaria Regular y los campos de formulario. Esta jerarquía guía el ojo del usuario de forma natural desde la identidad de marca hasta la acción requerida.
+- **Feedback y estado del sistema:** El campo de contraseña muestra los caracteres enmascarados con puntos, confirmando al usuario que su entrada es segura. El botón "Iniciar Sesión" con fondo dorado es el único CTA de la pantalla, evitando distracciones.
+- **Diseño inclusivo y accesibilidad:** Las etiquetas "Email" y "Contraseña" están posicionadas por encima de cada campo (no como placeholders únicos), asegurando su visibilidad permanente. Los placeholders orientativos ("tu@email.com", "········") complementan la etiqueta sin reemplazarla.
+- **Onboarding y orientación:** La sección "Demo de prueba" con credenciales precargadas (Admin y Cliente) es un elemento de diseño inclusivo que reduce la barrera de entrada para evaluadores y nuevos usuarios, permitiendo explorar la plataforma sin fricción.
+- **Arquitectura de información:** El enlace "¿No tienes cuenta? Regístrate aquí" en color dorado conecta este flujo con el de registro, manteniendo la coherencia del sistema de navegación. Tras un login exitoso, el sistema redirige al usuario a la vista correspondiente según su rol (Dashboard Admin o Mapa de Disponibilidad para el cliente), aplicando la organización por audiencia definida en el Organization System.
 
   5. <strong>Mockup 5:</strong> Gestión de preferencias y perfil
 
 <strong>User story asociada:</strong> 
 <br> US08: Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup8.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup8_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del mock-up:**
+ 
+El mock-up presenta la pantalla **"Mi Perfil"** en la versión mobile, con múltiples estados: vista estándar, estado de guardado exitoso (con notificación en verde "¡Cambios guardados!") y estado con actualización de idioma. La pantalla está organizada en secciones claramente diferenciadas mediante agrupación visual.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Organización por grupos de información (Gestalt – Proximidad):** La pantalla divide la información del perfil en bloques semánticos bien delimitados: datos del usuario y puntos acumulados, información del plan activo con CTA "Mejorar Plan", Historial de Puntos, Información Personal, Preferencias de Idioma, Notificaciones y Seguridad. Esta segmentación aplica el principio de proximidad de la Gestalt para agrupar información relacionada, reduciendo la carga cognitiva.
+- **Jerarquía tipográfica aplicada:** Cada sección lleva un encabezado en tipografía secundaria SemiBold con un ícono contextual (globo para idioma, campana para notificaciones, candado para seguridad), reforzando la semántica visual de cada bloque.
+- **Historial de puntos y gamificación:** La sección "Historial de Puntos" muestra entradas con puntos en verde positivo (+25 pts, +15 pts, +20 pts) con descripciones y fechas relativas, aplicando el principio de feedback positivo para motivar la participación del usuario en el sistema de recompensas (relacionado con US13).
+- **Feedback del sistema:** El estado de guardado exitoso muestra un banner de notificación en verde brillante con ícono de check, brindando confirmación inmediata de la acción completada. El botón "Guardar Cambios" en color dorado permanece fijo al pie de la pantalla (sticky), manteniéndose siempre accesible.
+- **Diseño inclusivo:** El selector de idioma ("Español" / "Inglés") se presenta como un dropdown con bandera e indicación textual del idioma activo, no solo con código de idioma, facilitando la comprensión para usuarios con menor alfabetización digital. Las notificaciones son configurables (toggle) con descripciones explicativas del tipo de alerta que recibirá el usuario.
+- **Arquitectura de información – Navigation Systems:** La pantalla "Mi Perfil" es accesible desde el ícono de perfil en la bottom navigation bar, siguiendo la convención de la aplicación móvil. El botón de retroceso (Mi Perfil) en la parte superior cumple con el estándar de navegación móvil.
+- **Información del plan:** Se muestra el plan activo (Basic, $69/mes), la próxima fecha de renovación y las características incluidas, con un CTA "Mejorar Plan" que conecta al flujo de US04. Esta integración de información en el perfil reduce la necesidad de que el usuario navegue a otra sección para conocer su estado de suscripción.
 
  6. <strong>Mockup 6:</strong> Visualización del mapa de calor en VIVO
 
 <strong>User story asociada:</strong> 
 <br> US09: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
 
+<- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup9.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup9_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del mock-up:**
+ 
+El mock-up muestra la pantalla principal de la **aplicación móvil** y su equivalente web (desktop), presentando el **"Mapa de Disponibilidad en Tiempo Real"**. El mapa central despliega los íconos de cada máquina en una cuadrícula semiespacial dentro de un contenedor oscuro (#1a1a1a), con tres estados visuales diferenciados: verde (Libre), rojo (Ocupado) y dorado/amarillo (Reservado), con contador de tiempo regresivo visible.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Principio de señalética semafórica (diseño inclusivo):** El sistema de tres colores (verde/rojo/dorado) sigue la convención universal del semáforo, permitiendo una interpretación inmediata del estado de cada máquina sin necesidad de leer texto adicional. Adicionalmente, cada ícono de máquina incluye un glifo de pesas que actúa como indicador redundante de tipo de equipo, reforzando la comprensión para usuarios daltónicos.
+- **Jerarquía visual de la App Móvil:** Siguiendo el Organization System definido para la Web App B2C, el mapa de disponibilidad ocupa la posición central y absoluta de la pantalla, subordinando todas las demás funciones a la barra de navegación inferior. Esto refleja la prioridad de acceso inmediato a la disponibilidad como necesidad primaria del usuario.
+- **Leyenda visual:** En la parte inferior del mapa se incluye una leyenda compacta con los tres estados y el conteo actual de máquinas en cada estado (Libre 4, Ocupado 3, Reservado 1), reforzando la comprensión del estado global del gimnasio de un vistazo.
+- **Bottom Navigation Bar:** La barra inferior presenta cuatro destinos (Mapa, Reservas, Rutinas, Perfil) con íconos y etiquetas textuales, cumpliendo con las directrices de accesibilidad de navegación móvil y facilitando el uso con una sola mano.
+- **Feedback en tiempo real:** El contador regresivo "09:59" sobre el ícono de la máquina en estado Reservado comunica al usuario cuánto tiempo resta para que ese equipo quede disponible, gestionando las expectativas sin necesidad de interacción adicional.
+- **Selector de sede y filtros:** El dropdown "Gimnasio Centro" en la parte superior y los filtros de categoría (Todos / Fuerza / Cardio) completan la arquitectura de navegación facetada definida en el Searching System, siendo el punto de entrada a las historias US10 y US11.
 
  7. <strong>Mockup 7:</strong> Filtrado del inventario por tipo de máquina
 
 <strong>User story asociada:</strong> 
 <br> US10: Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup10.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup10_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+**Descripción del mock-up:**
+ 
+El mock-up muestra el mapa de disponibilidad con el sistema de filtros activado, presentando en paralelo el estado con filtro "Fuerza" activo y el filtro "Cardio" activo. El botón del filtro seleccionado se resalta con fondo dorado (`#f5bc36`) y texto negro, mientras los demás botones mantienen el estilo de contorno.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Estado activo claramente comunicado:** El cambio visual del botón de filtro activo (fondo dorado sólido vs. contorno sutil) aplica el principio de visibilidad del estado del sistema de Nielsen, confirmando inmediatamente qué categoría está siendo visualizada. No se depende únicamente del color: la tipografía Bold del botón activo refuerza la distinción.
+- **Filtrado facetado (Searching System):** La implementación de las etiquetas "Todos", "Fuerza" y "Cardio" corresponde exactamente al sistema de filtros por categoría definido en la Arquitectura de Información, permitiendo al usuario acotar el inventario de máquinas a los equipos relevantes para su sesión de entrenamiento.
+- **Consistencia del mapa:** Al aplicar el filtro, el layout de íconos dentro del mapa mantiene su distribución espacial pero cambia la visibilidad de los equipos no correspondientes, sin modificar la estructura de la pantalla. Esto respeta el principio de consistencia y evita la desorientación del usuario.
+- **Botón "Limpiar":** Se incluye un botón "Limpiar" junto a los filtros para restablecer la vista completa del inventario, tal como exige el escenario 2 de los criterios de aceptación (limpieza de filtros). Su posición es consistente con el grupo de filtros.
+- **Diseño inclusivo:** Las etiquetas de los filtros emplean lenguaje directo del Labeling System ("Fuerza", "Cardio") en lugar de tecnicismos, reduciendo la carga cognitiva del usuario en contexto de uso en movimiento.
 
  8. <strong>Mockup 8:</strong> Cambio de sucursal para revisión de aforo
 
 <strong>User story asociada:</strong> 
 <br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup11.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup11_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+**Descripción del mock-up:**
+ 
+El mock-up muestra el flujo de cambio de sede a través de dos estados: la vista con "Gimnasio Centro" seleccionado y la misma pantalla tras seleccionar "Gimnasio Norte" desde el dropdown. También se presenta la vista de escritorio con el menú desplegado mostrando múltiples opciones de sede (Gimnasio Centro, Gimnasio Norte, Gimnasio Sur).
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Control del usuario (principio de Nielsen):** El selector de sede mediante dropdown en la esquina superior derecha otorga al usuario pleno control para cambiar el contexto de visualización sin salir de la pantalla principal. El ícono de pin de ubicación junto al nombre de la sede refuerza semánticamente la función del control.
+- **Retroalimentación inmediata:** Al cambiar la sede, el mapa se actualiza inmediatamente con el inventario y estados de la nueva sucursal, sin necesidad de recargar la página. El nombre de la sede en el dropdown refleja la selección activa en todo momento.
+- **Arquitectura de información – Organization System:** El selector de sucursal corresponde al filtro por Sede definido en el Searching System del Dashboard Administrativo, trasladado al contexto de la aplicación cliente. La organización de datos por ubicación (sede) sigue el modelo de categorización por tópicos de la Plataforma Móvil.
+- **Diseño inclusivo – Plan y acceso:** El mock-up evidencia que el flujo de cambio de sede está disponible para usuarios con el plan correspondiente. El sistema contempla el escenario de sede fuera del plan, donde debe bloquearse el acceso y sugerir la mejora de membresía (visible en el criterio de aceptación US11, escenario 2).
+- **Consistencia visual entre sedes:** Los mapas de "Gimnasio Centro" y "Gimnasio Norte" mantienen exactamente la misma estructura de pantalla, paleta de colores y componentes, asegurando que el usuario no deba reaprender la interfaz al cambiar de contexto.
 
    9. <strong>Mockup 9:</strong> Notificaciones push de resolución de disponibilidad
 
 <strong>User story asociada:</strong> 
 <br> US12: Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup12.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup12_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del mock-up:**
+ 
+El mock-up presenta dos estados clave del flujo: el mapa de disponibilidad en estado normal y el estado posterior a la liberación de una máquina, donde aparece un **banner de notificación push** en la parte inferior de la pantalla con el mensaje "✓ Un cliente se ha retirado de la Prensa" sobre fondo verde brillante.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Feedback del sistema (principio central de Nielsen):** El banner de notificación en verde brillante con ícono de check es el mecanismo de feedback principal de esta historia. Su posición en la parte inferior de la pantalla (toast notification) sigue las convenciones de Material Design para notificaciones no bloqueantes, permitiendo al usuario ver simultáneamente el mapa actualizado sin interrumpir su experiencia.
+- **Semántica del color:** El verde del banner de notificación es consistente con el color del estado "Libre" en el mapa de disponibilidad, reforzando la asociación semántica: verde = disponible = acción positiva. Esta consistencia cromática reduce el tiempo de interpretación del mensaje.
+- **Lenguaje orientado al usuario:** El mensaje "Un cliente se ha retirado de la Prensa" emplea el Labeling System del producto (nombre real de la máquina) y un lenguaje natural y directo, evitando códigos técnicos de máquina o mensajes genéricos como "Estado actualizado".
+- **Diseño inclusivo:** La notificación combina texto descriptivo e ícono de check, no dependiendo exclusivamente del color para comunicar el mensaje. Esto garantiza comprensión para usuarios con daltonismo o baja visión.
+- **Actualización del mapa en tiempo real:** El mock-up muestra cómo la máquina liberada actualiza su ícono a verde en el mapa simultáneamente con la aparición del banner, evidenciando la coherencia del estado del sistema en todos sus canales de feedback a la vez.
 
 
    10. <strong>Mockup 10:</strong> Sistema de recompensas de Crowdsourcing
@@ -814,21 +967,59 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US13: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup13.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup13_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+**Descripción del mock-up:**
+ 
+El mock-up muestra dos interacciones clave: el modal emergente al tocar una máquina libre ("Polea Alta – Estado: Libre") con las opciones "Reservar 15 minutos" y "Reportar como Ocupado", y la pantalla de confirmación posterior al reporte con el mensaje "Gracias por tu apoyo +25 puntos" sobre una superposición oscura del mapa.
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Diseño de interacción contextual:** Al tocar cualquier máquina en el mapa, se despliega un modal con acciones relevantes para ese equipo específico (nombre, estado actual y CTAs). Este patrón de interacción contextual reduce la distancia entre el descubrimiento de la disponibilidad y la acción, siguiendo el principio de eficiencia de uso.
+- **Jerarquía de acciones:** En el modal, la acción primaria "Reservar 15 minutos" se presenta con el estilo de CTA dorado, mientras que "Reportar como Ocupado" adopta un estilo secundario oscuro. La jerarquía visual de botones comunica la importancia relativa de cada acción sin ambigüedad.
+- **Gamificación y motivación intrínseca:** La pantalla de confirmación "+25 puntos" es un elemento de diseño motivacional que cierra el ciclo de acción del usuario con una recompensa inmediata y visible. El diseño minimalista de esta pantalla (solo el mensaje sobre el mapa difuminado) maximiza el impacto emocional del feedback positivo.
+- **Conexión con el perfil (US08):** Los puntos ganados en este flujo se reflejan en la sección "Historial de Puntos" del perfil del usuario, cerrando el loop de la mecánica de gamificación en la arquitectura de la aplicación.
+- **Diseño inclusivo:** El modal incluye un botón de cierre (×) claramente posicionado, garantizando que el usuario pueda descartar la acción sin consecuencias involuntarias. Las áreas de toque de ambos botones cumplen con el tamaño mínimo recomendado para dispositivos móviles.
 
    11. <strong>Mockup 11:</strong> Motor de sugerencia de rutinas alternativas
 
 <strong>User story asociada:</strong> 
 <br> US14: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
 
+- mobile: 
+<div align= "center">
+  <align>
+    <img src="../assets/mockups/mockup14.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web: 
 <div align= "center">
   <align>
     <img src="../assets/mockups/mockup14_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+**Descripción del mock-up:**
+ 
+El mock-up presenta la sección **"Rutinas y Ejercicios"** con tres vistas en progresión: el mapa de disponibilidad (contexto del flujo), la lista de ejercicios con su disponibilidad actual y el panel de "Rutinas alternativas" desplegado como drawer lateral. Cada tarjeta de ejercicio muestra el nombre, la máquina asociada, las etiquetas de grupo muscular, el nivel de dificultad y el estado de disponibilidad (verde "Disponible" / rojo "Ocupado").
+ 
+**Aplicación de principios de diseño:**
+ 
+- **Arquitectura de información – Labeling System:** Las etiquetas de grupo muscular ("Pectorales", "Piernas", "Espalda", "Hombros", "Brazos") sobre los filtros de la sección corresponden al sistema de categorización por tópicos definido para la aplicación móvil. El sistema de filtros en la parte superior del listado y del drawer permite al usuario acotar las alternativas al grupo muscular que está trabajando.
+- **Estado integrado en el catálogo:** Cada tarjeta de ejercicio incorpora la disponibilidad de la máquina en tiempo real (conectado con US09) mediante el badge de estado ("Disponible" en verde, "Ocupado" en rojo), evitando que el usuario tenga que regresar al mapa para verificar si la alternativa sugerida está realmente libre.
+- **Alternativas disponibles en contexto:** Cuando una máquina está ocupada (ej. "Rack Sentadilla #2 – Ocupado"), la tarjeta del ejercicio afectado expande automáticamente una subsección "⚡ Alternativas disponibles:" con una lista de máquinas alternativas y su estado (Libre), junto al CTA "Ver en el Mapa" en dorado. Este patrón de diseño contextual elimina la fricción de búsqueda manual.
+- **Drawer de rutinas alternativas:** El panel lateral "Rutinas alternativas" se despliega como un drawer desde la derecha de la pantalla, presentando las sugerencias en tarjetas compactas con la misma estructura visual que el listado principal (nombre, máquina, etiquetas, estado). La coherencia de componentes entre el listado principal y el drawer aplica el principio de consistencia y familiaridad.
+- **Diseño inclusivo:** El buscador ("Buscar ejercicio o máquina...") en la parte superior del listado y del drawer permite a usuarios con necesidades específicas encontrar ejercicios por nombre sin depender exclusivamente de los filtros de categoría, ampliando la accesibilidad de la función a diferentes perfiles de uso.
+- **Principio de prevención de errores:** El sistema contempla el escenario sin alternativas disponibles (criterio de aceptación US14, escenario 2), donde el motor sugiere ejercicios de peso corporal o estiramiento, garantizando que el usuario siempre reciba una respuesta útil del sistema y nunca llegue a un estado de error o pantalla vacía.
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
