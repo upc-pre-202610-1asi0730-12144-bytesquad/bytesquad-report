@@ -176,7 +176,6 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
-
 1. <strong>Wireframe 1:</strong> Selección de planes de suscripción SaaS
 
 <strong>User story asociada:</strong> 
@@ -186,6 +185,19 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
   <align>
     <img src="../assets/wireframe/wireframe4_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del wireframe (Web – Desktop):**
+ 
+El wireframe de la sección "Planes y Precios" muestra tres tarjetas de suscripción dispuestas en un layout de tres columnas sobre fondo oscuro, siguiendo el grid de 12 columnas establecido en las Web Style Guidelines. La tarjeta central ("Mid – $109/mes") se distingue de las demás mediante una etiqueta "Más Popular" en la parte superior y un borde de mayor grosor, estableciendo la jerarquía visual sin necesidad de color.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Jerarquía visual por tamaño y posición:** El precio de cada plan se presenta en el mayor tamaño tipográfico de la tarjeta, seguido del nombre del plan y la lista de características. Esta escala tipográfica sigue la jerarquía H1/H2/Body definida en el Design System.
+- **Principio de énfasis:** La tarjeta del plan "Mid" utiliza borde diferenciado y etiqueta superior para jerarquizar la opción recomendada sin depender del color, validando que la distinción sea estructural y no cromática.
+- **Consistencia de componentes:** Las tres tarjetas comparten la misma estructura interna (nombre, precio, lista con íconos de check, botón CTA), aplicando el principio de consistencia del Design System atómico.
+- **Diseño inclusivo:** Los íconos de verificación acompañan a cada característica listada (no solo color), asegurando la comprensión independientemente de la percepción cromática del usuario.
+- **Arquitectura de información:** La sección sigue la jerarquía descendente top-down de la Landing Page: el usuario llega a esta sección tras haber procesado el Hero Section y las Features, siguiendo el flujo lógico de decisión de compra establecido en el Organization System.
+- **Spacing:** El espaciado entre tarjetas y entre elementos internos respeta la escala de múltiplos de 8px definida en las Web Style Guidelines, manteniendo el ritmo visual de la página.
 
 
 2. <strong>Wireframe 2:</strong> Envío de formulario de Contacto
@@ -198,6 +210,19 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     <img src="../assets/wireframe/wireframe5_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+**Descripción del wireframe (Web – Desktop):**
+ 
+El wireframe presenta la página "Contacto" en tres estados: el formulario vacío (estado inicial), el formulario con datos válidos completos (usuario "Carla Gallardo") y el formulario con un error de validación en el campo Email ("Dirección de email inválida"). La estructura es centralizada con el formulario en un contenedor de ancho medio sobre el fondo oscuro de la página.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Principio de visibilidad del estado del sistema:** El tercer estado del wireframe muestra el campo Email con un mensaje de error de validación visible debajo del input, confirmando al usuario el problema específico antes de que intente enviar el formulario. Esto aplica retroalimentación proactiva y prevención de errores.
+- **Minimalismo estructural:** El formulario se compone únicamente de los campos estrictamente necesarios (Nombre, Email, Mensaje), reduciendo la carga cognitiva. La decisión de limitar los campos es visible desde la etapa de wireframe.
+- **Etiquetas posicionadas sobre los inputs:** En los tres estados del wireframe se aprecia que las etiquetas ("Nombre", "Email", "Mensaje") están fijas por encima de cada campo, nunca dentro como único placeholder, garantizando su visibilidad permanente durante el llenado — requisito de diseño inclusivo para usuarios con dificultades cognitivas o de memoria de trabajo.
+- **CTA de ancho completo:** El botón "Enviar" ocupa el ancho total del contenedor del formulario, maximizando el área de interacción en consonancia con las directrices de accesibilidad táctil del Design System.
+- **Arquitectura de información:** El footer de la página con copyright ("© 2026 SpotTrack. Todos los derechos reservados.") es visible en el wireframe, confirmando la estructura completa de la Landing Page y su posición dentro del Navigation System como destino final del scroll.
+- **Navbar persistente:** El wireframe conserva el navbar superior con los botones "Iniciar Sesión" y "Demo Gratis", manteniendo la coherencia de navegación global definida en el sistema.
+
 
 3. <strong>Wireframe 3:</strong> Acceso al portal desde la navegación
 
@@ -208,6 +233,19 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
   <align>
     <img src="../assets/wireframe/wireframe6_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del wireframe (Web – Desktop):**
+ 
+Esta historia se refleja transversalmente en los wireframes de la Landing Page a través de la barra de navegación superior fija (Sticky Top Navbar). El wireframe muestra el logo SpotTrack en el extremo izquierdo, los ítems de navegación ("Nosotros", "Funciones", "Precios") en el centro, y los controles de autenticación ("Iniciar Sesión" como enlace de texto y "Demo Gratis" como botón con fondo gris diferenciado) en el extremo derecho.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Affordance estructural:** En el wireframe, el botón "Demo Gratis" adopta un rectángulo relleno de gris más oscuro que diferencia su naturaleza de CTA del enlace de texto "Iniciar Sesión", estableciendo la jerarquía de acciones a nivel estructural antes de aplicar color.
+- **Principio de persistencia:** Al ser un componente sticky, el wireframe valida que los controles de autenticación estén presentes en todas las vistas de la Landing Page, eliminando la necesidad de regresar al inicio para acceder a la plataforma.
+- **Labeling System:** Las etiquetas "Iniciar Sesión" y "Demo Gratis" corresponden al vocabulario definido en el Labeling System de la Arquitectura de Información, siendo directas, orientadas a la acción y libres de jerga técnica.
+- **Diseño inclusivo:** El área del botón "Demo Gratis" tiene dimensiones suficientes para cumplir con el target mínimo de interacción táctil, validado estructuralmente desde el wireframe.
+- **Arquitectura de información – Navigation Systems:** El wireframe valida el sistema de Sticky Top Navbar con Anchor Links a las secciones clave de la Landing Page, cumpliendo con la definición de One-Page Scroll Navigation del Navigation System.
+
 
 4. <strong>Wireframe 4:</strong> Inicio de sesión con validación JWT
 
@@ -226,6 +264,19 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     <img src="../assets/wireframe/wireframe7.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+Los wireframes muestran la pantalla "Iniciar Sesión" en múltiples estados y versiones: el formulario vacío en mobile (estado inicial), el formulario con credenciales de cliente ingresadas ("cliente@email.com") en mobile, y la versión web de escritorio con el panel de navegación demo abierto. En mobile, el formulario se presenta como una tarjeta centrada sobre fondo oscuro; en desktop, el mismo componente se escala manteniendo el mismo orden estructural.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Jerarquía tipográfica:** El wireframe establece la estructura de tres niveles: logo SpotTrack (identidad de marca), título "Iniciar Sesión" en el mayor tamaño tipográfico de la pantalla, y descripción en tipografía secundaria de menor peso. Esta jerarquía es perceptible incluso en escala de grises.
+- **Responsive Design:** Los wireframes de mobile y desktop del mismo formulario evidencian que la estructura se adapta al viewport manteniendo el mismo orden de elementos: logo → título → descripción → campos → CTA → enlace de registro. Esto valida el sistema de grid responsive del Design System.
+- **Diseño inclusivo — Sección "Demo de prueba":** El bloque de credenciales de demostración (Admin y Cliente) es estructuralmente visible en el wireframe como una subsección diferenciada por un borde sutil, reduciendo la barrera de entrada para evaluadores y nuevos usuarios sin comprometer la seguridad del diseño.
+- **Etiquetas permanentes:** Los campos "Email" y "Contraseña" muestran sus etiquetas posicionadas sobre los inputs en todos los estados del wireframe, nunca dependiendo únicamente del placeholder.
+- **Enlace de registro visible:** El texto "¿No tienes cuenta? Regístrate aquí" está posicionado inmediatamente debajo del CTA principal, conectando estructuralmente los flujos de login y registro en el wireframe.
+- **Arquitectura de información:** El wireframe valida la redirección por rol: el texto de la pantalla indica "acceder a la plataforma", y el flujo documentado en el Organization System establece que la redirección post-login diferirá entre Admin (Dashboard) y Cliente (Mapa), sin que esto requiera lógica visual en esta pantalla.
+
 5. <strong>Wireframe 5:</strong> Gestión de preferencias y perfil
 
 <strong>User story asociada:</strong> 
@@ -242,6 +293,20 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
   <align>
     <img src="../assets/wireframe/wireframe8.png" alt="wireflow" width="500"/>
   </div> <br>
+
+**Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+Los wireframes presentan la pantalla "Mi Perfil" en versión mobile (columna única, scroll vertical) y en versión web de escritorio (misma estructura pero en contenedor más ancho). Se muestran tres estados: la vista estándar con los datos del usuario "Juan Pérez", el estado tras pulsar "Guardar Cambios" (con un banner de confirmación "¡Cambios guardados!" en la parte inferior) y el estado con el idioma cambiado a "Inglés". El Dashboard Admin también es visible en miniatura en el primer estado del wireframe web, mostrando el contexto de acceso desde el mapa de disponibilidad.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Agrupación por proximidad (Gestalt):** El wireframe organiza el contenido del perfil en bloques semánticos claramente delimitados mediante bordes de tarjeta y espaciado interno consistente: bloque de usuario y puntos, información del plan, historial de puntos, información personal, preferencias de idioma, notificaciones y seguridad. Esta segmentación es estructural y visible sin color.
+- **Jerarquía tipográfica por sección:** Cada bloque lleva un encabezado de sección (ej. "Historial de Puntos", "Información Personal") en tipografía secundaria SemiBold con un ícono contextual, diferenciado en tamaño del contenido de la sección.
+- **Feedback estructural:** El wireframe del estado de guardado exitoso muestra un banner en la parte inferior de la pantalla con el texto "¡Cambios guardados!", validando el posicionamiento del componente de retroalimentación sin aplicar color.
+- **Botón CTA sticky:** El botón "Guardar Cambios" se posiciona al pie de la pantalla en todos los estados del wireframe, validando que permanezca accesible independientemente de cuánto haya scrolleado el usuario en el perfil.
+- **Diseño inclusivo — Selector de idioma:** El dropdown de idioma muestra una bandera seguida del nombre del idioma en texto ("Español" / "Inglés"), combinando indicador visual e indicador textual para garantizar la comprensión sin depender de un único canal de información.
+- **Diseño inclusivo — Notificaciones:** La sección de notificaciones presenta cada tipo de alerta con su nombre y una descripción explicativa del evento que la dispara, no solo el nombre de la preferencia, reduciendo la ambigüedad para usuarios con menor familiaridad con la plataforma.
+- **Arquitectura de información:** La pantalla es accesible desde el ícono de perfil de la bottom navigation bar. El encabezado "Mi Perfil" con flecha de retroceso valida el sistema de navegación jerárquica de la aplicación móvil definido en el Navigation System.
 
  6. <strong>Wireframe 6:</strong> Visualización del mapa de calor en VIVO
 
@@ -260,6 +325,20 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     <img src="../assets/wireframe/wireframe9.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+El wireframe presenta la pantalla principal de la aplicación móvil y su equivalente web, mostrando el "Mapa de Disponibilidad en Tiempo Real". El mapa central despliega los íconos de cada máquina en una cuadrícula semiespacial dentro de un contenedor de fondo oscuro. En escala de grises, los tres estados de las máquinas se distinguen mediante diferentes tonos de gris (más claro para Libre, gris medio para Reservado con contador, gris oscuro para Ocupado). La leyenda inferior ("Libre (4), Ocupado (3), Reservado (1)") complementa la información del mapa.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Jerarquía visual de la App Móvil:** El mapa ocupa la posición central y absoluta de la pantalla, subordinando todas las demás funciones a la barra de navegación inferior. Esto valida el Organization System de la Web App B2C que posiciona el mapa como componente de máxima prioridad.
+- **Codificación por tono (sin color):** En el wireframe, los tres estados de disponibilidad se diferencian mediante variaciones tonales de gris, validando que la estructura semafórica no depende exclusivamente del color y es comprensible en escala de grises — requisito clave de diseño inclusivo.
+- **Leyenda estructural:** La leyenda con puntos y etiquetas textuales debajo del mapa combina indicador icónico e indicador textual, garantizando la comprensión del sistema de estados para usuarios con daltonismo o baja visión, cumpliendo con las directrices de diseño inclusivo.
+- **Contador de tiempo regresivo:** El badge "09:59" sobre el ícono de la máquina en estado Reservado es visible en el wireframe, validando el posicionamiento del componente de feedback temporal sin aplicar color.
+- **Bottom Navigation Bar:** La barra inferior con cuatro destinos (Mapa, Reservas, Rutinas, Perfil) con íconos y etiquetas textuales es visible y consistente en todas las vistas del wireframe, cumpliendo con el Navigation System de la aplicación móvil.
+- **Selector de sede y filtros:** El dropdown "Gimnasio Centro" y los botones de filtro ("Todos / Fuerza / Cardio") son componentes estructurales del wireframe, validando el Searching System facetado definido en la Arquitectura de Información.
+- **Arquitectura de información:** El título "Mapa de Disponibilidad en Tiempo Real" con su subtítulo "Visualiza el estado de todas las máquinas del gimnasio" funciona como encabezado de contexto que orienta al usuario sin necesidad de interacción previa.
+
  7. <strong>Wireframe 7:</strong> Filtrado del inventario por tipo de máquina
 
 <strong>User story asociada:</strong> 
@@ -276,6 +355,18 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
   <align>
     <img src="../assets/wireframe/wireframe10.png" alt="wireflow" width="500"/>
   </div> <br>
+
+**Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+El wireframe muestra el mapa de disponibilidad con el sistema de filtros activado, presentando en paralelo el estado con el filtro "Fuerza" activo y el estado con el filtro "Cardio" activo. En ambos casos, el botón del filtro seleccionado adopta un relleno de gris más oscuro que los botones no activos, distinguiendo visualmente el estado activo sin color. Se incluye además un botón "Limpiar" junto a los filtros de categoría, cumpliendo con el escenario 2 de los criterios de aceptación.
+
+  **Principios y elementos de diseño aplicados:**
+ 
+- **Estado activo estructural:** La diferencia entre el botón de filtro activo (relleno gris oscuro) y los inactivos (contorno sutil) es visible en escala de grises, validando que el estado activo no depende del color para ser percibido — principio de visibilidad del estado del sistema aplicado desde el wireframe.
+- **Filtrado facetado (Searching System):** Las etiquetas "Todos", "Fuerza", "Cardio" y "Limpiar" corresponden exactamente al sistema de filtros por categoría definido en el Searching System, validando su implementación estructural en la interfaz.
+- **Consistencia del mapa:** El wireframe muestra que al aplicar el filtro, el layout del mapa mantiene su estructura espacial, validando que el cambio de estado no altera la organización de la pantalla ni genera desorientación en el usuario.
+- **Diseño inclusivo — Etiqueta textual del filtro activo:** Las etiquetas de los botones de filtro emplean lenguaje directo del Labeling System ("Fuerza", "Cardio") en lugar de códigos o íconos únicos, asegurando la comprensión para todo el espectro de usuarios.
+- **Botón "Limpiar":** Su posición consistente junto al grupo de filtros es validada en el wireframe, garantizando que el usuario pueda restablecer la vista completa del inventario con una acción predecible.
 
 
  8. <strong>Wireframe 8:</strong> Cambio de sucursal para revisión de aforo
@@ -295,6 +386,18 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     <img src="../assets/wireframe/wireframe11.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+Los wireframes muestran el flujo de cambio de sede en dos estados: la vista con "Gimnasio Centro" seleccionado y la misma pantalla tras seleccionar "Gimnasio Norte" desde el dropdown. La versión web de escritorio muestra adicionalmente el menú desplegado del selector de sede con las tres opciones disponibles (Gimnasio Centro, Gimnasio Norte, Gimnasio Sur). En todos los casos, la estructura de la pantalla permanece idéntica al cambiar de sede, variando únicamente el nombre en el selector y el contenido del mapa.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Control del usuario:** El dropdown de selección de sede en el wireframe otorga al usuario pleno control para cambiar el contexto de visualización sin salir de la pantalla principal, validando el principio de libertad y control del usuario desde la etapa de estructura.
+- **Ícono semántico de ubicación:** El ícono de pin de ubicación junto al nombre de la sede es visible en el wireframe y refuerza semánticamente la función del control selector, cumpliendo con el principio de reconocimiento sobre recuerdo.
+- **Consistencia entre sedes:** Los wireframes de "Gimnasio Centro" y "Gimnasio Norte" mantienen exactamente la misma estructura de pantalla, validando que el usuario no deba reaprender la interfaz al cambiar de sede.
+- **Arquitectura de información:** El selector de sede corresponde al filtro por Sede definido en el Searching System de la Arquitectura de Información, trasladado al contexto de la aplicación cliente. La versión web muestra el dropdown con las tres opciones de sede disponibles, validando el Labeling System con nombres de sede directos.
+- **Diseño inclusivo:** Los nombres de las sedes en el dropdown son descriptivos y únicos (Gimnasio Centro, Norte, Sur), evitando ambigüedades o nomenclaturas de código que podrían dificultar la selección para usuarios con menor familiaridad con la plataforma.
+
 
 9. <strong>Wireframe 9:</strong> Notificaciones push de resolución de disponibilidad
 
@@ -312,6 +415,18 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
   <align>
     <img src="../assets/wireframe/wireframe12.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+El wireframe presenta dos estados del flujo de notificación: el mapa de disponibilidad en estado normal (sin notificación activa) y el estado posterior a la liberación de una máquina, donde aparece un banner de notificación en la parte inferior de la pantalla con el texto "✗ Máquina ocupada nuevamente" (escenario de descarte automático) o la notificación positiva de liberación. En el wireframe web, el mismo banner aparece como un toast notification de ancho completo en la parte inferior del viewport.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Posicionamiento del feedback:** El banner de notificación se posiciona en la parte inferior de la pantalla (toast notification), validando en el wireframe que el componente de feedback es no bloqueante: el usuario puede ver simultáneamente el mapa actualizado sin que la notificación ocupe toda la pantalla.
+- **Texto descriptivo en la notificación:** El mensaje "Máquina ocupada nuevamente" emplea el Labeling System del producto con lenguaje natural y directo, evitando códigos técnicos, validado desde el wireframe antes de aplicar color o iconografía final.
+- **Diseño inclusivo:** La notificación combina un ícono (✗ o ✓) con texto descriptivo, no dependiendo exclusivamente del color o el ícono para comunicar el mensaje. Esto garantiza comprensión para usuarios con daltonismo o lectores de pantalla.
+- **Actualización del mapa:** El wireframe muestra que el estado del mapa se actualiza simultáneamente con la aparición del banner, validando la coherencia del estado del sistema en todos sus canales de feedback.
+- **Consistencia entre mobile y web:** Ambas versiones del wireframe muestran el mismo componente de notificación, validando la coherencia del Design System a través de los dos contextos de uso.
 
 
 10. <strong>Wireframe 10:</strong> Sistema de recompensas de Crowdsourcing
@@ -331,6 +446,20 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     <img src="../assets/wireframe/wireframe13.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+El wireframe muestra dos interacciones clave del flujo: el modal emergente al tocar una máquina libre ("Polea Alta – Estado: Libre") con las opciones "Reservar 15 minutos" y "Reportar como Ocupado", y la pantalla de confirmación posterior al reporte con el mensaje "Gracias por tu apoyo +25 puntos" sobre una superposición del mapa.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Modal contextual:** Al tocar una máquina en el mapa, el wireframe valida que se despliega un modal superpuesto con información específica del equipo seleccionado (nombre y estado) y las acciones disponibles. El fondo del mapa se oscurece parcialmente, aplicando el principio de foco sin eliminar el contexto.
+- **Jerarquía de acciones en el modal:** En el wireframe, la acción primaria "Reservar 15 minutos" adopta un relleno de gris más claro (equivalente al CTA primario en color) diferenciándose de "Reportar como Ocupado", que mantiene el estilo de botón secundario. Esta jerarquía estructural valida la implementación del Design System en la etapa de wireframe.
+- **Botón de cierre (×):** El wireframe incluye el botón de cierre del modal en la esquina superior derecha, garantizando que el usuario pueda descartar la acción sin consecuencias involuntarias — principio de libertad y control del usuario.
+- **Pantalla de confirmación gamificada:** El wireframe del estado de confirmación "+25 puntos" muestra el mensaje centrado sobre el mapa con una superposición oscura, validando el posicionamiento del componente de retroalimentación positiva y su jerarquía visual sobre el resto de la pantalla.
+- **Arquitectura de información:** El flujo del modal conecta directamente con el historial de puntos del perfil (US08), cerrando el loop de la mecánica de gamificación. El wireframe valida que la interacción contextual desde el mapa no requiere cambio de pantalla para acceder a la acción de reporte.
+- **Diseño inclusivo:** Los botones del modal incluyen íconos acompañando al texto (calendario para "Reservar", bandera para "Reportar"), añadiendo un canal visual de reconocimiento para la función de cada acción.
+
+
    11. <strong>Wireframe 11:</strong> Motor de sugerencia de rutinas alternativas
 
 <strong>User story asociada:</strong> 
@@ -347,6 +476,22 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
   <align>
     <img src="../assets/wireframe/wireframe14.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción del wireframe (Mobile y Web – Desktop):**
+ 
+El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa de disponibilidad (contexto del flujo), la lista de ejercicios con su disponibilidad actual y el panel "Rutinas alternativas" desplegado como drawer lateral. Cada tarjeta de ejercicio muestra el nombre, la máquina asociada, las etiquetas de grupo muscular y nivel de dificultad, y el estado de disponibilidad. La versión web de escritorio muestra las tres vistas simultáneamente en un layout de mayor ancho.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Arquitectura de información — Labeling System:** Las etiquetas de grupo muscular ("Pectorales", "Piernas", "Espalda", "Hombros", "Brazos") como filtros de la sección y el buscador ("Buscar ejercicio o máquina...") son visibles en el wireframe, validando el sistema de categorización por tópicos definido para la aplicación móvil.
+- **Estado integrado en el catálogo:** Cada tarjeta de ejercicio incorpora un badge de estado de disponibilidad (punto gris claro = Disponible, punto gris oscuro = Ocupado/Mantenimiento) en el wireframe, validando que la disponibilidad de la máquina es un atributo visible en la lista sin necesitar regresar al mapa.
+- **Alternativas contextuales:** Cuando una máquina está ocupada ("Rack Sentadilla #2 – Ocupado"), el wireframe muestra que la tarjeta expande automáticamente una subsección "Alternativas disponibles:" con la lista de alternativas y su estado, eliminando la fricción de búsqueda manual.
+- **Drawer de rutinas alternativas:** El panel "Rutinas alternativas" se despliega como drawer desde el lateral de la pantalla, mostrando tarjetas compactas con la misma estructura que el listado principal. El wireframe valida la consistencia de componentes entre el listado y el drawer, aplicando el principio de consistencia del Design System.
+- **CTA "Ver en el Mapa":** El wireframe muestra el botón de ancho completo "Ver en el Mapa" en dorado al pie de la sección de alternativas disponibles, conectando el flujo de rutinas con el mapa de disponibilidad sin requerir navegación manual.
+- **Diseño inclusivo — Buscador:** El campo de búsqueda en la parte superior del listado y del drawer permite a usuarios con necesidades específicas encontrar ejercicios por nombre sin depender exclusivamente de los filtros de categoría.
+- **Diseño inclusivo — Mantenimiento como estado explícito:** El badge "Mantenimiento" en algunas tarjetas del drawer es visible estructuralmente en el wireframe, cumpliendo con el criterio de aceptación US14 escenario 2 que requiere excluir equipos con ticket técnico abierto y comunicarlo explícitamente al usuario.
+- **Bottom Navigation Bar:** La barra inferior está activa en la pestaña "Rutinas" en todos los wireframes de esta historia, manteniendo la orientación del usuario dentro de la aplicación y validando el estado activo de navegación desde la etapa de estructura.
+ 
 
 Us...:
 ![US20 Exportación de analíticas de uso](../assets/wireframes/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
@@ -381,7 +526,7 @@ Us...:
 
 <div align= "center">
   <align>
-    <img src="../assets/wireflow/wireflow1_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/wireflow/wireflow4_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
 2. <strong>Wireflow 2:</strong> Envío de formulario de Contacto
