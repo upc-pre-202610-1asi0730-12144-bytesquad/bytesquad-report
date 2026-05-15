@@ -1332,6 +1332,20 @@ El mock-up presenta la sección **"Rutinas y Ejercicios"** con tres vistas en pr
 - **Diseño inclusivo:** El buscador ("Buscar ejercicio o máquina...") en la parte superior del listado y del drawer permite a usuarios con necesidades específicas encontrar ejercicios por nombre sin depender exclusivamente de los filtros de categoría, ampliando la accesibilidad de la función a diferentes perfiles de uso.
 - **Principio de prevención de errores:** El sistema contempla el escenario sin alternativas disponibles (criterio de aceptación US14, escenario 2), donde el motor sugiere ejercicios de peso corporal o estiramiento, garantizando que el usuario siempre reciba una respuesta útil del sistema y nunca llegue a un estado de error o pantalla vacía.
 
+![MOCKUP-US16](../assets/mockups/US16%20Sistema%20de%20reserva%20exprés%20en%20horas%20pico%20(Epic_%20EP04).png)
+![MOCKUP-US20](../assets/mockups/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+![MOCKUP-US21](../assets/mockups/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+![MOCKUP-US22-UMBRAL](../assets/mockups/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![MOCKUP-US22](../assets/mockups/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+![MOCKUP-US23](../assets/mockups/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+![MOCKUP-US24](../assets/mockups/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+![MOCKUP-US25](../assets/mockups/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+![MOCKUP-US26](../assets/mockups/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![MOCKUP-US27](../assets/mockups/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png)
+![MOCKUP-US29](../assets/mockups/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+![MOCKUP-US28](../assets/mockups/US28%20Gestión%20automatizada%20de%20stock%20de%20repuestos%20(Epic_%20EP07).png).png)
+![MOCKUP-US30](../assets/mockups/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 ---
