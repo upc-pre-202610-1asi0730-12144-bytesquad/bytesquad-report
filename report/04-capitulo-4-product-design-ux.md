@@ -1025,6 +1025,60 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
 4. **Drawer "Rutinas alternativas":** El wireflow muestra el panel lateral que se despliega desde el borde derecho de la pantalla al solicitar una búsqueda más amplia de alternativas. El drawer contiene el mismo buscador y sistema de filtros que el listado principal, pero presenta únicamente ejercicios alternativos. Las tarjetas muestran el estado de cada alternativa: "Disponible" para equipos libres y "Mantenimiento" para equipos con ticket técnico abierto, cumpliendo el criterio de aceptación del escenario 2 (exclusión de máquinas averiadas). El botón de cierre × en la esquina superior derecha permite descartar el drawer sin perder el estado del listado principal.
 5. **Versión web (desktop):** El wireflow de escritorio muestra las tres vistas simultáneamente: el mapa reducido a la izquierda (para mantener el contexto de disponibilidad), el listado de rutinas en el centro y el drawer de alternativas como panel superpuesto a la derecha. Esta disposición aprovecha el mayor ancho de pantalla del desktop para mantener el contexto del mapa visible durante toda la interacción de búsqueda de alternativas.
 
+![task16.png](../assets/wireflows/TASKFLOW-16.png)
+![WF-16](../assets/wireflows/Frame%2017.png)
+
+![task17.png](../assets/wireflows/TASKFLOW-17.png)
+![WFM-17](../assets/wireflows%20MOBILE/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png)
+![WF-17](../assets/wireflows/S16%20-%20reserva%20express.png)
+
+![task18.png](../assets/wireflows/TASKFLOW-18.png)
+![WFM-018](../assets/WIREFLOWS%20MOBILE/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
+![WF-18](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07)%20(1).png)
+
+![task19.png](../assets/wireflows/TASKFLOW-19.png)
+![WFM-019](../assets/WIREFLOWS%20MOBILE/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
+![WF-19](../assets/WIREFLOWS/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
+
+
+![task20.png](../assets/wireflows/TASKFLOW-20.png)
+![WF-20](../assets/wireflows/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05)%20(2).png)
+![WFM-20](../assets/wireflows/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+
+![TASKFLOW-21](../assets/wireflows/TASKFLOW-21.png)
+![WF-21](../assets/wireflows/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05)%20(1).png)
+![WFM-21](../assets/wireflows/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+
+![TASKFLOW-22](../assets/wireflows/TASKFLOW-22.png)
+![WF-22-UMBRAL](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20(1).png)
+![WF-22](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL%20(1).png)
+![WFM-22-UMBRAL](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![WFM-22](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+
+![TASKFLOW-23](../assets/wireflows/TASKFLOW-23.png)
+![WF-23](../assets/wireflows/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06)%20(1).png)
+![WFM-23](../assets/wireflows/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+
+![TASKFLOW-24](../assets/wireflows/TASKFLOW-24.png)
+![WF-24](../assets/wireflows/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06)%20(1).png)
+![WFM-24](../assets/wireflows/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+
+![TASKFLOW-25](../assets/wireflows/TASKFLOW-25.png)
+![WF-25](../assets/wireflows/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04)%20(1).png)
+![WFM-25](../assets/wireflows/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+
+![TASKFLOW-26](../assets/wireflows/TASKFLOW-26.png)
+![WF-26](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07)%20(1).png)
+![WFM-26](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+
+![TASKFLOW-29](../assets/wireflows/TASKFLOW-29.png)
+![WF-29](../assets/wireflows/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08)%20(1).png)
+![WFM-29](../assets/wireflows/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+
+![TASKFLOW-30](../assets/wireflows/TASKFLOW-30.png)
+![WF-30](../assets/wireflows/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08)%20(1).png)
+![WFM-30](../assets/wireflows/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+
 ### 4.4.2. Web Applications Mock-ups.
 
 1. <strong>Mockup 1:</strong> Selección de planes de suscripción SaaS
