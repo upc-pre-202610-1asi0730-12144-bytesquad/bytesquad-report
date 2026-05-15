@@ -167,11 +167,173 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
-<img src="../assets/wireframes/landing_wireframe.png" width="600">
+- Home:
+
+<div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landingw-nosotros.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  **Descripción del wireframe:**
+ 
+El wireframe del Hero Section presenta la estructura de la primera pantalla visible de la Landing Page al cargar, sin scroll. En la versión desktop se aprecia el navbar superior con el logo "SpotTrack" en el extremo izquierdo, los ítems de navegación ("Nosotros", "Funciones", "Precios") centrados, y los controles de acceso ("Iniciar Sesión" como enlace de texto y "Demo Gratis" como botón con relleno diferenciado) en el extremo derecho. En la versión mobile el navbar se simplifica conservando únicamente el logo y los controles de acceso.
+ 
+El cuerpo del Hero muestra el titular principal en la mayor escala tipográfica de toda la página, el subtítulo descriptivo en tipografía secundaria de menor peso, y los dos CTAs ("Comenzar Ahora →" y "Ver Demo") centrados y dispuestos en fila horizontal en desktop o en columna en mobile. En la parte inferior del viewport, una fila de cuatro métricas clave ("Reduce tiempos de espera", "Monitoreo 24/7", "Alertas automáticas", "Dashboard en tiempo real") completa el Hero antes del inicio del scroll.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Jerarquía visual por escala tipográfica:** El titular ocupa el mayor tamaño de fuente de toda la landing, estableciendo el punto de entrada visual inmediato para el usuario. La escala desciende del título al subtítulo y de este a los CTAs, siguiendo la jerarquía H1/H2/Body del Design System.
+- **Principio de énfasis en el CTA primario:** El botón "Comenzar Ahora →" adopta un relleno de gris más oscuro que "Ver Demo" (contorno sutil), estableciendo la prioridad de la acción principal sin depender del color.
+- **Navbar sticky:** La barra de navegación se posiciona como elemento persistente en la parte superior, validando el sistema de Sticky Top Navbar con Anchor Links definido en el Navigation System de la Arquitectura de Información.
+- **Diseño inclusivo:** Los CTAs presentan dimensiones de área de toque suficientes para interacción táctil en mobile. Las métricas clave de la parte inferior del Hero usan texto descriptivo breve, no solo íconos, garantizando la comprensión sin dependencia de elementos visuales únicos.
+- **Grid system:** El layout de cuatro columnas para las métricas clave en desktop y la columna única en mobile validan el sistema de 12 columnas con gutter de 24px definido en las Web Style Guidelines, asegurando la correcta adaptabilidad responsive.
+
+
+- Features:
+  <div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landingw-features.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+**Descripción del wireframe:**
+ 
+El wireframe de la sección "Funciones" (identificada como "La Solución" en el contenido) presenta seis tarjetas de características del producto distribuidas en un layout de tres columnas por dos filas en desktop. Cada tarjeta incluye un ícono de línea en la parte superior, un título en tipografía secundaria SemiBold y un párrafo descriptivo en regular. Las seis características son: Sensores IoT Edge, Almacenamiento en la Nube, Monitoreo en Tiempo Real, Alertas de Mantenimiento, Dashboard Analítico y Seguridad JWT.
+ 
+En mobile, las seis tarjetas se reorganizan en una sola columna, manteniendo el mismo orden de lectura de izquierda a derecha y de arriba a abajo.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Jerarquía visual por posición:** El título de sección "La Solución" y el subtítulo "SpotTrack: Gestión inteligente todo en uno" se posicionan centrados y por encima de la cuadrícula de tarjetas, estableciendo el contexto antes de presentar el detalle, siguiendo el principio de jerarquía descendente top-down de la Landing Page.
+- **Principio de consistencia de componentes:** Las seis tarjetas comparten la misma estructura (ícono → título → descripción), aplicando el Design System atómico para crear un ritmo visual predecible que facilita el escaneo rápido de la información.
+- **Íconos de línea como indicadores semánticos:** Cada tarjeta utiliza un ícono de línea contextual (onda para IoT, nube para almacenamiento, gráfico para analítica, campana para alertas, escudo para seguridad) que complementa el título textual. La combinación ícono + texto aplica el principio de redundancia de canales de comunicación, no dependiendo del ícono como único indicador.
+- **Arquitectura de información — Labeling System:** Los nombres de las seis características siguen el vocabulario definido en el Labeling System: directo, estandarizado y libre de jerga técnica compleja, permitiendo que tanto administradores técnicos como usuarios no especializados comprendan el valor de cada función.
+- **Spacing system:** El espaciado entre tarjetas y entre el contenido interno de cada tarjeta respeta la escala de múltiplos de 8px definida en las Web Style Guidelines, manteniendo el ritmo visual de la sección.
+
+- Pricing:
+   <div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landingw-pricing.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+**Descripción del wireframe:**
+ 
+El wireframe de la sección "Planes y Precios" presenta tres tarjetas de suscripción dispuestas en un layout de tres columnas en desktop. La tarjeta central ("Mid – $109/mes") se distingue de las demás mediante una etiqueta "Más Popular" posicionada en la parte superior del borde y un contorno de mayor grosor, estableciendo la jerarquía visual del plan recomendado sin necesidad de color. Cada tarjeta muestra el nombre del plan, el precio mensual en el mayor tamaño tipográfico de la tarjeta, la lista de características incluidas con íconos de verificación circulares, y el botón de CTA diferenciado por plan (Demo Gratis / Comenzar Ahora → / Contactar).
+ 
+En mobile, las tres tarjetas se apilan verticalmente con la tarjeta "Mid" posicionada en el centro del scroll, manteniendo su distinción visual mediante el borde y la etiqueta.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Principio de énfasis y jerarquía:** La tarjeta "Mid" utiliza borde diferenciado y etiqueta superior para jerarquizar la opción recomendada sin depender del color, validando que la distinción es estructural y perceptible en escala de grises.
+- **Consistencia con diferenciación controlada:** Las tres tarjetas comparten la misma estructura interna, pero se diferencian por el número de características listadas, el nivel de precio y el tipo de CTA, aplicando el principio de consistencia con variación significativa para comunicar las diferencias entre planes.
+- **Diseño inclusivo — Íconos de verificación con texto:** Los checkmarks junto a cada característica acompañan al texto (no son el único indicador), garantizando que la lista sea comprensible para usuarios con daltonismo o dificultades de percepción visual.
+- **Arquitectura de información:** La sección sigue la jerarquía descendente de la Landing Page: el usuario llega a esta sección después de haber comprendido el producto en el Hero y las Features, siguiendo el flujo lógico de decisión de compra establecido en el Organization System.
+- **CTAs diferenciados por plan:** Los tres CTAs del wireframe tienen nombres distintos según el nivel de compromiso que implica cada plan (Demo Gratis → exploración sin compromiso; Comenzar Ahora → conversión directa; Contactar → ventas para empresa), aplicando el Labeling System orientado a la acción.
+
+- Contact:
+ <div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landingw-contact.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  **Descripción del wireframe:**
+ 
+El wireframe de la sección "Contacto" es la última sección de contenido de la Landing Page, accesible desde el navbar o al final del scroll. Presenta un formulario de contacto centralizado con tres campos: Nombre*, Email* y Mensaje* (textarea de mayor altura), y el botón "Enviar" de ancho completo como CTA único. Debajo del formulario, el footer muestra el copyright "© 2026 SpotTrack. Todos los derechos reservados." como cierre de la página.
+ 
+En mobile el formulario ocupa el 90% del ancho del viewport, manteniendo los mismos campos y el mismo orden vertical.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Minimalismo y reducción de fricción:** El formulario se compone únicamente de los tres campos estrictamente necesarios para iniciar el contacto comercial, reduciendo la barrera de entrada para el visitante y aumentando la probabilidad de conversión.
+- **Etiquetas posicionadas dentro del campo (placeholder):** En el wireframe, las etiquetas orientativas ("Nombre*", "Email*", "Mensaje*") se muestran como placeholders dentro de los campos. El asterisco (*) indica obligatoriedad de forma estándar, siguiendo la convención de formularios web.
+- **CTA de ancho completo:** El botón "Enviar" ocupa el ancho total del contenedor del formulario, maximizando el área de interacción y facilitando su uso táctil en mobile, cumpliendo con las directrices de accesibilidad del Design System.
+- **Arquitectura de información — posición en el flujo:** La sección "Contacto" ocupa el último lugar en la jerarquía descendente de la Landing Page, recibiendo al usuario que ya procesó la propuesta de valor, las funciones y los precios, y está listo para dar el siguiente paso comercial. Esta posición es coherente con el Organization System definido.
+- **Footer como cierre de identidad:** El copyright en el footer refuerza la identidad de marca y proporciona el cierre visual de la página de una sola columna, validando la estructura completa del Navigation System de One-Page Scroll.
+
 
 ### 4.3.2. Landing Page Mock-up.
 
-<img src="../assets/landing/landing1.png" width="600">
+- Home:
+<div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landing-nosotros.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+**Descripción del mock-up:**
+ 
+El Mock-up del Hero Section aplica la paleta de colores del Design System sobre la estructura validada en el wireframe. El fondo negro absoluto (`#000000`) crea el contexto de alto contraste que caracteriza la identidad visual de SpotTrack. El titular principal "Transforma la gestión de tu **gimnasio** con tecnología inteligente" resalta la palabra "gimnasio" en color teal (`#00ccb2`), el acento primario de marca, estableciendo el foco semántico del mensaje en la palabra clave del sector objetivo.
+ 
+El CTA principal "Comenzar Ahora →" adopta el color teal (`#00ccb2`) como fondo con texto negro, siguiendo la convención de CTA primario del Design System. El CTA secundario "Ver Demo" se presenta con contorno sutil sobre fondo negro, subordinado visualmente al primario. El navbar superior presenta el logo SpotTrack con el isotipo de nodo estilizado a la izquierda, los ítems de navegación en tipografía secundaria Regular en el centro, y el botón "Iniciar Sesión" como texto y "Demo Gratis" como botón con fondo dorado (`#f5bc36`) a la derecha.
+ 
+En la versión mobile, el navbar muestra el logo y el botón "Iniciar Sesión" con un selector de idioma (EN/ES), evidenciando la funcionalidad de internacionalización definida en US08. El texto del título se redistribuye en dos líneas con la palabra "gimnasio" en verde, manteniendo el énfasis cromático en la palabra clave. La fila de métricas clave ("Reduce tiempos de espera", "Monitoreo 24/7", "Alertas automáticas", "Dashboard en tiempo real") en la parte inferior utiliza tipografía Bold en blanco puro sobre fondo negro.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Identidad de marca aplicada:** El acento de color teal (`#00ccb2`) en la palabra "gimnasio" y en el CTA primario establece la identidad cromática de SpotTrack de forma inmediata en el primer punto de contacto visual, aplicando el branding definido en el Design System.
+- **Contraste de alto impacto:** La combinación de texto blanco y teal sobre fondo negro garantiza ratios de contraste elevados, cumpliendo con los estándares de accesibilidad WCAG AA para texto sobre fondo oscuro.
+- **Jerarquía tipográfica completa:** El titular en tipografía primaria Bold de gran escala, el subtítulo en tipografía secundaria Regular de peso medio y las métricas en Bold de tamaño menor crean la jerarquía visual de tres niveles definida en el Design System.
+- **Diseño inclusivo — selector de idioma:** En la versión mobile, los botones de cambio de idioma "EN" y "ES" son etiquetas textuales explícitas (no solo banderas), garantizando la comprensión para usuarios con dificultades de reconocimiento visual de iconos de idioma.
+- **Background con textura de partículas:** En la versión mobile del mock-up, el fondo del Hero incorpora un patrón de puntos sutiles sobre negro, añadiendo profundidad visual sin comprometer la legibilidad del texto superpuesto, respetando el principio de contraste accesible del Design System.
+
+- Features:
+  <div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landing-features.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+**Descripción del mock-up:**
+ 
+El Mock-up de la sección "La Solución" aplica la paleta de color completa sobre la cuadrícula de seis tarjetas validada en el wireframe. Los íconos de línea de cada tarjeta adoptan el color teal (`#00ccb2`) del acento primario de marca, siendo los únicos elementos cromáticos de la sección junto al subtítulo "SpotTrack: Gestión inteligente todo en uno" que se presenta en dorado (`#f5bc36`). El fondo de las tarjetas mantiene el `#1a1a1a` con bordes redondeados, consistente con el componente de tarjeta definido en el Design System.
+ 
+Los títulos de cada característica (Sensores IoT Edge, Almacenamiento en la Nube, Monitoreo en Tiempo Real, Alertas de Mantenimiento, Dashboard Analítico, Seguridad JWT) se presentan en tipografía secundaria SemiBold en blanco, y los párrafos descriptivos en Regular gris claro.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Color teal como acento funcional:** Los íconos teal (`#00ccb2`) en cada tarjeta son el único uso del acento primario de marca en esta sección, creando un ritmo visual consistente que refuerza la identidad cromática de SpotTrack sin sobrecargar la paleta. El teal transmite la sensación de tecnología limpia y eficiencia que el Design System define para este color.
+- **Dorado como acento de subtítulo:** El subtítulo en `#f5bc36` aplica el Secondary Accent del Design System para resaltar el nombre del producto y el claim de sección, diferenciándolo del texto de cuerpo sin usar el teal en dos roles simultáneos.
+- **Principio de redundancia de canales:** Cada característica se comunica mediante tres canales simultáneos: ícono teal (canal visual-simbólico), título en blanco (canal textual-primario) y descripción en gris (canal textual-secundario), garantizando la comprensión para usuarios con dificultades en cualquiera de los canales individuales.
+- **Diseño inclusivo:** Los íconos de línea son simples, reconocibles y semánticamente relacionados con su función (onda = señal IoT, nube = almacenamiento, escudo = seguridad), pero el texto acompañante garantiza que el usuario comprenda la función incluso si no reconoce el ícono.
+
+
+- Pricing:
+   <div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landing-pricing.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  **Descripción del mock-up:**
+ 
+El Mock-up de "Planes y Precios" es la sección con mayor densidad de uso del Design System en la Landing Page. La tarjeta central "Mid" adopta un borde dorado (`#f5bc36`) que la enmarca completamente, y la etiqueta "Más Popular" sobre el borde superior se presenta con fondo dorado y texto negro, siendo el elemento de mayor énfasis visual de toda la sección. Los checkmarks de las listas de características adoptan el color dorado (`#f5bc36`) en las tres tarjetas, aplicando el Secondary Accent como indicador de verificación positiva.
+ 
+El CTA del plan Mid ("Comprar Ahora") adopta el fondo dorado sólido con texto negro, siguiendo la jerarquía de CTA primario del Design System. Los CTAs de Basic ("Comprar Ahora") y Platinum ("Comprar Ahora") mantienen el estilo de contorno blanco sobre fondo de tarjeta, siendo visualmente subordinados al CTA del plan recomendado. Los precios ($69, $109, $189) se presentan en tipografía primaria Bold de gran escala en blanco, siendo el elemento de mayor tamaño tipográfico dentro de cada tarjeta.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Dorado como color de acento de decisión:** El `#f5bc36` aplicado al borde de la tarjeta Mid, a la etiqueta "Más Popular", a los checkmarks y al CTA principal crea un sistema visual coherente que guía la atención del usuario hacia el plan recomendado mediante énfasis cromático, sin necesitar texto adicional para comunicar la recomendación.
+- **Jerarquía de CTAs por color:** El CTA dorado sólido del plan Mid vs. los CTAs de contorno blanco de Basic y Platinum establece una jerarquía de acción explícita: el sistema recomienda el Mid mediante el mayor énfasis de CTA, pero no bloquea la elección libre del usuario al mantener los otros CTAs visibles y accesibles.
+- **Diseño inclusivo:** Los checkmarks dorados acompañan siempre a texto descriptivo de cada característica, no siendo el único indicador de inclusión en el plan. El ratio de contraste entre texto blanco y fondo de tarjeta oscuro, y entre texto negro y fondo dorado del CTA, cumple con los estándares de accesibilidad.
+- **Arquitectura de información — comparativa de planes:** La disposición en tres columnas de igual altura permite la comparación visual directa entre planes siguiendo la misma estructura, aplicando el principio de alineación para facilitar la comparación sin necesidad de interacción adicional (hover, tabs o acordeones).
+
+- Contact:
+ <div align= "center">
+  <align>
+    <img src="../assets/landing-spottrack/landing-contact.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+**Descripción del mock-up:**
+ 
+El Mock-up de la sección "Contacto" aplica el Design System sobre el formulario validado en el wireframe. El título "Contacto" se presenta en tipografía primaria Bold en blanco sobre fondo negro. El formulario se contiene en una tarjeta con fondo `#1a1a1a` y bordes redondeados en la versión wireframe web, consistente con el componente de tarjeta del Design System. Los campos de formulario (Nombre, Email, Mensaje) muestran sus etiquetas en tipografía secundaria SemiBold en blanco por encima de cada input, y los inputs tienen fondo oscuro (`#2a2a2a`) con borde sutil y placeholder en gris medio.
+ 
+El botón "Enviar" adopta el fondo gris claro en el estado inicial (no activo, sin datos ingresados), siguiendo el patrón de CTA deshabilitado que se activa al completar los campos. El footer "© 2026 SpotTrack. Todos los derechos reservados." cierra la página en tipografía secundaria Regular en gris sutil sobre fondo ligeramente más oscuro.
+ 
+En la versión mobile (landing-contact.png), el formulario ocupa el ancho completo de la pantalla con los campos de mayor área táctil, el textarea de Mensaje con mayor altura para facilitar la escritura en teclado virtual, y el botón "Enviar" de ancho completo respetando las directrices táctiles del Design System.
+ 
+**Principios y elementos de diseño aplicados:**
+ 
+- **Etiquetas permanentes sobre los campos:** A diferencia del wireframe que usa placeholders únicos, el mock-up web presenta etiquetas visibles en texto blanco SemiBold por encima de cada campo (Nombre, Email, Mensaje), garantizando que la etiqueta no desaparezca al comenzar a escribir — requisito de diseño inclusivo para usuarios con dificultades cognitivas o de memoria de trabajo.
+- **CTA de ancho completo:** El botón "Enviar" ocupa el ancho total del contenedor en ambas versiones (desktop y mobile), maximizando el área de interacción y aplicando las directrices de accesibilidad táctil del Design System.
+- **Footer como elemento de cierre de identidad:** El copyright en tipografía sutil cierra la landing page sin añadir ruido visual, preservando el foco del usuario en la acción de contacto. El contraste reducido (gris sobre gris oscuro) aplica el principio de jerarquía visual: el footer es información de soporte, no contenido primario.
+- **Diseño inclusivo — campo Mensaje con área amplia:** El textarea con altura generosa facilita la escritura de mensajes largos sin necesidad de scroll interno del campo, reduciendo la fricción para usuarios con motricidad fina reducida o que usen teclado virtual en dispositivos móviles.
+- **Arquitectura de información — posición de cierre:** La sección Contacto como último elemento antes del footer cierra el flujo narrativo descendente de la Landing Page (propuesta de valor → funciones → precios → acción de contacto), cumpliendo con la jerarquía establecida en el Organization System y el modelo de conversión progresiva definido para la Landing Page Comercial.
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
