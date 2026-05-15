@@ -265,9 +265,11 @@ URL de Landing Page Desplegada: https://spottrack.github.io/SpotTrack-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
+A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de webbapp y website:
 
-<img src="../assets/evidence-insights.png" alt="bounded" width="500"/>
+<img src="../assets/evidence-insights-webapp.png" alt="bounded" width="500"/>
+
+<img src="../assets/evidence-insights-website.png" alt="bounded" width="500"/>
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
