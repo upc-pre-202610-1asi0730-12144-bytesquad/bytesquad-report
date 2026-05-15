@@ -378,6 +378,7 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US04: Como administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio.
 
+
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow1_web.png" alt="wireflow" width="500"/>
@@ -414,6 +415,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US07: Como usuario, quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow7.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow7_web.png" alt="wireflow" width="500"/>
@@ -426,6 +435,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US08: Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow8.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow8_web.png" alt="wireflow" width="500"/>
@@ -438,6 +455,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US09: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow9.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow9_web.png" alt="wireflow" width="500"/>
@@ -450,6 +475,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US10: Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow10.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow10_web.png" alt="wireflow" width="500"/>
@@ -463,6 +496,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow11.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow11_web.png" alt="wireflow" width="500"/>
@@ -475,6 +516,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US12: Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow12.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow12_web.png" alt="wireflow" width="500"/>
@@ -487,6 +536,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US13: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow13.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow13_web.png" alt="wireflow" width="500"/>
@@ -499,6 +556,14 @@ Us...:
 <strong>User story asociada:</strong> 
 <br> US14: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
 
+- mobile
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireflow/wireflow14.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- web 
 <div align= "center">
   <align>
     <img src="../assets/wireflow/wireflow14_web.png" alt="wireflow" width="500"/>
