@@ -492,27 +492,257 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
 - **Diseño inclusivo — Mantenimiento como estado explícito:** El badge "Mantenimiento" en algunas tarjetas del drawer es visible estructuralmente en el wireframe, cumpliendo con el criterio de aceptación US14 escenario 2 que requiere excluir equipos con ticket técnico abierto y comunicarlo explícitamente al usuario.
 - **Bottom Navigation Bar:** La barra inferior está activa en la pestaña "Rutinas" en todos los wireframes de esta historia, manteniendo la orientación del usuario dentro de la aplicación y validando el estado activo de navegación desde la etapa de estructura.
  
+13. <strong>Wireframe 13:</strong> Sistema de reserva exprés en horas pico
 
-Us...:
-![US20 Exportación de analíticas de uso](../assets/wireframes/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+<strong>User story asociada:</strong> 
+<br> US16: Como cliente frecuente, quiero separar virtualmente una máquina libre por 10 minutos durante horas pico, para asegurar su uso mientras me dirijo a ella.
 
-![US21 Monitoreo de estado de hardware Edge IoT](../assets/wireframes/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe13_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US22 Alerta predictiva de mantenimiento](../assets/wireframes/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe13.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US23 Despacho automatizado de tickets técnicos](../assets/wireframes/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+  14. <strong>Wireframe 14:</strong> Acumulación automática de horas de uso
 
-![US24 Notificación de restablecimiento a los usuarios](../assets/wireframes/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+<strong>User story asociada:</strong> 
+<br> US17: Como administrador, quiero ver gráficos con la sumatoria de minutos reales de uso de cada máquina, para comprender la demanda real sin tener que vigilar el local.
 
-![US25 Calendario inteligente de bloqueos de reserva](../assets/wireframes/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe14_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US26 Gestión de activos físicos y altas](../assets/wireframes/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe14.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US27 Estadísticas de reubicación multisede](../assets/wireframes/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png)
+  15. <strong>Wireframe 15:</strong> Identificación de equipos subutilizados
 
-![US29 Calculadora de impacto financiero por inactividad](../assets/wireframes/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+<strong>User story asociada:</strong> 
+<br> US18: Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
 
-![US30 Analítica predictiva de compras e inversión](../assets/wireframes/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe18_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe18.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  16. <strong>Wireframe 16:</strong> Visualización de picos de estrés del local
+
+<strong>User story asociada:</strong> 
+<br> US19: Como dueño del negocio, quiero ver gráficos que destaquen las horas donde el aforo de máquinas supera el 90%, para identificar cuellos de botella diarios.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe19_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe19.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  17. <strong>Wireframe 17:</strong> Exportación de analíticas de uso
+
+<strong>User story asociada:</strong> 
+<br> US20: Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe20_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe20.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  18. <strong>Wireframe 18:</strong> Monitoreo de estado de hardware Edge IoT
+
+<strong>User story asociada:</strong> 
+<br> US21: Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe21_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe21.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  19. <strong>Wireframe 19:</strong> Alerta predictiva de mantenimiento
+
+<strong>User story asociada:</strong> 
+<br> US22: Como gerente de operaciones, quiero recibir alertas automáticas cuando un equipo supere sus horas seguras de uso, para realizar mantenimientos preventivos antes de que fallen.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe22_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe22.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  20. <strong>Wireframe 20:</strong> Despacho automatizado de tickets técnicos
+
+<strong>User story asociada:</strong> 
+<br> US23: Como gerente de operaciones, quiero que el sistema convierta una alerta en un ticket técnico y notifique al soporte, para agilizar la reparación.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe23_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe23.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  21. <strong>Wireframe 21:</strong> Notificación de restablecimiento a los usuarios
+
+<strong>User story asociada:</strong> 
+<br> US24: Como administrador, quiero que el sistema notifique a los clientes cuando un equipo reportado es reparado, para mejorar su percepción del servicio.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe24_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe24.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  22. <strong>Wireframe 22:</strong> Calendario inteligente de bloqueos por mantenimiento
+
+<strong>User story asociada:</strong> 
+<br> US25: Como gerente de operaciones, quiero que el sistema agende los mantenimientos preventivos exclusivamente en horarios valle, para no afectar la disponibilidad en horas de alta demanda.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe25_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe25.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  23. <strong>Wireframe 23:</strong> Gestión de activos físicos y altas
+
+<strong>User story asociada:</strong> 
+<br> US26: Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe26_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe26.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  24. <strong>Wireframe 24:</strong> Estadísticas de reubicación multisede
+
+<strong>User story asociada:</strong> 
+<br> US27: Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor.
+
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe27_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe27.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  25. <strong>Wireframe 25:</strong> 	Gestión automatizada de stock de repuestos
+
+<strong>User story asociada:</strong> 
+<br> US28: Como administrador, quiero controlar el inventario de piezas clave y recibir alertas de reabastecimiento, para que los técnicos siempre tengan insumos disponibles.
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe28_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe28.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  26. <strong>Wireframe 26:</strong> 	Calculadora de impacto financiero por inactividad
+
+<strong>User story asociada:</strong> 
+<br> US29: Como dueño del negocio, quiero cuantificar la pérdida monetaria estimada por cada hora de inactividad de una máquina, para entender el impacto real de las averías.
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe29_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe29.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+  27. <strong>Wireframe 27:</strong> 		Analítica predictiva de compras e inversión
+
+<strong>User story asociada:</strong> 
+<br> US30: Como dueño del negocio, quiero reportes basados en la tasa de uso para proyectar inversiones y simular el ROI, para tomar decisiones sobre qué equipos adquirir o descartar.
+- web
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe30_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+- mobile
+  <div align= "center">
+  <align>
+    <img src="../assets/wireframe30.png" alt="wireflow" width="500"/>
+  </div> <br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
