@@ -191,6 +191,49 @@ En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del
 | SpotTrack-website | develop |e69be6fe7671b3e2e832f7f230ffe8a58dee1eca|feature:add footer and contact |feature:add footer and contact| 26/042026        |
 | SpotTrack-website | develop |f34a15c79dd45c8f97c8bd460e58be220d23fe4b|landing:add login              |landing:add login             | 26/042026        |
 
+
+
+
+| Repository       | Branch  | Commit Id                                | Commit Message                                                      | Commit Message Body                                                   | Committed on (Date) |
+|------------------|----------|------------------------------------------|---------------------------------------------------------------------|------------------------------------------------------------------------|---------------------|
+| spottrack-webapp | develop  |                                          | docs:analytics section added                                        | docs:analytics section added                                          | 2026-05-14 |
+| spottrack-webapp | develop  | 54e1fb69ab26386f1d811d3311e5252c6258073f | Merge pull request #12 from SpotTrack/feature/maintenance-section   | docs: maintenance section added                                       | 2026-05-14 |
+| spottrack-webapp | develop  | b85561c985b4ece85457bf62e362e0fb398e9cb1 | Merge pull request #14 from SpotTrack/feature/configuration         | add feature/configuration                                             | 2026-05-14 |
+| spottrack-webapp | develop  | c77f3b370222b4324be01c45b29a071e389fc52c | add feature/configuration                                           | add feature/configuration                                             | 2026-05-14 |
+| spottrack-webapp | develop  | 1144f26cb339b4aff1d1bd89126e7d54df66de41 | docs: maintenance section added                                     | docs: maintenance section added                                       | 2026-05-14 |
+| spottrack-webapp | develop  | dc2ab8560a6b4cde84196a355dd04c287ebb46ba | Merge pull request #10 from SpotTrack/feature/client-home-view      | feat: add-client-home                                                 | 2026-05-14 |
+| spottrack-webapp | develop  | 325d312445e74d15b19e753b4427b2a8f84340fc | Merge pull request #11 from SpotTrack/feature/profiles              | add feature/profiles                                                  | 2026-05-14 |
+| spottrack-webapp | develop  | 1aafc318356a05a906e69f275c27b55128d01316 | add feature/profiles                                                | add feature/profiles                                                  | 2026-05-14 |
+| spottrack-webapp | develop  | 521931e4dca607548ad93fb7f23eece976b4c2a5 | Merge pull request #9 from SpotTrack/feature/iot-section            | docs: iot section added                                               | 2026-05-14 |
+| spottrack-webapp | develop  | a2788e5f9c5dd1fa9ffd0e9637ead421c5273a4b | docs: iot section added                                             | docs: iot section added                                               | 2026-05-14 |
+| spottrack-webapp | develop  | 7b7e32b1268e894c73bbd2b7ba9ec8b80d0ea5ee | Merge pull request #8 from SpotTrack/feature/alert                  | add feature/alerts                                                    | 2026-05-14 |
+| spottrack-webapp | develop  | 95c5a755a5f62bdb39dcacf45357e55807c5c6fd | add feature/alerts                                                  | add feature/alerts                                                    | 2026-05-14 |
+| spottrack-webapp | develop  | 6dcabecc9c6a92aa728a906d29a03edc60c73d0b | feat: add-client-home                                               | feat: add-client-home                                                 | 2026-05-14 |
+| spottrack-webapp | develop  | 3bdbb9857f2fb2f0f3447de3c955081f1abe1632 | Merge pull request #7 from SpotTrack/feature/more-sections          | Feature/more sections                                                 | 2026-05-14 |
+| spottrack-webapp | develop  | 949a5e1a5b4788e757619b2cfacce86eaceec965 | new section map merge corebounded context with reservation          | new section map merge corebounded context with reservation            | 2026-05-14 |
+| spottrack-webapp | develop  | 63a698c060d745015c7535cb7286132bcc46f722 | new section reservation trying to attach like a core bounded context| new section reservation trying to attach like a core bounded context  | 2026-05-14 |
+| spottrack-webapp | develop  | e7222b61c8af24eb05337e9e413eb2a130537766 | routines section propertly working                                  | routines section propertly working                                    | 2026-05-14 |
+| spottrack-webapp | develop  | 38a368a2d5912034b23e4a72a09e192a5552482b | Merge pull request #6 from SpotTrack/feature/add-auth               | feat:add-auth                                                         | 2026-05-14 |
+| spottrack-webapp | develop  | 997f18d91df91d13546552b06bc793257aca5e52 | feat:add-auth                                                       | feat:add-auth                                                         | 2026-05-14 |
+| spottrack-webapp | develop  | 29fc2a1725ee5373997d41775339140a0b11092b | Merge pull request #4 from SpotTrack/feature/add-dashboard          | feat:add-dashboard                                                    | 2026-05-14 |
+| spottrack-webapp | develop  | aba5fe314604be92b2540c178140b8014271a090 | feat:add-dashboard                                                  | feat:add-dashboard                                                    | 2026-05-14 |
+| spottrack-webapp | develop  | ca81506115fdf1c7fdc1b55ad44cbaf59635dbbf | Merge pull request #3 from SpotTrack/feature/add-app-functions      | feat:add-app-functions                                                | 2026-05-14 |
+| spottrack-webapp | develop  | 91134babc32aaffefd03462df6a0cb54956712a1 | feat:add-app-functions                                              | feat:add-app-functions                                                | 2026-05-14 |
+| spottrack-webapp | develop  | 08007a915d7d8755f223d897fc21317b35a0b7ed | Merge pull request #2 from SpotTrack/feature/initialfiles           | initial files                                                         | 2026-05-14 |
+| spottrack-webapp | develop  | de9b00651a8528fd3c4872bf7e2db2af6f712165 | initial files                                                       | initial files                                                         | 2026-05-14 |
+| spottrack-webapp | develop  | 3f919b629f81d00225b8e15aabea5909221dee1e | Initial commit                                                      | Initial commit                                                        | 2026-04-08 |
+
+
+
+| Repository         | Branch  | Commit Id                                | Commit Message                                                              | Commit Message Body                                             | Committed on (Date) |
+|--------------------|----------|------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------|---------------------|
+| spottrack-platform | develop  | 2abbd801f9850abe110ad5c00381004527bddf0a | Add or update the Azure App Service build and deployment workflow config    | Add or update the Azure App Service build and deployment workflow config | 2026-05-14 |
+| spottrack-platform | develop  | 6b64d79a3da2bdbb7f07630cd71aa4f708ad5a42 | Merge pull request #3 from SpotTrack/develop                                | Develop                                                         | 2026-05-14 |
+| spottrack-platform | develop  | 1d0f6cd5b0ddfb6b186466a24239fa87c2356fe6 | Merge pull request #2 from SpotTrack/fix/remove-unnecessary-files           | Delete .idea directory                                          | 2026-05-14 |
+| spottrack-platform | develop  | 499433598782db8affb69b097dca9c6126ecfe8d | Delete .idea directory                                                      | Delete .idea directory                                          | 2026-05-14 |
+| spottrack-platform | develop  | 8f75d9cb66eeb66a466d9fc95e99eda6db24b49c | Merge pull request #1 from SpotTrack/feature/mockapi                        | initial changes to mockapi base                                | 2026-05-14 |
+| spottrack-platform | develop  | f805fa1b4cb596b48a5dfe3de54d6315be5a3ddd | initial changes to mockapi base                                             | initial changes to mockapi base                                | 2026-05-14 |
+| spottrack-platform | develop  | 81f28b4055001d75d2a7dda1c50ee9db70108efa | Initial commit                                                              | Initial commit                                                  | 2026-04-08 |
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
 En esta entrega, el equipo de desarrolladores de SpotTrack ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
