@@ -228,7 +228,7 @@ Hipótesis 1:
 
 **Sabremos que** hemos tenido éxito
 
-**Cuando veamos** que el tiempo de inactividad de las máquinas se reduce en un 40%.
+**Cuando veamos** que el tiempo de inactividad de las máquinas se reduce en un 40% en un lapso de un año.
 
 Hipótesis 2:
 
@@ -236,7 +236,7 @@ Hipótesis 2:
 
 **Sabremos que** nuestra solución es acertada
 
-**Cuando veamos** que la retención de usuarios del gimnasio se incrementa en un 15%.
+**Cuando veamos** que la retención de usuarios del gimnasio se incrementa en un 15% en un promedio de tres meses.
 
 #### 1.2.2.4. Lean UX Canvas.
 
