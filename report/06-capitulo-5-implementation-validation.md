@@ -559,7 +559,7 @@ Landing Page Commits
 
 Se logró desplegar una primera versión de la aplicación web, se reailzaron correcciones en los diagramas C4, diagramas de clase, diagramas de base de datos, calidad de imágenes de figma. Finalmente, se desplegó el landing page completamente funcional con call-to-action.
 
-Execution evidence video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411310_upc_edu_pe/IQAyZJfDltN7RJ8xrkWcS9TAAd0yi2YQX-Dd3K_c-9unRaM?e=LvnaDZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Execution evidence video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQBQX52QrrC0Q5BvU9mkmvuKAdN-F57suH5kYTvjIZEDCQA?e=cdBXo1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -602,9 +602,9 @@ Para asegurar la transparencia y el seguimiento de los cambios, se detallan los 
 
 URL Repositorio Mock API: https://github.com/SpotTrack-1ASI0729-2610-11881/SpotTrack-Mock-Api
 
-URL Repositorio Frontend: https://github.com/SpotTrack-1ASI0729-2610-11881/SpotTrack-Frontend-Web-Applications
+URL Repositorio Frontend: https://witty-tree-0f4a0570f.7.azurestaticapps.net/
 
-URL Repositorio Landing Page: https://github.com/SpotTrack-1ASI0729-2610-11881/SpotTrack-Landing-Page.git
+URL Repositorio Landing Page: https://spottrack.github.io/spottrack-website/
 
 
 #### 5.2.2.10. Software Deployment Evidence for Sprint Review
@@ -613,7 +613,7 @@ Como parte de la tarea **CORR-05**, la Landing Page de SpotTrack fue desplegada 
 
 | Producto | Entorno | URL de Producción |
 | :--- | :--- | :--- |
-| SpotTrack Landing Page | GitHub Pages (producción) | https://spottrack-1asi0729-2610-11881.github.io/SpotTrack-Landing-Page/ |
+| SpotTrack Landing Page | GitHub Pages (producción) | https://spottrack.github.io/spottrack-website/ |
 
 La siguiente figura muestra la Landing Page de SpotTrack correctamente desplegada y funcional en el entorno de producción de GitHub Pages:
 
