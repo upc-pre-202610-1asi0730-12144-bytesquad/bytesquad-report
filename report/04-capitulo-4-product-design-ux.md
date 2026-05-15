@@ -164,6 +164,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
+
 1. <strong>Wireframe 1:</strong> Selección de planes de suscripción SaaS
 
 <strong>User story asociada:</strong> 
