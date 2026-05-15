@@ -1,4 +1,4 @@
-# Conclusiones y Recomendaciones del Proyecto SpotTrack
+# Conclusiones y Recomendaciones
 
 ## Conclusiones
 
