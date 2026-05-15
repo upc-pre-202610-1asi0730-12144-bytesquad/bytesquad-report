@@ -759,6 +759,13 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
     <img src="../assets/wireflow/wireflow4_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción de cada paso:**
+ 
+1. **Hero Section:** El usuario visualiza la propuesta de valor principal de SpotTrack con los CTAs "Comenzar Ahora →" y "Ver Demo". Al hacer scroll o seleccionar "Precios" en el navbar, el sistema desplaza la vista hacia la sección de planes.
+2. **Sección "Planes y Precios":** Se muestran las tres tarjetas (Basic $69/mes, Mid $109/mes, Platinum $189/mes) con sus características y CTAs diferenciados. Al presionar "Demo Gratis" en el plan Basic o "Comenzar Ahora →" en el plan Mid, el sistema redirige al formulario de creación de cuenta.
+3. **Formulario "Crear Cuenta" (vacío → con datos):** El usuario completa los campos: Nombre Completo, Email, Teléfono, Tipo de Usuario (dropdown "Administrador de Gimnasio"), Contraseña y Confirmar Contraseña. El wireflow muestra la transición del estado vacío al estado con datos ingresados.
+4. **Transición al Login:** Al presionar "Crear Cuenta", si los datos son válidos, el sistema redirige automáticamente (flecha diagonal en el wireflow) a la pantalla de "Iniciar Sesión", cerrando el flujo de onboarding.
+
 2. <strong>Wireflow 2:</strong> Envío de formulario de Contacto
 
 - User goal: Como visitante, quiero poder llenar un formulario con mis datos y mensaje. 
@@ -771,6 +778,14 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
     <img src="../assets/wireflow/wireflow5_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+**Descripción de cada paso:**
+ 
+1. **Formulario vacío:** La página muestra los campos Nombre, Email y Mensaje con sus placeholders orientativos y el botón "Enviar" inactivo estructuralmente. El footer con copyright es visible al final de la página.
+2. **Formulario con datos válidos:** El wireflow muestra el estado completado con datos reales (nombre: "carla gallardo", email: "carllaaaa28@hotmail.com", mensaje descriptivo del problema con las máquinas). El campo Mensaje tiene el borde activo, indicando que es el campo en foco.
+3. **Estado de error de validación:** Al introducir un email inválido, el sistema muestra el mensaje "Dirección de email inválida" debajo del campo Email, impidiendo el envío. El campo Nombre mantiene el valor ingresado ("carla gallardo") para no obligar al usuario a reingresar toda la información.
+**Principio de diseño aplicado:** El wireflow evidencia el principio de **prevención de errores y retroalimentación proactiva**: el sistema valida el email antes del envío, no después, mostrando el error de forma localizada en el campo afectado, reduciendo la frustración del usuario. La persistencia de los datos válidos en el formulario (nombre conservado) aplica el principio de eficiencia de uso.
+ 
+
 3. <strong>Wireflow 3:</strong> Acceso al portal desde la navegación
 
 - User goal: Como visitante o cliente potencial, quiero tener botones de Login y Demo.
@@ -782,6 +797,13 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
   <align>
     <img src="../assets/wireflow/wireflow6_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción de cada paso:**
+ 
+1. **Navbar persistente:** En todos los wireflows de la Landing Page (Hero Section, Planes y Precios, Contacto), el navbar superior muestra de forma consistente los controles de acceso "Iniciar Sesión" (enlace de texto) y "Demo Gratis" (botón con fondo diferenciado). Su posición en el extremo derecho del navbar sigue la convención de navegación web establecida.
+2. **Redirección a "Iniciar Sesión":** Al hacer clic en "Iniciar Sesión", el sistema redirige directamente al formulario de autenticación de la plataforma, sin pasos intermedios.
+3. **Redirección a "Crear Cuenta":** Al hacer clic en "Demo Gratis", el sistema redirige al formulario de registro, iniciando el flujo de onboarding de US04.
+**Principio de arquitectura de información aplicado:** El Sticky Top Navbar con los dos CTAs de acceso cumple con el Navigation System definido: navegación global superior fija con CTA persistente, eliminando la necesidad de que el usuario regrese al inicio de la página para encontrar el punto de acceso a la plataforma.
 
 4. <strong>Wireflow 4:</strong> Inicio de sesión con validación JWT
 
@@ -803,6 +825,12 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
     <img src="../assets/wireflow/wireflow7_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción de cada paso:**
+ 
+1. **Formulario vacío:** La pantalla muestra el logo SpotTrack, el título "Iniciar Sesión", los campos Email y Contraseña (con placeholder "tu@email.com" y puntos de contraseña), el CTA principal "Iniciar Sesión", el enlace "¿No tienes cuenta? Regístrate aquí" y la sección de demo con credenciales de prueba.
+2. **Formulario con credenciales de cliente:** El wireflow muestra el estado del formulario con "cliente@email.com" ingresado en el campo Email y la contraseña enmascarada en el campo Contraseña. Este estado ilustra el momento previo al envío.
+3. **Redirección por rol:** Al presionar "Iniciar Sesión", el sistema valida las credenciales y genera el token JWT. La flecha del wireflow bifurca el flujo: si el rol es Cliente, redirige al Mapa de Disponibilidad (pantalla central de la App); si el rol es Admin, redirige al Dashboard Gerencial. En el wireflow web se aprecia el panel de "Navegación Demo" que permite al evaluador saltar entre las secciones del prototipo.
+
   5. <strong>Wireflow 5:</strong> Gestión de preferencias y perfil
 
 - User goal: Como usuario, quiero actualizar mi información personal y cambiar el idioma
@@ -822,6 +850,15 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
   <align>
     <img src="../assets/wireflow/wireflow8_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+**Descripción de cada paso:**
+ 
+1. **Punto de entrada desde el Dashboard/Mapa:** La flecha del wireflow parte desde el Dashboard Administrativo (con gráficos de "Horas Pico de Capacidad", "Uso de Máquinas" y "Equipos Subutilizados" visibles en la versión Admin) hacia la pantalla de perfil del cliente, conectando ambos contextos de uso.
+2. **Pantalla "Mi Perfil" - estado inicial:** Muestra todos los bloques de información: datos del usuario (Juan Pérez, 245 puntos acumulados, badge "Cliente"), Plan Basic con CTA "Mejorar Plan", Historial de Puntos (+25, +15, +20 pts), Información Personal (nombre, email, teléfono), Preferencias de Idioma, Notificaciones y Seguridad.
+3. **Estado con datos modificados:** El wireflow muestra el momento en que el usuario ha editado algún campo o cambiado el selector de idioma. El botón "Guardar Cambios" al pie de la pantalla permanece visible y es el CTA que dispara la acción.
+4. **Confirmación de guardado:** Tras presionar "Guardar Cambios", aparece el banner de confirmación en la parte inferior de la pantalla. En el wireflow web se aprecia el banner "¡Cambios guardados!" como un toast que no ocupa la pantalla completa.
+5. **Cambio de idioma:** Un estado adicional del wireflow muestra el selector de idioma con "Inglés" activo, ilustrando el escenario 2 de los criterios de aceptación.
+
 
  6. <strong>Wireflow 6:</strong> Visualización del mapa de calor en VIVO
 
@@ -843,6 +880,12 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
     <img src="../assets/wireflow/wireflow9_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+  **Descripción de cada paso:**
+ 
+1. **Login a Mapa:** La flecha del wireflow conecta directamente el formulario de login con el estado completo del Mapa de Disponibilidad, representando la redirección automática post-autenticación para usuarios con rol Cliente.
+2. **Mapa de Disponibilidad:** La pantalla central muestra el contenedor del mapa con 8 íconos de máquinas distribuidos en una cuadrícula 3×3 (con dos posiciones vacías en la tercera fila). Los íconos tienen diferentes tonos de gris en el wireflow para representar los tres estados: claro (Libre), medio con badge de tiempo (Reservado - "09:59"), oscuro (Ocupado). Todos los íconos incluyen el glifo de pesas de SpotTrack.
+3. **Elementos persistentes:** El selector de sede "Gimnasio Centro" con dropdown, los filtros de categoría ("Todos" activo, "Fuerza", "Cardio") y la bottom navigation bar son visibles y accesibles desde este estado sin interacción adicional.
+
  7. <strong>Wireflow 7:</strong> Filtrado del inventario por tipo de máquina
 
 - User goal: Como cliente frecuente, quiero seleccionar etiquetas en el mapa.
@@ -862,6 +905,13 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
   <align>
     <img src="../assets/wireflow/wireflow10_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción de cada paso:**
+ 
+1. **Estado con filtro "Fuerza":** El wireflow muestra el botón "Fuerza" con relleno de fondo gris más oscuro que los otros botones, diferenciándolo visualmente como estado activo. El botón "Limpiar" aparece a la derecha del grupo de filtros.
+2. **Transición a filtro "Cardio":** La flecha horizontal del wireflow conecta el estado "Fuerza" activo con el estado "Cardio" activo, ilustrando que el usuario puede cambiar de filtro con un solo clic sin pasar por el estado "Todos" primero.
+3. **Estado con filtro "Cardio":** El botón "Cardio" adopta el relleno activo y el mapa actualiza la visibilidad de los íconos de máquinas, mostrando únicamente los equipos de la categoría seleccionada. La estructura general de la pantalla (título, selector de sede, leyenda, bottom nav) permanece idéntica.
+4. **Flujo de web (desktop):** El wireflow web muestra el mismo flujo pero con el mapa en layout de escritorio, donde los íconos de máquinas están más espaciados y etiquetados con el nombre de cada equipo (Cinta 1, Prensa, Polea Alta, etc.).
 
 
  8. <strong>Wireflow 8:</strong> Cambio de sucursal para revisión de aforo
@@ -884,6 +934,14 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
     <img src="../assets/wireflow/wireflow11_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+ 
+**Descripción de cada paso:**
+ 
+1. **Estado inicial — "Gimnasio Centro":** El wireflow muestra el mapa con el selector en "Gimnasio Centro" como sede predeterminada del usuario. En la versión web de escritorio, el dropdown desplegado muestra las tres opciones disponibles: Gimnasio Centro, Gimnasio Norte, Gimnasio Sur.
+2. **Transición → "Gimnasio Norte":** La flecha horizontal del wireflow conecta la vista de Gimnasio Centro con la vista de Gimnasio Norte. La estructura de la pantalla permanece idéntica; únicamente cambia el nombre en el selector y la distribución de máquinas en el mapa.
+3. **Transición → "Gimnasio Sur":** Una segunda flecha del wireflow conecta la vista de Gimnasio Norte con la de Gimnasio Sur, representando que el usuario puede navegar entre múltiples sedes de forma consecutiva sin volver a una pantalla de menú.
+4. **Consistencia del mapa entre sedes:** Los tres estados del wireflow evidencian que la estructura de la pantalla (título, filtros, contenedor del mapa, leyenda, bottom nav) es idéntica entre sedes, validando el principio de consistencia del Design System.
+
    9. <strong>Wireflow 9:</strong> Notificaciones push de resolución de disponibilidad
 
 - User goal: Como cliente frecuente, quiero activar una campana de aviso.
@@ -903,6 +961,14 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
   <align>
     <img src="../assets/wireflow/wireflow12_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+**Descripción de cada paso:**
+ 
+1. **Login a Mapa:** El wireflow replica los dos primeros pasos del flujo de US07/US09, partiendo del formulario vacío, pasando por el estado con credenciales ingresadas, y llegando al Mapa de Disponibilidad mediante la flecha de redirección post-autenticación.
+2. **Mapa en estado normal:** El usuario visualiza el mapa con sus 8 máquinas y sus estados de disponibilidad. En este punto, activa la campana de aviso en una máquina que está en estado Ocupado (interacción no representada como pantalla separada en el wireflow al ser un estado transitorio).
+3. **Notificación de estado:** La última pantalla del wireflow muestra el Mapa de Disponibilidad con el banner toast en la parte inferior. En el wireflow presentado, el banner muestra el texto "Máquina ocupada nuevamente" con el ícono de cierre, representando el escenario 2 de los criterios de aceptación: el sistema envió la notificación de disponibilidad, pero otro usuario ocupó la máquina antes de que el cliente llegara, por lo que el sistema cancela automáticamente la alerta y notifica el nuevo estado.
+4. **Actualización del mapa:** Simultáneamente con el banner, el mapa refleja el cambio de estado de la máquina, manteniendo la coherencia del sistema en todos los canales de feedback.
+
 
    10. <strong>Wireflow 10:</strong> Sistema de recompensas de Crowdsourcing
 
@@ -924,6 +990,13 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
     <img src="../assets/wireflow/wireflow13_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
+**Descripción de cada paso:**
+ 
+1. **Mapa de Disponibilidad — punto de entrada:** El usuario se encuentra en la pantalla principal del mapa con todas las máquinas visibles. Al tocar cualquier ícono de máquina, el sistema despliega el modal contextual sin cambiar de pantalla, manteniendo el mapa como fondo.
+2. **Modal contextual "Polea Alta":** El wireflow muestra el modal emergente superpuesto sobre el mapa. El modal presenta el nombre específico de la máquina seleccionada ("Polea Alta") y su estado actual ("Libre") como información de contexto. Las dos acciones disponibles están jerarquizadas visualmente: "Reservar 15 minutos" adopta el estilo de CTA primario (relleno claro) y "Reportar como Ocupado" el estilo secundario (contorno), comunicando la prioridad de cada acción sin ambigüedad. El botón de cierre × en la esquina superior derecha garantiza que el usuario pueda cancelar sin consecuencias.
+3. **Pantalla de confirmación "+25 puntos":** Tras presionar "Reportar como Ocupado", el wireflow muestra la pantalla de confirmación gamificada: el mapa de fondo se oscurece parcialmente con una superposición, y sobre ella aparece una tarjeta centrada con el mensaje "Gracias por tu apoyo" y la recompensa "+25 puntos". Este estado es transitorio: tras unos segundos o al tocar la pantalla, el sistema regresa al mapa actualizado con el nuevo estado de la máquina.
+4. **Versión web (desktop):** El wireflow de escritorio replica exactamente el mismo flujo de tres estados, adaptando el modal y la pantalla de confirmación al layout de mayor ancho, donde el mapa ocupa toda la pantalla y el modal aparece centrado con dimensiones proporcionales.
+
    11. <strong>Wireflow 11:</strong> Motor de sugerencia de rutinas alternativas
 
 - User goal: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos.
@@ -943,6 +1016,14 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
   <align>
     <img src="../assets/wireflow/wireflow14_web.png" alt="wireflow" width="500"/>
   </div> <br>
+
+  **Descripción de cada paso:**
+ 
+1. **Mapa de Disponibilidad — punto de entrada:** El wireflow parte de la pantalla principal del mapa. La bottom navigation bar con "Rutinas" como destino es el punto de conexión entre el contexto de disponibilidad y la sección de ejercicios.
+2. **Sección "Rutinas y Ejercicios":** Al seleccionar "Rutinas" en la barra de navegación inferior, el wireflow muestra la sección con el buscador global en la parte superior, los filtros de grupo muscular como etiquetas horizontales desplazables y el listado de ejercicios de la rutina del usuario. Cada tarjeta integra la disponibilidad en tiempo real de la máquina asociada mediante un badge de estado, sin necesidad de volver al mapa.
+3. **Tarjeta con máquina ocupada — alternativas expandidas:** Cuando una máquina de la rutina está en estado "Ocupado" (ej. "Rack Sentadilla #2"), la tarjeta del ejercicio afectado expande automáticamente la subsección "Alternativas disponibles:" con el listado de equipos sustitutos en estado Libre. El wireflow muestra esta expansión en el mismo nivel de la tarjeta, sin abrir una pantalla nueva. Al final de la subsección, el CTA "Ver en el Mapa" de ancho completo conecta el flujo de rutinas de vuelta al mapa, señalando la ubicación exacta de la alternativa seleccionada.
+4. **Drawer "Rutinas alternativas":** El wireflow muestra el panel lateral que se despliega desde el borde derecho de la pantalla al solicitar una búsqueda más amplia de alternativas. El drawer contiene el mismo buscador y sistema de filtros que el listado principal, pero presenta únicamente ejercicios alternativos. Las tarjetas muestran el estado de cada alternativa: "Disponible" para equipos libres y "Mantenimiento" para equipos con ticket técnico abierto, cumpliendo el criterio de aceptación del escenario 2 (exclusión de máquinas averiadas). El botón de cierre × en la esquina superior derecha permite descartar el drawer sin perder el estado del listado principal.
+5. **Versión web (desktop):** El wireflow de escritorio muestra las tres vistas simultáneamente: el mapa reducido a la izquierda (para mantener el contexto de disponibilidad), el listado de rutinas en el centro y el drawer de alternativas como panel superpuesto a la derecha. Esta disposición aprovecha el mayor ancho de pantalla del desktop para mantener el contexto del mapa visible durante toda la interacción de búsqueda de alternativas.
 
 ### 4.4.2. Web Applications Mock-ups.
 
