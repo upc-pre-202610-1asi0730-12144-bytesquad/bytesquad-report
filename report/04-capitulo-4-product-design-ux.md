@@ -164,39 +164,141 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
-![US07 Inicio de sesión con validación JWT](../assets/wireframes/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png){width=600px}
 
-![US08 Gestión de preferencias y perfil](../assets/wireframes/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png){width=600px}
+1. <strong>Wireframe 1:</strong> Selección de planes de suscripción SaaS
 
-![US09 Y US10 MAPA DE CALOR Y FILTROS](../assets/wireframes/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png){width=600px}
+<strong>User story asociada:</strong> 
+<br> US04: Como administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio.
 
-![US11 Cambio de sucursal para revisión de aforo](../assets/wireframes/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png){width=600px}
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe4_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US12 Notificaciones push de resolución de disponibilidad](../assets/wireframes/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png){width=600px}
+2. <strong>Wireframe 2:</strong> Envío de formulario de Contacto
 
-![US13 Reporte de máquina](../assets/wireframes/US13_%20Reporte%20de%20máquina.png){width=600px}
+<strong>User story asociada:</strong> 
+<br> US05: Como visitante, quiero poder llenar un formulario con mis datos y mensaje, para solicitar información al equipo de ventas de Spot Track.
 
-![US14 Motor de sugerencia de rutinas alternativas](../assets/wireframes/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png){width=600px}
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe5_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US20 Exportación de analíticas de uso](../assets/wireframes/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){width=600px}
 
-![US21 Monitoreo de estado de hardware Edge IoT](../assets/wireframes/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){width=600px}
+3. <strong>Wireframe 3:</strong> Acceso al portal desde la navegación
 
-![US22 Alerta predictiva de mantenimiento](../assets/wireframes/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){width=600px}
+<strong>User story asociada:</strong> 
+<br> US06: Como visitante o cliente potencial, quiero tener botones de Login y Demo a la vista, para ingresar a la plataforma de forma rápida desde la landing page.
 
-![US23 Despacho automatizado de tickets técnicos](../assets/wireframes/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){width=600px}
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe6_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US24 Notificación de restablecimiento a los usuarios](../assets/wireframes/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){width=600px}
+4. <strong>Wireframe 4:</strong> Inicio de sesión con validación JWT
 
-![US25 Calendario inteligente de bloqueos de reserva](../assets/wireframes/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){width=600px}
+<strong>User story asociada:</strong> 
+<br> US07: Como usuario, quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
 
-![US26 Gestión de activos físicos y altas](../assets/wireframes/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){width=600px}
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe7_web.png" alt="wireflow" width="500"/>
+  </div> <br>
 
-![US27 Estadísticas de reubicación multisede](../assets/wireframes/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png){width=600px}
+  5. <strong>Wireframe 5:</strong> Gestión de preferencias y perfil
 
-![US29 Calculadora de impacto financiero por inactividad](../assets/wireframes/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){width=600px}
+<strong>User story asociada:</strong> 
+<br> US08: Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
 
-![US30 Analítica predictiva de compras e inversión](../assets/wireframes/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){width=600px}
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe8_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+ 6. <strong>Wireframe 6:</strong> Visualización del mapa de calor en VIVO
+
+<strong>User story asociada:</strong> 
+<br> US09: Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe9_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+ 7. <strong>Wireframe 7:</strong> Filtrado del inventario por tipo de máquina
+
+<strong>User story asociada:</strong> 
+<br> US10: Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe10_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+
+ 8. <strong>Wireframe 8:</strong> Cambio de sucursal para revisión de aforo
+
+<strong>User story asociada:</strong> 
+<br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe11_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+
+   9. <strong>Wireframe 9:</strong> Notificaciones push de resolución de disponibilidad
+
+<strong>User story asociada:</strong> 
+<br> US12: Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe12_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+
+   10. <strong>Wireframe 10:</strong> Sistema de recompensas de Crowdsourcing
+
+<strong>User story asociada:</strong> 
+<br> US13: Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe13_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+   11. <strong>Wireframe 11:</strong> Motor de sugerencia de rutinas alternativas
+
+<strong>User story asociada:</strong> 
+<br> US14: Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
+
+<div align= "center">
+  <align>
+    <img src="../assets/wireframe/wireframe14_web.png" alt="wireflow" width="500"/>
+  </div> <br>
+
+Us...:
+![US20 Exportación de analíticas de uso](../assets/wireframes/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+
+![US21 Monitoreo de estado de hardware Edge IoT](../assets/wireframes/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+
+![US22 Alerta predictiva de mantenimiento](../assets/wireframes/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+
+![US23 Despacho automatizado de tickets técnicos](../assets/wireframes/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+
+![US24 Notificación de restablecimiento a los usuarios](../assets/wireframes/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+
+![US25 Calendario inteligente de bloqueos de reserva](../assets/wireframes/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+
+![US26 Gestión de activos físicos y altas](../assets/wireframes/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+
+![US27 Estadísticas de reubicación multisede](../assets/wireframes/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png)
+
+![US29 Calculadora de impacto financiero por inactividad](../assets/wireframes/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+
+![US30 Analítica predictiva de compras e inversión](../assets/wireframes/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
@@ -411,7 +513,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 <strong>User story asociada:</strong> 
 <br> US11: Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
 
-<<div align= "center">
+<div align= "center">
   <align>
     <img src="../assets/mockups/mockup11_web.png" alt="wireflow" width="500"/>
   </div> <br>
