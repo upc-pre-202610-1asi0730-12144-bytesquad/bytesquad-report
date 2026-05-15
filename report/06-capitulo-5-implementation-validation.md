@@ -625,7 +625,7 @@ Por parte de la aplicación web (Vue SPA), se utilizó un static web app de Azur
 ![](../assets/azure-evidence.png)
 ![](../assets/github-actions-webapp.png)
 
-Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
+Webapp URL: https://witty-tree-0f4a0570f.7.azurestaticapps.net
 
 #### 5.2.2.11. Team Collaboration Insights during Sprint
 
