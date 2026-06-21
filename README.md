@@ -42,6 +42,7 @@ U202410344 - Espinoza Orrego, Valentino Andre
 U202414970 - Gallardo Morales, Carla Alejandra
 
 U202419335 - Gamero Miranda, Lui Mathias
+
 ---
 
 
