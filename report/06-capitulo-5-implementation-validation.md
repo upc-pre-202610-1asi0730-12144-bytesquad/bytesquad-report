@@ -637,6 +637,142 @@ A continuación todas las estadisticas que nos proporciona Github, en su apartad
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
+
+
+Segmento 1 (Administradores de gimnasio y gerentes de Operaciones) 
+
+1. ¿Qué tan fluido te resultó el proceso de autenticación en la pantalla de Iniciar Sesión y qué fue lo primero que llamó tu atención al entrar al Panel Principal?
+2. Observando la gráfica de Uso de Máquinas en el Panel Principal, ¿te resulta evidente identificar su tiempo de uso de las máquinas del gimnasio?
+3. En la parte inferior del Panel Principal tienes la tabla de Equipos Infrautilizados. ¿Consideras que esta ubicación es la ideal para detectar rápidamente qué máquinas no están generando valor, o preferirías ver esto en otra sección?
+4. En la sección de Equipos, si tuvieras que añadir una nueva cinta de correr al sistema, ¿qué tan intuitivo te parece el flujo empezando por el botón + Registrar Equipo?
+5. En la sección de Analítica, enfocándonos en las tarjetas superiores, ¿cómo interpretas la métrica de Horas Totales de Uso frente al Tiempo Inactivo? ¿Te da una idea clara de la eficiencia de tu local?
+6. Bajando en esa misma sección de Analítica, encontrarás el panel de Recomendaciones de Reubicación (ej. mover de Sede Miraflores a Sede San Isidro). ¿La interfaz visual con las barras de progreso y el cálculo de "$/mes" extra te resulta convincente para tomar la decisión de trasladar una máquina?
+7. En la sección de Mantenimiento en el apartado de Centro de Mantenimiento, ¿el diseño de tarjetas separadas por columnas (Pendiente, En Progreso, Completado) te facilita visualizar el cuello de botella en las reparaciones técnicas?
+8. Si navegas en la sección de Configuración, encontrarás el apartado de Umbrales de Mantenimiento. ¿Te resulta claro cómo configure el límite de "Horas de Uso Críticas (500h)" para que el sistema genere un ticket de forma automática antes de que la máquina falle?
+9. En la misma sección de Configuración, existe un Buffer de Horas Pico. Como administrador, ¿comprendes cómo esta función bloquea automáticamente la programación de mantenimientos preventivos durante las horas de mayor afluencia?
+10. En la sección de Monitoreo IoT, ¿la información sobre el estado de la batería, nivel de señal y desconexiones te da la seguridad de que los sensores están midiendo correctamente sin necesidad de ir a revisarlos físicamente?
+11. Al ingresar a la pestaña de Impacto Financiero, la primera tabla muestra la Pérdida por Inactividad de Equipos. ¿Ver el desglose exacto de horas perdidas y su equivalente en dólares te genera un sentido de urgencia para agilizar las reparaciones?
+12. En esa misma pantalla, tienes la herramienta Simulador de Retorno de Inversión (ROI). Si ingresas el costo de una máquina nueva y la demanda insatisfecha, ¿el gráfico de barras de "Proyección de ROI" te resulta lo suficientemente claro para justificar una nueva compra a tus socios?
+13. Si necesitaras enviar un reporte de estos costos a contabilidad, ¿qué tan fácil te resultó ubicar y utilizar los botones de Generar PDF o Exportar CSV en la parte superior derecha?
+14. Como administrador de un gimnasio, ¿la paleta de colores oscuros (Dark Mode), la limpieza de las tablas y la fluidez de la plataforma te transmiten el nivel de profesionalismo esperado para gestionar tus finanzas y activos?
+15. Sabiendo que los módulos de monitoreo en las máquinas son sensores pasivos (telemetría y vibración/uso) que no graban video ni comprometen la privacidad de los usuarios, ¿te sentirías tranquilo instalándolos en todo tu local?
+16. De todo lo que probaste hoy (Alertas predictivas, Simulador de ROI, Reubicación multisede), ¿cuál herramienta consideras que tendría el impacto más rápido para reducir tus costos operativos (OPEX)?
+17. Si finalizaras tu mes de prueba gratuito, ¿estarías dispuesto a pagar una suscripción mensual por SpotTrack basándote en el dinero que la plataforma te demostró que podrías ahorrar en mantenimiento correctivo? ¿Qué mejorarías para que Spottrack te ayude más a gestionar tu gimnasio?
+    
+
+Segmento 2 (Clientes frecuentes de gimnasio)
+
+1. ¿Podrías indicarme tu edad, el distrito en el que resides y con qué frecuencia asistes al gimnasio semanalmente?
+2. Cuando estás entrenando y encuentras que la máquina que necesitas usar está malograda o en mantenimiento, ¿qué sueles hacer actualmente?
+3. Dando un vistazo rápido a esta página principal, ¿qué beneficio principal sientes que SpotTrack te ofrece como asistente regular al gimnasio?
+4. ¿Sientes que está claro a dónde debes hacer clic si quieres empezar a usar la plataforma?
+5. ¿La información que ves aquí te genera el interés y la confianza suficiente para registrarte en este momento?
+6. Al intentar completar estas tareas, ¿te resultó intuitivo encontrar las opciones para reportar y buscar equipos, o tuviste que buscar demasiado en el menú?
+7. Si en algún momento presionaste una opción equivocada, ¿sentiste que el sistema te ayudó a regresar o corregir el error fácilmente?
+8. Al momento de enviar tu reporte del equipo malogrado, ¿la aplicación te dejó totalmente claro y visible que tu aviso fue enviado con éxito?
+9. Imagina que estás a mitad de tu rutina, sudando y quizás con la vista cansada. ¿Sientes que el tamaño de las letras, los colores y el contraste de los botones son fáciles de distinguir desde la pantalla de tu celular?
+10. ¿Sientes que esta aplicación web mantiene el mismo estilo y colores que la página de presentación que vimos al inicio?
+11. ¿Hay alguna función que te gustaría que SpotTrack tuviera para hacer tus rutinas de entrenamiento mucho más fluidas?
+
+
 ### 5.3.2. Registro de Entrevistas.
+
+ Entrevista #1 
+ | Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Julio Cardenas |
+| **Imagen** | ![EntrevistaJulio](../assets/VaIentino-JuIio.png){width=80%} |
+| **Edad** | 45 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQCU_SowEJDlT6zASGquSEzbAdG2HCa8IVyKY1Vn6YGc77Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abQe8g](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQCU_SowEJDlT6zASGquSEzbAdG2HCa8IVyKY1Vn6YGc77Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abQe8g) |
+| **Resumen** |Julio Cárdenas (administrador de gimnasios, 45 años) califica SpotTrack como altamente efectivo por su interfaz intuitiva y valor táctico. Destaca el dashboard y las herramientas de mantenimiento, subrayando la reubicación de máquinas entre sedes como su función estrella para recortar gastos e impulsar ganancias. Además, valora los simuladores de retorno de inversión (ROI) y el control de inactividad para justificar presupuestos. Como mejoras, propone desarrollar una app móvil para técnicos y optimizar los sensores IoT. Finalmente, afirma que pagaría por la suscripción gracias al ahorro y la rentabilidad que la plataforma aporta a su gestión.|
+
+
+Entrevista #2
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Luis Romero |
+| **Imagen** | ![EntrevistaLuis](../assets/VaIentino-Iuis.png){width=80%} |
+| **Edad** | 51 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAvIfjFJ2_2TZHgJwbZTOIEAa2axQuKMQdQ2_F9nbOMFhY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GQm1hz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAvIfjFJ2_2TZHgJwbZTOIEAa2axQuKMQdQ2_F9nbOMFhY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GQm1hz) |
+| **Resumen** | Luis Romero (entrenador y encargado del gimnasio de Monterrico UPC) resalta que SpotTrack es una herramienta muy fácil de usar y con un diseño claro. Valora el control de datos sobre el uso de máquinas, ocupación y mantenimiento, lo que le permite tomar decisiones reales y dejar atrás las suposiciones. Aunque encuentra gran utilidad en el monitoreo IoT y la reubicación de equipos, destaca el simulador de ROI como la función clave para recortar costos y validar compras. Finalmente, afirma que pagaría la suscripción y propone añadir métricas de asistencia a clases grupales para calificar el éxito de los profesores y sus actividades.
+ |
+
+ Entrevista #3
+
+ 
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Percy Baraybar |
+| **Imagen** | ![EntrevistaPercy](../assets/EntrevistaPercy.jpeg){width=80%} |
+| **Edad** | 30 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQB3MRbDyCuwQa58zhF4Fb_SAQntpAinH6v14EjHWiavcIs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0qoVbU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQB3MRbDyCuwQa58zhF4Fb_SAQntpAinH6v14EjHWiavcIs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0qoVbU) |
+| **Resumen** |Percy Baraybar (administrador de gimnasio, 30 años) elogia la rapidez y el diseño profesional de SpotTrack, herramienta que usa para tomar decisiones rápidas basadas en datos. Para él, las métricas visuales de uso, tiempo inactivo, pérdidas y mantenimiento son clave, pero destaca la reubicación de máquinas y el simulador de ROI como las funciones más valiosas para subir ingresos y justificar gastos. También valora las alertas preventivas, el monitoreo IoT y el cálculo de pérdidas financieras. Finalmente, afirma que pagaría la suscripción porque la plataforma se paga sola con los ahorros que genera, y sugiere arreglar un fallo en las lecturas de batería de los sensores, ya que marcan 0% por error. |
+
+
+Entrevista # 4
+
+![foto-entrevista-4](../assets/foto-entrevista-1.png){width=80%}
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Joan Steffano Quispe Gamez |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
+| **Ocupación** | Estudiante universitario (UPC) |
+| **Frecuencia** | 3 a 4 veces por semana |
+| **Horario** | Nocturno (Post-clases) |
+| **Contexto** | Entrena de noche debido a su alta carga académica. |
+|**Resumen**| Un participante de 20 años y residente de Los Olivos, quien entrena de 3 a 4 veces por semana, destaca que SpotTrack es muy útil para optimizar tiempos y conocer la disponibilidad de las máquinas. Considera que la interfaz es clara, intuitiva y confiable, ya que logró reportar un equipo averiado y buscar otro libre sin ninguna dificultad. Además, valora la consistencia visual y el uso correcto de los colores, aunque sugiere agrandar el tamaño de algunas letras para mejorar la lectura. Por último, indicó que no tiene nuevas funciones para agregar.|
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQC0blHflpPcRI5T5Wg7Cmz_ATdQXtHxHqZ8Ika5zySGiEk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OjdApr |
+
+Entrevista #5
+
+![foto-entrevista-6](../assets/AIvaro-R.png){width=80%}
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Diego Quispe |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
+| **Ocupación** | Estudiante universitario (U. de Lima) y trabajador a medio tiempo |
+| **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
+| **Duración** | Variable (afectada por la alta afluencia) |
+| **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+|**Resumen**| Un participante de 20 años y residente de Pueblo Libre, quien va al gimnasio de 2 a 3 veces por semana, considera que SpotTrack es una herramienta útil e intuitiva para reportar máquinas y hallar opciones libres. Destaca que la información de la plataforma genera confianza e interés para registrarse, valorando también la facilidad para corregir errores y la claridad de los avisos. Como puntos a mejorar, sugiere dar más contraste y color a la página de inicio para diferenciar mejor los elementos visuales. Además, propone agregar una sección de notas personales en las rutinas para juntar todo el control de los entrenamientos en un solo lugar.|
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQA6VQrDWArUToltdzeeQFvWAXQxMWN_5gEo-Kc6BMJlqBY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ApuCkZ |
+
+Entrevista #6
+
+![foto-entrevista-5](../assets/foto-entrevista-2.png)
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Fabián Suárez |
+| **Edad** | 19 |
+| **Distrito** | Pueblo Libre |
+| **Ocupación** | Estudiante y trabajador |
+| **Frecuencia** | 3 a 4 días a la semana (interdiario) |
+| **Duración** | Entre 1 a 2 horas |
+| **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
+|**Resumen**| Un participante de 20 años y residente de Los Olivos, quien entrena de 3 a 4 veces por semana, considera que la plataforma es intuitiva para reportar máquinas averiadas y buscar alternativas libres. Sugiere que la página de inicio debería incluir más imágenes y elementos visuales del rubro para reforzar su identidad con el gimnasio. Aunque valora que los colores ayudan a identificar rápido las acciones, propone agrandar las letras para que se lean mejor. Como mejoras funcionales, propone añadir la opción de cancelar reservas, recibir avisos sobre equipos malogrados y agregar videos con recomendaciones y rutinas más completas y personalizadas. |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAsUKfS7M2eRJbheiAoZ6jCASOx3vhzpm__iKgasLZnYxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=S7tjYl ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAsUKfS7M2eRJbheiAoZ6jCASOx3vhzpm__iKgasLZnYxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=S7tjYl)|
+
+#### Video unificado
+| Entrevista | Marca de tiempo | Entrevistado |
+| :--- | :--- | :--- |
+| 1 | 00:00:00 | Julio Cardenas |
+| 2 | 09:26:26 | Luis Romero |
+| 3 | 25:20:96 | Percy Baraybar | 
+| 4 | 36:07:12 | Joan Steffano Quispe Gamez |
+| 5 | 42:16:27 | Fabián Suárez |
+| 6 | 51:04:27 | Diego Quispe |
+
+| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQC4THjNSb7oRaOHLJ-MgEa4ATxqbIKiZ5H2DUDdsVrw1ms?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vD9jjd)|
+
 ### 5.3.3. Evaluaciones según heurísticas.
 ## 5.4. Video About-the-Product.
