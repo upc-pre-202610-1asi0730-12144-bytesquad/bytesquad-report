@@ -82,7 +82,7 @@ SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
 
 ### Entrevistado 1
  
-<img src="../assets/Interview-iniciaI.png"alt="Entrevista Julio" width="400" height="150">
+<img src="../assets/Interview-iniciaI.png" alt="foto-entrevista-1" width="400" height="150">
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -159,7 +159,7 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 #### Video unificado
 | Entrevista | Marca de tiempo | Entrevistado |
 | :--- | :--- | :--- |
-| 1 | 00:00:00 | Alexander Gutierrez |
+| 1 | 00:00:00 | Julio Cardenas |
 | 2 | 13:49:09 | Luis Romero |
 | 3 | 26:43:21 | Percy Baraybar | 
 | 4 | 36:57:01 | Joan Steffano Quispe Gamez |
