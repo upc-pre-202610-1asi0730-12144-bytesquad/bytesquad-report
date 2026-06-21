@@ -25,7 +25,7 @@ Documentación oficial e Informe de Proyecto colaborativo para el modelo de nego
 
 # Informe de Trabajo Final
 
-**Nombre de la Startup:** SpotTrack  
+**Nombre de la Startup:** ByteSquad  
 
 **Nombre del producto:** SpotTrack
 
@@ -45,6 +45,6 @@ U202419335 - Gamero Miranda, Lui Mathias
 ---
 
 
-*Abril, 2026*
+*Junio, 2026*
 
 </div>
