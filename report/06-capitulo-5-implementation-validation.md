@@ -255,7 +255,7 @@ Se creó el repositorio denominado byteguard-website dentro de la organización 
 
 El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow.
 
-Se verificó el despliegue exitoso accediendo a la URL pública: https://spottrack.github.io/SpotTrack-website/ 
+Se verificó el despliegue exitoso accediendo a la URL pública: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -263,7 +263,7 @@ Se desplegó la landing page usando el servicio de GitHub Pages. Se configuró p
 
 <img src="../assets/landing/landing1.png" alt="bounded" width="500"/>
 
-URL de Landing Page Desplegada: https://spottrack.github.io/SpotTrack-website/ 
+URL de Landing Page Desplegada: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -602,10 +602,9 @@ Para asegurar la transparencia y el seguimiento de los cambios, se detallan los 
 
 URL Repositorio Mock API: https://github.com/SpotTrack-1ASI0729-2610-11881/SpotTrack-Mock-Api
 
-URL Repositorio Frontend: https://lively-ground-08011af0f.7.azurestaticapps.net/login
+URL Repositorio Frontend: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp
 
-URL Repositorio Landing Page: https://spottrack.github.io/spottrack-website/
-
+URL Repositorio Landing Page: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website
 
 #### 5.2.2.10. Software Deployment Evidence for Sprint Review
 
@@ -613,7 +612,7 @@ Como parte de la tarea **CORR-05**, la Landing Page de SpotTrack fue desplegada 
 
 | Producto | Entorno | URL de Producción |
 | :--- | :--- | :--- |
-| SpotTrack Landing Page | GitHub Pages (producción) | https://spottrack.github.io/spottrack-website/ |
+| SpotTrack Landing Page | GitHub Pages (producción) | https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/ |
 
 La siguiente figura muestra la Landing Page de SpotTrack correctamente desplegada y funcional en el entorno de producción de GitHub Pages:
 
@@ -625,7 +624,7 @@ Por parte de la aplicación web (Vue SPA), se utilizó un static web app de Azur
 ![](../assets/azure-evidence.png)
 ![](../assets/github-actions-webapp.png)
 
-Webapp URL: https://lively-ground-08011af0f.7.azurestaticapps.net/login
+Webapp URL: https://green-pebble-07422c50f.7.azurestaticapps.net/login
 
 #### 5.2.2.11. Team Collaboration Insights during Sprint
 
