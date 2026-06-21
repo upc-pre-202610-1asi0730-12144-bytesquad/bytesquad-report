@@ -897,7 +897,7 @@ Segmento 2 (Clientes frecuentes de gimnasio)
  | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Julio Cardenas |
-| **Imagen** | ![EntrevistaJulio](../assets/VaIentino-JuIio.png){width=80%} |
+| **Imagen** | ![EntrevistaJulio](../assets/JuIio%20Cardenas2.png){width=80%} |
 | **Edad** | 45 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQCU_SowEJDlT6zASGquSEzbAdG2HCa8IVyKY1Vn6YGc77Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abQe8g](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQCU_SowEJDlT6zASGquSEzbAdG2HCa8IVyKY1Vn6YGc77Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abQe8g) |
@@ -923,7 +923,7 @@ Entrevista #2
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Percy Baraybar |
-| **Imagen** | ![EntrevistaPercy](../assets/EntrevistaPercy.jpeg){width=80%} |
+| **Imagen** | ![EntrevistaPercy](../assets/PercyBa2.png){width=80%} |
 | **Edad** | 30 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQB3MRbDyCuwQa58zhF4Fb_SAQntpAinH6v14EjHWiavcIs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0qoVbU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQB3MRbDyCuwQa58zhF4Fb_SAQntpAinH6v14EjHWiavcIs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0qoVbU) |
@@ -948,7 +948,7 @@ Entrevista # 4
 
 Entrevista #5
 
-![foto-entrevista-6](../assets/AIvaro-R.png){width=80%}
+![foto-entrevista-6](../assets/Diego2.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -988,7 +988,7 @@ Entrevista #6
 | 5 | 42:16:27 | Fabián Suárez |
 | 6 | 51:04:27 | Diego Quispe |
 
-| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQC4THjNSb7oRaOHLJ-MgEa4ATxqbIKiZ5H2DUDdsVrw1ms?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vD9jjd)|
+| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDljgiFpIHsRKhGcbeP97MvAVBmbOitcyKh9AZ4c7WvKlM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rIOF9)|
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
