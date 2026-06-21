@@ -635,6 +635,222 @@ A continuación todas las estadisticas que nos proporciona Github, en su apartad
 
 <img src="../assets/evidence-insights-website.png" alt="bounded" width="500"/>
 
+#### 5.2.3. Sprint 3
+En esta sección se registra y explica el avance en términos de producto y trabajo
+colaborativo para el Sprint 3. Incluye como secciones internas: Sprint Planning 3,
+Aspect Leaders and Collaborators, Sprint Backlog 3, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.3.1.Spring Planning 3.
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de
+resumen del sprint planning meeting. La estructura a utilizar se presenta a
+continuación.
+
+| Sprint 3 | Sprint 3                                                                                                                                                          |
+| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                    |
+| Date | 20-06-2026                                                                                                                                                         |
+| Time | 23:59                                                                                                                                                             |
+| Location | Reunion Virtual Via Discord                                                                                                                                                        |
+| Prepared By | Gallardo Morales, Carla Alejnadra                                                                                                                                   |
+| Attendees (to planning meeting) | Gallardo Morales Carla Alejandra, Fernández Linares Alvaro Sebastian, Espinoza Orrego Valentino Andre      |
+| Sprint 2 Review Summary | Sprint 2 entregó una primera versión del frontend de la aplicación web desplegada correctamente. Asimismo, se desplegó una versión de la Landing Page culminada en un 90%. Sin embargo, solo se aplicó el 60% de las correcciones indicadas en el Sprint 1, quedando pendiente completar las correcciones restantes.|
+| Sprint 2 Retrospective Summary | El equipo identificó la ausencia de un proceso de QA formal como principal área de mejora, originada porque no todo estuvo terminado a tiempo. Se resaltó la necesidad de establecer deadlines claros, rastrear el progreso por capítulo y realizar releases oportunos. Se reconoció una mejora en el equilibrio de la carga de trabajo respecto al Sprint 1, aunque persistieron errores arrastrados del sprint anterior. También se señaló la falta de comunicación en la delegación de tareas y la importancia de que todos los integrantes se mantengan al tanto del avance general del equipo para facilitar un mejor QA colectivo. Como aciertos, se destacaron el cumplimiento de entregas por miembro en su mayoría, la mejora en el uso de GitFlow y el despliegue correcto del frontend con progreso decente.|
+| **Sprint Goal & User Stories** |                                                                                                                                                                    |
+| Sprint 3 Goal | Nuestro enfoque es habilitar a los administradores de gimnasios para gestionar sus operaciones y a los clientes de gimnasio para registrar su actividad física a través de una plataforma web completamente conectada. Creemos que esto entrega una experiencia integral y sin fricciones —desde la gestión de cuentas hasta el seguimiento de sesiones— a administradores y clientes de gimnasio. Esto se confirmará cuando los participantes de las entrevistas de validación de ambos segmentos puedan completar exitosamente sus tareas principales en la aplicación desplegada sin bloqueos críticos. |
+| Sprint 3 Velocity | 45                                                                                                                                                             |
+| Sum of Story Points | 45     
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+Para este Sprint 3, el equipo concentró sus esfuerzos en el desarrollo del backend con Spring Boot. La división de trabajo se organizó por Bounded Contexts del dominio, permitiendo que cada integrante tomara ownership completo sobre uno o varios contextos delimitados.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect 1: Backend Gym & Equipment BC Leader (L) / Collaborator (C) | Aspect 2: Backend IAM & Profiles BC Leader (L) / Collaborator (C) | Aspect 3: Validation Interviews Leader (L) / Collaborator (C) | Aspect 4: Sprint 2 Corrections Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Fernández Linares, Alvaro Sebastian | ORION-tech-c | Profiles BC / Routines BC (L) | IAM BC (L) | Segment 2 (L) | C4 Diagram Revision (C) |
+| Gallardo Morales, Carla Alejandra| Carlsss28 | Membership/ Maintenance/ Reservation BC (L) | IAM BC (C) | Segment 1 (C) | Corrections (C) |
+| Espinoza Orrego, Valentino Andre | valentinoespinoza13 | Analytics BC (C) | (C) | Segment 1 (L) | Figma Documentation (L) |
+
+
+#### Sprint Backlog 3
+
+| Id | Title | Task Id | Task Title | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| UPA1SJ-183 | Web Services | UPA1SJ-184 | Monitoring | ORION10 | En curso |
+| UPA1SJ-183 | Web Services | UPA1SJ-185 | Equipment | ORION10 | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-186 | Reservation | Carla Gallardo | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-187 | Maintenance | Carla Gallardo | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-188 | Iot Sensoring Gestion | ORION10 | Tareas por hacer |
+| UPA1SJ-183 | Web Services | UPA1SJ-189 | Analytics | Andre Espinoza | Tareas por hacer |
+| UPA1SJ-183 | Web Services | UPA1SJ-190 | Membership | Carla Gallardo | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-191 | Routines | ORION10 | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-192 | Profiles | ORION10 | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-193 | Auth(IAM) | ORION10 | En curso |
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+El principal trabajo del Sprint 3 se concentró en el repositorio byteguard-platform, correspondiente al backend desarrollado con Spring Boot. A continuación se presentan los commits más representativo.
+
+Esta tabla resume el avance del repo por bounded context (IAM, Gym, Equipment, Membership, Reservation, Maintenance, Routine, Analytics) hasta el último merge a develop.  
+
+Backend Web Services Commits:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | main | 9d1bdf2fa40f06c626567f7c30d209d8de915c3c | chore: remove .idea from tracking | - | 2026-06-11 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/shared | e233840419d66f69ae6c1babcb49b7bd1874bd82 | shared complete setted | - | 2026-06-12 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/profiles-bounded | 9e1e86c9b500e31bfbedb82e36648ac0e19d7160 | remove innecesary data, added new ones | - | 2026-06-12 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feat/commands-analytics | 53e9b57bde0726fe36b052e2e6f4bd9ad24f95ed | docs: commands added | - | 2026-06-13 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/create-routine | d162a827ef592650a6f80a19ea871d1c322dab8e | feat(routine): fix comment error | - | 2026-06-14 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/iam-core | 9ee3c2bb002acce30a974b0b0b2dcffee0c9151e | fix(iam): change length of token secret | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-create-branch | f2e5b75b2f6050939913c13cc9bcad886451124c | feat(gym): add migration AddGymBranches creating branches table with FK to gyms | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-create-gym | 3e06d3ce90d3958c308b3e3756b0823e95e8c027 | feat(gym): add migration AddGymCreateGym creating gyms table | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/membership-activate-membership | e96ac7d7b4055ee46f2d4f38bd3394f4efcad04c | feat(membership): add migration creating memberships table | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/start-routine | 0d0bb7cc9a524056495a69a0604d3dca542e32fd | feat(routine): add routine-sessions migration | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/add-exercise-block | bdc23ed0011bd22452684fd831ac041f1b27041f | fix(routines): fix null values error | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-create-zone | de308923b7b3621b37d73286295b0008d24a37f4 | feat(gym): changes in gym repository | - | 2026-06-18 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-register-equipment | 951e6dae4761d4127781dbf310056d106048ab45 | feat(gyms): add AddEquipment EF Core migration | - | 2026-06-18 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/equipment-occupy-release | 55ef38f03fda5f71d98af0083f724d27d68de2e6 | feat(gyms): register IGymContextFacade in DI container | - | 2026-06-18 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-request-maintenance | c1417831e89fcba1813ebaea9e98a8e98fa3e536 | feat(maintenance): add migration AddMaintenanceBoundedContext creating maintenances table | - | 2026-06-19 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-create-technical-ticket | c0e401c3f7699a706a41b93a7cd02968109db6cc | feat(maintenance): add migration creating technical_tickets table | - | 2026-06-19 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-assign-technical-ticket | ade6085b51b00d894d1407f51a7d7435326f85fd | feat(maintenance): add POST assign endpoint to TechnicalTicketController | - | 2026-06-19 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-complete-maintenance | 583412f6e74d6576c26ecba713024c6c662a761e | feat(maintenance): add POST complete endpoint to TechnicalTicketController | - | 2026-06-20 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-update-maintenance-status | cc9c1e721eda50b087f296c03d843f56f3bebca5 | feat(maintenance): add PUT maintenance-status endpoint to TechnicalTicketController | - | 2026-06-20 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/analytics-request-activity-analysis | e71eb2bba2185d705b04c76db89f5c40e05d0890 | feat(analytics): complete request activity analysis feature with strict DDD tactics | - | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/analytics-generate-roi-projection | cd89c5ba84402a4934ae69dd2952103a2bac2004 | feat(analytics): implement request ROI command feature | - | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | fix/analytics-backend | 18fbe13b5395b58c3f48ee323f7c356e6c970011 | fix(analytics): register analytics services and repositories in DI | - | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | develop | 9b8311275103aee09cb03b439afd4b644dd07ae6 | Merge pull request #59 from fix/analytics-backend | Fix/analytics backend | 2026-06-21 |
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Durante el Sprint 3, el equipo concretó la transición de una arquitectura basada en Fake API (JSON Server) a un backend real implementado con Spring Boot. La plataforma `spottrack-platform` fue construida siguiendo los principios de Domain-Driven Design, con Bounded Contexts claramente delimitados: **Gym** (gestión de sedes, zonas y umbral de mantenimiento), **Equipment** (registro, actualización de estado, retiro y reubicación de activos), **Maintenance** (tickets técnicos, trabajos de mantenimiento y bitácora), **Reservation** (reservas exprés con temporizador), **Profiles** (perfiles de administrador y cliente), **IAM** (autenticación JWT, registro, login y desactivación de cuenta) y **Routines** (sesiones de rutina).
+
+Los Bounded Contexts se comunicaron mediante eventos de integración, implementando el patrón de ACL (Anti-Corruption Layer): el evento `TicketCreatedEvent` disparó la política que marcó el equipo como fuera de servicio en el Gym BC, y el evento `TicketResolvedEvent` disparó la política que actualizó el estado del equipo a disponible al completar el mantenimiento.
+
+La integración frontend-backend se logró sin modificaciones a los componentes vue del Sprint 2, al respetar el contrato de API documentado desde la etapa de Fake API. Únicamente fue necesario actualizar la URL base en `environment.ts`.
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful versionada bajo `api/v1`, protegida con JWT (Bearer Token). A continuación se detallan los principales endpoints implementados por Bounded Context.
+
+##### Bounded Context: IAM (Identity & Access Management)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/authentication/sign-up` | Registrar usuario | `POST` | `/api/v1/authentication/sign-up` | `201 Created` (sin body) | Crea una nueva cuenta de usuario con username, password y rol. Endpoint anónimo (no requiere token). |
+| `/api/v1/authentication/sign-in` | Autenticar usuario | `POST` | `/api/v1/authentication/sign-in` | `{ "id": 1, "username": "admin@gym.com", "role": "Admin", "token": "eyJ..." }` | Valida credenciales y retorna un Bearer Token JWT para autenticación posterior. Endpoint anónimo. |
+| `/api/v1/users` | Listar usuarios | `GET` | `/api/v1/users` | `[{ "id": 1, "username": "admin@gym.com", "role": "Admin" }]` | Retorna todos los usuarios registrados. Requiere autenticación. |
+
+##### Bounded Context: Gym (Gestión de Instalaciones)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/gyms` | Crear gimnasio | `POST` | `/api/v1/gyms` | `{ "id": 1, "name": "FitNode Central", "street": "Av. Javier Prado 123", "district": "San Isidro", "city": "Lima" }` | Registra un nuevo gimnasio en el sistema. Requiere autenticación. |
+| `/api/v1/gyms/{gymId}/branches` | Agregar sede | `POST` | `/api/v1/gyms/1/branches` | `{ "id": 1, "name": "Main Branch", "street": "...", "district": "...", "city": "..." }` | Añade una sede física al gimnasio indicado. Retorna 404 si el gimnasio no existe. |
+| `/api/v1/gyms/{gymId}/branches/{branchId}/zones` | Agregar zona | `POST` | `/api/v1/gyms/1/branches/1/zones` | `{ "id": 1, "name": "Cardio Zone" }` | Crea una zona dentro de una sede. Retorna 404 si el gimnasio o la sede no existen. |
+| `/api/v1/equipment` | Registrar equipo | `POST` | `/api/v1/equipment` | `{ "id": 1, "name": "Treadmill T-500", "zoneId": 1, "status": "Available" }` | Registra un nuevo equipo dentro de una zona. Retorna 404 si la zona no existe. |
+
+##### Bounded Context: Profiles (Perfiles de Usuario)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/profiles/admins` | Crear perfil de administrador | `POST` | `/api/v1/profiles/admins` | `{ "id": 1, "userId": 1, "fullName": "Juan Pérez", "email": "juan@gym.com", "phoneNumber": "...", "dni": "..." }` | Crea el perfil de administrador asociado a un usuario. Retorna 409 si el email ya está registrado. |
+| `/api/v1/profiles/admins/{adminId}` | Obtener administrador | `GET` | `/api/v1/profiles/admins/1` | `{ "id": 1, "userId": 1, "fullName": "Juan Pérez", ... }` | Retorna el perfil de administrador, o 404 si no existe. |
+| `/api/v1/profiles/admins` | Listar administradores | `GET` | `/api/v1/profiles/admins` | `[{ "id": 1, "fullName": "Juan Pérez", ... }]` | Retorna todos los perfiles de administrador registrados. |
+| `/api/v1/profiles/admins/{adminId}` | Actualizar administrador | `PUT` | `/api/v1/profiles/admins/1` | `{ "id": 1, "fullName": "Juan Pérez García", ... }` | Actualiza nombre, apellido y teléfono del administrador. |
+| `/api/v1/profiles/clients` | Crear perfil de cliente | `POST` | `/api/v1/profiles/clients` | `{ "id": 1, "userId": 2, "fullName": "Ana López", "email": "ana@mail.com", ... }` | Crea el perfil de cliente asociado a un usuario. Retorna 409 si el email ya está registrado. |
+| `/api/v1/profiles/clients/{clientId}` | Obtener cliente | `GET` | `/api/v1/profiles/clients/1` | `{ "id": 1, "fullName": "Ana López", ... }` | Retorna el perfil de cliente, o 404 si no existe. |
+| `/api/v1/profiles/clients` | Listar clientes | `GET` | `/api/v1/profiles/clients` | `[{ "id": 1, "fullName": "Ana López", ... }]` | Retorna todos los perfiles de cliente registrados. |
+| `/api/v1/profiles/clients/{clientId}` | Actualizar cliente | `PUT` | `/api/v1/profiles/clients/1` | `{ "id": 1, "fullName": "Ana López Ruiz", ... }` | Actualiza nombre, apellido y teléfono del cliente. |
+
+##### Bounded Context: Membership (Membresías y Acceso)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/memberships/activate` | Activar membresía | `POST` | `/api/v1/memberships/activate` | `{ "id": 1, "clientId": 1, "plan": "Premium", "startDate": "...", "endDate": "...", "status": "Active" }` | Activa una nueva membresía para un cliente. |
+| `/api/v1/memberships/{id}` | Obtener membresía | `GET` | `/api/v1/memberships/1` | `{ "id": 1, "clientId": 1, "plan": "Premium", "status": "Active" }` | Retorna la membresía solicitada, o 404 si no existe. |
+| `/api/v1/memberships/by-client/{clientId}` | Listar membresías por cliente | `GET` | `/api/v1/memberships/by-client/1` | `[{ "id": 1, "plan": "Premium", "status": "Active" }]` | Retorna todas las membresías de un cliente. |
+| `/api/v1/memberships/{id}/plan` | Actualizar plan | `PUT` | `/api/v1/memberships/1/plan` | `{ "id": 1, "plan": "VIP", "status": "Active" }` | Cambia el plan de una membresía existente. |
+| `/api/v1/memberships/{id}/suspend` | Suspender membresía | `POST` | `/api/v1/memberships/1/suspend` | `{ "id": 1, "status": "Suspended" }` | Suspende una membresía activa. |
+| `/api/v1/memberships/{id}/renew` | Renovar membresía | `POST` | `/api/v1/memberships/1/renew` | `{ "id": 1, "endDate": "...", "status": "Active" }` | Extiende la fecha de fin de una membresía. |
+| `/api/v1/memberships/{id}/cancel` | Cancelar membresía | `DELETE` | `/api/v1/memberships/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una membresía. Retorna 400 si ya está cancelada o expirada. |
+| `/api/v1/branch-accesses/grant` | Evaluar acceso a sede | `POST` | `/api/v1/branch-accesses/grant` | `{ "id": 1, "membershipId": 1, "branchId": 1, "status": "Granted", "grantedByAdminId": 1 }` | Evalúa la membresía referenciada y registra una decisión de acceso (Granted/Denied). |
+
+##### Bounded Context: Reservations (Reservas de Equipos)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/reservations/express` | Iniciar reserva exprés | `POST` | `/api/v1/reservations/express` | `{ "id": 1, "clientId": 1, "equipmentId": 1, "startDate": "...", "endDate": "...", "status": "Reserved" }` | Crea una reserva exprés de un cliente sobre un equipo, para un periodo dado. |
+| `/api/v1/reservations/{id}/cancel` | Cancelar reserva | `DELETE` | `/api/v1/reservations/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una reserva existente. Retorna 400 si no puede cancelarse en su estado actual. |
+| `/api/v1/reservations/{id}/submit-request` | Solicitar ocupación de equipo | `POST` | `/api/v1/reservations/1/submit-request` | `{ "id": 1, "status": "Pending" }` | Envía la solicitud de ocupación del equipo asociado a la reserva. |
+| `/api/v1/reservations/{id}/end` | Finalizar reserva | `POST` | `/api/v1/reservations/1/end` | `{ "id": 1, "status": "Completed" }` | Finaliza una reserva activa. |
+| `/api/v1/reservations/{id}/request-equipment-available` | Liberar equipo | `POST` | `/api/v1/reservations/1/request-equipment-available` | `{ "id": 1, "status": "Completed" }` | Señala que el equipo debe liberarse y volver a estar disponible en el contexto Gym. |
+| `/api/v1/reservations/{id}` | Obtener reserva | `GET` | `/api/v1/reservations/1` | `{ "id": 1, "clientId": 1, "equipmentId": 1, "status": "Active" }` | Retorna la reserva solicitada, o 404 si no existe. |
+| `/api/v1/reservations/by-client/{clientId}` | Listar reservas por cliente | `GET` | `/api/v1/reservations/by-client/1` | `[{ "id": 1, "equipmentId": 1, "status": "Active" }]` | Retorna todas las reservas de un cliente. |
+| `/api/v1/reservations/by-equipment/{equipmentId}` | Listar reservas por equipo | `GET` | `/api/v1/reservations/by-equipment/1` | `[{ "id": 1, "clientId": 1, "status": "Active" }]` | Retorna todas las reservas de un equipo. |
+| `/api/v1/reservations/{id}/start-timer` | Iniciar temporizador | `POST` | `/api/v1/reservations/1/start-timer` | `{ "id": 1, "status": "Active" }` | Transiciona una reserva de "Reserved" a "Active" y marca el equipo como ocupado. |
+
+##### Bounded Context: Routines (Rutinas de Entrenamiento)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/routines` | Crear rutina | `POST` | `/api/v1/routines` | `{ "id": 1, "routineName": "Full Body", "clientId": 1, "exerciseBlockCount": 0 }` | Crea una nueva rutina para un cliente. |
+| `/api/v1/routines/{routineId}/exercise-blocks` | Agregar bloque de ejercicio | `POST` | `/api/v1/routines/1/exercise-blocks` | `{ "id": 1, "exerciseName": "Squat", "exerciseType": "Strength", "order": 1 }` | Añade un bloque de ejercicio a una rutina existente. Retorna 404 si la rutina no existe. |
+| `/api/v1/routines/{routineId}` | Obtener rutina | `GET` | `/api/v1/routines/1` | `{ "id": 1, "routineName": "Full Body", "clientId": 1, "exerciseBlockCount": 4 }` | Retorna la rutina solicitada, o 404 si no existe. |
+| `/api/v1/routines?clientId={clientId}` | Listar rutinas por cliente | `GET` | `/api/v1/routines?clientId=1` | `[{ "id": 1, "routineName": "Full Body" }]` | Retorna las rutinas pertenecientes a un cliente. |
+| `/api/v1/routine-sessions` | Iniciar sesión de rutina | `POST` | `/api/v1/routine-sessions` | `{ "id": 1, "routineId": 1, "clientId": 1, "status": "InProgress", "startedAt": "..." }` | Inicia una nueva sesión de rutina para un cliente. |
+| `/api/v1/routine-sessions/{routineSessionId}` | Obtener sesión | `GET` | `/api/v1/routine-sessions/1` | `{ "id": 1, "status": "InProgress", ... }` | Retorna la sesión de rutina solicitada, o 404 si no existe. |
+| `/api/v1/routine-sessions/{routineSessionId}/completions` | Completar sesión | `POST` | `/api/v1/routine-sessions/1/completions` | `{ "id": 1, "status": "Completed" }` | Marca una sesión de rutina como completada. |
+| `/api/v1/routine-sessions/{routineSessionId}/missed` | Marcar sesión perdida | `POST` | `/api/v1/routine-sessions/1/missed` | `{ "id": 1, "status": "Missed" }` | Marca una sesión de rutina como perdida (no realizada). |
+| `/api/v1/routine-sessions?clientId={clientId}` | Listar sesiones por cliente | `GET` | `/api/v1/routine-sessions?clientId=1` | `[{ "id": 1, "status": "Completed" }]` | Retorna las sesiones de rutina pertenecientes a un cliente. |
+
+##### Bounded Context: Maintenance (Mantenimiento de Equipos)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/maintenances/by-equipment/{equipmentId}` | Listar mantenimientos por equipo | `GET` | `/api/v1/maintenances/by-equipment/1` | `[{ "id": 1, "equipmentId": 1, "reason": "Cinta desgastada", "status": "Requested" }]` | Retorna todos los registros de mantenimiento de un equipo. |
+| `/api/v1/maintenances/request` | Solicitar mantenimiento | `POST` | `/api/v1/maintenances/request` | `{ "id": 1, "equipmentId": 1, "requestedByAdminId": 1, "reason": "Cinta desgastada", "status": "Requested" }` | Crea una nueva solicitud de mantenimiento para un equipo. |
+| `/api/v1/technical-tickets/{id}` | Obtener ticket técnico | `GET` | `/api/v1/technical-tickets/1` | `{ "id": 1, "maintenanceId": 1, "equipmentId": 1, "status": "Created", "maintenanceProgress": "Pending" }` | Retorna el ticket técnico, o 404 si no existe. |
+| `/api/v1/technical-tickets` | Crear ticket técnico | `POST` | `/api/v1/technical-tickets` | `{ "id": 1, "status": "Created", ... }` | Crea un ticket técnico a partir de una solicitud de mantenimiento, marcando el equipo fuera de servicio. |
+| `/api/v1/technical-tickets/{id}/assign` | Asignar técnico | `POST` | `/api/v1/technical-tickets/1/assign` | `{ "id": 1, "status": "Assigned", "assignedTechnicianId": 5 }` | Asigna el ticket a un técnico, transicionando su estado a "Assigned". |
+| `/api/v1/technical-tickets/{id}/request-status-update` | Solicitar actualización de estado | `POST` | `/api/v1/technical-tickets/1/request-status-update` | `{ "id": 1, "maintenanceProgress": "InProgress" }` | Marca el progreso de mantenimiento del ticket como "InProgress". |
+| `/api/v1/technical-tickets/{id}/status` | Modificar estado de ticket | `PUT` | `/api/v1/technical-tickets/1/status` | `{ "id": 1, "status": "InProgress" }` | Transiciona el ticket a un nuevo estado (no permite revertir a "Created" ni modificar uno resuelto). |
+| `/api/v1/technical-tickets/{id}/maintenance-status` | Actualizar progreso de mantenimiento | `PUT` | `/api/v1/technical-tickets/1/maintenance-status` | `{ "id": 1, "maintenanceProgress": "Completed" }` | Actualiza el progreso (Pending, InProgress o Completed) de un ticket no resuelto. |
+| `/api/v1/technical-tickets/{id}/complete` | Completar ticket | `POST` | `/api/v1/technical-tickets/1/complete` | `{ "id": 1, "status": "Resolved" }` | Marca el ticket como resuelto y retorna el equipo a servicio. Requiere que el progreso sea "Completed". |
+| `/api/v1/maintenance-jobs/accept` | Aceptar trabajo de mantenimiento | `POST` | `/api/v1/maintenance-jobs/accept` | `{ "id": 1, "technicalTicketId": 1, "technicianId": 5, "status": "Accepted" }` | Crea un trabajo de mantenimiento cuando un técnico acepta un ticket técnico. |
+| `/api/v1/maintenance-logs` | Registrar log de finalización | `POST` | `/api/v1/maintenance-logs` | `{ "id": 1, "technicalTicketId": 1, "equipmentId": 1, "completedByAdminId": 1, "completedAt": "...", "notes": "..." }` | Crea un registro inmutable de finalización para un ticket técnico resuelto. |
+
+##### Bounded Context: Analytics (Reportes e Indicadores)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/activityreports` | Crear reporte de actividad | `POST` | `/api/v1/activityreports` | `{ "id": 1, "activityReportId": 1, "totalUsageTime": 0, "downtimeCost": 0, "percentageComparison": 0 }` | Crea un nuevo reporte de actividad a partir del análisis solicitado. |
+| `/api/v1/activityreports/total-usage-time` | Calcular tiempo total de uso | `POST` | `/api/v1/activityreports/total-usage-time` | `{ "id": 1, "totalUsageTime": 480, ... }` | Calcula y actualiza el tiempo total de uso del reporte. |
+| `/api/v1/activityreports/downtime-cost` | Calcular costo de inactividad | `POST` | `/api/v1/activityreports/downtime-cost` | `{ "id": 1, "downtimeCost": 350.5, ... }` | Calcula y actualiza el costo de inactividad del reporte. |
+| `/api/v1/activityreports/percentage-comparison` | Calcular comparación porcentual | `POST` | `/api/v1/activityreports/percentage-comparison` | `{ "id": 1, "percentageComparison": 12.3, ... }` | Calcula y actualiza la comparación porcentual del reporte. |
+| `/api/v1/maintenancequotes` | Crear cotización de mantenimiento | `POST` | `/api/v1/maintenancequotes` | `{ "id": 1, "maintenanceQuoteId": 1, "correctiveActionsCost": 0, "sparePartsCost": 0, "preventiveCost": 0, "totalMaintenanceCost": 0 }` | Crea una nueva cotización a partir del costo de acciones correctivas. |
+| `/api/v1/maintenancequotes/spare-parts-cost` | Calcular costo de repuestos | `POST` | `/api/v1/maintenancequotes/spare-parts-cost` | `{ "id": 1, "sparePartsCost": 120.0, ... }` | Calcula y actualiza el costo de repuestos de la cotización. |
+| `/api/v1/maintenancequotes/preventive-cost` | Calcular costo preventivo | `POST` | `/api/v1/maintenancequotes/preventive-cost` | `{ "id": 1, "preventiveCost": 80.0, ... }` | Calcula y actualiza el costo de mantenimiento preventivo de la cotización. |
+| `/api/v1/maintenancequotes/total-cost` | Consolidar costo total | `POST` | `/api/v1/maintenancequotes/total-cost` | `{ "id": 1, "totalMaintenanceCost": 200.0 }` | Consolida y retorna el costo total de mantenimiento de la cotización. |
+| `/api/v1/roiprojections` | Crear proyección ROI | `POST` | `/api/v1/roiprojections` | `{ "id": 1, "roiProjectionId": 1, "projectedDowntimeCost": 0, "projectedEarnings": 0, "roiIndex": 0, "demandStatus": "Unknown" }` | Crea una nueva proyección ROI a partir del costo de inactividad proyectado. |
+| `/api/v1/roiprojections/projected-earnings` | Calcular ganancias proyectadas | `POST` | `/api/v1/roiprojections/projected-earnings` | `{ "id": 1, "projectedEarnings": 1500.0, ... }` | Calcula y actualiza las ganancias proyectadas. |
+| `/api/v1/roiprojections/generate` | Generar índice ROI | `POST` | `/api/v1/roiprojections/generate` | `{ "id": 1, "roiIndex": 1.8, "demandStatus": "High" }` | Genera el índice ROI final y el estado de demanda de la proyección. |
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Durante este sprint, el objetivo de despliegue se centró en el **Backend de SpotTrack**, el cual fue desplegado exitosamente y ya se encuentra operativo en el entorno de la nube de **Azure**.
+
+| Componente | Entorno de Despliegue | URL de Producción |
+| --- | --- | --- |
+| **SpotTrack platform** | Azure Web App | [](spottrack-platform-os.azurewebsites.net) |
+
+Este despliegue garantiza que la lógica de negocio, las bases de datos y los servicios del backend estén completamente disponibles en la nube para ser consumidos de manera estable y segura.
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de platform:
+
+<img src="../assets/team-insight.png">
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
