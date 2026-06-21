@@ -51,7 +51,7 @@ Para la gestión del código fuente, se utiliza GitHub como plataforma central d
 Se ha adoptado el modelo **GitFlow** para gestionar el flujo de trabajo, utilizando ramas efímeras que permiten un desarrollo paralelo y organizado. Las ramas base son:
 
 * **`main`:** Rama de producción. Contiene exclusivamente código estable y versiones finales desplegadas.
-* **`develop`:** Rama de integración. Aquí se consolidan todas las nuevas funcionalidades antes de pasar a la rama principal.
+* **`develop`:** Rama de integración. Aquí se consolidan todas las nuevaVs funcionalidades antes de pasar a la rama principal.
 * **Feature Branches:** Ramas temporales creadas para el desarrollo de tareas específicas. Siguen la nomenclatura `feature/task-name` y se eliminan tras ser integradas en `develop`.
 
 **Ejemplo de Ramas Feature para la Landing Page:**
@@ -839,6 +839,11 @@ El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful ver
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 Durante este sprint, el objetivo de despliegue se centró en el **Backend de SpotTrack**, el cual fue desplegado exitosamente y ya se encuentra operativo en el entorno de la nube de **Azure**.
+<img src="../assets/image11.png">
+
+<img src="../assets/image22.png">
+
+
 
 | Componente | Entorno de Despliegue | URL de Producción |
 | --- | --- | --- |
