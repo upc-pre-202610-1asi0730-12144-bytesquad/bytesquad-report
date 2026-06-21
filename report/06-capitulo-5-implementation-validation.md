@@ -991,4 +991,329 @@ Entrevista #6
 | **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQC4THjNSb7oRaOHLJ-MgEa4ATxqbIKiZ5H2DUDdsVrw1ms?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vD9jjd)|
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA :** Ingeniería de Software
+
+**CURSO :** Aplicaciones Web
+
+**SECCIÓN :** 12144
+
+**PROFESORES :** Todos
+
+**AUDITOR :**  Alonso Enrique Higa Kohatsu
+
+**CLIENTE(S) :**
+
+- Luis Alexis Bardales Tejada
+
+- Alonso Enrique Higa Kohatsu
+
+- Fabricio Jofred Lozano Quispe
+
+- Kelber Yamir Sandoval Aiquipa
+
+- Rodrigo Matias Vite Celis
+
+## SITE o APP A EVALUAR:
+
+SpotTrack
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+## Tarea General:
+
+#### a. Login/Registro:
+
+1. Iniciar sesión con credenciales válidas
+2. Manejo de error con credenciales inválidas (banner "Invalid email or password")
+3. Envío del formulario con campos vacíos (validación de requeridos)
+4. Mostrar / ocultar contraseña (ícono de ojo)
+5. Uso de credenciales demo (tarjetas autocompletables Admin/Cliente)
+6. Cambio de idioma en login (ES / EN)
+7. Navegación al registro (link "Sign up")
+
+## Tareas para el  rol de los clientes:
+
+#### a. Mapa de disponibilidad en tiempo real (con filtros y panel de máquina)
+
+1. Lectura del mapa y código de colores (libre / ocupada / por liberarse con timer)
+2. Filtrado por categoría (All / Strength / Cardio)
+3. Apertura del panel de detalle de una máquina
+4. Interpretación del estado y temporizador de la máquina
+5. Cierre del panel (X) y selección de otra máquina
+
+#### b. Reservar máquina / Reportar como ocupada / Ver alternativas
+
+1. Reservar una máquina libre (estado=Reserved, timer 10:00, confirmación)
+2. Reportar una máquina como ocupada (máquina libre)
+3. Reportar una máquina como libre (máquina ocupada)
+4. "Notify me when free" (suscripción a aviso de disponibilidad)
+5. "See alternatives" ver máquinas alternativas de la misma categoría
+6. Reservar desde la lista de alternativas
+
+#### c. Rutinas + crear nueva rutina (modal)
+
+1. Visualizar lista de rutinas y estado en vivo de cada máquina (Available / In Use / Maintenance)
+2. Filtrar rutinas por grupo muscular (All / Chest / Legs / Back / Shoulders / Arms)
+3. Ver alternativa cuando la máquina de la rutina está ocupada (ícono de intercambio)
+4. Abrir modal "New Routine"
+5. Completar campos (nombre, objetivo, dificultad, notas) y validación
+6. Crear la rutina / Cancelar el modal
+
+#### d. Mis reservas + cancelar reserva (timer)
+
+1. Visualizar reservas activas con temporizador de cuenta regresiva
+2. Interpretar la sección "How do reservations work?"
+3. Cancelar una reserva (botón X)
+4. Crear una reserva nueva desde "New Reservation"
+
+#### e. Perfil: plan, puntos, notificaciones, idioma, seguridad
+
+1. Visualizar datos del usuario y puntos acumulados
+2. Consultar plan actual e iniciar "Upgrade Plan"
+3. Activar / desactivar toggles de notificaciones (disponibilidad, mantenimiento, puntos)
+4. Cambiar idioma de la interfaz (Español / English)
+5. Cambiar contraseña (Change Password)
+6. Cerrar sesión (Log Out)
+
+## Tareas para el rol de los  administradores:
+
+#### a. Dashboard (KPIs + kanban de mantenimiento)
+
+1. Lectura de KPIs principales (Operational / In Maintenance / Out of Service / Total Tickets)
+2. Interpretación del gráfico "Peak Capacity Hours"
+3. Interpretación del gráfico "Machine Usage"
+4. Lectura de la tabla "Underutilized Equipment" (con indicador ROI High/Medium)
+5. Lectura del "Maintenance Center" tipo kanban resumido (Pending / In Progress / Completed)
+6. Navegación entre secciones desde el menú lateral
+
+#### b. Equipment Management (CRUD: registrar/editar/eliminar)
+
+1. Lectura de la tabla de equipos (ID, nombre, marca, modelo, zona, precio, estado)
+2. Búsqueda por nombre / marca / modelo
+3. Filtrado por estado (All statuses / Operational / Maintenance / Out of order)
+4. Registrar nuevo equipo (formulario: nombre, marca, modelo, Zone ID, precio, status)
+5. Validación del formulario de registro (campos vacíos, Zone ID numérico, precio)
+6. Editar un equipo existente (ícono lápiz)
+7. Eliminar un equipo (ícono basurero) y confirmación
+
+#### c. IoT Monitoring (tabla de sensores)
+
+1. Lectura de la tabla de sensores (ID, ubicación, estado, batería, señal, firmware, último ping)
+2. Interpretación de estados (Online / Disconnected / Warning) y umbrales de batería
+3. Búsqueda por sensor / máquina / zona
+4. Filtrado por estado
+5. Refrescar datos (botón Refresh)
+
+#### d. Maintenance Center (kanban de tickets)
+
+1. Lectura del tablero kanban (Pending / In Progress / Completed) y conteos
+2. Interpretación de prioridad de tickets (Urgent / High / Medium / Low)
+3. Búsqueda por ID / máquina / descripción
+4. Filtrado por estado y por prioridad
+5. Crear nuevo ticket (formulario: equipo, prioridad, tipo, hora programada, descripción)
+6. Validación del formulario de ticket (equipo sin valor por defecto)
+7. Avanzar un ticket de estado (Start,Complete)
+
+#### e. Reports & Analytics (gráficos + export)
+
+1. Lectura de KPIs (Total Usage Hours, Occupancy Rate, Peak Usage, Inactive Time)
+2. Filtrado por periodo / sucursal / rango personalizado
+3. Interpretación de gráficos (Weekly Usage vs Capacity, Distribution by Machine Type, Stress Peaks)
+4. Activar comparación ("Show Comparison")
+5. Exportar a CSV
+6. Generar PDF
+
+#### f. Financial Impact & ROI
+
+1. Lectura de KPIs financieros (Inactivity Loss, Maintenance Cost, Potential Savings, Average ROI)
+2. Lectura de la tabla "Equipment Inactivity Loss"
+3. Interpretación del "Maintenance Cost Breakdown" (pie chart)
+4. Interpretación de la "ROI Projection – New Machine"
+5. Exportar CSV / Generar PDF
+
+#### g. Configuration (parámetros del sistema)
+
+1. Ajustar "Maintenance Thresholds" (sliders: Critical Usage Hours, Max Inactive Time, Peak Hours Buffer)
+2. Activar / desactivar "Smart Scheduler"
+3. Ajustar "IoT Configuration" (Low Battery Threshold, Ping Interval, Offline Grace Period)
+4. Configurar "Notifications" (email y destinatarios)
+5. Configurar "Financial Configuration" (parámetros de ROI)
+6. Guardar / Cancelar cambios (Save Changes / Cancel)
+
+## ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | Clave de traducción sin resolver visible al usuario | 3 | Usability: Consistencia y estándares |
+| 2 | Mezcla de idiomas EN/ES en la misma pantalla | 3 | Usability: Consistencia y estándares |
+| 3 | Estado de las máquinas en el mapa comunicado solo por color (verde/rojo/amarillo), sin texto/forma redundante: usuarios con daltonismo no distinguen libre de ocupada | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Formularios sin marcar campos obligatorios | 2 | Usability: Visibilidad del estado del sistema |
+| 5 | Categorización de datos incorrecta: "Rowing" (cardio) aparece etiquetada como "Back" en el panel de máquina | 3 | Usability: Concordancia entre el sistema y el mundo real |
+| 6 | "Zone ID" en registro de equipo pide un número (1) mientras la tabla muestra zonas como letras (A/B/C/D): incoherencia que induce a error | 3 | Usability: Concordancia entre el sistema y el mundo real |
+| 7 | Dashboard del cliente con gran cantidad de espacio vacío bajo dos tarjetas: desaprovecha el área y resta jerarquía/contenido útil | 1 | Information Architecture: Is it usable? |
+| 8 | Eliminar equipo se ofrece con un ícono de basurero por fila sin (verificar) confirmación clara; acción destructiva de alto riesgo | 3 | Usability: Prevención de errores |
+| 9 | Reserva de máquina se ejecuta con un solo clic sin paso de confirmación: fácil reservar por error | 1 | Usability: Libertad y control del usuario |
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** Clave de traducción sin resolver visible al usuario
+<br> **Severidad:** 3
+<br> **Heurística violada:** Usabilidad - Consistencia y estándares.
+
+- Problema:
+En la sección Configuration (Admin), el desplegable “Ping Interval (seconds)” muestra la opción con la clave de internacionalización (i18n) sin resolver: aparece el texto crudo “10 configuration.configurationIoT.seconds (recommended)” en lugar de un valor legible como “10 segundos (recomendado)”. Esto expone detalles internos del sistema al usuario, genera desconfianza y dificulta entender la opción que se está seleccionando.
+
+<img src="../assets/heuristucas/problem1-heuristicas.png">
+
+- Recomendación:
+Corregir la clave de traducción faltante en los archivos de internacionalización (tanto en inglés como en español) para que la opción muestre un texto legible. Añadir además una verificación que evite renderizar claves i18n sin resolver, mostrando un valor por defecto cuando una traducción no exista.
+
+**PROBLEMA #2:** Mezcla de idiomas EN/ES en la misma pantalla
+<br> **Severidad:** 3
+<br>**Heurística violada:** Usabilidad - Consistencia y estándares
+
+- Problema:
+
+Con el idioma de la interfaz configurado en inglés, varias pantallas muestran textos en español mezclados con la UI en inglés. Por ejemplo, el panel de inicio del Cliente combina “Welcome, Cliente!” y “Track machines, book equipment...” (inglés) con las tarjetas “Máquinas Libres” y “Reservadas” (español). Lo mismo ocurre en Analytics (leyendas “Cardio/Fuerza/Funcional” y días “Lun/Mar/Mié”) y en Financial Impact (nombres de máquinas como “Cinta #3”, “Elíptica Pro”, “Rack Sentadilla”). Esta inconsistencia rompe la coherencia del idioma y confunde al usuario.
+
+<img src="../assets/heuristucas/problem2-heuristicas.png">
+<img src="../assets/heuristucas/problem2.1-heuristicas">
+
+- Recomendación:
+
+Externalizar todos los textos a los archivos de traducción y asegurar que el contenido (incluidas leyendas de gráficos, días de la semana y nombres de elementos) respete el idioma seleccionado. Evitar textos “quemados” (hardcoded) en un solo idioma.
+
+**PROBLEMA #3:** Estado de las máquinas comunicado solo por color
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Diseño Inclusivo - Proporciona experiencias comparables
+
+- Problema:
+
+En el Mapa de disponibilidad en tiempo real, el estado de cada máquina (libre, ocupada, por liberarse) se comunica únicamente mediante el color del ícono (verde, rojo, amarillo). No existe un texto, etiqueta o forma redundante que acompañe al color. Las personas con daltonismo (especialmente deuteranopia/protanopia, que afecta la distinción rojo-verde) no pueden diferenciar una máquina libre de una ocupada, perdiendo la función principal de la pantalla.
+
+<img src="../assets/heuristucas/problem3-heuristicas.png">
+
+- Recomendación:
+
+No depender exclusivamente del color para transmitir información. Añadir una señal redundante: una etiqueta de texto (“Libre” / “Ocupada”), un ícono distintivo por estado o un patrón/forma diferente. Garantizar además contraste suficiente y un texto alternativo accesible para lectores de pantalla.
+
+**PROBLEMA #4:**  Formularios sin marcar campos obligatorios
+
+<br> **Severidad:**  2
+
+<br>**Heurística violada:**  Usabilidad - Visibilidad del estado del sistema
+
+- Problems:
+
+Los formularios de la aplicación (por ejemplo, New Maintenance Ticket y Register Equipment) no indican qué campos son obligatorios: no usan asteriscos, etiquetas “requerido” ni ninguna marca previa. Cuando un campo obligatorio queda vacío (como “Equipment” en el ticket), solo se resalta con un borde de color al enviar, sin un mensaje de texto que explique el problema. El usuario no sabe de antemano qué información es indispensable.
+
+<img src="../assets/heuristucas/problem4-heuristicas.png">
+<img src="../assets/heuristucas/problem4.1-heuristicas">
+
+- Recomendación:
+
+Indicar visualmente los campos obligatorios antes del envío (asterisco y/o la palabra “requerido”) y acompañar la validación con un mensaje de texto descriptivo bajo cada campo. Mantener consistencia en el patrón de validación en todos los formularios.
+
+**PROBLEMA #5:**  Categorización de datos incorrecta (Rowing como “Back”)
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Usabilidad - Concordancia entre el sistema y el mundo real
+
+- Problema:
+
+En el panel de detalle del Mapa, la máquina “Rowing” (remo), que es un equipo de cardio, aparece clasificada bajo la categoría “Back” (espalda). La categorización no corresponde con la realidad del equipo, lo que confunde al usuario y afecta funciones que dependen de la categoría, como el filtrado y la sugerencia de alternativas.
+
+<img src="../assets/heuristucas/problem5-heuristicas.png">
+
+- Recomendación:
+
+Revisar y corregir los datos de categorización de las máquinas para que reflejen su tipo real (cardio, fuerza, etc.). Validar la consistencia entre la categoría asignada y los filtros disponibles (Strength / Cardio).
+
+**PROBLEMA #6:** “Zone ID” pide un número mientras la tabla muestra letras
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Usabilidad - Concordancia entre el sistema y el mundo real
+
+- Problema:
+
+En el formulario de registro/edición de equipo, el campo “Zone ID” solicita un valor numérico (por ejemplo, 1), mientras que la tabla de Equipment Management muestra las zonas como letras (A, B, C, D). Esta incoherencia entre el identificador interno (número) y la representación visible (letra) induce a error al registrar o editar un equipo, ya que el usuario no sabe qué valor corresponde a cada zona. Además, al editar un equipo existente, el campo “Zone ID” se carga vacío aunque el equipo ya tiene una zona asignada, con riesgo de perder ese dato al guardar.
+
+<img src="../assets/heuristucas/problem6-heuristicas.png">
+<img src="../assets/heuristucas/problem6.1-heuristicas">
+
+- Recomendación:
+
+Reemplazar el campo numérico por un selector (dropdown) que muestre las zonas con la misma nomenclatura que la tabla (A, B, C, D). Precargar la zona actual del equipo al editar, para no perder información existente.
+
+**PROBLEMA #7:**  Dashboard del cliente con gran cantidad de espacio vacío
+
+<br> **Severidad:** 1
+
+<br>**Heurística violada:**  Arquitectura de Información - Is it usable?
+
+- Problema:
+
+El panel de inicio del Cliente presenta únicamente un mensaje de bienvenida y dos tarjetas (“Máquinas Libres” y “Reservadas”) en la parte superior, dejando la mayor parte de la pantalla vacía. Se desaprovecha el área disponible y se pierde la oportunidad de mostrar contenido útil (accesos directos, reservas activas, recomendaciones), restando jerarquía y valor a la pantalla principal.
+
+<img src="../assets/heuristucas/problem7-heuristicas.png">
+
+- Recomendación:
+
+Aprovechar el espacio mostrando contenido relevante para el usuario: resumen de sus reservas activas con temporizador, accesos rápidos al mapa o a sus rutinas, o sugerencias personalizadas. Equilibrar la composición visual para evitar grandes vacíos.
+
+**PROBLEMA #8:**  Eliminar equipo: confirmación con diálogo nativo del navegador
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Usabilidad - Prevención de errores
+
+- Problema:
+
+La acción de eliminar un equipo se ofrece mediante un ícono de basurero por cada fila, una acción destructiva de alto riesgo. Aunque existe un paso de confirmación, este se implementa con el diálogo nativo del navegador (window.confirm), que rompe la consistencia visual con el resto de la interfaz, no se traduce al idioma seleccionado y no se integra con el diseño ni con los patrones de accesibilidad de la aplicación.
+
+<img src="../assets/heuristucas/problem8-heuristicas.png">
+
+- Recomendación:
+
+Sustituir el diálogo nativo por un modal de confirmación propio, coherente con el diseño de la app, que indique claramente el nombre del equipo a eliminar y diferencie visualmente la acción destructiva (por ejemplo, botón “Eliminar” en rojo y “Cancelar” como acción segura por defecto). Idealmente ofrecer la posibilidad de deshacer.
+
+**PROBLEMA #9:**  Reserva de máquina sin paso de confirmación
+
+<br> **Severidad:** 1
+
+<br>**Heurística violada:**  Usabilidad - Libertad y control del usuario
+
+- Problema:
+
+En el Mapa, al pulsar “Reserve” sobre una máquina libre, la reserva se ejecuta de inmediato con un solo clic, sin un paso de confirmación previo. Esto facilita reservar una máquina por error, lo que consume el cupo del usuario y bloquea el equipo para otros durante el tiempo de reserva.
+
+<img src="../assets/heuristucas/problem9-heuristicas.png">
+<img src="../assets/heuristucas/problem9.1-heuristicas">
+
+- Recomendación:
+
+Añadir una confirmación ligera antes de concretar la reserva (por ejemplo, un mensaje “¿Reservar Treadmill 1 por 10 minutos?”) o, como mínimo, ofrecer una opción de deshacer inmediatamente después de reservar, dando al usuario control sobre la acción.
+
 ## 5.4. Video About-the-Product.
