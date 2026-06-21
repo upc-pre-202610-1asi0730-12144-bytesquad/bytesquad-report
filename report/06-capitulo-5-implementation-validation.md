@@ -981,12 +981,12 @@ Entrevista #6
 #### Video unificado
 | Entrevista | Marca de tiempo | Entrevistado |
 | :--- | :--- | :--- |
-| 1 | 00:00:00 | Julio Cardenas |
-| 2 | 09:26:26 | Luis Romero |
-| 3 | 25:20:96 | Percy Baraybar | 
-| 4 | 36:07:12 | Joan Steffano Quispe Gamez |
-| 5 | 42:16:27 | Fabián Suárez |
-| 6 | 51:04:27 | Diego Quispe |
+| 1 | 00:00:00 | Luis Romero |
+| 2 | 15:53:22 | Julio Cardenas |
+| 3 | 27:34:25 | Percy Baraybar | 
+| 4 | 46:42:12 | Joan Steffano Quispe Gamez |
+| 5 | 54:28:27 | Fabián Suárez |
+| 6 | 1:05:30 | Diego Quispe |
 
 | **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDljgiFpIHsRKhGcbeP97MvAVBmbOitcyKh9AZ4c7WvKlM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rIOF9)|
 
