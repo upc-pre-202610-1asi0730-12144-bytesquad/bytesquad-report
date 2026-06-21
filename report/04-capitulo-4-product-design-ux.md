@@ -1191,16 +1191,13 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
 ![WF-16](../assets/wireflows/Frame%2017.png)
 
 ![task17.png](../assets/wireflows/TASKFLOW-17.png)
-![WFM-17](../assets/wireflows%20MOBILE/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png)
 ![WF-17](../assets/wireflows/S16%20-%20reserva%20express.png)
 
 ![task18.png](../assets/wireflows/TASKFLOW-18.png)
-![WFM-018](../assets/WIREFLOWS%20MOBILE/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
 ![WF-18](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07)%20(1).png)
 
 ![task19.png](../assets/wireflows/TASKFLOW-19.png)
-![WFM-019](../assets/WIREFLOWS%20MOBILE/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
-![WF-19](../assets/WIREFLOWS/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
+
 
 
 ![task20.png](../assets/wireflows/TASKFLOW-20.png)
@@ -1711,7 +1708,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US16: Sistema de reserva exprés en horas pico
 
-![UF-14](../assets/USERFLOWS/us16diagram.png){ width=90%}
+![UF-14](../assets/USERFLOWS/us16diagram.png)
 
 * **User Goal:** Como cliente frecuente, quiero separar virtualmente una máquina libre por 10 minutos durante horas pico, para asegurar su uso mientras me dirijo a ella.
 * **Happy Path:** El cliente accede al Mapa de Disponibilidad y selecciona una máquina en estado verde. Al presionar Separar, el sistema bloquea el equipo, cambia su icono a amarillo y activa el cronómetro de 10 minutos en la pestaña Mis Reservas. Al llegar a la ubicación física y validar su identidad antes de que el tiempo se agote, el sistema vincula automáticamente la sesión, cambia el estado a rojo (ocupado) y finaliza la reserva virtual para dar inicio al cobro o uso regular.
@@ -1727,7 +1724,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US18: Identificación de equipos subutilizados (EP05)
 
-![UF-18](../assets/USERFLOWS/US18_%20Identificación%20de%20equipos%20subutilizados%20(EP05).png){ width=90% }
+![UF-18](../assets/USERFLOWS/US18_%20Identificación%20de%20equipos%20subutilizados%20(EP05).png)
 
 
 * **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
@@ -1737,7 +1734,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US19: Visualización de picos de estrés del local (EP05) 
 
-![UF-19](../assets/USERFLOWS/US19_%20Visualización%20de%20picos%20de%20estrés%20del%20local%20(EP05)%20(1).png){ width=90% }
+![UF-19](../assets/USERFLOWS/US19_%20Visualización%20de%20picos%20de%20estrés%20del%20local%20(EP05)%20(1).png)
 * **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
 * **Happy Path:** El administrador accede al módulo de Reportes en SpotTrack, donde el sistema genera automáticamente un gráfico de picos de estrés resaltando en rojo las horas con aforo superior al 90%. Al activar la comparativa intersemanal, la interfaz superpone dos líneas de tendencia, permitiendo al dueño del negocio identificar cuellos de botella diarios y comparar el comportamiento de la demanda entre distintos periodos de forma inmediata.
 * **Unhappy Path:** Debido a un error de red, el sistema no puede procesar el porcentaje de uso. En lugar del gráfico de estrés, se muestra un estado de carga infinito o un aviso de "Error al cargar analíticas de aforo", sugiriendo reintentar la consulta.
@@ -1745,8 +1742,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US20 Exportación de analíticas de uso (Epic: EP05)
 
-![UF-20](../assets/USERFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=90% }
-![UFM-20](../assets/USERFLOW%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=50% }
+![UF-20](../assets/USERFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+![UFM-20](../assets/USERFLOW%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
 
 * **User Goal**: Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento.
   
@@ -1757,8 +1754,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US21 Monitoreo de estado de hardware Edge IoT (Epic_ EP05)
 
-![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=90% }
-![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=50% }
+![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 
 * **User Goal:** Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado.
 * **Happy Path:** El sistema detecta automáticamente la reconexión de un sensor IoT previamente desconectado y notifica al administrador mediante un mensaje de éxito con opción de descarga de reporte.
@@ -1767,8 +1764,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 ## US22 Alerta predictiva de mantenimiento (Epic_ EP06) CONFIGURAR UMBRAL
 
 
-![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=90% }
-![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=50% }
+![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
 
 * **User Goal:**
 * **Happy Path:** El administrador ajusta los parámetros de los umbrales (batería, tiempos de inactividad, horas críticas) en el panel de configuración, y el sistema guarda los cambios aplicando las nuevas reglas a los modelos predictivos.
@@ -1776,8 +1773,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US23 Despacho automatizado de tickets técnicos (Epic_ EP06)
 
-![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=90% }
-![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=50% }
+![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
 
 * **User Goal:**
 * **Happy Path:** El usuario técnico crea un ticket completando todos los campos requeridos (ID máquina, descripción, prioridad), y el sistema lo integra en el tablero de mantenimiento en tiempo real.
@@ -1794,8 +1791,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US25 Calendario inteligente de bloqueos de reserva(Epic_ EP04)
 
-![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=90% }
-![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=50% } 
+![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
 
 * **User Goal:** Como gerente de operaciones, quiero que el sistema agende los mantenimientos preventivos exclusivamente en horarios valle, para no afectar la disponibilidad en horas de alta demanda.
 * **Happy Path:** El usuario selecciona un activo desde el mapa de disponibilidad, completa el formulario de reserva con datos válidos y el sistema confirma la operación exitosamente.
@@ -1803,15 +1800,15 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US26 Gestión de activos físicos y altas (Epic_ EP07)
 
-![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=90% }
-![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=50% }
+![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
 * **User Goal:**Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor. 
 * **Happy Path:** El administrador completa el formulario de registro de nueva máquina con datos correctos (nombre, tipo, sede, ID de sensor) y el sistema lo añade al inventario global.
 * **Unhappy Path:** Si existen campos faltantes o datos inválidos (como un ID de sensor ya existente), el flujo se detiene y la interfaz resalta los campos que requieren corrección antes de permitir el guardado.
 
 ## US28: Gestión automatizada de stock de repuestos
 
-![UF-14](../assets/USERFLOWS/us18diagram.png){ width=90%}
+![UF-14](../assets/USERFLOWS/us18diagram.png)
 
 * **User Goal:** Como administrador, quiero controlar el inventario de piezas clave y recibir alertas de reabastecimiento, para que los técnicos siempre tengan insumos disponibles.
 * **Happy Path:** El administrador accede al formulario de "Nuevo Ticket de Mantenimiento" y selecciona los repuestos necesarios para la reparación. Al guardar el ticket, el sistema descuenta automáticamente las unidades del inventario y, si el nivel cae por debajo del umbral mínimo, actualiza el estado del repuesto a "Stock Crítico" (color rojo/amarillo en la tabla). Finalmente, el administrador visualiza la alerta en el panel de "Almacén de Repuestos" y el sistema genera una sugerencia de pedido de compra basada en la cantidad faltante para optimizar el inventario.
@@ -1819,16 +1816,16 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US29 Calculadora de impacto financiero por inactividad (Epic: EP08)
 
-![UF-29](../assets/USERFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=90% }
-![UFM-29](../assets/USERFLOW%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=50% }
+![UF-29](../assets/USERFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+![UFM-29](../assets/USERFLOW%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
 * **User Goal:**
 * **Happy Path:** El sistema calcula y presenta automáticamente el impacto financiero de la inactividad de activos, mostrando métricas clave como la pérdida por inactividad ($1,872), el costo de mantenimiento ($5,150), el ahorro potencial con mantenimiento predictivo ($1,840) y el ROI promedio de recuperación de inversión (7.2 meses).
 * **Unhappy Path:** Si los activos no cuentan con datos de operación o historial de inactividad registrado, o si los parámetros financieros ingresados son incompletos o inválidos, la calculadora no puede generar los indicadores y muestra los campos vacíos o un mensaje de error indicando la imposibilidad de calcular el impacto financiero.
 
 ## US30 Analítica predictiva de compras e inversión (Epic_ EP08)
 
-![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=90% }
-![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=50% }
+![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 * **User Goal:**
 * **Happy Path:** El sistema procesa los datos financieros y de uso para generar proyecciones de ROI y recomendaciones de inversión automáticas basadas en la salud de los activos.
 * **Unhappy Path:** Ante la falta de datos históricos suficientes o la introducción de parámetros de cálculo inconsistentes en el simulador, el motor de análisis muestra un estado de error o campos vacíos informando la imposibilidad de generar la proyección.

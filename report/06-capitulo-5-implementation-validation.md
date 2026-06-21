@@ -40,11 +40,11 @@ En este apartado, se detallan las herramientas, plataformas y lenguajes utilizad
 
 Para la gestión del código fuente, se utiliza GitHub como plataforma central de control de versiones y colaboración. Se han establecido repositorios independientes para asegurar la modularidad del proyecto.
 
-**Organización en GitHub:** `https://github.com/SpotTrack`
-* **Repositorio del Informe:** `https://github.com/SpotTrack/SpotTrack-report`
-* **Repositorio de la Landing Page:** `https://github.com/SpotTrack/SpotTrack-website`
-* **Repositorio del Frontend:** `https://github.com/SpotTrack/SpotTrack-webapp`
-* **Repositorio del Backend:** `https://github.com/SpotTrack/SpotTrack-platform`
+**Organización en GitHub:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad`
+* **Repositorio del Informe:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report`
+* **Repositorio de la Landing Page:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website`
+* **Repositorio del Frontend:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp`
+* **Repositorio del Backend:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform`
 
 **Ramificación: GitFlow**
 
@@ -122,8 +122,8 @@ La Landing Page promocional de SpotTrack fue desarrollada utilizando HTML5, CSS3
 * Desde los ajustes del repositorio (Settings > Pages), se habilitó el despliegue automático apuntando a la raíz (`/`) de la rama `main`.
 * GitHub Actions procesó la solicitud y publicó el sitio web asignándole un certificado SSL gratuito y una URL pública.
 
-* **Repositorio:** `https://github.com/SpotTrack/SpotTrack-website`
-* **URL desplegada:** `https://spottrack.github.io/SpotTrack-website/`
+* **Repositorio:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp`
+* **URL desplegada:** ``
 
 
 ### 5.2. Landing Page, Services & Applications Implementation
@@ -163,6 +163,8 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del tablero de trello.
 
 **Link del tablero:** https://trello.com/b/6LoJKkoI/sprint-backlog
+
+<img src="../assets/trello-evidence.png">
 
 | User Story ID | Id | Description | Estimation (hours) | Assigned to | Status (To-do / InProcess / To-Review / Done) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -249,7 +251,7 @@ En esta entrega, el equipo de desarrolladores de SpotTrack ha completado con éx
 
 Durante el Sprint 1, se llevó a cabo la publicación de la Landing Page de SpotTrack empleando GitHub Pages como servicio de hosting. A continuación, se detallan las acciones realizadas para lograr su despliegue exitoso.
 
-Se creó el repositorio denominado SpotTrack-website dentro de la organización upc-pre-202610-1asi0730-12144-SpotTrack en GitHub.
+Se creó el repositorio denominado byteguard-website dentro de la organización upc-pre-202610-1asi0730-12144-byteguard en GitHub.
 
 El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow.
 
@@ -398,9 +400,7 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 | US30 | Analítica predictiva de compras e inversión | T69 | Build ROI projection simulation view | Allow manager to input acquisition cost and see ROI estimate | 5 | Valentino | Done |
 | US30 | Analítica predictiva de compras e inversión | T70 | Display purchase recommendation on saturation | Show buy suggestion when machine consistently exceeds max capacity | 4 | Valentino | Done |
 
-Trello board: https://trello.com/invite/b/69fc21c2d05be44be499c75d/ATTI944e7a75fa88bba093494745abbec4eb6F6DB156/spottrack-tb1
-
-![](../assets/trello-evidence.png)
+Jira board: https://sprint-backlog-2.atlassian.net/jira/software/projects/UPA1SJ/list?jql=project%20%3D%20UPA1SJ%20ORDER%20BY%20created%20DESC
 
 Si bien es cierto se solicitó el desarrollo de un Trello board, nuestro equipo principalmente decidió utilizar la plataforma de Jira para la asignación de tareas.
 ![](../assets/jira-evidence.png)
@@ -602,7 +602,7 @@ Para asegurar la transparencia y el seguimiento de los cambios, se detallan los 
 
 URL Repositorio Mock API: https://github.com/SpotTrack-1ASI0729-2610-11881/SpotTrack-Mock-Api
 
-URL Repositorio Frontend: https://witty-tree-0f4a0570f.7.azurestaticapps.net/
+URL Repositorio Frontend: https://lively-ground-08011af0f.7.azurestaticapps.net/login
 
 URL Repositorio Landing Page: https://spottrack.github.io/spottrack-website/
 
@@ -625,7 +625,7 @@ Por parte de la aplicación web (Vue SPA), se utilizó un static web app de Azur
 ![](../assets/azure-evidence.png)
 ![](../assets/github-actions-webapp.png)
 
-Webapp URL: https://witty-tree-0f4a0570f.7.azurestaticapps.net
+Webapp URL: https://lively-ground-08011af0f.7.azurestaticapps.net/login
 
 #### 5.2.2.11. Team Collaboration Insights during Sprint
 
