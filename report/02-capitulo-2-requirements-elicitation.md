@@ -82,15 +82,15 @@ SEGMENTO 1: Administradores de Gimnasio y Gerentes de Operaciones
 
 ### Entrevistado 1
  
-<img src="../assets/EntrevistaAlexander.jpeg" alt="EntrevistaAlexander" width="400" height="150">
+<img src="../assets/Interview-iniciaI.png" alt="foto-entrevista-1" width="400" height="150">
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombre** | Alexander Gutierrez |
-| **Edad** | 31 años |
-| **Ocupación** | Administrador de Gimnasio (Sport Life La Molina) |
-| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQBBYSV6pNzzQ48c_MHCmckZAYkuHJqXvA903HKeH3NJKPw?e=sB9lLZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQBBYSV6pNzzQ48c_MHCmckZAYkuHJqXvA903HKeH3NJKPw?e=sB9lLZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Resumen** | La entrevista presenta a Alexander Gutiérrez, Administrador de gimnasio en Sport Life La Molina, quien comenta que el mantenimiento actual es rápido, salvo cuando requieren repuestos importados. Reconoce que gestionan la congestión en horas pico ofreciendo ejercicios alternativos o pesos libres a los clientes. Señala que un mapa de calor le ayudaría a prever la demanda específica de ciertos días, y que las alertas automáticas de mantenimiento predictivo serían magníficas para anticipar el desgaste de piezas clave (como las fajas de las trotadoras) antes de que se rompan. \n\nEn cuanto al panel de control, Alexander valora métricas sobre asignación de rutinas, ingreso de invitados y comentarios de post-venta. Considera que la tecnología de cámaras podría generar reservas en adultos mayores, aunque sería bien aceptada por los jóvenes. Finalmente, destaca que un piloto gratuito lo convencería de pagar la suscripción si en 30 días arroja datos precisos sobre los horarios pico y el uso de máquinas de alta demanda, justificando así futuras compras y optimizando la gestión del local. |
+| **Nombre** | Julio Cardenas  |
+| **Edad** | 45 años |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDZ7_STc-2lQ79wKz-WoFdQAQQcErVhHwv0uZMYZBpl_r8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UxgRBS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDZ7_STc-2lQ79wKz-WoFdQAQQcErVhHwv0uZMYZBpl_r8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UxgRBS) |
+| **Resumen** | La entrevista presenta a Julio Cardenas, Administrador de gimnasio en B2 sede Partdo, quien comenta que el mantenimiento actual es rápido, salvo cuando requieren repuestos importados. Reconoce que gestionan la congestión en horas pico ofreciendo ejercicios alternativos o pesos libres a los clientes. Señala que un mapa de calor le ayudaría a prever la demanda específica de ciertos días, y que las alertas automáticas de mantenimiento predictivo serían magníficas para anticipar el desgaste de piezas clave (como las fajas de las trotadoras) antes de que se rompan. \n\nEn cuanto al panel de control, Julio valora métricas sobre asignación de rutinas, ingreso de invitados y comentarios de post-venta. Considera que la tecnología de cámaras podría generar reservas en adultos mayores, aunque sería bien aceptada por los jóvenes. Finalmente, destaca que un piloto gratuito lo convencería de pagar la suscripción si en 30 días arroja datos precisos sobre los horarios pico y el uso de máquinas de alta demanda, justificando así futuras compras y optimizando la gestión del local. |
 
 ### Entrevistado 2
 
@@ -159,7 +159,7 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 #### Video unificado
 | Entrevista | Marca de tiempo | Entrevistado |
 | :--- | :--- | :--- |
-| 1 | 00:00:00 | Alexander Gutierrez |
+| 1 | 00:00:00 | Julio Cardenas |
 | 2 | 13:49:09 | Luis Romero |
 | 3 | 26:43:21 | Percy Baraybar | 
 | 4 | 36:57:01 | Joan Steffano Quispe Gamez |

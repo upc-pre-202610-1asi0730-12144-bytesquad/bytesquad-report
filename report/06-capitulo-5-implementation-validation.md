@@ -40,18 +40,18 @@ En este apartado, se detallan las herramientas, plataformas y lenguajes utilizad
 
 Para la gestión del código fuente, se utiliza GitHub como plataforma central de control de versiones y colaboración. Se han establecido repositorios independientes para asegurar la modularidad del proyecto.
 
-**Organización en GitHub:** `https://github.com/SpotTrack`
-* **Repositorio del Informe:** `https://github.com/SpotTrack/SpotTrack-report`
-* **Repositorio de la Landing Page:** `https://github.com/SpotTrack/SpotTrack-website`
-* **Repositorio del Frontend:** `https://github.com/SpotTrack/SpotTrack-webapp`
-* **Repositorio del Backend:** `https://github.com/SpotTrack/SpotTrack-platform`
+**Organización en GitHub:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad`
+* **Repositorio del Informe:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report`
+* **Repositorio de la Landing Page:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website`
+* **Repositorio del Frontend:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp`
+* **Repositorio del Backend:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform`
 
 **Ramificación: GitFlow**
 
 Se ha adoptado el modelo **GitFlow** para gestionar el flujo de trabajo, utilizando ramas efímeras que permiten un desarrollo paralelo y organizado. Las ramas base son:
 
 * **`main`:** Rama de producción. Contiene exclusivamente código estable y versiones finales desplegadas.
-* **`develop`:** Rama de integración. Aquí se consolidan todas las nuevas funcionalidades antes de pasar a la rama principal.
+* **`develop`:** Rama de integración. Aquí se consolidan todas las nuevaVs funcionalidades antes de pasar a la rama principal.
 * **Feature Branches:** Ramas temporales creadas para el desarrollo de tareas específicas. Siguen la nomenclatura `feature/task-name` y se eliminan tras ser integradas en `develop`.
 
 **Ejemplo de Ramas Feature para la Landing Page:**
@@ -122,8 +122,8 @@ La Landing Page promocional de SpotTrack fue desarrollada utilizando HTML5, CSS3
 * Desde los ajustes del repositorio (Settings > Pages), se habilitó el despliegue automático apuntando a la raíz (`/`) de la rama `main`.
 * GitHub Actions procesó la solicitud y publicó el sitio web asignándole un certificado SSL gratuito y una URL pública.
 
-* **Repositorio:** `https://github.com/SpotTrack/SpotTrack-website`
-* **URL desplegada:** `https://spottrack.github.io/SpotTrack-website/`
+* **Repositorio:** `https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp`
+* **URL desplegada:** ``
 
 
 ### 5.2. Landing Page, Services & Applications Implementation
@@ -163,6 +163,8 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del tablero de trello.
 
 **Link del tablero:** https://trello.com/b/6LoJKkoI/sprint-backlog
+
+<img src="../assets/trello-evidence.png">
 
 | User Story ID | Id | Description | Estimation (hours) | Assigned to | Status (To-do / InProcess / To-Review / Done) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -249,11 +251,11 @@ En esta entrega, el equipo de desarrolladores de SpotTrack ha completado con éx
 
 Durante el Sprint 1, se llevó a cabo la publicación de la Landing Page de SpotTrack empleando GitHub Pages como servicio de hosting. A continuación, se detallan las acciones realizadas para lograr su despliegue exitoso.
 
-Se creó el repositorio denominado SpotTrack-website dentro de la organización upc-pre-202610-1asi0730-12144-SpotTrack en GitHub.
+Se creó el repositorio denominado byteguard-website dentro de la organización upc-pre-202610-1asi0730-12144-byteguard en GitHub.
 
 El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow.
 
-Se verificó el despliegue exitoso accediendo a la URL pública: https://spottrack.github.io/SpotTrack-website/ 
+Se verificó el despliegue exitoso accediendo a la URL pública: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -261,7 +263,7 @@ Se desplegó la landing page usando el servicio de GitHub Pages. Se configuró p
 
 <img src="../assets/landing/landing1.png" alt="bounded" width="500"/>
 
-URL de Landing Page Desplegada: https://spottrack.github.io/SpotTrack-website/ 
+URL de Landing Page Desplegada: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -285,10 +287,10 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Location** | Reunión Virtual (Discord / Microsoft Teams) |
 | **Prepared By** | Gallardo, Carla |
 | **Attendees (to planning meeting)** | Gamero, Lui / Gallardo, Carla / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
-| **Sprint n – 1 Review Summary** | Sprint 1 entregó los artefactos fundacionales de Lean UX, DDD, diseño UX/UI en Figma y el inicio de la Landing Page (Hero Section y Header). Sin embargo, quedaron pendientes el despliegue, las secciones de módulos, precios y contacto de la Landing Page, así como diversas secciones de documentación del informe. |
-| **Sprint n – 1 Retrospective Summary** | El equipo identificó que la carga de trabajo de documentación y diseño subestimó el tiempo necesario. Para este Sprint 2 se priorizará paralelizar la corrección de Sprint 1 con el inicio del desarrollo de la Web App, asignando responsables claros por cada frente. |
+| **Sprint 1 Review Summary** | Sprint 1 entregó los artefactos fundacionales de Lean UX, DDD, diseño UX/UI en Figma y el inicio de la Landing Page (Hero Section y Header). Sin embargo, quedaron pendientes el despliegue, las secciones de módulos, precios y contacto de la Landing Page, así como diversas secciones de documentación del informe. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó que la carga de trabajo de documentación y diseño subestimó el tiempo necesario. Para este Sprint 2 se priorizará paralelizar la corrección de Sprint 1 con el inicio del desarrollo de la Web App, asignando responsables claros por cada frente. |
 | **Sprint Goal** | Nuestro enfoque es completar todos los artefactos pendientes del Sprint 1 (correcciones de documentación y Landing Page completa) e iniciar el desarrollo frontend de la Web Application de SpotTrack consumiendo una Fake API, implementando las vistas de autenticación, mapa de calor, gestión de activos, alertas de mantenimiento y sugerencias de rutinas. Esto se confirmará cuando la Landing Page esté desplegada y funcional con todas sus secciones, y las vistas frontend de las User Stories priorizadas estén implementadas y navegables en el entorno de desarrollo local. |
-| **Sprint n Velocity** | 58 Story Points |
+| **Sprint 2 Velocity** | 58 Story Points |
 | **Sum of Story Points** | 58 |
 
 ##### 5.2.2.2 Aspect Leaders and Collaborators
@@ -398,9 +400,7 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 | US30 | Analítica predictiva de compras e inversión | T69 | Build ROI projection simulation view | Allow manager to input acquisition cost and see ROI estimate | 5 | Valentino | Done |
 | US30 | Analítica predictiva de compras e inversión | T70 | Display purchase recommendation on saturation | Show buy suggestion when machine consistently exceeds max capacity | 4 | Valentino | Done |
 
-Trello board: https://trello.com/invite/b/69fc21c2d05be44be499c75d/ATTI944e7a75fa88bba093494745abbec4eb6F6DB156/spottrack-tb1
-
-![](../assets/trello-evidence.png)
+Jira board: https://sprint-backlog-2.atlassian.net/jira/software/projects/UPA1SJ/list?jql=project%20%3D%20UPA1SJ%20ORDER%20BY%20created%20DESC
 
 Si bien es cierto se solicitó el desarrollo de un Trello board, nuestro equipo principalmente decidió utilizar la plataforma de Jira para la asignación de tareas.
 ![](../assets/jira-evidence.png)
@@ -602,10 +602,9 @@ Para asegurar la transparencia y el seguimiento de los cambios, se detallan los 
 
 URL Repositorio Mock API: https://github.com/SpotTrack-1ASI0729-2610-11881/SpotTrack-Mock-Api
 
-URL Repositorio Frontend: https://witty-tree-0f4a0570f.7.azurestaticapps.net/
+URL Repositorio Frontend: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp
 
-URL Repositorio Landing Page: https://spottrack.github.io/spottrack-website/
-
+URL Repositorio Landing Page: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website
 
 #### 5.2.2.10. Software Deployment Evidence for Sprint Review
 
@@ -613,7 +612,7 @@ Como parte de la tarea **CORR-05**, la Landing Page de SpotTrack fue desplegada 
 
 | Producto | Entorno | URL de Producción |
 | :--- | :--- | :--- |
-| SpotTrack Landing Page | GitHub Pages (producción) | https://spottrack.github.io/spottrack-website/ |
+| SpotTrack Landing Page | GitHub Pages (producción) | https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/ |
 
 La siguiente figura muestra la Landing Page de SpotTrack correctamente desplegada y funcional en el entorno de producción de GitHub Pages:
 
@@ -625,7 +624,7 @@ Por parte de la aplicación web (Vue SPA), se utilizó un static web app de Azur
 ![](../assets/azure-evidence.png)
 ![](../assets/github-actions-webapp.png)
 
-Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
+Webapp URL: https://green-pebble-07422c50f.7.azurestaticapps.net/login
 
 #### 5.2.2.11. Team Collaboration Insights during Sprint
 
@@ -635,8 +634,690 @@ A continuación todas las estadisticas que nos proporciona Github, en su apartad
 
 <img src="../assets/evidence-insights-website.png" alt="bounded" width="500"/>
 
+#### 5.2.3. Sprint 3
+En esta sección se registra y explica el avance en términos de producto y trabajo
+colaborativo para el Sprint 3. Incluye como secciones internas: Sprint Planning 3,
+Aspect Leaders and Collaborators, Sprint Backlog 3, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.3.1.Spring Planning 3.
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de
+resumen del sprint planning meeting. La estructura a utilizar se presenta a
+continuación.
+
+| Sprint 3 | Sprint 3                                                                                                                                                          |
+| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                    |
+| Date | 20-06-2026                                                                                                                                                         |
+| Time | 23:59                                                                                                                                                             |
+| Location | Reunion Virtual Via Discord                                                                                                                                                        |
+| Prepared By | Gallardo Morales, Carla Alejnadra                                                                                                                                   |
+| Attendees (to planning meeting) | Gallardo Morales Carla Alejandra, Fernández Linares Alvaro Sebastian, Espinoza Orrego Valentino Andre      |
+| Sprint 2 Review Summary | Sprint 2 entregó una primera versión del frontend de la aplicación web desplegada correctamente. Asimismo, se desplegó una versión de la Landing Page culminada en un 90%. Sin embargo, solo se aplicó el 60% de las correcciones indicadas en el Sprint 1, quedando pendiente completar las correcciones restantes.|
+| Sprint 2 Retrospective Summary | El equipo identificó la ausencia de un proceso de QA formal como principal área de mejora, originada porque no todo estuvo terminado a tiempo. Se resaltó la necesidad de establecer deadlines claros, rastrear el progreso por capítulo y realizar releases oportunos. Se reconoció una mejora en el equilibrio de la carga de trabajo respecto al Sprint 1, aunque persistieron errores arrastrados del sprint anterior. También se señaló la falta de comunicación en la delegación de tareas y la importancia de que todos los integrantes se mantengan al tanto del avance general del equipo para facilitar un mejor QA colectivo. Como aciertos, se destacaron el cumplimiento de entregas por miembro en su mayoría, la mejora en el uso de GitFlow y el despliegue correcto del frontend con progreso decente.|
+| **Sprint Goal & User Stories** |                                                                                                                                                                    |
+| Sprint 3 Goal | Nuestro enfoque es habilitar a los administradores de gimnasios para gestionar sus operaciones y a los clientes de gimnasio para registrar su actividad física a través de una plataforma web completamente conectada. Creemos que esto entrega una experiencia integral y sin fricciones —desde la gestión de cuentas hasta el seguimiento de sesiones— a administradores y clientes de gimnasio. Esto se confirmará cuando los participantes de las entrevistas de validación de ambos segmentos puedan completar exitosamente sus tareas principales en la aplicación desplegada sin bloqueos críticos. |
+| Sprint 3 Velocity | 45                                                                                                                                                             |
+| Sum of Story Points | 45     
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+Para este Sprint 3, el equipo concentró sus esfuerzos en el desarrollo del backend con Spring Boot. La división de trabajo se organizó por Bounded Contexts del dominio, permitiendo que cada integrante tomara ownership completo sobre uno o varios contextos delimitados.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect 1: Backend Gym & Equipment BC Leader (L) / Collaborator (C) | Aspect 2: Backend IAM & Profiles BC Leader (L) / Collaborator (C) | Aspect 3: Validation Interviews Leader (L) / Collaborator (C) | Aspect 4: Sprint 2 Corrections Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Fernández Linares, Alvaro Sebastian | ORION-tech-c | Profiles BC / Routines BC (L) | IAM BC (L) | Segment 2 (L) | C4 Diagram Revision (C) |
+| Gallardo Morales, Carla Alejandra| Carlsss28 | Membership/ Maintenance/ Reservation BC (L) | IAM BC (C) | Segment 1 (C) | Corrections (C) |
+| Espinoza Orrego, Valentino Andre | valentinoespinoza13 | Analytics BC (C) | (C) | Segment 1 (L) | Figma Documentation (L) |
+
+
+#### Sprint Backlog 3
+
+| Id | Title | Task Id | Task Title | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| UPA1SJ-183 | Web Services | UPA1SJ-184 | Monitoring | ORION10 | En curso |
+| UPA1SJ-183 | Web Services | UPA1SJ-185 | Equipment | ORION10 | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-186 | Reservation | Carla Gallardo | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-187 | Maintenance | Carla Gallardo | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-188 | Iot Sensoring Gestion | ORION10 | Tareas por hacer |
+| UPA1SJ-183 | Web Services | UPA1SJ-189 | Analytics | Andre Espinoza | Tareas por hacer |
+| UPA1SJ-183 | Web Services | UPA1SJ-190 | Membership | Carla Gallardo | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-191 | Routines | ORION10 | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-192 | Profiles | ORION10 | Finalizada |
+| UPA1SJ-183 | Web Services | UPA1SJ-193 | Auth(IAM) | ORION10 | En curso |
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+El principal trabajo del Sprint 3 se concentró en el repositorio byteguard-platform, correspondiente al backend desarrollado con Spring Boot. A continuación se presentan los commits más representativo.
+
+Esta tabla resume el avance del repo por bounded context (IAM, Gym, Equipment, Membership, Reservation, Maintenance, Routine, Analytics) hasta el último merge a develop.  
+
+Backend Web Services Commits:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | main | 9d1bdf2fa40f06c626567f7c30d209d8de915c3c | chore: remove .idea from tracking | - | 2026-06-11 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/shared | e233840419d66f69ae6c1babcb49b7bd1874bd82 | shared complete setted | - | 2026-06-12 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/profiles-bounded | 9e1e86c9b500e31bfbedb82e36648ac0e19d7160 | remove innecesary data, added new ones | - | 2026-06-12 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feat/commands-analytics | 53e9b57bde0726fe36b052e2e6f4bd9ad24f95ed | docs: commands added | - | 2026-06-13 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/create-routine | d162a827ef592650a6f80a19ea871d1c322dab8e | feat(routine): fix comment error | - | 2026-06-14 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/iam-core | 9ee3c2bb002acce30a974b0b0b2dcffee0c9151e | fix(iam): change length of token secret | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-create-branch | f2e5b75b2f6050939913c13cc9bcad886451124c | feat(gym): add migration AddGymBranches creating branches table with FK to gyms | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-create-gym | 3e06d3ce90d3958c308b3e3756b0823e95e8c027 | feat(gym): add migration AddGymCreateGym creating gyms table | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/membership-activate-membership | e96ac7d7b4055ee46f2d4f38bd3394f4efcad04c | feat(membership): add migration creating memberships table | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/start-routine | 0d0bb7cc9a524056495a69a0604d3dca542e32fd | feat(routine): add routine-sessions migration | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/add-exercise-block | bdc23ed0011bd22452684fd831ac041f1b27041f | fix(routines): fix null values error | - | 2026-06-17 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-create-zone | de308923b7b3621b37d73286295b0008d24a37f4 | feat(gym): changes in gym repository | - | 2026-06-18 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-register-equipment | 951e6dae4761d4127781dbf310056d106048ab45 | feat(gyms): add AddEquipment EF Core migration | - | 2026-06-18 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/equipment-occupy-release | 55ef38f03fda5f71d98af0083f724d27d68de2e6 | feat(gyms): register IGymContextFacade in DI container | - | 2026-06-18 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-request-maintenance | c1417831e89fcba1813ebaea9e98a8e98fa3e536 | feat(maintenance): add migration AddMaintenanceBoundedContext creating maintenances table | - | 2026-06-19 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-create-technical-ticket | c0e401c3f7699a706a41b93a7cd02968109db6cc | feat(maintenance): add migration creating technical_tickets table | - | 2026-06-19 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-assign-technical-ticket | ade6085b51b00d894d1407f51a7d7435326f85fd | feat(maintenance): add POST assign endpoint to TechnicalTicketController | - | 2026-06-19 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-complete-maintenance | 583412f6e74d6576c26ecba713024c6c662a761e | feat(maintenance): add POST complete endpoint to TechnicalTicketController | - | 2026-06-20 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-update-maintenance-status | cc9c1e721eda50b087f296c03d843f56f3bebca5 | feat(maintenance): add PUT maintenance-status endpoint to TechnicalTicketController | - | 2026-06-20 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/analytics-request-activity-analysis | e71eb2bba2185d705b04c76db89f5c40e05d0890 | feat(analytics): complete request activity analysis feature with strict DDD tactics | - | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/analytics-generate-roi-projection | cd89c5ba84402a4934ae69dd2952103a2bac2004 | feat(analytics): implement request ROI command feature | - | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | fix/analytics-backend | 18fbe13b5395b58c3f48ee323f7c356e6c970011 | fix(analytics): register analytics services and repositories in DI | - | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | develop | 9b8311275103aee09cb03b439afd4b644dd07ae6 | Merge pull request #59 from fix/analytics-backend | Fix/analytics backend | 2026-06-21 |
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Durante el Sprint 3, el equipo concretó la transición de una arquitectura basada en Fake API (JSON Server) a un backend real implementado con Spring Boot. La plataforma `spottrack-platform` fue construida siguiendo los principios de Domain-Driven Design, con Bounded Contexts claramente delimitados: **Gym** (gestión de sedes, zonas y umbral de mantenimiento), **Equipment** (registro, actualización de estado, retiro y reubicación de activos), **Maintenance** (tickets técnicos, trabajos de mantenimiento y bitácora), **Reservation** (reservas exprés con temporizador), **Profiles** (perfiles de administrador y cliente), **IAM** (autenticación JWT, registro, login y desactivación de cuenta) y **Routines** (sesiones de rutina).
+
+Los Bounded Contexts se comunicaron mediante eventos de integración, implementando el patrón de ACL (Anti-Corruption Layer): el evento `TicketCreatedEvent` disparó la política que marcó el equipo como fuera de servicio en el Gym BC, y el evento `TicketResolvedEvent` disparó la política que actualizó el estado del equipo a disponible al completar el mantenimiento.
+
+La integración frontend-backend se logró sin modificaciones a los componentes vue del Sprint 2, al respetar el contrato de API documentado desde la etapa de Fake API. Únicamente fue necesario actualizar la URL base en `environment.ts`.
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful versionada bajo `api/v1`, protegida con JWT (Bearer Token). A continuación se detallan los principales endpoints implementados por Bounded Context.
+
+##### Bounded Context: IAM (Identity & Access Management)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/authentication/sign-up` | Registrar usuario | `POST` | `/api/v1/authentication/sign-up` | `201 Created` (sin body) | Crea una nueva cuenta de usuario con username, password y rol. Endpoint anónimo (no requiere token). |
+| `/api/v1/authentication/sign-in` | Autenticar usuario | `POST` | `/api/v1/authentication/sign-in` | `{ "id": 1, "username": "admin@gym.com", "role": "Admin", "token": "eyJ..." }` | Valida credenciales y retorna un Bearer Token JWT para autenticación posterior. Endpoint anónimo. |
+| `/api/v1/users` | Listar usuarios | `GET` | `/api/v1/users` | `[{ "id": 1, "username": "admin@gym.com", "role": "Admin" }]` | Retorna todos los usuarios registrados. Requiere autenticación. |
+
+##### Bounded Context: Gym (Gestión de Instalaciones)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/gyms` | Crear gimnasio | `POST` | `/api/v1/gyms` | `{ "id": 1, "name": "FitNode Central", "street": "Av. Javier Prado 123", "district": "San Isidro", "city": "Lima" }` | Registra un nuevo gimnasio en el sistema. Requiere autenticación. |
+| `/api/v1/gyms/{gymId}/branches` | Agregar sede | `POST` | `/api/v1/gyms/1/branches` | `{ "id": 1, "name": "Main Branch", "street": "...", "district": "...", "city": "..." }` | Añade una sede física al gimnasio indicado. Retorna 404 si el gimnasio no existe. |
+| `/api/v1/gyms/{gymId}/branches/{branchId}/zones` | Agregar zona | `POST` | `/api/v1/gyms/1/branches/1/zones` | `{ "id": 1, "name": "Cardio Zone" }` | Crea una zona dentro de una sede. Retorna 404 si el gimnasio o la sede no existen. |
+| `/api/v1/equipment` | Registrar equipo | `POST` | `/api/v1/equipment` | `{ "id": 1, "name": "Treadmill T-500", "zoneId": 1, "status": "Available" }` | Registra un nuevo equipo dentro de una zona. Retorna 404 si la zona no existe. |
+
+##### Bounded Context: Profiles (Perfiles de Usuario)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/profiles/admins` | Crear perfil de administrador | `POST` | `/api/v1/profiles/admins` | `{ "id": 1, "userId": 1, "fullName": "Juan Pérez", "email": "juan@gym.com", "phoneNumber": "...", "dni": "..." }` | Crea el perfil de administrador asociado a un usuario. Retorna 409 si el email ya está registrado. |
+| `/api/v1/profiles/admins/{adminId}` | Obtener administrador | `GET` | `/api/v1/profiles/admins/1` | `{ "id": 1, "userId": 1, "fullName": "Juan Pérez", ... }` | Retorna el perfil de administrador, o 404 si no existe. |
+| `/api/v1/profiles/admins` | Listar administradores | `GET` | `/api/v1/profiles/admins` | `[{ "id": 1, "fullName": "Juan Pérez", ... }]` | Retorna todos los perfiles de administrador registrados. |
+| `/api/v1/profiles/admins/{adminId}` | Actualizar administrador | `PUT` | `/api/v1/profiles/admins/1` | `{ "id": 1, "fullName": "Juan Pérez García", ... }` | Actualiza nombre, apellido y teléfono del administrador. |
+| `/api/v1/profiles/clients` | Crear perfil de cliente | `POST` | `/api/v1/profiles/clients` | `{ "id": 1, "userId": 2, "fullName": "Ana López", "email": "ana@mail.com", ... }` | Crea el perfil de cliente asociado a un usuario. Retorna 409 si el email ya está registrado. |
+| `/api/v1/profiles/clients/{clientId}` | Obtener cliente | `GET` | `/api/v1/profiles/clients/1` | `{ "id": 1, "fullName": "Ana López", ... }` | Retorna el perfil de cliente, o 404 si no existe. |
+| `/api/v1/profiles/clients` | Listar clientes | `GET` | `/api/v1/profiles/clients` | `[{ "id": 1, "fullName": "Ana López", ... }]` | Retorna todos los perfiles de cliente registrados. |
+| `/api/v1/profiles/clients/{clientId}` | Actualizar cliente | `PUT` | `/api/v1/profiles/clients/1` | `{ "id": 1, "fullName": "Ana López Ruiz", ... }` | Actualiza nombre, apellido y teléfono del cliente. |
+
+##### Bounded Context: Membership (Membresías y Acceso)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/memberships/activate` | Activar membresía | `POST` | `/api/v1/memberships/activate` | `{ "id": 1, "clientId": 1, "plan": "Premium", "startDate": "...", "endDate": "...", "status": "Active" }` | Activa una nueva membresía para un cliente. |
+| `/api/v1/memberships/{id}` | Obtener membresía | `GET` | `/api/v1/memberships/1` | `{ "id": 1, "clientId": 1, "plan": "Premium", "status": "Active" }` | Retorna la membresía solicitada, o 404 si no existe. |
+| `/api/v1/memberships/by-client/{clientId}` | Listar membresías por cliente | `GET` | `/api/v1/memberships/by-client/1` | `[{ "id": 1, "plan": "Premium", "status": "Active" }]` | Retorna todas las membresías de un cliente. |
+| `/api/v1/memberships/{id}/plan` | Actualizar plan | `PUT` | `/api/v1/memberships/1/plan` | `{ "id": 1, "plan": "VIP", "status": "Active" }` | Cambia el plan de una membresía existente. |
+| `/api/v1/memberships/{id}/suspend` | Suspender membresía | `POST` | `/api/v1/memberships/1/suspend` | `{ "id": 1, "status": "Suspended" }` | Suspende una membresía activa. |
+| `/api/v1/memberships/{id}/renew` | Renovar membresía | `POST` | `/api/v1/memberships/1/renew` | `{ "id": 1, "endDate": "...", "status": "Active" }` | Extiende la fecha de fin de una membresía. |
+| `/api/v1/memberships/{id}/cancel` | Cancelar membresía | `DELETE` | `/api/v1/memberships/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una membresía. Retorna 400 si ya está cancelada o expirada. |
+| `/api/v1/branch-accesses/grant` | Evaluar acceso a sede | `POST` | `/api/v1/branch-accesses/grant` | `{ "id": 1, "membershipId": 1, "branchId": 1, "status": "Granted", "grantedByAdminId": 1 }` | Evalúa la membresía referenciada y registra una decisión de acceso (Granted/Denied). |
+
+##### Bounded Context: Reservations (Reservas de Equipos)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/reservations/express` | Iniciar reserva exprés | `POST` | `/api/v1/reservations/express` | `{ "id": 1, "clientId": 1, "equipmentId": 1, "startDate": "...", "endDate": "...", "status": "Reserved" }` | Crea una reserva exprés de un cliente sobre un equipo, para un periodo dado. |
+| `/api/v1/reservations/{id}/cancel` | Cancelar reserva | `DELETE` | `/api/v1/reservations/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una reserva existente. Retorna 400 si no puede cancelarse en su estado actual. |
+| `/api/v1/reservations/{id}/submit-request` | Solicitar ocupación de equipo | `POST` | `/api/v1/reservations/1/submit-request` | `{ "id": 1, "status": "Pending" }` | Envía la solicitud de ocupación del equipo asociado a la reserva. |
+| `/api/v1/reservations/{id}/end` | Finalizar reserva | `POST` | `/api/v1/reservations/1/end` | `{ "id": 1, "status": "Completed" }` | Finaliza una reserva activa. |
+| `/api/v1/reservations/{id}/request-equipment-available` | Liberar equipo | `POST` | `/api/v1/reservations/1/request-equipment-available` | `{ "id": 1, "status": "Completed" }` | Señala que el equipo debe liberarse y volver a estar disponible en el contexto Gym. |
+| `/api/v1/reservations/{id}` | Obtener reserva | `GET` | `/api/v1/reservations/1` | `{ "id": 1, "clientId": 1, "equipmentId": 1, "status": "Active" }` | Retorna la reserva solicitada, o 404 si no existe. |
+| `/api/v1/reservations/by-client/{clientId}` | Listar reservas por cliente | `GET` | `/api/v1/reservations/by-client/1` | `[{ "id": 1, "equipmentId": 1, "status": "Active" }]` | Retorna todas las reservas de un cliente. |
+| `/api/v1/reservations/by-equipment/{equipmentId}` | Listar reservas por equipo | `GET` | `/api/v1/reservations/by-equipment/1` | `[{ "id": 1, "clientId": 1, "status": "Active" }]` | Retorna todas las reservas de un equipo. |
+| `/api/v1/reservations/{id}/start-timer` | Iniciar temporizador | `POST` | `/api/v1/reservations/1/start-timer` | `{ "id": 1, "status": "Active" }` | Transiciona una reserva de "Reserved" a "Active" y marca el equipo como ocupado. |
+
+##### Bounded Context: Routines (Rutinas de Entrenamiento)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/routines` | Crear rutina | `POST` | `/api/v1/routines` | `{ "id": 1, "routineName": "Full Body", "clientId": 1, "exerciseBlockCount": 0 }` | Crea una nueva rutina para un cliente. |
+| `/api/v1/routines/{routineId}/exercise-blocks` | Agregar bloque de ejercicio | `POST` | `/api/v1/routines/1/exercise-blocks` | `{ "id": 1, "exerciseName": "Squat", "exerciseType": "Strength", "order": 1 }` | Añade un bloque de ejercicio a una rutina existente. Retorna 404 si la rutina no existe. |
+| `/api/v1/routines/{routineId}` | Obtener rutina | `GET` | `/api/v1/routines/1` | `{ "id": 1, "routineName": "Full Body", "clientId": 1, "exerciseBlockCount": 4 }` | Retorna la rutina solicitada, o 404 si no existe. |
+| `/api/v1/routines?clientId={clientId}` | Listar rutinas por cliente | `GET` | `/api/v1/routines?clientId=1` | `[{ "id": 1, "routineName": "Full Body" }]` | Retorna las rutinas pertenecientes a un cliente. |
+| `/api/v1/routine-sessions` | Iniciar sesión de rutina | `POST` | `/api/v1/routine-sessions` | `{ "id": 1, "routineId": 1, "clientId": 1, "status": "InProgress", "startedAt": "..." }` | Inicia una nueva sesión de rutina para un cliente. |
+| `/api/v1/routine-sessions/{routineSessionId}` | Obtener sesión | `GET` | `/api/v1/routine-sessions/1` | `{ "id": 1, "status": "InProgress", ... }` | Retorna la sesión de rutina solicitada, o 404 si no existe. |
+| `/api/v1/routine-sessions/{routineSessionId}/completions` | Completar sesión | `POST` | `/api/v1/routine-sessions/1/completions` | `{ "id": 1, "status": "Completed" }` | Marca una sesión de rutina como completada. |
+| `/api/v1/routine-sessions/{routineSessionId}/missed` | Marcar sesión perdida | `POST` | `/api/v1/routine-sessions/1/missed` | `{ "id": 1, "status": "Missed" }` | Marca una sesión de rutina como perdida (no realizada). |
+| `/api/v1/routine-sessions?clientId={clientId}` | Listar sesiones por cliente | `GET` | `/api/v1/routine-sessions?clientId=1` | `[{ "id": 1, "status": "Completed" }]` | Retorna las sesiones de rutina pertenecientes a un cliente. |
+
+##### Bounded Context: Maintenance (Mantenimiento de Equipos)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/maintenances/by-equipment/{equipmentId}` | Listar mantenimientos por equipo | `GET` | `/api/v1/maintenances/by-equipment/1` | `[{ "id": 1, "equipmentId": 1, "reason": "Cinta desgastada", "status": "Requested" }]` | Retorna todos los registros de mantenimiento de un equipo. |
+| `/api/v1/maintenances/request` | Solicitar mantenimiento | `POST` | `/api/v1/maintenances/request` | `{ "id": 1, "equipmentId": 1, "requestedByAdminId": 1, "reason": "Cinta desgastada", "status": "Requested" }` | Crea una nueva solicitud de mantenimiento para un equipo. |
+| `/api/v1/technical-tickets/{id}` | Obtener ticket técnico | `GET` | `/api/v1/technical-tickets/1` | `{ "id": 1, "maintenanceId": 1, "equipmentId": 1, "status": "Created", "maintenanceProgress": "Pending" }` | Retorna el ticket técnico, o 404 si no existe. |
+| `/api/v1/technical-tickets` | Crear ticket técnico | `POST` | `/api/v1/technical-tickets` | `{ "id": 1, "status": "Created", ... }` | Crea un ticket técnico a partir de una solicitud de mantenimiento, marcando el equipo fuera de servicio. |
+| `/api/v1/technical-tickets/{id}/assign` | Asignar técnico | `POST` | `/api/v1/technical-tickets/1/assign` | `{ "id": 1, "status": "Assigned", "assignedTechnicianId": 5 }` | Asigna el ticket a un técnico, transicionando su estado a "Assigned". |
+| `/api/v1/technical-tickets/{id}/request-status-update` | Solicitar actualización de estado | `POST` | `/api/v1/technical-tickets/1/request-status-update` | `{ "id": 1, "maintenanceProgress": "InProgress" }` | Marca el progreso de mantenimiento del ticket como "InProgress". |
+| `/api/v1/technical-tickets/{id}/status` | Modificar estado de ticket | `PUT` | `/api/v1/technical-tickets/1/status` | `{ "id": 1, "status": "InProgress" }` | Transiciona el ticket a un nuevo estado (no permite revertir a "Created" ni modificar uno resuelto). |
+| `/api/v1/technical-tickets/{id}/maintenance-status` | Actualizar progreso de mantenimiento | `PUT` | `/api/v1/technical-tickets/1/maintenance-status` | `{ "id": 1, "maintenanceProgress": "Completed" }` | Actualiza el progreso (Pending, InProgress o Completed) de un ticket no resuelto. |
+| `/api/v1/technical-tickets/{id}/complete` | Completar ticket | `POST` | `/api/v1/technical-tickets/1/complete` | `{ "id": 1, "status": "Resolved" }` | Marca el ticket como resuelto y retorna el equipo a servicio. Requiere que el progreso sea "Completed". |
+| `/api/v1/maintenance-jobs/accept` | Aceptar trabajo de mantenimiento | `POST` | `/api/v1/maintenance-jobs/accept` | `{ "id": 1, "technicalTicketId": 1, "technicianId": 5, "status": "Accepted" }` | Crea un trabajo de mantenimiento cuando un técnico acepta un ticket técnico. |
+| `/api/v1/maintenance-logs` | Registrar log de finalización | `POST` | `/api/v1/maintenance-logs` | `{ "id": 1, "technicalTicketId": 1, "equipmentId": 1, "completedByAdminId": 1, "completedAt": "...", "notes": "..." }` | Crea un registro inmutable de finalización para un ticket técnico resuelto. |
+
+##### Bounded Context: Analytics (Reportes e Indicadores)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/activityreports` | Crear reporte de actividad | `POST` | `/api/v1/activityreports` | `{ "id": 1, "activityReportId": 1, "totalUsageTime": 0, "downtimeCost": 0, "percentageComparison": 0 }` | Crea un nuevo reporte de actividad a partir del análisis solicitado. |
+| `/api/v1/activityreports/total-usage-time` | Calcular tiempo total de uso | `POST` | `/api/v1/activityreports/total-usage-time` | `{ "id": 1, "totalUsageTime": 480, ... }` | Calcula y actualiza el tiempo total de uso del reporte. |
+| `/api/v1/activityreports/downtime-cost` | Calcular costo de inactividad | `POST` | `/api/v1/activityreports/downtime-cost` | `{ "id": 1, "downtimeCost": 350.5, ... }` | Calcula y actualiza el costo de inactividad del reporte. |
+| `/api/v1/activityreports/percentage-comparison` | Calcular comparación porcentual | `POST` | `/api/v1/activityreports/percentage-comparison` | `{ "id": 1, "percentageComparison": 12.3, ... }` | Calcula y actualiza la comparación porcentual del reporte. |
+| `/api/v1/maintenancequotes` | Crear cotización de mantenimiento | `POST` | `/api/v1/maintenancequotes` | `{ "id": 1, "maintenanceQuoteId": 1, "correctiveActionsCost": 0, "sparePartsCost": 0, "preventiveCost": 0, "totalMaintenanceCost": 0 }` | Crea una nueva cotización a partir del costo de acciones correctivas. |
+| `/api/v1/maintenancequotes/spare-parts-cost` | Calcular costo de repuestos | `POST` | `/api/v1/maintenancequotes/spare-parts-cost` | `{ "id": 1, "sparePartsCost": 120.0, ... }` | Calcula y actualiza el costo de repuestos de la cotización. |
+| `/api/v1/maintenancequotes/preventive-cost` | Calcular costo preventivo | `POST` | `/api/v1/maintenancequotes/preventive-cost` | `{ "id": 1, "preventiveCost": 80.0, ... }` | Calcula y actualiza el costo de mantenimiento preventivo de la cotización. |
+| `/api/v1/maintenancequotes/total-cost` | Consolidar costo total | `POST` | `/api/v1/maintenancequotes/total-cost` | `{ "id": 1, "totalMaintenanceCost": 200.0 }` | Consolida y retorna el costo total de mantenimiento de la cotización. |
+| `/api/v1/roiprojections` | Crear proyección ROI | `POST` | `/api/v1/roiprojections` | `{ "id": 1, "roiProjectionId": 1, "projectedDowntimeCost": 0, "projectedEarnings": 0, "roiIndex": 0, "demandStatus": "Unknown" }` | Crea una nueva proyección ROI a partir del costo de inactividad proyectado. |
+| `/api/v1/roiprojections/projected-earnings` | Calcular ganancias proyectadas | `POST` | `/api/v1/roiprojections/projected-earnings` | `{ "id": 1, "projectedEarnings": 1500.0, ... }` | Calcula y actualiza las ganancias proyectadas. |
+| `/api/v1/roiprojections/generate` | Generar índice ROI | `POST` | `/api/v1/roiprojections/generate` | `{ "id": 1, "roiIndex": 1.8, "demandStatus": "High" }` | Genera el índice ROI final y el estado de demanda de la proyección. |
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Durante este sprint, el objetivo de despliegue se centró en el **Backend de SpotTrack**, el cual fue desplegado exitosamente y ya se encuentra operativo en el entorno de la nube de **Azure**.
+<img src="../assets/image11.png">
+
+<img src="../assets/image22.png">
+
+
+
+| Componente | Entorno de Despliegue | URL de Producción |
+| --- | --- | --- |
+| **SpotTrack platform** | Azure Web App | [](spottrack-platform-os.azurewebsites.net) |
+
+Este despliegue garantiza que la lógica de negocio, las bases de datos y los servicios del backend estén completamente disponibles en la nube para ser consumidos de manera estable y segura.
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de platform:
+
+<img src="../assets/team-insight.png">
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
+
+
+Segmento 1 (Administradores de gimnasio y gerentes de Operaciones) 
+
+1. ¿Qué tan fluido te resultó el proceso de autenticación en la pantalla de Iniciar Sesión y qué fue lo primero que llamó tu atención al entrar al Panel Principal?
+2. Observando la gráfica de Uso de Máquinas en el Panel Principal, ¿te resulta evidente identificar su tiempo de uso de las máquinas del gimnasio?
+3. En la parte inferior del Panel Principal tienes la tabla de Equipos Infrautilizados. ¿Consideras que esta ubicación es la ideal para detectar rápidamente qué máquinas no están generando valor, o preferirías ver esto en otra sección?
+4. En la sección de Equipos, si tuvieras que añadir una nueva cinta de correr al sistema, ¿qué tan intuitivo te parece el flujo empezando por el botón + Registrar Equipo?
+5. En la sección de Analítica, enfocándonos en las tarjetas superiores, ¿cómo interpretas la métrica de Horas Totales de Uso frente al Tiempo Inactivo? ¿Te da una idea clara de la eficiencia de tu local?
+6. Bajando en esa misma sección de Analítica, encontrarás el panel de Recomendaciones de Reubicación (ej. mover de Sede Miraflores a Sede San Isidro). ¿La interfaz visual con las barras de progreso y el cálculo de "$/mes" extra te resulta convincente para tomar la decisión de trasladar una máquina?
+7. En la sección de Mantenimiento en el apartado de Centro de Mantenimiento, ¿el diseño de tarjetas separadas por columnas (Pendiente, En Progreso, Completado) te facilita visualizar el cuello de botella en las reparaciones técnicas?
+8. Si navegas en la sección de Configuración, encontrarás el apartado de Umbrales de Mantenimiento. ¿Te resulta claro cómo configure el límite de "Horas de Uso Críticas (500h)" para que el sistema genere un ticket de forma automática antes de que la máquina falle?
+9. En la misma sección de Configuración, existe un Buffer de Horas Pico. Como administrador, ¿comprendes cómo esta función bloquea automáticamente la programación de mantenimientos preventivos durante las horas de mayor afluencia?
+10. En la sección de Monitoreo IoT, ¿la información sobre el estado de la batería, nivel de señal y desconexiones te da la seguridad de que los sensores están midiendo correctamente sin necesidad de ir a revisarlos físicamente?
+11. Al ingresar a la pestaña de Impacto Financiero, la primera tabla muestra la Pérdida por Inactividad de Equipos. ¿Ver el desglose exacto de horas perdidas y su equivalente en dólares te genera un sentido de urgencia para agilizar las reparaciones?
+12. En esa misma pantalla, tienes la herramienta Simulador de Retorno de Inversión (ROI). Si ingresas el costo de una máquina nueva y la demanda insatisfecha, ¿el gráfico de barras de "Proyección de ROI" te resulta lo suficientemente claro para justificar una nueva compra a tus socios?
+13. Si necesitaras enviar un reporte de estos costos a contabilidad, ¿qué tan fácil te resultó ubicar y utilizar los botones de Generar PDF o Exportar CSV en la parte superior derecha?
+14. Como administrador de un gimnasio, ¿la paleta de colores oscuros (Dark Mode), la limpieza de las tablas y la fluidez de la plataforma te transmiten el nivel de profesionalismo esperado para gestionar tus finanzas y activos?
+15. Sabiendo que los módulos de monitoreo en las máquinas son sensores pasivos (telemetría y vibración/uso) que no graban video ni comprometen la privacidad de los usuarios, ¿te sentirías tranquilo instalándolos en todo tu local?
+16. De todo lo que probaste hoy (Alertas predictivas, Simulador de ROI, Reubicación multisede), ¿cuál herramienta consideras que tendría el impacto más rápido para reducir tus costos operativos (OPEX)?
+17. Si finalizaras tu mes de prueba gratuito, ¿estarías dispuesto a pagar una suscripción mensual por SpotTrack basándote en el dinero que la plataforma te demostró que podrías ahorrar en mantenimiento correctivo? ¿Qué mejorarías para que Spottrack te ayude más a gestionar tu gimnasio?
+    
+
+Segmento 2 (Clientes frecuentes de gimnasio)
+
+1. ¿Podrías indicarme tu edad, el distrito en el que resides y con qué frecuencia asistes al gimnasio semanalmente?
+2. Cuando estás entrenando y encuentras que la máquina que necesitas usar está malograda o en mantenimiento, ¿qué sueles hacer actualmente?
+3. Dando un vistazo rápido a esta página principal, ¿qué beneficio principal sientes que SpotTrack te ofrece como asistente regular al gimnasio?
+4. ¿Sientes que está claro a dónde debes hacer clic si quieres empezar a usar la plataforma?
+5. ¿La información que ves aquí te genera el interés y la confianza suficiente para registrarte en este momento?
+6. Al intentar completar estas tareas, ¿te resultó intuitivo encontrar las opciones para reportar y buscar equipos, o tuviste que buscar demasiado en el menú?
+7. Si en algún momento presionaste una opción equivocada, ¿sentiste que el sistema te ayudó a regresar o corregir el error fácilmente?
+8. Al momento de enviar tu reporte del equipo malogrado, ¿la aplicación te dejó totalmente claro y visible que tu aviso fue enviado con éxito?
+9. Imagina que estás a mitad de tu rutina, sudando y quizás con la vista cansada. ¿Sientes que el tamaño de las letras, los colores y el contraste de los botones son fáciles de distinguir desde la pantalla de tu celular?
+10. ¿Sientes que esta aplicación web mantiene el mismo estilo y colores que la página de presentación que vimos al inicio?
+11. ¿Hay alguna función que te gustaría que SpotTrack tuviera para hacer tus rutinas de entrenamiento mucho más fluidas?
+
+
 ### 5.3.2. Registro de Entrevistas.
+
+ Entrevista #1 
+ | Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Julio Cardenas |
+| **Imagen** | ![EntrevistaJulio](../assets/JuIio%20Cardenas2.png){width=80%} |
+| **Edad** | 45 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQCU_SowEJDlT6zASGquSEzbAdG2HCa8IVyKY1Vn6YGc77Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abQe8g](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQCU_SowEJDlT6zASGquSEzbAdG2HCa8IVyKY1Vn6YGc77Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abQe8g) |
+| **Resumen** |Julio Cárdenas (administrador de gimnasios, 45 años) califica SpotTrack como altamente efectivo por su interfaz intuitiva y valor táctico. Destaca el dashboard y las herramientas de mantenimiento, subrayando la reubicación de máquinas entre sedes como su función estrella para recortar gastos e impulsar ganancias. Además, valora los simuladores de retorno de inversión (ROI) y el control de inactividad para justificar presupuestos. Como mejoras, propone desarrollar una app móvil para técnicos y optimizar los sensores IoT. Finalmente, afirma que pagaría por la suscripción gracias al ahorro y la rentabilidad que la plataforma aporta a su gestión.|
+
+
+Entrevista #2
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Luis Romero |
+| **Imagen** | ![EntrevistaLuis](../assets/VaIentino-Iuis.png){width=80%} |
+| **Edad** | 51 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAvIfjFJ2_2TZHgJwbZTOIEAa2axQuKMQdQ2_F9nbOMFhY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GQm1hz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAvIfjFJ2_2TZHgJwbZTOIEAa2axQuKMQdQ2_F9nbOMFhY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GQm1hz) |
+| **Resumen** | Luis Romero (entrenador y encargado del gimnasio de Monterrico UPC) resalta que SpotTrack es una herramienta muy fácil de usar y con un diseño claro. Valora el control de datos sobre el uso de máquinas, ocupación y mantenimiento, lo que le permite tomar decisiones reales y dejar atrás las suposiciones. Aunque encuentra gran utilidad en el monitoreo IoT y la reubicación de equipos, destaca el simulador de ROI como la función clave para recortar costos y validar compras. Finalmente, afirma que pagaría la suscripción y propone añadir métricas de asistencia a clases grupales para calificar el éxito de los profesores y sus actividades.
+ |
+
+ Entrevista #3
+
+ 
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Percy Baraybar |
+| **Imagen** | ![EntrevistaPercy](../assets/PercyBa2.png){width=80%} |
+| **Edad** | 30 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQB3MRbDyCuwQa58zhF4Fb_SAQntpAinH6v14EjHWiavcIs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0qoVbU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQB3MRbDyCuwQa58zhF4Fb_SAQntpAinH6v14EjHWiavcIs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0qoVbU) |
+| **Resumen** |Percy Baraybar (administrador de gimnasio, 30 años) elogia la rapidez y el diseño profesional de SpotTrack, herramienta que usa para tomar decisiones rápidas basadas en datos. Para él, las métricas visuales de uso, tiempo inactivo, pérdidas y mantenimiento son clave, pero destaca la reubicación de máquinas y el simulador de ROI como las funciones más valiosas para subir ingresos y justificar gastos. También valora las alertas preventivas, el monitoreo IoT y el cálculo de pérdidas financieras. Finalmente, afirma que pagaría la suscripción porque la plataforma se paga sola con los ahorros que genera, y sugiere arreglar un fallo en las lecturas de batería de los sensores, ya que marcan 0% por error. |
+
+
+Entrevista # 4
+
+![foto-entrevista-4](../assets/foto-entrevista-1.png){width=80%}
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Joan Steffano Quispe Gamez |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
+| **Ocupación** | Estudiante universitario (UPC) |
+| **Frecuencia** | 3 a 4 veces por semana |
+| **Horario** | Nocturno (Post-clases) |
+| **Contexto** | Entrena de noche debido a su alta carga académica. |
+|**Resumen**| Un participante de 20 años y residente de Los Olivos, quien entrena de 3 a 4 veces por semana, destaca que SpotTrack es muy útil para optimizar tiempos y conocer la disponibilidad de las máquinas. Considera que la interfaz es clara, intuitiva y confiable, ya que logró reportar un equipo averiado y buscar otro libre sin ninguna dificultad. Además, valora la consistencia visual y el uso correcto de los colores, aunque sugiere agrandar el tamaño de algunas letras para mejorar la lectura. Por último, indicó que no tiene nuevas funciones para agregar.|
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQC0blHflpPcRI5T5Wg7Cmz_ATdQXtHxHqZ8Ika5zySGiEk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OjdApr |
+
+Entrevista #5
+
+![foto-entrevista-6](../assets/Diego2.png){width=80%}
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Diego Quispe |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
+| **Ocupación** | Estudiante universitario (U. de Lima) y trabajador a medio tiempo |
+| **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
+| **Duración** | Variable (afectada por la alta afluencia) |
+| **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+|**Resumen**| Un participante de 20 años y residente de Pueblo Libre, quien va al gimnasio de 2 a 3 veces por semana, considera que SpotTrack es una herramienta útil e intuitiva para reportar máquinas y hallar opciones libres. Destaca que la información de la plataforma genera confianza e interés para registrarse, valorando también la facilidad para corregir errores y la claridad de los avisos. Como puntos a mejorar, sugiere dar más contraste y color a la página de inicio para diferenciar mejor los elementos visuales. Además, propone agregar una sección de notas personales en las rutinas para juntar todo el control de los entrenamientos en un solo lugar.|
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQA6VQrDWArUToltdzeeQFvWAXQxMWN_5gEo-Kc6BMJlqBY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ApuCkZ |
+
+Entrevista #6
+
+![foto-entrevista-5](../assets/foto-entrevista-2.png)
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Fabián Suárez |
+| **Edad** | 19 |
+| **Distrito** | Pueblo Libre |
+| **Ocupación** | Estudiante y trabajador |
+| **Frecuencia** | 3 a 4 días a la semana (interdiario) |
+| **Duración** | Entre 1 a 2 horas |
+| **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
+|**Resumen**| Un participante de 20 años y residente de Los Olivos, quien entrena de 3 a 4 veces por semana, considera que la plataforma es intuitiva para reportar máquinas averiadas y buscar alternativas libres. Sugiere que la página de inicio debería incluir más imágenes y elementos visuales del rubro para reforzar su identidad con el gimnasio. Aunque valora que los colores ayudan a identificar rápido las acciones, propone agrandar las letras para que se lean mejor. Como mejoras funcionales, propone añadir la opción de cancelar reservas, recibir avisos sobre equipos malogrados y agregar videos con recomendaciones y rutinas más completas y personalizadas. |
+| **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAsUKfS7M2eRJbheiAoZ6jCASOx3vhzpm__iKgasLZnYxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=S7tjYl ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAsUKfS7M2eRJbheiAoZ6jCASOx3vhzpm__iKgasLZnYxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=S7tjYl)|
+
+#### Video unificado
+| Entrevista | Marca de tiempo | Entrevistado |
+| :--- | :--- | :--- |
+| 1 | 00:00:00 | Luis Romero |
+| 2 | 15:53:22 | Julio Cardenas |
+| 3 | 27:34:25 | Percy Baraybar | 
+| 4 | 46:42:12 | Joan Steffano Quispe Gamez |
+| 5 | 54:28:27 | Fabián Suárez |
+| 6 | 1:05:30 | Diego Quispe |
+
+| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDljgiFpIHsRKhGcbeP97MvAVBmbOitcyKh9AZ4c7WvKlM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rIOF9)|
+
 ### 5.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA :** Ingeniería de Software
+
+**CURSO :** Aplicaciones Web
+
+**SECCIÓN :** 12144
+
+**PROFESORES :** Todos
+
+**AUDITOR :**  Alonso Enrique Higa Kohatsu
+
+**CLIENTE(S) :**
+
+- Luis Alexis Bardales Tejada
+
+- Alonso Enrique Higa Kohatsu
+
+- Fabricio Jofred Lozano Quispe
+
+- Kelber Yamir Sandoval Aiquipa
+
+- Rodrigo Matias Vite Celis
+
+## SITE o APP A EVALUAR:
+
+SpotTrack
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+## Tarea General:
+
+#### a. Login/Registro:
+
+1. Iniciar sesión con credenciales válidas
+2. Manejo de error con credenciales inválidas (banner "Invalid email or password")
+3. Envío del formulario con campos vacíos (validación de requeridos)
+4. Mostrar / ocultar contraseña (ícono de ojo)
+5. Uso de credenciales demo (tarjetas autocompletables Admin/Cliente)
+6. Cambio de idioma en login (ES / EN)
+7. Navegación al registro (link "Sign up")
+
+## Tareas para el  rol de los clientes:
+
+#### a. Mapa de disponibilidad en tiempo real (con filtros y panel de máquina)
+
+1. Lectura del mapa y código de colores (libre / ocupada / por liberarse con timer)
+2. Filtrado por categoría (All / Strength / Cardio)
+3. Apertura del panel de detalle de una máquina
+4. Interpretación del estado y temporizador de la máquina
+5. Cierre del panel (X) y selección de otra máquina
+
+#### b. Reservar máquina / Reportar como ocupada / Ver alternativas
+
+1. Reservar una máquina libre (estado=Reserved, timer 10:00, confirmación)
+2. Reportar una máquina como ocupada (máquina libre)
+3. Reportar una máquina como libre (máquina ocupada)
+4. "Notify me when free" (suscripción a aviso de disponibilidad)
+5. "See alternatives" ver máquinas alternativas de la misma categoría
+6. Reservar desde la lista de alternativas
+
+#### c. Rutinas + crear nueva rutina (modal)
+
+1. Visualizar lista de rutinas y estado en vivo de cada máquina (Available / In Use / Maintenance)
+2. Filtrar rutinas por grupo muscular (All / Chest / Legs / Back / Shoulders / Arms)
+3. Ver alternativa cuando la máquina de la rutina está ocupada (ícono de intercambio)
+4. Abrir modal "New Routine"
+5. Completar campos (nombre, objetivo, dificultad, notas) y validación
+6. Crear la rutina / Cancelar el modal
+
+#### d. Mis reservas + cancelar reserva (timer)
+
+1. Visualizar reservas activas con temporizador de cuenta regresiva
+2. Interpretar la sección "How do reservations work?"
+3. Cancelar una reserva (botón X)
+4. Crear una reserva nueva desde "New Reservation"
+
+#### e. Perfil: plan, puntos, notificaciones, idioma, seguridad
+
+1. Visualizar datos del usuario y puntos acumulados
+2. Consultar plan actual e iniciar "Upgrade Plan"
+3. Activar / desactivar toggles de notificaciones (disponibilidad, mantenimiento, puntos)
+4. Cambiar idioma de la interfaz (Español / English)
+5. Cambiar contraseña (Change Password)
+6. Cerrar sesión (Log Out)
+
+## Tareas para el rol de los  administradores:
+
+#### a. Dashboard (KPIs + kanban de mantenimiento)
+
+1. Lectura de KPIs principales (Operational / In Maintenance / Out of Service / Total Tickets)
+2. Interpretación del gráfico "Peak Capacity Hours"
+3. Interpretación del gráfico "Machine Usage"
+4. Lectura de la tabla "Underutilized Equipment" (con indicador ROI High/Medium)
+5. Lectura del "Maintenance Center" tipo kanban resumido (Pending / In Progress / Completed)
+6. Navegación entre secciones desde el menú lateral
+
+#### b. Equipment Management (CRUD: registrar/editar/eliminar)
+
+1. Lectura de la tabla de equipos (ID, nombre, marca, modelo, zona, precio, estado)
+2. Búsqueda por nombre / marca / modelo
+3. Filtrado por estado (All statuses / Operational / Maintenance / Out of order)
+4. Registrar nuevo equipo (formulario: nombre, marca, modelo, Zone ID, precio, status)
+5. Validación del formulario de registro (campos vacíos, Zone ID numérico, precio)
+6. Editar un equipo existente (ícono lápiz)
+7. Eliminar un equipo (ícono basurero) y confirmación
+
+#### c. IoT Monitoring (tabla de sensores)
+
+1. Lectura de la tabla de sensores (ID, ubicación, estado, batería, señal, firmware, último ping)
+2. Interpretación de estados (Online / Disconnected / Warning) y umbrales de batería
+3. Búsqueda por sensor / máquina / zona
+4. Filtrado por estado
+5. Refrescar datos (botón Refresh)
+
+#### d. Maintenance Center (kanban de tickets)
+
+1. Lectura del tablero kanban (Pending / In Progress / Completed) y conteos
+2. Interpretación de prioridad de tickets (Urgent / High / Medium / Low)
+3. Búsqueda por ID / máquina / descripción
+4. Filtrado por estado y por prioridad
+5. Crear nuevo ticket (formulario: equipo, prioridad, tipo, hora programada, descripción)
+6. Validación del formulario de ticket (equipo sin valor por defecto)
+7. Avanzar un ticket de estado (Start,Complete)
+
+#### e. Reports & Analytics (gráficos + export)
+
+1. Lectura de KPIs (Total Usage Hours, Occupancy Rate, Peak Usage, Inactive Time)
+2. Filtrado por periodo / sucursal / rango personalizado
+3. Interpretación de gráficos (Weekly Usage vs Capacity, Distribution by Machine Type, Stress Peaks)
+4. Activar comparación ("Show Comparison")
+5. Exportar a CSV
+6. Generar PDF
+
+#### f. Financial Impact & ROI
+
+1. Lectura de KPIs financieros (Inactivity Loss, Maintenance Cost, Potential Savings, Average ROI)
+2. Lectura de la tabla "Equipment Inactivity Loss"
+3. Interpretación del "Maintenance Cost Breakdown" (pie chart)
+4. Interpretación de la "ROI Projection – New Machine"
+5. Exportar CSV / Generar PDF
+
+#### g. Configuration (parámetros del sistema)
+
+1. Ajustar "Maintenance Thresholds" (sliders: Critical Usage Hours, Max Inactive Time, Peak Hours Buffer)
+2. Activar / desactivar "Smart Scheduler"
+3. Ajustar "IoT Configuration" (Low Battery Threshold, Ping Interval, Offline Grace Period)
+4. Configurar "Notifications" (email y destinatarios)
+5. Configurar "Financial Configuration" (parámetros de ROI)
+6. Guardar / Cancelar cambios (Save Changes / Cancel)
+
+## ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | Clave de traducción sin resolver visible al usuario | 3 | Usability: Consistencia y estándares |
+| 2 | Mezcla de idiomas EN/ES en la misma pantalla | 3 | Usability: Consistencia y estándares |
+| 3 | Estado de las máquinas en el mapa comunicado solo por color (verde/rojo/amarillo), sin texto/forma redundante: usuarios con daltonismo no distinguen libre de ocupada | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Formularios sin marcar campos obligatorios | 2 | Usability: Visibilidad del estado del sistema |
+| 5 | Categorización de datos incorrecta: "Rowing" (cardio) aparece etiquetada como "Back" en el panel de máquina | 3 | Usability: Concordancia entre el sistema y el mundo real |
+| 6 | "Zone ID" en registro de equipo pide un número (1) mientras la tabla muestra zonas como letras (A/B/C/D): incoherencia que induce a error | 3 | Usability: Concordancia entre el sistema y el mundo real |
+| 7 | Dashboard del cliente con gran cantidad de espacio vacío bajo dos tarjetas: desaprovecha el área y resta jerarquía/contenido útil | 1 | Information Architecture: Is it usable? |
+| 8 | Eliminar equipo se ofrece con un ícono de basurero por fila sin (verificar) confirmación clara; acción destructiva de alto riesgo | 3 | Usability: Prevención de errores |
+| 9 | Reserva de máquina se ejecuta con un solo clic sin paso de confirmación: fácil reservar por error | 1 | Usability: Libertad y control del usuario |
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** Clave de traducción sin resolver visible al usuario
+<br> **Severidad:** 3
+<br> **Heurística violada:** Usabilidad - Consistencia y estándares.
+
+- Problema:
+En la sección Configuration (Admin), el desplegable “Ping Interval (seconds)” muestra la opción con la clave de internacionalización (i18n) sin resolver: aparece el texto crudo “10 configuration.configurationIoT.seconds (recommended)” en lugar de un valor legible como “10 segundos (recomendado)”. Esto expone detalles internos del sistema al usuario, genera desconfianza y dificulta entender la opción que se está seleccionando.
+
+<img src="../assets/heuristucas/problem1-heuristicas.png">
+
+- Recomendación:
+Corregir la clave de traducción faltante en los archivos de internacionalización (tanto en inglés como en español) para que la opción muestre un texto legible. Añadir además una verificación que evite renderizar claves i18n sin resolver, mostrando un valor por defecto cuando una traducción no exista.
+
+**PROBLEMA #2:** Mezcla de idiomas EN/ES en la misma pantalla
+<br> **Severidad:** 3
+<br>**Heurística violada:** Usabilidad - Consistencia y estándares
+
+- Problema:
+
+Con el idioma de la interfaz configurado en inglés, varias pantallas muestran textos en español mezclados con la UI en inglés. Por ejemplo, el panel de inicio del Cliente combina “Welcome, Cliente!” y “Track machines, book equipment...” (inglés) con las tarjetas “Máquinas Libres” y “Reservadas” (español). Lo mismo ocurre en Analytics (leyendas “Cardio/Fuerza/Funcional” y días “Lun/Mar/Mié”) y en Financial Impact (nombres de máquinas como “Cinta #3”, “Elíptica Pro”, “Rack Sentadilla”). Esta inconsistencia rompe la coherencia del idioma y confunde al usuario.
+
+<img src="../assets/heuristucas/problem2-heuristicas.png">
+<img src="../assets/heuristucas/problem2.1-heuristicas">
+
+- Recomendación:
+
+Externalizar todos los textos a los archivos de traducción y asegurar que el contenido (incluidas leyendas de gráficos, días de la semana y nombres de elementos) respete el idioma seleccionado. Evitar textos “quemados” (hardcoded) en un solo idioma.
+
+**PROBLEMA #3:** Estado de las máquinas comunicado solo por color
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Diseño Inclusivo - Proporciona experiencias comparables
+
+- Problema:
+
+En el Mapa de disponibilidad en tiempo real, el estado de cada máquina (libre, ocupada, por liberarse) se comunica únicamente mediante el color del ícono (verde, rojo, amarillo). No existe un texto, etiqueta o forma redundante que acompañe al color. Las personas con daltonismo (especialmente deuteranopia/protanopia, que afecta la distinción rojo-verde) no pueden diferenciar una máquina libre de una ocupada, perdiendo la función principal de la pantalla.
+
+<img src="../assets/heuristucas/problem3-heuristicas.png">
+
+- Recomendación:
+
+No depender exclusivamente del color para transmitir información. Añadir una señal redundante: una etiqueta de texto (“Libre” / “Ocupada”), un ícono distintivo por estado o un patrón/forma diferente. Garantizar además contraste suficiente y un texto alternativo accesible para lectores de pantalla.
+
+**PROBLEMA #4:**  Formularios sin marcar campos obligatorios
+
+<br> **Severidad:**  2
+
+<br>**Heurística violada:**  Usabilidad - Visibilidad del estado del sistema
+
+- Problems:
+
+Los formularios de la aplicación (por ejemplo, New Maintenance Ticket y Register Equipment) no indican qué campos son obligatorios: no usan asteriscos, etiquetas “requerido” ni ninguna marca previa. Cuando un campo obligatorio queda vacío (como “Equipment” en el ticket), solo se resalta con un borde de color al enviar, sin un mensaje de texto que explique el problema. El usuario no sabe de antemano qué información es indispensable.
+
+<img src="../assets/heuristucas/problem4-heuristicas.png">
+<img src="../assets/heuristucas/problem4.1-heuristicas">
+
+- Recomendación:
+
+Indicar visualmente los campos obligatorios antes del envío (asterisco y/o la palabra “requerido”) y acompañar la validación con un mensaje de texto descriptivo bajo cada campo. Mantener consistencia en el patrón de validación en todos los formularios.
+
+**PROBLEMA #5:**  Categorización de datos incorrecta (Rowing como “Back”)
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Usabilidad - Concordancia entre el sistema y el mundo real
+
+- Problema:
+
+En el panel de detalle del Mapa, la máquina “Rowing” (remo), que es un equipo de cardio, aparece clasificada bajo la categoría “Back” (espalda). La categorización no corresponde con la realidad del equipo, lo que confunde al usuario y afecta funciones que dependen de la categoría, como el filtrado y la sugerencia de alternativas.
+
+<img src="../assets/heuristucas/problem5-heuristicas.png">
+
+- Recomendación:
+
+Revisar y corregir los datos de categorización de las máquinas para que reflejen su tipo real (cardio, fuerza, etc.). Validar la consistencia entre la categoría asignada y los filtros disponibles (Strength / Cardio).
+
+**PROBLEMA #6:** “Zone ID” pide un número mientras la tabla muestra letras
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Usabilidad - Concordancia entre el sistema y el mundo real
+
+- Problema:
+
+En el formulario de registro/edición de equipo, el campo “Zone ID” solicita un valor numérico (por ejemplo, 1), mientras que la tabla de Equipment Management muestra las zonas como letras (A, B, C, D). Esta incoherencia entre el identificador interno (número) y la representación visible (letra) induce a error al registrar o editar un equipo, ya que el usuario no sabe qué valor corresponde a cada zona. Además, al editar un equipo existente, el campo “Zone ID” se carga vacío aunque el equipo ya tiene una zona asignada, con riesgo de perder ese dato al guardar.
+
+<img src="../assets/heuristucas/problem6-heuristicas.png">
+<img src="../assets/heuristucas/problem6.1-heuristicas">
+
+- Recomendación:
+
+Reemplazar el campo numérico por un selector (dropdown) que muestre las zonas con la misma nomenclatura que la tabla (A, B, C, D). Precargar la zona actual del equipo al editar, para no perder información existente.
+
+**PROBLEMA #7:**  Dashboard del cliente con gran cantidad de espacio vacío
+
+<br> **Severidad:** 1
+
+<br>**Heurística violada:**  Arquitectura de Información - Is it usable?
+
+- Problema:
+
+El panel de inicio del Cliente presenta únicamente un mensaje de bienvenida y dos tarjetas (“Máquinas Libres” y “Reservadas”) en la parte superior, dejando la mayor parte de la pantalla vacía. Se desaprovecha el área disponible y se pierde la oportunidad de mostrar contenido útil (accesos directos, reservas activas, recomendaciones), restando jerarquía y valor a la pantalla principal.
+
+<img src="../assets/heuristucas/problem7-heuristicas.png">
+
+- Recomendación:
+
+Aprovechar el espacio mostrando contenido relevante para el usuario: resumen de sus reservas activas con temporizador, accesos rápidos al mapa o a sus rutinas, o sugerencias personalizadas. Equilibrar la composición visual para evitar grandes vacíos.
+
+**PROBLEMA #8:**  Eliminar equipo: confirmación con diálogo nativo del navegador
+
+<br> **Severidad:**  3
+
+<br>**Heurística violada:**  Usabilidad - Prevención de errores
+
+- Problema:
+
+La acción de eliminar un equipo se ofrece mediante un ícono de basurero por cada fila, una acción destructiva de alto riesgo. Aunque existe un paso de confirmación, este se implementa con el diálogo nativo del navegador (window.confirm), que rompe la consistencia visual con el resto de la interfaz, no se traduce al idioma seleccionado y no se integra con el diseño ni con los patrones de accesibilidad de la aplicación.
+
+<img src="../assets/heuristucas/problem8-heuristicas.png">
+
+- Recomendación:
+
+Sustituir el diálogo nativo por un modal de confirmación propio, coherente con el diseño de la app, que indique claramente el nombre del equipo a eliminar y diferencie visualmente la acción destructiva (por ejemplo, botón “Eliminar” en rojo y “Cancelar” como acción segura por defecto). Idealmente ofrecer la posibilidad de deshacer.
+
+**PROBLEMA #9:**  Reserva de máquina sin paso de confirmación
+
+<br> **Severidad:** 1
+
+<br>**Heurística violada:**  Usabilidad - Libertad y control del usuario
+
+- Problema:
+
+En el Mapa, al pulsar “Reserve” sobre una máquina libre, la reserva se ejecuta de inmediato con un solo clic, sin un paso de confirmación previo. Esto facilita reservar una máquina por error, lo que consume el cupo del usuario y bloquea el equipo para otros durante el tiempo de reserva.
+
+<img src="../assets/heuristucas/problem9-heuristicas.png">
+<img src="../assets/heuristucas/problem9.1-heuristicas">
+
+- Recomendación:
+
+Añadir una confirmación ligera antes de concretar la reserva (por ejemplo, un mensaje “¿Reservar Treadmill 1 por 10 minutos?”) o, como mínimo, ofrecer una opción de deshacer inmediatamente después de reservar, dando al usuario control sobre la acción.
+
 ## 5.4. Video About-the-Product.

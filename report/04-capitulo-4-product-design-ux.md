@@ -1187,58 +1187,38 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
 4. **Drawer "Rutinas alternativas":** El wireflow muestra el panel lateral que se despliega desde el borde derecho de la pantalla al solicitar una búsqueda más amplia de alternativas. El drawer contiene el mismo buscador y sistema de filtros que el listado principal, pero presenta únicamente ejercicios alternativos. Las tarjetas muestran el estado de cada alternativa: "Disponible" para equipos libres y "Mantenimiento" para equipos con ticket técnico abierto, cumpliendo el criterio de aceptación del escenario 2 (exclusión de máquinas averiadas). El botón de cierre × en la esquina superior derecha permite descartar el drawer sin perder el estado del listado principal.
 5. **Versión web (desktop):** El wireflow de escritorio muestra las tres vistas simultáneamente: el mapa reducido a la izquierda (para mantener el contexto de disponibilidad), el listado de rutinas en el centro y el drawer de alternativas como panel superpuesto a la derecha. Esta disposición aprovecha el mayor ancho de pantalla del desktop para mantener el contexto del mapa visible durante toda la interacción de búsqueda de alternativas.
 
-![task16.png](../assets/wireflows/TASKFLOW-16.png)
+
 ![WF-16](../assets/wireflows/Frame%2017.png)
 
-![task17.png](../assets/wireflows/TASKFLOW-17.png)
-![WFM-17](../assets/wireflows%20MOBILE/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png)
+
 ![WF-17](../assets/wireflows/S16%20-%20reserva%20express.png)
 
-![task18.png](../assets/wireflows/TASKFLOW-18.png)
-![WFM-018](../assets/WIREFLOWS%20MOBILE/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
-![WF-18](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07)%20(1).png)
-
-![task19.png](../assets/wireflows/TASKFLOW-19.png)
-![WFM-019](../assets/WIREFLOWS%20MOBILE/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
-![WF-19](../assets/WIREFLOWS/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
 
 
-![task20.png](../assets/wireflows/TASKFLOW-20.png)
-![WF-20](../assets/wireflows/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05)%20(2).png)
 ![WFM-20](../assets/wireflows/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
 
-![TASKFLOW-21](../assets/wireflows/TASKFLOW-21.png)
-![WF-21](../assets/wireflows/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05)%20(1).png)
+
 ![WFM-21](../assets/wireflows/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 
-![TASKFLOW-22](../assets/wireflows/TASKFLOW-22.png)
-![WF-22-UMBRAL](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20(1).png)
-![WF-22](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL%20(1).png)
+
 ![WFM-22-UMBRAL](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
 ![WFM-22](../assets/wireflows/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
 
-![TASKFLOW-23](../assets/wireflows/TASKFLOW-23.png)
-![WF-23](../assets/wireflows/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06)%20(1).png)
+
 ![WFM-23](../assets/wireflows/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
 
-![TASKFLOW-24](../assets/wireflows/TASKFLOW-24.png)
-![WF-24](../assets/wireflows/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06)%20(1).png)
+
 ![WFM-24](../assets/wireflows/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
 
-![TASKFLOW-25](../assets/wireflows/TASKFLOW-25.png)
-![WF-25](../assets/wireflows/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04)%20(1).png)
+
 ![WFM-25](../assets/wireflows/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
 
-![TASKFLOW-26](../assets/wireflows/TASKFLOW-26.png)
-![WF-26](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07)%20(1).png)
+
 ![WFM-26](../assets/wireflows/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
 
-![TASKFLOW-29](../assets/wireflows/TASKFLOW-29.png)
-![WF-29](../assets/wireflows/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08)%20(1).png)
+
 ![WFM-29](../assets/wireflows/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
 
-![TASKFLOW-30](../assets/wireflows/TASKFLOW-30.png)
-![WF-30](../assets/wireflows/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08)%20(1).png)
 ![WFM-30](../assets/wireflows/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 
 ### 4.4.2. Web Applications Mock-ups.
@@ -1251,7 +1231,7 @@ El wireframe presenta la sección "Rutinas y Ejercicios" en tres vistas: el mapa
 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup4_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup4_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
 **Descripción del mock-up:**
@@ -1273,7 +1253,7 @@ El mock-up de esta historia se ubica en la **Landing Page** (vista web de escrit
 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup5_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup5_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
   **Descripción del mock-up:**
@@ -1296,7 +1276,7 @@ El mock-up muestra la página de **"Contacto"** en dos estados: el formulario va
 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup6_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup6_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
   **Descripción del mock-up:**
@@ -1319,13 +1299,13 @@ Esta historia se refleja de forma transversal en todos los mock-ups de la **Land
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup7.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup7.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup7_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup7_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
   **Descripción del mock-up:**
@@ -1348,13 +1328,13 @@ El mock-up presenta la pantalla de **"Iniciar Sesión"** en tres variantes: el f
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup8.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup8.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup8_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup8_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
   **Descripción del mock-up:**
@@ -1379,13 +1359,13 @@ El mock-up presenta la pantalla **"Mi Perfil"** en la versión mobile, con múlt
 <- mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup9.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup9.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup9_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup9_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
   **Descripción del mock-up:**
@@ -1409,13 +1389,13 @@ El mock-up muestra la pantalla principal de la **aplicación móvil** y su equiv
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup10.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup10.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup10_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup10_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
 **Descripción del mock-up:**
@@ -1438,13 +1418,13 @@ El mock-up muestra el mapa de disponibilidad con el sistema de filtros activado,
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup11.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup11.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup11_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup11_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
 **Descripción del mock-up:**
@@ -1467,13 +1447,13 @@ El mock-up muestra el flujo de cambio de sede a través de dos estados: la vista
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup12.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup12.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup12_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup12_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
   **Descripción del mock-up:**
@@ -1497,13 +1477,13 @@ El mock-up presenta dos estados clave del flujo: el mapa de disponibilidad en es
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup13.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup13.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup13_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup13_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
 **Descripción del mock-up:**
@@ -1526,13 +1506,13 @@ El mock-up muestra dos interacciones clave: el modal emergente al tocar una máq
 - mobile: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup14.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup14.png" alt="wireflow" width="500"/>
   </div> <br>
 
 - web: 
 <div align= "center">
   <align>
-    <img src="../assets/mockups/mockup14_web.png" alt="wireflow" width="500"/>
+    <img src="../assets/mockups1/mockup14_web.png" alt="wireflow" width="500"/>
   </div> <br>
 
 **Descripción del mock-up:**
@@ -1547,7 +1527,7 @@ El mock-up presenta la sección **"Rutinas y Ejercicios"** con tres vistas en pr
 
 - **Contraste semántico:** En la tabla de inactividad, se utilizan etiquetas de color (Rojo - Alto, Amarillo - Medio, Verde - Bajo) para categorizar el impacto, facilitando la toma de decisiones basada en la urgencia económica.
 
-![MOCKUP-US16](../assets/mockups/US16%20Sistema%20de%20reserva%20exprés%20en%20horas%20pico%20(Epic_%20EP04).png)
+![MOCKUP-US16](../assets/mockups/S16%20-%20reserva%20express.png)
 
 
 <strong>User story asociada:</strong> 
@@ -1602,7 +1582,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 ![MOCKUP-US26](../assets/mockups/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
 ![MOCKUP-US27](../assets/mockups/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png)
 ![MOCKUP-US29](../assets/mockups/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
-![MOCKUP-US28](../assets/mockups/US28%20Gestión%20automatizada%20de%20stock%20de%20repuestos%20(Epic_%20EP07).png).png)
+![MOCKUP-US28](../assets/mockups/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
 ![MOCKUP-US30](../assets/mockups/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
@@ -1711,7 +1691,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US16: Sistema de reserva exprés en horas pico
 
-![UF-14](../assets/USERFLOWS/us16diagram.png){ width=90%}
+![UF-14](../assets/USERFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 
 * **User Goal:** Como cliente frecuente, quiero separar virtualmente una máquina libre por 10 minutos durante horas pico, para asegurar su uso mientras me dirijo a ella.
 * **Happy Path:** El cliente accede al Mapa de Disponibilidad y selecciona una máquina en estado verde. Al presionar Separar, el sistema bloquea el equipo, cambia su icono a amarillo y activa el cronómetro de 10 minutos en la pestaña Mis Reservas. Al llegar a la ubicación física y validar su identidad antes de que el tiempo se agote, el sistema vincula automáticamente la sesión, cambia el estado a rojo (ocupado) y finaliza la reserva virtual para dar inicio al cobro o uso regular.
@@ -1727,7 +1707,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US18: Identificación de equipos subutilizados (EP05)
 
-![UF-18](../assets/USERFLOWS/US18_%20Identificación%20de%20equipos%20subutilizados%20(EP05).png){ width=90% }
+![UF-18](../assets/USERFLOWS/US18_%20Identificación%20de%20equipos%20subutilizados%20(EP05).png)
 
 
 * **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
@@ -1737,7 +1717,7 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US19: Visualización de picos de estrés del local (EP05) 
 
-![UF-19](../assets/USERFLOWS/US19_%20Visualización%20de%20picos%20de%20estrés%20del%20local%20(EP05)%20(1).png){ width=90% }
+![UF-19](../assets/USERFLOWS/US19_%20Visualización%20de%20picos%20de%20estrés%20del%20local%20(EP05)%20(1).png)
 * **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
 * **Happy Path:** El administrador accede al módulo de Reportes en SpotTrack, donde el sistema genera automáticamente un gráfico de picos de estrés resaltando en rojo las horas con aforo superior al 90%. Al activar la comparativa intersemanal, la interfaz superpone dos líneas de tendencia, permitiendo al dueño del negocio identificar cuellos de botella diarios y comparar el comportamiento de la demanda entre distintos periodos de forma inmediata.
 * **Unhappy Path:** Debido a un error de red, el sistema no puede procesar el porcentaje de uso. En lugar del gráfico de estrés, se muestra un estado de carga infinito o un aviso de "Error al cargar analíticas de aforo", sugiriendo reintentar la consulta.
@@ -1745,8 +1725,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US20 Exportación de analíticas de uso (Epic: EP05)
 
-![UF-20](../assets/USERFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=90% }
-![UFM-20](../assets/USERFLOW%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=50% }
+![UF-20](../assets/USERFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+![UFM-20](../assets/USERFLOW%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
 
 * **User Goal**: Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento.
   
@@ -1757,8 +1737,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US21 Monitoreo de estado de hardware Edge IoT (Epic_ EP05)
 
-![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=90% }
-![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=50% }
+![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 
 * **User Goal:** Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado.
 * **Happy Path:** El sistema detecta automáticamente la reconexión de un sensor IoT previamente desconectado y notifica al administrador mediante un mensaje de éxito con opción de descarga de reporte.
@@ -1767,8 +1747,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 ## US22 Alerta predictiva de mantenimiento (Epic_ EP06) CONFIGURAR UMBRAL
 
 
-![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=90% }
-![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=50% }
+![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
 
 * **User Goal:**
 * **Happy Path:** El administrador ajusta los parámetros de los umbrales (batería, tiempos de inactividad, horas críticas) en el panel de configuración, y el sistema guarda los cambios aplicando las nuevas reglas a los modelos predictivos.
@@ -1776,8 +1756,8 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US23 Despacho automatizado de tickets técnicos (Epic_ EP06)
 
-![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=90% }
-![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=50% }
+![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
 
 * **User Goal:**
 * **Happy Path:** El usuario técnico crea un ticket completando todos los campos requeridos (ID máquina, descripción, prioridad), y el sistema lo integra en el tablero de mantenimiento en tiempo real.
@@ -1786,16 +1766,16 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US24 Notificación de restablecimiento a los usuarios (Epic_ EP06)
 
-![UF-24](../assets/USERFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=90% }
-![UFM-24](../assets/USERFLOW%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=50% }
+![UF-24](../assets/USERFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+![UFM-24](../assets/USERFLOW%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
 * **User Goal:** Como administrador, quiero que el sistema notifique a los clientes cuando un equipo reportado es reparado, para mejorar su percepción del servicio.
 * **Happy Path:** Tras la resolución de una incidencia en el centro de mantenimiento, el sistema actualiza automáticamente el mapa de disponibilidad, habilitando nuevamente la máquina para los usuarios finales.
 * **Unhappy Path:** Si la resolución del ticket es parcial o el problema persiste tras la intervención técnica, la máquina permanece inhabilitada en el mapa de disponibilidad, manteniendo la alerta de estado crítico en el centro de mantenimiento.
 
 ## US25 Calendario inteligente de bloqueos de reserva(Epic_ EP04)
 
-![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=90% }
-![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=50% } 
+![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
 
 * **User Goal:** Como gerente de operaciones, quiero que el sistema agende los mantenimientos preventivos exclusivamente en horarios valle, para no afectar la disponibilidad en horas de alta demanda.
 * **Happy Path:** El usuario selecciona un activo desde el mapa de disponibilidad, completa el formulario de reserva con datos válidos y el sistema confirma la operación exitosamente.
@@ -1803,15 +1783,15 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US26 Gestión de activos físicos y altas (Epic_ EP07)
 
-![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=90% }
-![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=50% }
+![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
 * **User Goal:**Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor. 
 * **Happy Path:** El administrador completa el formulario de registro de nueva máquina con datos correctos (nombre, tipo, sede, ID de sensor) y el sistema lo añade al inventario global.
 * **Unhappy Path:** Si existen campos faltantes o datos inválidos (como un ID de sensor ya existente), el flujo se detiene y la interfaz resalta los campos que requieren corrección antes de permitir el guardado.
 
 ## US28: Gestión automatizada de stock de repuestos
 
-![UF-14](../assets/USERFLOWS/us18diagram.png){ width=90%}
+![UF-14](../assets/USERFLOWs/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 
 * **User Goal:** Como administrador, quiero controlar el inventario de piezas clave y recibir alertas de reabastecimiento, para que los técnicos siempre tengan insumos disponibles.
 * **Happy Path:** El administrador accede al formulario de "Nuevo Ticket de Mantenimiento" y selecciona los repuestos necesarios para la reparación. Al guardar el ticket, el sistema descuenta automáticamente las unidades del inventario y, si el nivel cae por debajo del umbral mínimo, actualiza el estado del repuesto a "Stock Crítico" (color rojo/amarillo en la tabla). Finalmente, el administrador visualiza la alerta en el panel de "Almacén de Repuestos" y el sistema genera una sugerencia de pedido de compra basada en la cantidad faltante para optimizar el inventario.
@@ -1819,16 +1799,16 @@ Este mock-up destaca el gráfico de "Picos de Estrés por Hora", donde se visual
 
 ## US29 Calculadora de impacto financiero por inactividad (Epic: EP08)
 
-![UF-29](../assets/USERFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=90% }
-![UFM-29](../assets/USERFLOW%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=50% }
+![UF-29](../assets/USERFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+![UFM-29](../assets/USERFLOW%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
 * **User Goal:**
 * **Happy Path:** El sistema calcula y presenta automáticamente el impacto financiero de la inactividad de activos, mostrando métricas clave como la pérdida por inactividad ($1,872), el costo de mantenimiento ($5,150), el ahorro potencial con mantenimiento predictivo ($1,840) y el ROI promedio de recuperación de inversión (7.2 meses).
 * **Unhappy Path:** Si los activos no cuentan con datos de operación o historial de inactividad registrado, o si los parámetros financieros ingresados son incompletos o inválidos, la calculadora no puede generar los indicadores y muestra los campos vacíos o un mensaje de error indicando la imposibilidad de calcular el impacto financiero.
 
 ## US30 Analítica predictiva de compras e inversión (Epic_ EP08)
 
-![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=90% }
-![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=50% }
+![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 * **User Goal:**
 * **Happy Path:** El sistema procesa los datos financieros y de uso para generar proyecciones de ROI y recomendaciones de inversión automáticas basadas en la salud de los activos.
 * **Unhappy Path:** Ante la falta de datos históricos suficientes o la introducción de parámetros de cálculo inconsistentes en el simulador, el motor de análisis muestra un estado de error o campos vacíos informando la imposibilidad de generar la proyección.

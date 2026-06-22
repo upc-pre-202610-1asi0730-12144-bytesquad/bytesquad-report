@@ -58,3 +58,19 @@
 ### Annex B : Video unificado entrevistas
 [Enlace al video unificado de entrevistas - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=unt1Xd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+
+[Enlace al video unificado de entrevistas de validación - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDljgiFpIHsRKhGcbeP97MvAf14UGxDGjnNrYevmJVzk6M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2kPltB)
+
+
+
+### Important Annex
+
+Landing Page: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
+WebApp: https://green-pebble-07422c50f.7.azurestaticapps.net/
+Platform: https://spottrack-platform-aw.azurewebsites.net/
+Organizacion: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad
+Repositorio del Report: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report
+Repositorio del Landing page: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website
+Repositorio del WebApp: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp
+Repositorio del Platform: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform
+
