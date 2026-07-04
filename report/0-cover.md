@@ -1,43 +1,37 @@
 <div align="center">
- <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/246a4dfb-6dd5-4909-a472-6cdce8319986" />
+<img width="80" height="80" alt="logo" src="https://github.com/user-attachments/assets/246a4dfb-6dd5-4909-a472-6cdce8319986"/>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+Universidad Peruan de Ciencias Aplicadas
 
-**Carrera de Ingeniería de Software**
+Carrera de Ingeniería de Software
 
-*1ASI0730* <br>
-*Aplicaciones Web*  
-NRC <br>
-*12144*  
+**1ASI0730** 
+**Aplicaciones Web**
+NRC 
+**12144**
+**Informe del Trabajo Final**
+Docente:
+**Bautista Ubillús, Efrain Ricardo**
+Equipo:
+**ByteSquad**
+Proyecto:
+**SpotTrack**
 
-*Período: 2026-1*
+**Integrantes:**
 
-## *Informe del trabajo final*
-Docente <br>
-#### *Bautista Ubillús, Efrain Ricardo*
-Equipo <br>
-#### *ByteSquad*
-Proyecto <br>
-#### *SpotTrack*
+| Código | Apellidos y Nombres |
+|---|---|
+| U20241A860 | Ayllon Pauccar, Juan David |
+| U202410344 | Espinoza Orrego, Valentino Andre |
+| U202414928 | Fernandez Linares, Alvaro Sebastian |
+| U202414970 | Gallardo Morales, Carla Alejandra |
+| U202410382 | Limache Coronel, Imanol Fabrizio |
 
-**Relación de integrantes:**
-
-<div style="text-align: center;">
-  <table style="margin: 0 auto; display: inline-table;">
-    <tr><th>CÓDIGO</th><th>INTEGRANTES</th></tr>
-    <tr><td>U20241A860</td><td>Ayllon Pauccar, Juan David</td></tr>
-    <tr><td>U202410344</td><td>Espinoza Orrego, Valentino Andre</td></tr>
-    <tr><td>U202414928</td><td>Fernandez Linares,Alvaro Sebastian</td></tr>
-    <tr><td>U202414970</td><td>Gallardo Morales, Carla Alejandra</td></tr>
-    <tr><td>U202410382</td><td>Limache Coronel, Imanol Fabrizio</td></tr>
-  </table>
-</div>
-
-<strong>Julio, 2026</strong>
+**Periodo 202610**
+**Julio, 2026**
 
 </div>
 
-
-<div style="page-break-after: always"></div>
+<div
 
 
