@@ -5,11 +5,24 @@
 | :--- | :--- | :--- | :--- |
 | Primera Entrega AV1 | 13/04/2026 | Espinoza Orrego, Valentino Andre<br>Fernández Linares, Alvaro Sebastian<br>Gamero Miranda, Lui Mathias<br>Gallardo Morales, Carla Alejandra | - Definición de segmentos objetivo.<br>- Elaboración de User Personas y Empathy Maps.<br>- Desarrollo de Event Storming Big Picture.<br>- Diseño de Wireframes y User Flows.<br>- Elaboración de Mockups y prototipos iniciales.<br>- Desarrollo de diagramas de clases, componentes y base de datos.<br>- Diseño UX/UI de la Landing Page.<br>- Organización y planificación inicial del Sprint 1.<br>- Configuración inicial del despliegue y documentación del proyecto. |
 
+
 # Registro de Versiones - TB1
 
 | Versión | Fecha de entrega | Integrantes | Capítulos / Actividades realizadas |
 | :--- | :--- | :--- | :--- |
-| Segunda Entrega TB1 | 06/05/2026 | Espinoza Orrego, Valentino Andre<br>Fernández Linares, Alvaro Sebastian<br>Gamero Miranda, Lui Mathias<br>Gallardo Morales, Carla Alejandra | - Validación de wireframes, mockups y prototipos.<br>- Desarrollo e integración de Bounded Contexts (alerts, reservation, dashboard).<br>- Implementación de User Flows y Wireflows.<br>- Desarrollo visual y navegación de la Landing Page.<br>- Integración de componentes frontend del Dashboard.<br>- Elaboración de evaluaciones heurísticas UX/UI.<br>- Diseño e implementación de un Bounded Context del frontend.<br>- Documentación técnica y reporte de correcciones del Sprint 2.<br>- Integración y despliegue de la WebApp y Landing Page en Azure. |
+| Segunda Entrega TB1 | 15/05/2026 | Espinoza Orrego, Valentino Andre<br>Fernández Linares, Alvaro Sebastian<br>Gamero Miranda, Lui Mathias<br>Gallardo Morales, Carla Alejandra | - Validación de wireframes, mockups y prototipos.<br>- Desarrollo e integración de Bounded Contexts (alerts, reservation, dashboard).<br>- Implementación de User Flows y Wireflows.<br>- Desarrollo visual y navegación de la Landing Page.<br>- Integración de componentes frontend del Dashboard.<br>- Elaboración de evaluaciones heurísticas UX/UI.<br>- Diseño e implementación de un Bounded Context del frontend.<br>- Documentación técnica y reporte de correcciones del Sprint 2.<br>- Integración y despliegue de la WebApp y Landing Page en Azure. |
+
+# Registro de Versiones - AV2
+
+| Versión | Fecha de entrega | Integrantes | Capítulos / Actividades realizadas |
+| :--- | :--- | :--- | :--- |
+| Tercera entrega  AV2 | 21/06/2026 | Espinoza Orrego, Valentino Andre<br>Fernández Linares, Alvaro Sebastian<br>Gallardo Morales, Carla Alejandra | - Despliegue de la nueva version del landing page.<br>- Despliegue de la segunda version del frontend.<br>- Desarrollo de la primera version del web services.<br>- Primera version del about the team.<br>- Primera version del about the product.<br>- Sprint planning 3.<br>- Sprint Backlog 3.<br>- Configuración del despliegue y documentación del proyecto. |
+
+# Registro de Versiones - TB2
+
+| Versión | Fecha de entrega | Integrantes | Capítulos / Actividades realizadas |
+| :--- | :--- | :--- | :--- |
+| Cuarta entrega  TB2 | 07/07/2026 | Espinoza Orrego, Valentino Andre<br>Fernández Linares, Alvaro Sebastian <br>Gallardo Morales, Carla Alejandra <br> Limache Coronel, Imanol Fabrizio <br> Ayllon Pauccar, Juan David| - Despliegue de la ultima version del landing page.<br>- Despliegue de la ultima version del WebApp.<br>- Despliegue de la version final del WebSite.<br>- Correcion del Sprint 3.<br>- Segunda version del about the product y about the team.<br>- Sprint planning 4. <br>-Configuración del despliegue y documentación del proyecto.|
 
 # Project Report Collaboration Insights
 
