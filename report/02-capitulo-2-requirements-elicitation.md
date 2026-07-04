@@ -166,7 +166,7 @@ SEGMENTO 2: Clientes Frecuentes de Gimnasio
 | 5 | 41:31:08 | Fabián Suárez |
 | 6 | 46:26:11 | Diego Quispe |
 
-| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] | (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=oDOyRi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+| **Link** | [Enlace al video unificado de entrevistas - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=oDOyRi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
 
 ### 2.2.3. Análisis de entrevistas.
@@ -340,13 +340,13 @@ Para mejorar la cohesión del equipo, adoptaremos el Ubiquitous Language. Esta h
 
 **IoT Edge (Procesamiento en el borde):** Tecnología utilizada en los sensores o cámaras que procesa la información directamente en el dispositivo físico, enviando únicamente el estado en formato JSON a la base de datos para no saturar la red y respetar la privacidad de los usuarios.
 
-**Predictive Maintenance (Mantenimiento predictivo):**Estrategia y alertas automatizadas para realizar revisiones a los equipos antes de que fallen, basándose en el acumulado de horas límite de uso seguro reportadas por los sensores.
+**Predictive Maintenance (Mantenimiento predictivo):**   Estrategia y alertas automatizadas para realizar revisiones a los equipos antes de que fallen, basándose en el acumulado de horas límite de uso seguro reportadas por los sensores.
 
-**Corrective Maintenance (Mantenimiento correctivo):**Reparación de emergencia y costosa que se realiza cuando una máquina falla repentinamente durante la operación del local.
+**Corrective Maintenance (Mantenimiento correctivo):** Reparación de emergencia y costosa que se realiza cuando una máquina falla repentinamente durante la operación del local.
 
-**Downtime (Tiempo de inactividad):**Periodo crítico durante el cual una máquina de ejercicio se encuentra fuera de servicio por avería, generando tiempos de espera y molestia en los usuarios.
+**Downtime (Tiempo de inactividad):**  Periodo crítico durante el cual una máquina de ejercicio se encuentra fuera de servicio por avería, generando tiempos de espera y molestia en los usuarios.
 
-**Churn Rate (Tasa de abandono):** Porcentaje anual de usuarios que deciden no renovar o cancelar su membresía del gimnasio, frecuentemente impulsado por la frustración ante instalaciones abarrotadas y máquinas inoperativas.
+**Churn Rate (Tasa de abandono):**  Porcentaje anual de usuarios que deciden no renovar o cancelar su membresía del gimnasio, frecuentemente impulsado por la frustración ante instalaciones abarrotadas y máquinas inoperativas.
 
 **Subutilization (Subutilización):** Condición estadística en la que una máquina específica registra una tasa de uso excepcionalmente baja en comparación con otras, lo que sugiere al administrador que debe ser reubicada.
 
