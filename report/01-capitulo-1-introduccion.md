@@ -35,17 +35,17 @@ La visión de ByteSquad es ser la plataforma líder en telemetría y gestión de
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="../assets/foto-lui-f.png" alt="Foto de Lui" width="650"/>
+      <img src="../assets/Juan David-Ayllon.jpg" alt="Foto de Juan" width="650"/>
     </td>
-    <td><b>Nombre:</b> Lui Mathias Gamero Miranda</td>
+    <td><b>Nombre:</b> Juan David Ayllon Pauccar</td>
   </tr>
   <tr>
-    <td><b>Código:</b> u202419335</td>
+    <td><b>Código:</b> u20241a860</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      Soy Lui Gamero, estudiante de ingeniería de Software, actualmente me encuentro cursando el cuarto ciclo de la carrera y desde el cuarto año de secundario mi interés se fijó en los problemas de la programación, ya cuento con experiencia en programación con C++ lo que considero que es una base sólida en la buena estructura de la programación, además de ello me considera analista y creativo al poder resolver problemas confusos o complejos.
+      Estudiante de 5to ciclo de Ingeniería de Software en la UPC. Cuento con conocimientos técnicos avanzados en desarrollo con C++, SQL, Python Intermedio, HTML, CSS. Me distingo por ser un integrante responsable y con gran capacidad de comunicación asertiva, facilitando la coordinación y el flujo de trabajo dentro del equipo. Mi compromiso con el proyecto SmartLock se refleja en mi disposición para aprender, resolver desafíos complejos y asegurar que cada entrega cumpla con los estándares esperados.
     </td>
   </tr>
 </table>
@@ -74,17 +74,17 @@ La visión de ByteSquad es ser la plataforma líder en telemetría y gestión de
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="../assets/foto-jesus-c.png" alt="foto-jesus-c" width="650"/>
+      <img src="../assets/Imanol-Limache.jpeg" alt="foto-jesus-c" width="650"/>
     </td>
-    <td><b>Nombre:</b> Jesús Miguel Cataño Zárate</td>
+    <td><b>Nombre:</b> Imanol Fabrizio Limache Coronel</td>
   </tr>
   <tr>
-    <td><b>Código:</b> u202413214 </td>
+    <td><b>Código:</b> u202410382 </td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-     Soy Jesús Miguel Cataño Zárate. Actualmente estudio el 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++,C# y experiencia usando Java, para desarrollos moviles y HTML,JS,Node.Js en cuanto a paginas web. 
+     Soy un estudiante al que le gusta aprender cosas nuevas, sobre todo si se relacionan a la programación, además de la resolución de problemas. 
       <br/><br/>
         Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo Fullstack utilizando para la creación de arquitecturas escalables y eficientes. Por otro lado, desempeño el rol de Team Leader dentro de mi grupo, asumiendo la responsabilidad de guiar y coordinar al equipo para trabajar de manera efectiva.
     </td>
