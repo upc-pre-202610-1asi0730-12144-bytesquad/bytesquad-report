@@ -139,8 +139,8 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 | Date | 18-04-2026                                                                                                                                                         |
 | Time | 20:45                                                                                                                                                              |
 | Location | Via Discord                                                                                                                                                        |
-| Prepared By | Gamero Miranda, Lui Mathias                                                                                                                                        |
-| Attendees (to planning meeting) | Cataño Zarate Jesus Miguel, Gallardo Morales Carla Alejandra, Fernández Linares Alvaro Sebastian, Gamero Miranda Lui Mathias, Espinoza Orrego Valentino Andre      |
+| Prepared By | Ayllon Pauccar, Juan David                                                                                                                                        |
+| Attendees (to planning meeting) | Limache Coronel Imanol Fabrizio, Gallardo Morales Carla Alejandra, Fernández Linares Alvaro Sebastian, Ayllon Pauccar Juan David, Espinoza Orrego Valentino Andre      |
 | Sprint 1 Review Summary | Durante este sprint se asignaron las responsabilidades individuales y se discutieron los requerimientos técnicos y visuales para el desarrollo de la Landing Page. |
 | Sprint 1 Retrospective Summary | El equipo concluyó que el flujo de trabajo fue efectivo, logrando un código funcional y un despliegue exitoso de la Landing Page sin bloqueos mayores.             |
 | **Sprint Goal & User Stories** |                                                                                                                                                                    |
@@ -152,10 +152,10 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 
 | Team Member (Last Name, First Name) | GitHub Username | Requirements & Analysis | Landing Page Development | Configuration & Deployment |
 | :---: | :---: |:-----------------------:|:------------------------:|:--------------------------:|
-| Cataño Zarate, Jesus Miguel | jcus1510  |            C            |            C             |             C              |
+| Limache Coronel, Imanol Fabrizio | ImaLi06  |            C            |            C             |             C              |
 | Espinoza Orrego, Valentino Andre | valentinoespinoza13  |            L            |            C             |             C              |
 | Fernández Linares, Alvaro Sebastian | ORION-tech-c  |            C            |            C             |             C              |
-| Gamero Miranda, Lui Mathias | lug07m  |            C            |            L             |             C              |
+| Ayllon Pauccar, Juan David | JuanDPAUC  |            C            |            L             |             C              |
 | Gallardo Morales, Carla Alejandra | Carlsss28 |            C            |            C             |             L              |
 
 ##### 5.2.1.3. Sprint Backlog 1
@@ -168,20 +168,20 @@ En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del
 
 | User Story ID | Id | Description | Estimation (hours) | Assigned to | Status (To-do / InProcess / To-Review / Done) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| US-01 | S-01 | Diseñar la estructura HTML5 con semantic tags para la sección principal (Hero Section). | 4h | Gamero Miranda, Lui Mathias | Done |
-| US-01 | S-02 | Implementar la lógica Vanilla JS para el cambio de idioma (i18n) en el navbar y botones. | 2h | Gamero Miranda, Lui Mathias | Done |
+| US-01 | S-01 | Diseñar la estructura HTML5 con semantic tags para la sección principal (Hero Section). | 4h | Ayllon Pauccar, Juan David | Done |
+| US-01 | S-02 | Implementar la lógica Vanilla JS para el cambio de idioma (i18n) en el navbar y botones. | 2h | Ayllon Pauccar, Juan David | Done |
 | US-01 | S-03 | Ajustar el estilo CSS usando Flexbox para destacar el CTA y adaptarlo a móviles. | 3h | Fernández Linares, Alvaro | Done |
-| US-02 | S-04 | Diseñar la estructura de tarjetas HTML para la sección "About Us" y "Experiences". | 3h | Gamero Miranda, Lui Mathias | Done |
+| US-02 | S-04 | Diseñar la estructura de tarjetas HTML para la sección "About Us" y "Experiences". | 3h | Ayllon Pauccar, Juan David | Done |
 | US-02 | S-05 | Redactar diccionarios JS (EN/ES) explicando los beneficios B2B y B2C del producto. | 2h | Espinoza Orrego, Valentino | Done |
 | US-02 | S-06 | Aplicar estilos corporativos utilizando las variables CSS globales (`:root`). | 3h | Fernández Linares, Alvaro | Done |
 | US-03 | S-07 | Maquetar el componente CSS Grid para mostrar las características (Features) de IoT. | 4h | Gallardo Morales, Carla | Done |
 | US-03 | S-08 | Añadir transiciones CSS (`hover` state) y manipular el DOM para la navegación. | 4h | Fernández Linares, Alvaro | Done |
-| US-03 | S-09 | Integrar íconos vectoriales de FontAwesome dentro de las grillas de información. | 3h | Gamero Miranda, Lui Mathias | Done |
-| US-04 | S-10 | Diseñar la estructura HTML de la sección de suscripciones (Planes Basic, Mid y Platinum). | 4h | Gamero Miranda, Lui Mathias | Done |
+| US-03 | S-09 | Integrar íconos vectoriales de FontAwesome dentro de las grillas de información. | 3h | Ayllon Pauccar, Juan David | Done |
+| US-04 | S-10 | Diseñar la estructura HTML de la sección de suscripciones (Planes Basic, Mid y Platinum). | 4h | Ayllon Pauccar, Juan David | Done |
 | US-04 | S-11 | Estilizar con animaciones `@keyframes` el plan "Mid" para resaltarlo como opción popular. | 2h | Fernández Linares, Alvaro | Done |
-| US-05 | S-12 | Implementar la estructura del formulario B2B en el archivo principal y en `login.html`. | 3h | Gamero Miranda, Lui Mathias | Done |
+| US-05 | S-12 | Implementar la estructura del formulario B2B en el archivo principal y en `login.html`. | 3h | Ayllon Pauccar, Juan David | Done |
 | US-05 | S-13 | Añadir manipulación de eventos en JS (`preventDefault`) para el envío de formularios. | 3h | Gallardo Morales, Carla | Done |
-| US-05 | S-14 | Verificar la subida de los commits a GitHub y asegurar la integridad de ramas GitFlow. | 2h | Cataño Zarate, Jesus | Done |
+| US-05 | S-14 | Verificar la subida de los commits a GitHub y asegurar la integridad de ramas GitFlow. | 2h | Limache Coronel, Imanol Fabrizio | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -286,7 +286,7 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Time** | 10:00 AM |
 | **Location** | Reunión Virtual (Discord / Microsoft Teams) |
 | **Prepared By** | Gallardo, Carla |
-| **Attendees (to planning meeting)** | Gamero, Lui / Gallardo, Carla / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
+| **Attendees (to planning meeting)** | Ayllon, Juan / Gallardo, Carla / Limache Coronel, Imanol Fabrizio / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
 | **Sprint 1 Review Summary** | Sprint 1 entregó los artefactos fundacionales de Lean UX, DDD, diseño UX/UI en Figma y el inicio de la Landing Page (Hero Section y Header). Sin embargo, quedaron pendientes el despliegue, las secciones de módulos, precios y contacto de la Landing Page, así como diversas secciones de documentación del informe. |
 | **Sprint 1 Retrospective Summary** | El equipo identificó que la carga de trabajo de documentación y diseño subestimó el tiempo necesario. Para este Sprint 2 se priorizará paralelizar la corrección de Sprint 1 con el inicio del desarrollo de la Web App, asignando responsables claros por cada frente. |
 | **Sprint Goal** | Nuestro enfoque es completar todos los artefactos pendientes del Sprint 1 (correcciones de documentación y Landing Page completa) e iniciar el desarrollo frontend de la Web Application de SpotTrack consumiendo una Fake API, implementando las vistas de autenticación, mapa de calor, gestión de activos, alertas de mantenimiento y sugerencias de rutinas. Esto se confirmará cuando la Landing Page esté desplegada y funcional con todas sus secciones, y las vistas frontend de las User Stories priorizadas estén implementadas y navegables en el entorno de desarrollo local. |
@@ -300,8 +300,8 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 | Team Member (Last Name, First Name) | GitHub Username | Aspect 1: Sprint 1 Corrections Leader (L) / Collaborator (C) | Aspect 2: Vue App Setup & Auth Leader (L) / Collaborator (C) | Aspect 3: Client App Frontend (Heatmap & Routines) Leader (L) / Collaborator (C) | Aspect 4: Admin Dashboard Frontend Leader (L) / Collaborator (C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Gallardo, Carla | cgallardo | Corrections (C) | Vue App Setup (L) | Client App (C) | Admin Dashboard (C) |
-| Gamero, Lui | lgamero | Corrections (C) | Fake API Config (L) | Client App (C) | Admin Dashboard (C) |
-| Cataño Zarate, Jesus Miguel | jcuz1510 | Landing Page Completion (L) | Vue App Setup (C) | Client App (C) | Admin Dashboard (C) |
+| Ayllon, Juan | JuanDPAUC | Corrections (C) | Fake API Config (L) | Client App (C) | Admin Dashboard (C) |
+| Limache Coronel, Imanol Fabrizio | ImaLi06 | Landing Page Completion (L) | Vue App Setup (C) | Client App (C) | Admin Dashboard (C) |
 | Espinoza Orrego, Valentino Andre | valentinoespinoza13 | Corrections (C) | Vue App Setup (C) | Client App (C) | Admin Dashboard (L) |
 | Fernández Linares, Alvaro Sebastian | ORION-tech-c | Corrections (L) | Vue App Setup (C) | Client App (L) | Admin Dashboard (C) |
 
