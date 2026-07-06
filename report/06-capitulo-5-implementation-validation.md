@@ -675,16 +675,16 @@ Para este Sprint 3, el equipo concentró sus esfuerzos en el desarrollo del back
 
 | Id | Title | Task Id | Task Title | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| UPA1SJ-183 | Web Services | UPA1SJ-184 | Monitoring | ORION10 | En curso |
-| UPA1SJ-183 | Web Services | UPA1SJ-185 | Equipment | ORION10 | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-186 | Reservation | Carla Gallardo | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-187 | Maintenance | Carla Gallardo | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-188 | Iot Sensoring Gestion | ORION10 | Tareas por hacer |
-| UPA1SJ-183 | Web Services | UPA1SJ-189 | Analytics | Andre Espinoza | Tareas por hacer |
-| UPA1SJ-183 | Web Services | UPA1SJ-190 | Membership | Carla Gallardo | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-191 | Routines | ORION10 | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-192 | Profiles | ORION10 | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-193 | Auth(IAM) | ORION10 | En curso |
+| UPA1SJ-183 | Web Services | UPA1SJ-184 | Monitoring | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-185 | Equipment | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-186 | Reservation | Carla Gallardo | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-187 | Maintenance | Carla Gallardo | Done|
+| UPA1SJ-183 | Web Services | UPA1SJ-188 | Iot Sensoring Gestion | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-189 | Analytics | Andre Espinoza | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-190 | Membership | Carla Gallardo | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-191 | Routines | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-192 | Profiles | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-193 | Auth(IAM) | ORION10 | Done |
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 

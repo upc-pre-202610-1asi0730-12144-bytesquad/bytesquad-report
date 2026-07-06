@@ -44,9 +44,9 @@
 
 <p style="padding-left: 30px; text-indent: -30px;">Fitness Store. (2024). *Commercial & professional treadmills*. https://www.topfitness.com/collections/commercial-treadmills</p>
 
-## Annexes
+## Anexos
 
-### Annex A : Videos de Exposiciones
+### Anexo A : Videos de Exposiciones
 
 | Entrega | Título de la Exposición | Hipervínculo al Video (Microsoft Stream) |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@
 | **AV2** | Sprint Review - Semana 12 | (Pendiente) |
 | **TB2** | Release Review - Semana 15 | (Pendiente) |
 
-### Annex B : Video unificado entrevistas
+### Anexo B : Video unificado entrevistas
 [Enlace al video unificado de entrevistas - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=unt1Xd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
@@ -63,14 +63,14 @@
 
 
 
-### Important Annex
+### Anexos importantes
 
-Landing Page: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
-WebApp: https://green-pebble-07422c50f.7.azurestaticapps.net/
-Platform: https://spottrack-platform-aw.azurewebsites.net/
-Organizacion: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad
-Repositorio del Report: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report
-Repositorio del Landing page: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website
-Repositorio del WebApp: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp
-Repositorio del Platform: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform
+* Landing Page: [https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/](https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/)
+* WebApp: [https://green-pebble-07422c50f.7.azurestaticapps.net/](https://green-pebble-07422c50f.7.azurestaticapps.net/)
+* Platform: [https://spottrack-platform-aw.azurewebsites.net/](https://spottrack-platform-aw.azurewebsites.net/)
+* Organizacion:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad)
+* Repositorio del Report:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report)
+* Repositorio del Landing page:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website)
+* Repositorio del WebApp: [https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp)
+* Repositorio del Platform:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform)
 
