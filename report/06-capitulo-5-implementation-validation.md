@@ -1322,4 +1322,5 @@ Añadir una confirmación ligera antes de concretar la reserva (por ejemplo, un 
 
 ## 5.4. Video About-the-Product.
 
-https://youtu.be/88N8Q84aPLc?si=plZbcNXYpV9kUwD1
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAJvn5gRp82SIJg63b1GspdARSyzur-B95t93TAtlT1REw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1g2M98
+
