@@ -762,18 +762,6 @@ El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful ver
 | `/api/v1/profiles/clients` | Listar clientes | `GET` | `/api/v1/profiles/clients` | `[{ "id": 1, "fullName": "Ana López", ... }]` | Retorna todos los perfiles de cliente registrados. |
 | `/api/v1/profiles/clients/{clientId}` | Actualizar cliente | `PUT` | `/api/v1/profiles/clients/1` | `{ "id": 1, "fullName": "Ana López Ruiz", ... }` | Actualiza nombre, apellido y teléfono del cliente. |
 
-##### Bounded Context: Membership (Membresías y Acceso)
-
-| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `/api/v1/memberships/activate` | Activar membresía | `POST` | `/api/v1/memberships/activate` | `{ "id": 1, "clientId": 1, "plan": "Premium", "startDate": "...", "endDate": "...", "status": "Active" }` | Activa una nueva membresía para un cliente. |
-| `/api/v1/memberships/{id}` | Obtener membresía | `GET` | `/api/v1/memberships/1` | `{ "id": 1, "clientId": 1, "plan": "Premium", "status": "Active" }` | Retorna la membresía solicitada, o 404 si no existe. |
-| `/api/v1/memberships/by-client/{clientId}` | Listar membresías por cliente | `GET` | `/api/v1/memberships/by-client/1` | `[{ "id": 1, "plan": "Premium", "status": "Active" }]` | Retorna todas las membresías de un cliente. |
-| `/api/v1/memberships/{id}/plan` | Actualizar plan | `PUT` | `/api/v1/memberships/1/plan` | `{ "id": 1, "plan": "VIP", "status": "Active" }` | Cambia el plan de una membresía existente. |
-| `/api/v1/memberships/{id}/suspend` | Suspender membresía | `POST` | `/api/v1/memberships/1/suspend` | `{ "id": 1, "status": "Suspended" }` | Suspende una membresía activa. |
-| `/api/v1/memberships/{id}/renew` | Renovar membresía | `POST` | `/api/v1/memberships/1/renew` | `{ "id": 1, "endDate": "...", "status": "Active" }` | Extiende la fecha de fin de una membresía. |
-| `/api/v1/memberships/{id}/cancel` | Cancelar membresía | `DELETE` | `/api/v1/memberships/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una membresía. Retorna 400 si ya está cancelada o expirada. |
-| `/api/v1/branch-accesses/grant` | Evaluar acceso a sede | `POST` | `/api/v1/branch-accesses/grant` | `{ "id": 1, "membershipId": 1, "branchId": 1, "status": "Granted", "grantedByAdminId": 1 }` | Evalúa la membresía referenciada y registra una decisión de acceso (Granted/Denied). |
 
 ##### Bounded Context: Reservations (Reservas de Equipos)
 
@@ -803,37 +791,6 @@ El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful ver
 | `/api/v1/routine-sessions/{routineSessionId}/missed` | Marcar sesión perdida | `POST` | `/api/v1/routine-sessions/1/missed` | `{ "id": 1, "status": "Missed" }` | Marca una sesión de rutina como perdida (no realizada). |
 | `/api/v1/routine-sessions?clientId={clientId}` | Listar sesiones por cliente | `GET` | `/api/v1/routine-sessions?clientId=1` | `[{ "id": 1, "status": "Completed" }]` | Retorna las sesiones de rutina pertenecientes a un cliente. |
 
-##### Bounded Context: Maintenance (Mantenimiento de Equipos)
-
-| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `/api/v1/maintenances/by-equipment/{equipmentId}` | Listar mantenimientos por equipo | `GET` | `/api/v1/maintenances/by-equipment/1` | `[{ "id": 1, "equipmentId": 1, "reason": "Cinta desgastada", "status": "Requested" }]` | Retorna todos los registros de mantenimiento de un equipo. |
-| `/api/v1/maintenances/request` | Solicitar mantenimiento | `POST` | `/api/v1/maintenances/request` | `{ "id": 1, "equipmentId": 1, "requestedByAdminId": 1, "reason": "Cinta desgastada", "status": "Requested" }` | Crea una nueva solicitud de mantenimiento para un equipo. |
-| `/api/v1/technical-tickets/{id}` | Obtener ticket técnico | `GET` | `/api/v1/technical-tickets/1` | `{ "id": 1, "maintenanceId": 1, "equipmentId": 1, "status": "Created", "maintenanceProgress": "Pending" }` | Retorna el ticket técnico, o 404 si no existe. |
-| `/api/v1/technical-tickets` | Crear ticket técnico | `POST` | `/api/v1/technical-tickets` | `{ "id": 1, "status": "Created", ... }` | Crea un ticket técnico a partir de una solicitud de mantenimiento, marcando el equipo fuera de servicio. |
-| `/api/v1/technical-tickets/{id}/assign` | Asignar técnico | `POST` | `/api/v1/technical-tickets/1/assign` | `{ "id": 1, "status": "Assigned", "assignedTechnicianId": 5 }` | Asigna el ticket a un técnico, transicionando su estado a "Assigned". |
-| `/api/v1/technical-tickets/{id}/request-status-update` | Solicitar actualización de estado | `POST` | `/api/v1/technical-tickets/1/request-status-update` | `{ "id": 1, "maintenanceProgress": "InProgress" }` | Marca el progreso de mantenimiento del ticket como "InProgress". |
-| `/api/v1/technical-tickets/{id}/status` | Modificar estado de ticket | `PUT` | `/api/v1/technical-tickets/1/status` | `{ "id": 1, "status": "InProgress" }` | Transiciona el ticket a un nuevo estado (no permite revertir a "Created" ni modificar uno resuelto). |
-| `/api/v1/technical-tickets/{id}/maintenance-status` | Actualizar progreso de mantenimiento | `PUT` | `/api/v1/technical-tickets/1/maintenance-status` | `{ "id": 1, "maintenanceProgress": "Completed" }` | Actualiza el progreso (Pending, InProgress o Completed) de un ticket no resuelto. |
-| `/api/v1/technical-tickets/{id}/complete` | Completar ticket | `POST` | `/api/v1/technical-tickets/1/complete` | `{ "id": 1, "status": "Resolved" }` | Marca el ticket como resuelto y retorna el equipo a servicio. Requiere que el progreso sea "Completed". |
-| `/api/v1/maintenance-jobs/accept` | Aceptar trabajo de mantenimiento | `POST` | `/api/v1/maintenance-jobs/accept` | `{ "id": 1, "technicalTicketId": 1, "technicianId": 5, "status": "Accepted" }` | Crea un trabajo de mantenimiento cuando un técnico acepta un ticket técnico. |
-| `/api/v1/maintenance-logs` | Registrar log de finalización | `POST` | `/api/v1/maintenance-logs` | `{ "id": 1, "technicalTicketId": 1, "equipmentId": 1, "completedByAdminId": 1, "completedAt": "...", "notes": "..." }` | Crea un registro inmutable de finalización para un ticket técnico resuelto. |
-
-##### Bounded Context: Analytics (Reportes e Indicadores)
-
-| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `/api/v1/activityreports` | Crear reporte de actividad | `POST` | `/api/v1/activityreports` | `{ "id": 1, "activityReportId": 1, "totalUsageTime": 0, "downtimeCost": 0, "percentageComparison": 0 }` | Crea un nuevo reporte de actividad a partir del análisis solicitado. |
-| `/api/v1/activityreports/total-usage-time` | Calcular tiempo total de uso | `POST` | `/api/v1/activityreports/total-usage-time` | `{ "id": 1, "totalUsageTime": 480, ... }` | Calcula y actualiza el tiempo total de uso del reporte. |
-| `/api/v1/activityreports/downtime-cost` | Calcular costo de inactividad | `POST` | `/api/v1/activityreports/downtime-cost` | `{ "id": 1, "downtimeCost": 350.5, ... }` | Calcula y actualiza el costo de inactividad del reporte. |
-| `/api/v1/activityreports/percentage-comparison` | Calcular comparación porcentual | `POST` | `/api/v1/activityreports/percentage-comparison` | `{ "id": 1, "percentageComparison": 12.3, ... }` | Calcula y actualiza la comparación porcentual del reporte. |
-| `/api/v1/maintenancequotes` | Crear cotización de mantenimiento | `POST` | `/api/v1/maintenancequotes` | `{ "id": 1, "maintenanceQuoteId": 1, "correctiveActionsCost": 0, "sparePartsCost": 0, "preventiveCost": 0, "totalMaintenanceCost": 0 }` | Crea una nueva cotización a partir del costo de acciones correctivas. |
-| `/api/v1/maintenancequotes/spare-parts-cost` | Calcular costo de repuestos | `POST` | `/api/v1/maintenancequotes/spare-parts-cost` | `{ "id": 1, "sparePartsCost": 120.0, ... }` | Calcula y actualiza el costo de repuestos de la cotización. |
-| `/api/v1/maintenancequotes/preventive-cost` | Calcular costo preventivo | `POST` | `/api/v1/maintenancequotes/preventive-cost` | `{ "id": 1, "preventiveCost": 80.0, ... }` | Calcula y actualiza el costo de mantenimiento preventivo de la cotización. |
-| `/api/v1/maintenancequotes/total-cost` | Consolidar costo total | `POST` | `/api/v1/maintenancequotes/total-cost` | `{ "id": 1, "totalMaintenanceCost": 200.0 }` | Consolida y retorna el costo total de mantenimiento de la cotización. |
-| `/api/v1/roiprojections` | Crear proyección ROI | `POST` | `/api/v1/roiprojections` | `{ "id": 1, "roiProjectionId": 1, "projectedDowntimeCost": 0, "projectedEarnings": 0, "roiIndex": 0, "demandStatus": "Unknown" }` | Crea una nueva proyección ROI a partir del costo de inactividad proyectado. |
-| `/api/v1/roiprojections/projected-earnings` | Calcular ganancias proyectadas | `POST` | `/api/v1/roiprojections/projected-earnings` | `{ "id": 1, "projectedEarnings": 1500.0, ... }` | Calcula y actualiza las ganancias proyectadas. |
-| `/api/v1/roiprojections/generate` | Generar índice ROI | `POST` | `/api/v1/roiprojections/generate` | `{ "id": 1, "roiIndex": 1.8, "demandStatus": "High" }` | Genera el índice ROI final y el estado de demanda de la proyección. |
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
@@ -1012,21 +969,66 @@ Landing Page (`bytesquad-website`):
 | upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website | fix/viteconfig | e6294d4 | Merge pull request #23 fix/viteconfig | 2026-06-21 |
 
 
-#### 5.2.3.7. Execution Evidence for Sprint Review
+#### 5.2.3.7. Services Documentation Evidence for Sprint Review
 
-#### 5.2.3.8. Services Documentation Evidence for Sprint Review
-#### 5.2.3.9. Software Deployment Evidence for Sprint Review
+##### Bounded Context: Membership (Membresías y Acceso)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/memberships/activate` | Activar membresía | `POST` | `/api/v1/memberships/activate` | `{ "id": 1, "clientId": 1, "plan": "Premium", "startDate": "...", "endDate": "...", "status": "Active" }` | Activa una nueva membresía para un cliente. |
+| `/api/v1/memberships/{id}` | Obtener membresía | `GET` | `/api/v1/memberships/1` | `{ "id": 1, "clientId": 1, "plan": "Premium", "status": "Active" }` | Retorna la membresía solicitada, o 404 si no existe. |
+| `/api/v1/memberships/by-client/{clientId}` | Listar membresías por cliente | `GET` | `/api/v1/memberships/by-client/1` | `[{ "id": 1, "plan": "Premium", "status": "Active" }]` | Retorna todas las membresías de un cliente. |
+| `/api/v1/memberships/{id}/plan` | Actualizar plan | `PUT` | `/api/v1/memberships/1/plan` | `{ "id": 1, "plan": "VIP", "status": "Active" }` | Cambia el plan de una membresía existente. |
+| `/api/v1/memberships/{id}/suspend` | Suspender membresía | `POST` | `/api/v1/memberships/1/suspend` | `{ "id": 1, "status": "Suspended" }` | Suspende una membresía activa. |
+| `/api/v1/memberships/{id}/renew` | Renovar membresía | `POST` | `/api/v1/memberships/1/renew` | `{ "id": 1, "endDate": "...", "status": "Active" }` | Extiende la fecha de fin de una membresía. |
+| `/api/v1/memberships/{id}/cancel` | Cancelar membresía | `DELETE` | `/api/v1/memberships/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una membresía. Retorna 400 si ya está cancelada o expirada. |
+| `/api/v1/branch-accesses/grant` | Evaluar acceso a sede | `POST` | `/api/v1/branch-accesses/grant` | `{ "id": 1, "membershipId": 1, "branchId": 1, "status": "Granted", "grantedByAdminId": 1 }` | Evalúa la membresía referenciada y registra una decisión de acceso (Granted/Denied). |
+
+##### Bounded Context: Maintenance (Mantenimiento de Equipos)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/maintenances/by-equipment/{equipmentId}` | Listar mantenimientos por equipo | `GET` | `/api/v1/maintenances/by-equipment/1` | `[{ "id": 1, "equipmentId": 1, "reason": "Cinta desgastada", "status": "Requested" }]` | Retorna todos los registros de mantenimiento de un equipo. |
+| `/api/v1/maintenances/request` | Solicitar mantenimiento | `POST` | `/api/v1/maintenances/request` | `{ "id": 1, "equipmentId": 1, "requestedByAdminId": 1, "reason": "Cinta desgastada", "status": "Requested" }` | Crea una nueva solicitud de mantenimiento para un equipo. |
+| `/api/v1/technical-tickets/{id}` | Obtener ticket técnico | `GET` | `/api/v1/technical-tickets/1` | `{ "id": 1, "maintenanceId": 1, "equipmentId": 1, "status": "Created", "maintenanceProgress": "Pending" }` | Retorna el ticket técnico, o 404 si no existe. |
+| `/api/v1/technical-tickets` | Crear ticket técnico | `POST` | `/api/v1/technical-tickets` | `{ "id": 1, "status": "Created", ... }` | Crea un ticket técnico a partir de una solicitud de mantenimiento, marcando el equipo fuera de servicio. |
+| `/api/v1/technical-tickets/{id}/assign` | Asignar técnico | `POST` | `/api/v1/technical-tickets/1/assign` | `{ "id": 1, "status": "Assigned", "assignedTechnicianId": 5 }` | Asigna el ticket a un técnico, transicionando su estado a "Assigned". |
+| `/api/v1/technical-tickets/{id}/request-status-update` | Solicitar actualización de estado | `POST` | `/api/v1/technical-tickets/1/request-status-update` | `{ "id": 1, "maintenanceProgress": "InProgress" }` | Marca el progreso de mantenimiento del ticket como "InProgress". |
+| `/api/v1/technical-tickets/{id}/status` | Modificar estado de ticket | `PUT` | `/api/v1/technical-tickets/1/status` | `{ "id": 1, "status": "InProgress" }` | Transiciona el ticket a un nuevo estado (no permite revertir a "Created" ni modificar uno resuelto). |
+| `/api/v1/technical-tickets/{id}/maintenance-status` | Actualizar progreso de mantenimiento | `PUT` | `/api/v1/technical-tickets/1/maintenance-status` | `{ "id": 1, "maintenanceProgress": "Completed" }` | Actualiza el progreso (Pending, InProgress o Completed) de un ticket no resuelto. |
+| `/api/v1/technical-tickets/{id}/complete` | Completar ticket | `POST` | `/api/v1/technical-tickets/1/complete` | `{ "id": 1, "status": "Resolved" }` | Marca el ticket como resuelto y retorna el equipo a servicio. Requiere que el progreso sea "Completed". |
+| `/api/v1/maintenance-jobs/accept` | Aceptar trabajo de mantenimiento | `POST` | `/api/v1/maintenance-jobs/accept` | `{ "id": 1, "technicalTicketId": 1, "technicianId": 5, "status": "Accepted" }` | Crea un trabajo de mantenimiento cuando un técnico acepta un ticket técnico. |
+| `/api/v1/maintenance-logs` | Registrar log de finalización | `POST` | `/api/v1/maintenance-logs` | `{ "id": 1, "technicalTicketId": 1, "equipmentId": 1, "completedByAdminId": 1, "completedAt": "...", "notes": "..." }` | Crea un registro inmutable de finalización para un ticket técnico resuelto. |
+
+##### Bounded Context: Analytics (Reportes e Indicadores)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/activityreports` | Crear reporte de actividad | `POST` | `/api/v1/activityreports` | `{ "id": 1, "activityReportId": 1, "totalUsageTime": 0, "downtimeCost": 0, "percentageComparison": 0 }` | Crea un nuevo reporte de actividad a partir del análisis solicitado. |
+| `/api/v1/activityreports/total-usage-time` | Calcular tiempo total de uso | `POST` | `/api/v1/activityreports/total-usage-time` | `{ "id": 1, "totalUsageTime": 480, ... }` | Calcula y actualiza el tiempo total de uso del reporte. |
+| `/api/v1/activityreports/downtime-cost` | Calcular costo de inactividad | `POST` | `/api/v1/activityreports/downtime-cost` | `{ "id": 1, "downtimeCost": 350.5, ... }` | Calcula y actualiza el costo de inactividad del reporte. |
+| `/api/v1/activityreports/percentage-comparison` | Calcular comparación porcentual | `POST` | `/api/v1/activityreports/percentage-comparison` | `{ "id": 1, "percentageComparison": 12.3, ... }` | Calcula y actualiza la comparación porcentual del reporte. |
+| `/api/v1/maintenancequotes` | Crear cotización de mantenimiento | `POST` | `/api/v1/maintenancequotes` | `{ "id": 1, "maintenanceQuoteId": 1, "correctiveActionsCost": 0, "sparePartsCost": 0, "preventiveCost": 0, "totalMaintenanceCost": 0 }` | Crea una nueva cotización a partir del costo de acciones correctivas. |
+| `/api/v1/maintenancequotes/spare-parts-cost` | Calcular costo de repuestos | `POST` | `/api/v1/maintenancequotes/spare-parts-cost` | `{ "id": 1, "sparePartsCost": 120.0, ... }` | Calcula y actualiza el costo de repuestos de la cotización. |
+| `/api/v1/maintenancequotes/preventive-cost` | Calcular costo preventivo | `POST` | `/api/v1/maintenancequotes/preventive-cost` | `{ "id": 1, "preventiveCost": 80.0, ... }` | Calcula y actualiza el costo de mantenimiento preventivo de la cotización. |
+| `/api/v1/maintenancequotes/total-cost` | Consolidar costo total | `POST` | `/api/v1/maintenancequotes/total-cost` | `{ "id": 1, "totalMaintenanceCost": 200.0 }` | Consolida y retorna el costo total de mantenimiento de la cotización. |
+| `/api/v1/roiprojections` | Crear proyección ROI | `POST` | `/api/v1/roiprojections` | `{ "id": 1, "roiProjectionId": 1, "projectedDowntimeCost": 0, "projectedEarnings": 0, "roiIndex": 0, "demandStatus": "Unknown" }` | Crea una nueva proyección ROI a partir del costo de inactividad proyectado. |
+| `/api/v1/roiprojections/projected-earnings` | Calcular ganancias proyectadas | `POST` | `/api/v1/roiprojections/projected-earnings` | `{ "id": 1, "projectedEarnings": 1500.0, ... }` | Calcula y actualiza las ganancias proyectadas. |
+| `/api/v1/roiprojections/generate` | Generar índice ROI | `POST` | `/api/v1/roiprojections/generate` | `{ "id": 1, "roiIndex": 1.8, "demandStatus": "High" }` | Genera el índice ROI final y el estado de demanda de la proyección. |
+
+
+#### 5.2.3.8. Software Deployment Evidence for Sprint Review
 
 El backend (`spottrack-platform`) se mantiene contenedorizado mediante un `Dockerfile` multi-stage (build con Maven 3.9/Eclipse Temurin 26, ejecución sobre `eclipse-temurin:26-jre`) y un `docker-compose.yml` que expone las variables de entorno de base de datos, `JWT_SECRET` y las credenciales de Stripe (`STRIPE_SECRET_API_KEY`, `STRIPE_WEBHOOK_SECRET`), desplegado en Azure App Service conectado a Azure MySQL Flexible Database con `useSSL=true`.
 
 
 | Producto | Entorno | Tecnología | Enlace |
 | :--- | :--- | :--- | :-- |
-| SpotTrack Backend API | Docker + Azure App Service + Azure MySQL Flexible Database | C# + Net10 |  |
-| SpotTrack Web Application | Azure Static Web Apps (producción) | Vue | |
-| SpotTrack Landing Page | GitHub Pages (producción) | Vue |  |
+| SpotTrack Backend API | Docker + Azure App Service + Azure MySQL Flexible Database | C# + Net10 | https://spottrack-platform-aw.azurewebsites.net/  |
+| SpotTrack Web Application | Azure Static Web Apps (producción) | Vue | https://green-pebble-07422c50f.7.azurestaticapps.net/|
+| SpotTrack Landing Page | GitHub Pages (producción) | Vue | https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/ |
 
-#### 5.2.3.10. Team Collaboration Insights during Sprint
+#### 5.2.3.9. Team Collaboration Insights during Sprint
 A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de webbapp, website y platform:
 
 <img src="../assets/sprint4/Screenshot 2026-07-07 at 02.23.56.png" alt="bounded" width="500"/>
