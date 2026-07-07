@@ -15,6 +15,20 @@
 * **Validación de Integración con Fake API:** El hecho de contar con la Fake API accesible en una URL pública permitió que todos los integrantes del equipo consumieran el mismo backend simulado independientemente de su entorno local. Esto eliminó la clase de errores de integración más frecuente en proyectos de equipo ("funciona en mi máquina") y validó el flujo de despliegue que se reutilizará para el backend real en el Sprint 3.
 * **Estructura de Proyecto Escalable:** Inicializar el proyecto **Vue** con carpetas separadas por contexto (`auth/`, `heatmap/`, `admin/`, `maintenance/`, `equipment/`, `routines/`) demostró que los límites de dominio definidos en el DDD son aplicables también en la capa de presentación. Esta organización facilitó que cada integrante trabajara en su módulo asignado con mínima interferencia sobre el código de los demás.
 
+### Sprint 3
+
+* **Transición Validada de Fake API a Backend Real:** El equipo concretó el paso de JSON Server a un backend real, organizado en Bounded Contexts claramente delimitados (Gym, Equipment, Maintenance, Reservation, Profiles, IAM y Routines) que se comunican entre sí mediante eventos de integración bajo el patrón Anti-Corruption Layer (`TicketCreatedEvent` / `TicketResolvedEvent`). Esto confirmó que el modelado DDD realizado desde el Sprint 1 escala correctamente a un backend real y no solo a una capa de datos simulada.
+* **El Contrato de Interfaz Cumplió su Propósito:** Al respetar los mismos paths y estructuras de respuesta documentados desde la Fake API, la integración frontend-backend no requirió modificar ningún componente Vue del Sprint 2; solo fue necesario actualizar la URL base en `environment.ts`. Esto valida directamente la recomendación de Sprint 2 sobre preservar el contrato de interfaz para facilitar la migración.
+* **Subestimación de la Amplitud del Dominio:** El equipo reconoció en la retrospectiva que la amplitud del backend fue subestimada en la planificación del Sprint 3, lo que impidió completar a tiempo los Bounded Contexts de Analytics y de IoT/Telemetría. Esto evidenció que dividir el trabajo por Bounded Context no elimina el riesgo de subestimar la complejidad de contextos individuales dentro de un dominio amplio.
+* **Arrastre de Correcciones Pendientes:** Solo el 60% de las correcciones indicadas en el Sprint 1 se completó durante el Sprint 2, y la retrospectiva de ese sprint identificó la ausencia de un proceso de QA formal como causa raíz. Esta deuda técnica y de documentación se mantuvo como un riesgo latente que el equipo debió gestionar activamente al planificar el Sprint 3.
+
+### Sprint 4
+
+* **Efecto Cascada de Requisitos No Anticipados:** El alcance real del Sprint 4 superó ampliamente la estimación inicial de 40 Story Points (cerrando en 117). La incorporación de Membership & Billing con Stripe resultó ser una precondición no anticipada para que un administrador pudiera operar la plataforma, arrastrando consigo el onboarding de gimnasios, la gestión de sedes y la lista blanca de clientes. De forma similar, la ampliación de la red de sensores IoT generó la necesidad de un Centro de Alertas unificado no contemplado en el Sprint 3. Esto demuestra que una funcionalidad aparentemente aislada (el cobro de membresías) puede convertirse en un prerrequisito estructural que redefine el alcance completo de un sprint.
+* **Resiliencia del Equipo Mediante Bounded Contexts:** La salida de dos integrantes durante el sprint no detuvo el ritmo de entrega gracias a la incorporación oportuna de nuevos miembros y a la arquitectura por Bounded Contexts, que permitió que estos tomaran ownership de módulos delimitados (Monitoring, Alerts, parte de Maintenance y Routines) sin fricción con el código existente. Esto confirma que el diseño DDD adoptado desde el Sprint 1 no solo distribuye el trabajo, sino que también absorbe cambios en la composición del equipo.
+* **Mayor Volumen de Entrega del Proyecto:** El Sprint 4 concentró el mayor volumen de trabajo de todo el proyecto (403 commits / 36 Pull Requests en `bytesquad-platform`, 154 commits / 16 Pull Requests en `bytesquad-webapp` y 4 commits / 3 Pull Requests en `bytesquad-website`), reflejando el cierre simultáneo de cuatro frentes: Membership & Billing, IoT Monitoring/Alertas, Mantenimiento/Analítica-ROI e integración final del frontend y Landing Page.
+* **Deuda Técnica Reconocida al Cierre:** El equipo identificó que no se implementó cobertura de pruebas automatizadas (unitarias o de integración) para los nuevos Bounded Contexts, ni un pipeline de CI/CD para el repositorio del backend. A diferencia de otros hallazgos del proyecto, esta carencia quedó explícitamente documentada como pendiente para una eventual continuidad del producto, en lugar de resolverse dentro del sprint.
+
 ---
 
 ## Recomendaciones
@@ -30,8 +44,24 @@
 * **Foco en el Core Funcional:** Las tareas **T15** (Build interactive heatmap component) y **T16** (Implement real-time status update via polling) son el núcleo funcional. El resto de funcionalidades dependen del mapa de calor como superficie de interacción base. Postergar estas tareas compromete la viabilidad de la demo del Sprint Review.
 * **Contrato de Interfaz para Migración:** Para que el paso de JSON Server al backend real no implique cambios en los **componentes de Vue**, los endpoints deben respetar los mismos paths y estructuras de respuesta documentados. Con ese contrato preservado, la transición se reduce a actualizar la URL base en las variables de entorno (`.env`) sin tocar la lógica de los servicios o componentes.
 
+### Sprint 3
+
+* **Proceso de QA Formal:** Dado que la ausencia de un proceso de QA formal fue la causa raíz de que solo el 60% de las correcciones del Sprint 1 se completara en el Sprint 2, se recomienda establecer deadlines claros por tarea, rastrear el progreso por capítulo/Bounded Context y ejecutar releases oportunos en lugar de acumular correcciones al final del sprint.
+* **Estimación por Bounded Context Individual:** Al planificar sprints de backend, se recomienda estimar la complejidad de cada Bounded Context de forma independiente en vez de asignar una velocidad global al sprint. Esto habría anticipado que Analytics e IoT/Telemetría requerían más tiempo del disponible, evitando que quedaran incompletos al cierre del Sprint 3.
+* **Responsable de Integración API:** Se recomienda designar un responsable que valide el contrato de API entre frontend y backend antes de cerrar cada tarea, y definir criterios de aceptación explícitos por endpoint antes de iniciar su implementación. Esto reduce el riesgo de romper la integración lograda entre el frontend Vue del Sprint 2 y el backend real del Sprint 3.
+
+### Sprint 4
+
+* **Descubrimiento Temprano de Precondiciones Estructurales:** Se recomienda que, al planificar sprints de cierre, el equipo identifique explícitamente qué funcionalidades actúan como precondición estructural de otras (como ocurrió con Membership & Billing respecto al onboarding de gimnasios) antes de fijar la estimación de Story Points, ya que estas dependencias ocultas fueron la causa principal de que el alcance real triplicara la estimación inicial.
+* **Cobertura de Pruebas Automatizadas:** Se recomienda priorizar la implementación de pruebas unitarias y de integración para los Bounded Contexts incorporados en el Sprint 4 (Membership, Monitoring, Alerts, Maintenance Technicians), dado que el equipo cerró el proyecto sin esta cobertura y la reconoció como un riesgo para la continuidad del producto.
+* **Pipeline de CI/CD para el Backend:** Se recomienda implementar un pipeline de CI/CD para `bytesquad-platform`, replicando la automatización de despliegue continuo que ya funcionó exitosamente para la Landing Page desde el Sprint 1, de modo que los 403 commits del Sprint 4 no dependan de verificaciones y despliegues manuales.
+* **Onboarding Documentado para Nuevos Integrantes:** Dado que la incorporación de nuevos miembros a mitad de proyecto no afectó el ritmo de entrega gracias a la arquitectura por Bounded Contexts, se recomienda documentar este proceso de onboarding (asignación de BC delimitado, ownership claro) como práctica reutilizable ante futuras rotaciones de equipo.
+
 
 # Video About-the-Team.
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQBQYfOHmJ33T7P3jOmYqfebAVQqfJcPijESa7oUeaNyzvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FYl2st](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQBQYfOHmJ33T7P3jOmYqfebAVQqfJcPijESa7oUeaNyzvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FYl2st) 
+
 # Bibliografía
 
 <p style="padding-left: 30px; text-indent: -30px;">DINGG Team. (2025, 26 de noviembre). *Your 5-step operational plan to handle equipment failures*. DINGG. https://dingg.app/blogs/your-5-step-operational-plan-to-handle-equipment-failures</p>
@@ -44,9 +74,9 @@
 
 <p style="padding-left: 30px; text-indent: -30px;">Fitness Store. (2024). *Commercial & professional treadmills*. https://www.topfitness.com/collections/commercial-treadmills</p>
 
-## Annexes
+## Anexos
 
-### Annex A : Videos de Exposiciones
+### Anexo A : Videos de Exposiciones
 
 | Entrega | Título de la Exposición | Hipervínculo al Video (Microsoft Stream) |
 | :--- | :--- | :--- |
@@ -55,7 +85,7 @@
 | **AV2** | Sprint Review - Semana 12 | (Pendiente) |
 | **TB2** | Release Review - Semana 15 | (Pendiente) |
 
-### Annex B : Video unificado entrevistas
+### Anexo B : Video unificado entrevistas
 [Enlace al video unificado de entrevistas - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=unt1Xd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
@@ -63,14 +93,14 @@
 
 
 
-### Important Annex
+### Anexos importantes
 
-Landing Page: https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/
-WebApp: https://green-pebble-07422c50f.7.azurestaticapps.net/
-Platform: https://spottrack-platform-aw.azurewebsites.net/
-Organizacion: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad
-Repositorio del Report: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report
-Repositorio del Landing page: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website
-Repositorio del WebApp: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp
-Repositorio del Platform: https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform
+* Landing Page: [https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/](https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/)
+* WebApp: [https://green-pebble-07422c50f.7.azurestaticapps.net/](https://green-pebble-07422c50f.7.azurestaticapps.net/)
+* Platform: [https://spottrack-platform-aw.azurewebsites.net/](https://spottrack-platform-aw.azurewebsites.net/)
+* Organizacion:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad)
+* Repositorio del Report:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-report)
+* Repositorio del Landing page:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website)
+* Repositorio del WebApp: [https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp)
+* Repositorio del Platform:[https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform](https://github.com/upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform)
 

@@ -118,71 +118,36 @@ Flujos dinámicos del ciclo de vida del mantenimiento, abarcando desde la detecc
 * **Maintenance Log:** ![Maintenance Log Flow](../docs/c4-aggregate/05k_MaintenanceLog_flow.png)
 
 ## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams Frontend
 
-#### 4.7.1.1. Analytics Diagram Class
-![diagram0](../assets/class-diagrams/frontend-diagram-class/analytics-diagram-class.png)
-#### 4.7.1.2. Gym Diagram Class
-![diagram1](../assets/class-diagrams/frontend-diagram-class/gym-diagram-class.png)
-#### 4.7.1.3. Manteinance Diagram Class
-![diagram2](../assets/class-diagrams/frontend-diagram-class/manteinance-diagram-class.png)
-#### 4.7.1.4. Profiles Diagram Class
-![diagram3](../assets/class-diagrams/frontend-diagram-class/profiles-diagram-class.png)
-#### 4.7.1.5. Reservation Diagram Class
-![diagram4](../assets/class-diagrams/frontend-diagram-class/booking-diagram-class.png)
-#### 4.7.1.6. Routine Diagram Class
-![diagram5](../assets/class-diagrams/frontend-diagram-class/routines-diagram-class.png)
-#### 4.7.1.7. Dashboard Diagram Class
-![diagram6](../assets/class-diagrams/frontend-diagram-class/dashboard-diagram-class.png)
-#### 4.7.1.8. Monitoring Diagram Class
-![diagram7](../assets/class-diagrams/frontend-diagram-class/monitoring-diagram-class.png)
-#### 4.7.1.9. Alerts Diagram Class
-![diagram8](../assets/class-diagrams/frontend-diagram-class/alerts-diagram-class.png)
-#### 4.7.1.10. Financial Diagram Class
-![diagram9](../assets/class-diagrams/frontend-diagram-class/financial-diagram-class.png)
-#### 4.7.1.11. Configuration Diagram Class
-![diagram10](../assets/class-diagrams/frontend-diagram-class/configuration-diagram-class.png)
-#### 4.7.1.12. Shared Diagram Class
-![diagram11](../assets/class-diagrams/frontend-diagram-class/app-diagram-class.png)
-#### 4.7.1.13. IAM Diagram Class
-![diagram12](../assets/class-diagrams/frontend-diagram-class/iam-diagram-class.png)
+### 4.7.1. Class Diagrams
 
+![Bounded Context Map](../assets/CLASS-DIAGRAMS/00-bounded-context-map.png)
 
-### 4.7.2. Class Diagrams Backend 
+![Shared Kernel](../assets/CLASS-DIAGRAMS/shared-kernel.png)
 
-#### 4.7.2.1. Analytics Diagram Class
-![diagram0](../assets/class-diagrams/backend-diagrams-class/analytics-diagram-class.png)
-#### 4.7.2.2. Gym Diagram Class
-![diagram2](../assets/class-diagrams//backend-diagrams-class/gym-diagram-class.png)
+![IAM Domain Model](../assets/CLASS-DIAGRAMS/iam-domain-model.png)
 
-#### 4.7.2.3. Manteinance Diagram Class
-![diagram1](../assets/class-diagrams/backend-diagrams-class/manteinance-diagram-class.png)
+![Profiles Domain Model](../assets/CLASS-DIAGRAMS/profiles-domain-model.png)
 
-#### 4.7.2.4. Membership Diagram Class
-![diagram2](../assets/class-diagrams/backend-diagrams-class/membership-diagram-class.png)
+![Gym Facility Domain Model](../assets/CLASS-DIAGRAMS/gym-facility-domain-model.png)
 
-#### 4.7.2.5. Reservation Diagram Class
-![diagram3](../assets/class-diagrams/backend-diagrams-class/reservation-diagram-class.png)
+![Gym Equipment Domain Model](../assets/CLASS-DIAGRAMS/gym-equipment-domain-model.png)
 
+![Membership Core Domain Model](../assets/CLASS-DIAGRAMS/membership-core-domain-model.png)
 
-#### 4.7.2.6. Dashboard Diagram Class
-![diagram4](../assets/class-diagrams/frontend-diagram-class/dashboard-diagram-class.png)
+![Membership Events Domain Model](../assets/CLASS-DIAGRAMS/membership-events-domain-model.png)
 
-#### 4.7.2.7. IOT Diagram Class
-![diagram5](../assets/class-diagrams/backend-diagrams-class/iot-diagram-class.png)
+![Reservation Domain Model](../assets/CLASS-DIAGRAMS/reservation-domain-model.png)
 
-#### 4.7.2.8. Monitoring Diagram Class
-![diagram6](../assets/class-diagrams/backend-diagrams-class/monitoring-diagram-class.png)
+![Routine Domain Model](../assets/CLASS-DIAGRAMS/routine-domain-model.png)
 
-#### 4.7.2.9. Shared Diagram Class
-![diagram7](../assets/class-diagrams/backend-diagrams-class/shared-diagram-class.png)
+![Monitoring Domain Model](../assets/CLASS-DIAGRAMS/monitoring-domain-model.png)
 
-#### 4.7.2.10. IAM Diagram Class
-![diagram8](../assets/class-diagrams/backend-diagrams-class/iam-diagram-class.png)
+![Alert Domain Model](../assets/CLASS-DIAGRAMS/alert-domain-model.png)
 
+![Maintenance Domain Model](../assets/CLASS-DIAGRAMS/maintenance-domain-model.png)
 
-#### 4.7.2.10. EventFlow Diagram Class
-![diagram9](../assets/class-diagrams/backend-diagrams-class/eventfloe-backend.png)
+![Analytics Domain Model](../assets/CLASS-DIAGRAMS/analytics-domain-model.png)
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams

@@ -139,8 +139,8 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 | Date | 18-04-2026                                                                                                                                                         |
 | Time | 20:45                                                                                                                                                              |
 | Location | Via Discord                                                                                                                                                        |
-| Prepared By | Gamero Miranda, Lui Mathias                                                                                                                                        |
-| Attendees (to planning meeting) | Cataño Zarate Jesus Miguel, Gallardo Morales Carla Alejandra, Fernández Linares Alvaro Sebastian, Gamero Miranda Lui Mathias, Espinoza Orrego Valentino Andre      |
+| Prepared By | Ayllon Pauccar, Juan David                                                                                                                                        |
+| Attendees (to planning meeting) | Limache Coronel Imanol Fabrizio, Gallardo Morales Carla Alejandra, Fernández Linares Alvaro Sebastian, Ayllon Pauccar Juan David, Espinoza Orrego Valentino Andre      |
 | Sprint 1 Review Summary | Durante este sprint se asignaron las responsabilidades individuales y se discutieron los requerimientos técnicos y visuales para el desarrollo de la Landing Page. |
 | Sprint 1 Retrospective Summary | El equipo concluyó que el flujo de trabajo fue efectivo, logrando un código funcional y un despliegue exitoso de la Landing Page sin bloqueos mayores.             |
 | **Sprint Goal & User Stories** |                                                                                                                                                                    |
@@ -152,10 +152,10 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 
 | Team Member (Last Name, First Name) | GitHub Username | Requirements & Analysis | Landing Page Development | Configuration & Deployment |
 | :---: | :---: |:-----------------------:|:------------------------:|:--------------------------:|
-| Cataño Zarate, Jesus Miguel | jcus1510  |            C            |            C             |             C              |
+| Limache Coronel, Imanol Fabrizio | ImaLi06  |            C            |            C             |             C              |
 | Espinoza Orrego, Valentino Andre | valentinoespinoza13  |            L            |            C             |             C              |
 | Fernández Linares, Alvaro Sebastian | ORION-tech-c  |            C            |            C             |             C              |
-| Gamero Miranda, Lui Mathias | lug07m  |            C            |            L             |             C              |
+| Ayllon Pauccar, Juan David | JuanDPAUC  |            C            |            L             |             C              |
 | Gallardo Morales, Carla Alejandra | Carlsss28 |            C            |            C             |             L              |
 
 ##### 5.2.1.3. Sprint Backlog 1
@@ -168,20 +168,20 @@ En esta sección se detallan las tareas asignadas para el Sprint 1 y el link del
 
 | User Story ID | Id | Description | Estimation (hours) | Assigned to | Status (To-do / InProcess / To-Review / Done) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| US-01 | S-01 | Diseñar la estructura HTML5 con semantic tags para la sección principal (Hero Section). | 4h | Gamero Miranda, Lui Mathias | Done |
-| US-01 | S-02 | Implementar la lógica Vanilla JS para el cambio de idioma (i18n) en el navbar y botones. | 2h | Gamero Miranda, Lui Mathias | Done |
+| US-01 | S-01 | Diseñar la estructura HTML5 con semantic tags para la sección principal (Hero Section). | 4h | Ayllon Pauccar, Juan David | Done |
+| US-01 | S-02 | Implementar la lógica Vanilla JS para el cambio de idioma (i18n) en el navbar y botones. | 2h | Ayllon Pauccar, Juan David | Done |
 | US-01 | S-03 | Ajustar el estilo CSS usando Flexbox para destacar el CTA y adaptarlo a móviles. | 3h | Fernández Linares, Alvaro | Done |
-| US-02 | S-04 | Diseñar la estructura de tarjetas HTML para la sección "About Us" y "Experiences". | 3h | Gamero Miranda, Lui Mathias | Done |
+| US-02 | S-04 | Diseñar la estructura de tarjetas HTML para la sección "About Us" y "Experiences". | 3h | Ayllon Pauccar, Juan David | Done |
 | US-02 | S-05 | Redactar diccionarios JS (EN/ES) explicando los beneficios B2B y B2C del producto. | 2h | Espinoza Orrego, Valentino | Done |
 | US-02 | S-06 | Aplicar estilos corporativos utilizando las variables CSS globales (`:root`). | 3h | Fernández Linares, Alvaro | Done |
 | US-03 | S-07 | Maquetar el componente CSS Grid para mostrar las características (Features) de IoT. | 4h | Gallardo Morales, Carla | Done |
 | US-03 | S-08 | Añadir transiciones CSS (`hover` state) y manipular el DOM para la navegación. | 4h | Fernández Linares, Alvaro | Done |
-| US-03 | S-09 | Integrar íconos vectoriales de FontAwesome dentro de las grillas de información. | 3h | Gamero Miranda, Lui Mathias | Done |
-| US-04 | S-10 | Diseñar la estructura HTML de la sección de suscripciones (Planes Basic, Mid y Platinum). | 4h | Gamero Miranda, Lui Mathias | Done |
+| US-03 | S-09 | Integrar íconos vectoriales de FontAwesome dentro de las grillas de información. | 3h | Ayllon Pauccar, Juan David | Done |
+| US-04 | S-10 | Diseñar la estructura HTML de la sección de suscripciones (Planes Basic, Mid y Platinum). | 4h | Ayllon Pauccar, Juan David | Done |
 | US-04 | S-11 | Estilizar con animaciones `@keyframes` el plan "Mid" para resaltarlo como opción popular. | 2h | Fernández Linares, Alvaro | Done |
-| US-05 | S-12 | Implementar la estructura del formulario B2B en el archivo principal y en `login.html`. | 3h | Gamero Miranda, Lui Mathias | Done |
+| US-05 | S-12 | Implementar la estructura del formulario B2B en el archivo principal y en `login.html`. | 3h | Ayllon Pauccar, Juan David | Done |
 | US-05 | S-13 | Añadir manipulación de eventos en JS (`preventDefault`) para el envío de formularios. | 3h | Gallardo Morales, Carla | Done |
-| US-05 | S-14 | Verificar la subida de los commits a GitHub y asegurar la integridad de ramas GitFlow. | 2h | Cataño Zarate, Jesus | Done |
+| US-05 | S-14 | Verificar la subida de los commits a GitHub y asegurar la integridad de ramas GitFlow. | 2h | Limache Coronel, Imanol Fabrizio | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -286,7 +286,7 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Time** | 10:00 AM |
 | **Location** | Reunión Virtual (Discord / Microsoft Teams) |
 | **Prepared By** | Gallardo, Carla |
-| **Attendees (to planning meeting)** | Gamero, Lui / Gallardo, Carla / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
+| **Attendees (to planning meeting)** | Ayllon, Juan / Gallardo, Carla / Limache Coronel, Imanol Fabrizio / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
 | **Sprint 1 Review Summary** | Sprint 1 entregó los artefactos fundacionales de Lean UX, DDD, diseño UX/UI en Figma y el inicio de la Landing Page (Hero Section y Header). Sin embargo, quedaron pendientes el despliegue, las secciones de módulos, precios y contacto de la Landing Page, así como diversas secciones de documentación del informe. |
 | **Sprint 1 Retrospective Summary** | El equipo identificó que la carga de trabajo de documentación y diseño subestimó el tiempo necesario. Para este Sprint 2 se priorizará paralelizar la corrección de Sprint 1 con el inicio del desarrollo de la Web App, asignando responsables claros por cada frente. |
 | **Sprint Goal** | Nuestro enfoque es completar todos los artefactos pendientes del Sprint 1 (correcciones de documentación y Landing Page completa) e iniciar el desarrollo frontend de la Web Application de SpotTrack consumiendo una Fake API, implementando las vistas de autenticación, mapa de calor, gestión de activos, alertas de mantenimiento y sugerencias de rutinas. Esto se confirmará cuando la Landing Page esté desplegada y funcional con todas sus secciones, y las vistas frontend de las User Stories priorizadas estén implementadas y navegables en el entorno de desarrollo local. |
@@ -300,8 +300,8 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 | Team Member (Last Name, First Name) | GitHub Username | Aspect 1: Sprint 1 Corrections Leader (L) / Collaborator (C) | Aspect 2: Vue App Setup & Auth Leader (L) / Collaborator (C) | Aspect 3: Client App Frontend (Heatmap & Routines) Leader (L) / Collaborator (C) | Aspect 4: Admin Dashboard Frontend Leader (L) / Collaborator (C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Gallardo, Carla | cgallardo | Corrections (C) | Vue App Setup (L) | Client App (C) | Admin Dashboard (C) |
-| Gamero, Lui | lgamero | Corrections (C) | Fake API Config (L) | Client App (C) | Admin Dashboard (C) |
-| Cataño Zarate, Jesus Miguel | jcuz1510 | Landing Page Completion (L) | Vue App Setup (C) | Client App (C) | Admin Dashboard (C) |
+| Ayllon, Juan | JuanDPAUC | Corrections (C) | Fake API Config (L) | Client App (C) | Admin Dashboard (C) |
+| Limache Coronel, Imanol Fabrizio | ImaLi06 | Landing Page Completion (L) | Vue App Setup (C) | Client App (C) | Admin Dashboard (C) |
 | Espinoza Orrego, Valentino Andre | valentinoespinoza13 | Corrections (C) | Vue App Setup (C) | Client App (C) | Admin Dashboard (L) |
 | Fernández Linares, Alvaro Sebastian | ORION-tech-c | Corrections (L) | Vue App Setup (C) | Client App (L) | Admin Dashboard (C) |
 
@@ -675,16 +675,16 @@ Para este Sprint 3, el equipo concentró sus esfuerzos en el desarrollo del back
 
 | Id | Title | Task Id | Task Title | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| UPA1SJ-183 | Web Services | UPA1SJ-184 | Monitoring | ORION10 | En curso |
-| UPA1SJ-183 | Web Services | UPA1SJ-185 | Equipment | ORION10 | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-186 | Reservation | Carla Gallardo | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-187 | Maintenance | Carla Gallardo | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-188 | Iot Sensoring Gestion | ORION10 | Tareas por hacer |
-| UPA1SJ-183 | Web Services | UPA1SJ-189 | Analytics | Andre Espinoza | Tareas por hacer |
-| UPA1SJ-183 | Web Services | UPA1SJ-190 | Membership | Carla Gallardo | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-191 | Routines | ORION10 | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-192 | Profiles | ORION10 | Finalizada |
-| UPA1SJ-183 | Web Services | UPA1SJ-193 | Auth(IAM) | ORION10 | En curso |
+| UPA1SJ-183 | Web Services | UPA1SJ-184 | Monitoring | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-185 | Equipment | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-186 | Reservation | Carla Gallardo | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-187 | Maintenance | Carla Gallardo | Done|
+| UPA1SJ-183 | Web Services | UPA1SJ-188 | Iot Sensoring Gestion | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-189 | Analytics | Andre Espinoza | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-190 | Membership | Carla Gallardo | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-191 | Routines | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-192 | Profiles | ORION10 | Done |
+| UPA1SJ-183 | Web Services | UPA1SJ-193 | Auth(IAM) | ORION10 | Done |
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
@@ -762,18 +762,6 @@ El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful ver
 | `/api/v1/profiles/clients` | Listar clientes | `GET` | `/api/v1/profiles/clients` | `[{ "id": 1, "fullName": "Ana López", ... }]` | Retorna todos los perfiles de cliente registrados. |
 | `/api/v1/profiles/clients/{clientId}` | Actualizar cliente | `PUT` | `/api/v1/profiles/clients/1` | `{ "id": 1, "fullName": "Ana López Ruiz", ... }` | Actualiza nombre, apellido y teléfono del cliente. |
 
-##### Bounded Context: Membership (Membresías y Acceso)
-
-| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `/api/v1/memberships/activate` | Activar membresía | `POST` | `/api/v1/memberships/activate` | `{ "id": 1, "clientId": 1, "plan": "Premium", "startDate": "...", "endDate": "...", "status": "Active" }` | Activa una nueva membresía para un cliente. |
-| `/api/v1/memberships/{id}` | Obtener membresía | `GET` | `/api/v1/memberships/1` | `{ "id": 1, "clientId": 1, "plan": "Premium", "status": "Active" }` | Retorna la membresía solicitada, o 404 si no existe. |
-| `/api/v1/memberships/by-client/{clientId}` | Listar membresías por cliente | `GET` | `/api/v1/memberships/by-client/1` | `[{ "id": 1, "plan": "Premium", "status": "Active" }]` | Retorna todas las membresías de un cliente. |
-| `/api/v1/memberships/{id}/plan` | Actualizar plan | `PUT` | `/api/v1/memberships/1/plan` | `{ "id": 1, "plan": "VIP", "status": "Active" }` | Cambia el plan de una membresía existente. |
-| `/api/v1/memberships/{id}/suspend` | Suspender membresía | `POST` | `/api/v1/memberships/1/suspend` | `{ "id": 1, "status": "Suspended" }` | Suspende una membresía activa. |
-| `/api/v1/memberships/{id}/renew` | Renovar membresía | `POST` | `/api/v1/memberships/1/renew` | `{ "id": 1, "endDate": "...", "status": "Active" }` | Extiende la fecha de fin de una membresía. |
-| `/api/v1/memberships/{id}/cancel` | Cancelar membresía | `DELETE` | `/api/v1/memberships/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una membresía. Retorna 400 si ya está cancelada o expirada. |
-| `/api/v1/branch-accesses/grant` | Evaluar acceso a sede | `POST` | `/api/v1/branch-accesses/grant` | `{ "id": 1, "membershipId": 1, "branchId": 1, "status": "Granted", "grantedByAdminId": 1 }` | Evalúa la membresía referenciada y registra una decisión de acceso (Granted/Denied). |
 
 ##### Bounded Context: Reservations (Reservas de Equipos)
 
@@ -802,6 +790,199 @@ El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful ver
 | `/api/v1/routine-sessions/{routineSessionId}/completions` | Completar sesión | `POST` | `/api/v1/routine-sessions/1/completions` | `{ "id": 1, "status": "Completed" }` | Marca una sesión de rutina como completada. |
 | `/api/v1/routine-sessions/{routineSessionId}/missed` | Marcar sesión perdida | `POST` | `/api/v1/routine-sessions/1/missed` | `{ "id": 1, "status": "Missed" }` | Marca una sesión de rutina como perdida (no realizada). |
 | `/api/v1/routine-sessions?clientId={clientId}` | Listar sesiones por cliente | `GET` | `/api/v1/routine-sessions?clientId=1` | `[{ "id": 1, "status": "Completed" }]` | Retorna las sesiones de rutina pertenecientes a un cliente. |
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Durante este sprint, el objetivo de despliegue se centró en el **Backend de SpotTrack**, el cual fue desplegado exitosamente y ya se encuentra operativo en el entorno de la nube de **Azure**.
+<img src="../assets/image11.png">
+
+<img src="../assets/image22.png">
+
+
+
+| Componente | Entorno de Despliegue | URL de Producción |
+| --- | --- | --- |
+| **SpotTrack platform** | Azure Web App | [](spottrack-platform-os.azurewebsites.net) |
+
+Este despliegue garantiza que la lógica de negocio, las bases de datos y los servicios del backend estén completamente disponibles en la nube para ser consumidos de manera estable y segura.
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de platform:
+
+<img src="../assets/team-insight.png">
+
+#### 5.2.4. Sprint 4
+En esta sección se registra y explica el avance en términos de producto y trabajo
+colaborativo para el Sprint 4. Incluye como secciones internas: Sprint Planning 4,
+Aspect Leaders and Collaborators, Sprint Backlog 4, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.3.1.Spring Planning 4.
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de
+resumen del sprint planning meeting. La estructura a utilizar se presenta a
+continuación.
+
+| Aspect | Details |
+| :--- | :--- |
+| **Sprint #** | Sprint 4 |
+| **Date** | 2026-06-22 |
+| **Time** | 11:00 AM |
+| **Location** | Reunión Virtual (Discord) |
+| **Prepared By** | Fernandez Linares, Alvaro Sebastian |
+| **Attendees (to planning meeting)** | Gallardo Morales, Carla Alejandra/ Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian / Limache Coronel, Imanol Fabrizio/ Ayllon Pauccar, Juan David |
+| **Sprint 3 Review Summary** | Sprint 3 entregó el backend completo con Spring Boot para los Bounded Contexts IAM, Gym, Equipment, Maintenance, Reservation, Profiles y Routines, todos desplegados en Azure App Service conectado a Azure MySQL Flexible Database. Se realizaron seis entrevistas de validación con representantes de ambos segmentos objetivo y se documentó la evaluación heurística del producto, identificando seis áreas de mejora en usabilidad y diseño inclusivo. Sin embargo, quedaron pendientes los Bounded Contexts de Analytics e IoT/Telemetría, la conexión total del frontend Vue al backend real en producción, y la producción del Video About-the-Product. |
+| **Sprint 3 Retrospective Summary** | El equipo reconoció que la amplitud del dominio del backend fue subestimada durante la planificación del Sprint 3, lo que impidió completar los Bounded Contexts de Analytics y Telemetría en el tiempo previsto. Como aciertos se destacaron la correcta arquitectura DDD con comunicación entre BCs mediante eventos de integración (TicketCreatedEvent / TicketResolvedEvent) y el despliegue exitoso de los tres productos en la nube. Para el Sprint 4 se establecerán check-ins diarios de progreso, criterios de aceptación explícitos por endpoint antes de comenzar su implementación, y un responsable de integración que valide el contrato de API entre frontend y backend antes del cierre de cada tarea. El despliegue de la versión final de todos los productos se tratará como tarea crítica de primer orden. |
+| **Sprint Goal** | Nuestro enfoque es que los administradores de gimnasios puedan suscribirse, pagar y operar la plataforma de punta a punta —desde el registro de su negocio hasta la gestión financiera y predictiva de sus activos— mientras los clientes cuentan con una red de sensores IoT ampliada y un centro de alertas que los mantiene informados en tiempo real. Creemos que esto entrega un modelo de negocio SaaS completo y autosostenible a los administradores, y mayor confianza y capacidad de respuesta a los clientes ante eventos del sistema. Esto se confirmará cuando un administrador nuevo pueda registrar su gimnasio, pagar su membresía mediante Stripe, y operar sin bloqueos críticos desde la plataforma final de SpotTrack, disponible en producción. |
+| **Sprint 4 Velocity** | 117 Story Points |
+| **Sum of Story Points** | 117 |
+
+#### 5.2.3.2. Spring Retrospective - individual feedback
+Durante la reunión de retrospectiva del Sprint 3, el equipo coincidió en que el sprint dejó como resultado la primera versión funcional de los tres productos (v1 del backend, v2 del frontend y v3 de la landing page), y resumió sus principales aprendizajes en tres puntos: (1) el equipo trabajó de forma más ordenada, (2) se definieron con más detalle las tareas, y (3) se logró una mejor distribución de la carga de trabajo respecto a sprints anteriores. A continuación se detalla la opinión individual de los miembros que participaron en esta retrospectiva.
+
+| Miembro | Aciertos | Oportunidades de mejora |
+| :--- | :--- | :--- |
+| Gallardo Morales, Carla Alejandra | Se trabajo de manera organizada y con tiempo para el desarrollo del backend. | Se pudieron definir mejor los objetivos y organizar mejor el tiempo, ya que no cumplimos con la entrega de los videos. |
+| Fernández Linares, Alvaro Sebastian | Hubo un objetivo macro que funcionó como motor de avance. | Podríamos haber tenido más cuidado con el backend, mejor definición de objetivos. |
+| Espinoza Orrego, Valentino Andre | Sintió mejor definición de qué tenía que hacer. | Revisar bien la delegación que cada uno tiene, mejora en QA. |
+
+#### 5.2.3.3. Sprint 4 Retrospective Summary
+Al cierre del Sprint 4, el equipo identificó que el alcance real superó ampliamente la estimación inicial de 40 Story Points: la incorporación de un modelo de suscripción de pago (Membership & Billing con Stripe) resultó ser una precondición no anticipada para que un administrador pudiera operar la plataforma, lo que arrastró consigo el onboarding de gimnasios, la gestión de sedes y la lista blanca de clientes. De forma similar, la ampliación de la red de sensores IoT (movimiento, cámara y seguimiento de sesión) generó la necesidad de un centro de alertas unificado que no había sido considerado en el Sprint 3. Como acierto principal, la salida de dos integrantes del equipo no detuvo el ritmo de entrega gracias a la incorporación oportuna de Limache Coronel, Imanol Fabrizio y Ayllon Pauccar, Juan Davida, y a la arquitectura por Bounded Contexts, que permitió que los nuevos integrante tomara ownership de módulos delimitados (Monitoring, Alerts, parte de Maintenance y Routines) sin fricción con el resto del código. Como oportunidad de mejora, el equipo reconoce que no se implementó cobertura de pruebas automatizadas (unitarias o de integración) para los nuevos Bounded Contexts, ni un pipeline de CI/CD para el repositorio del backend, quedando ambos como recomendaciones para una eventual continuidad del producto.
+#### 5.2.3.4. Aspects leaders and collaboration
+Para este Sprint 4 final, el equipo organizó su trabajo en cuatro frentes simultáneos: Membership & Billing (incluyendo la integración de pagos con Stripe), IoT Monitoring/Anomalías y el nuevo Centro de Alertas, Mantenimiento (gestión de técnicos) y Analítica/ROI, y la integración final del frontend junto con el cierre de la Landing Page. Esta estructura garantiza avance paralelo con ownership claro sobre cada frente, asegurando la entrega definitiva del proyecto.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect 1: Membership & Billing (Stripe) Leader (L) / Collaborator (C) | Aspect 2: IoT Monitoring, Anomalies & Alerts Center Leader (L) / Collaborator (C) | Aspect 3: Maintenance Technicians & Analytics/ROI Leader (L) / Collaborator (C) | Aspect 4: Frontend Integration & Landing Page Finalization Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Gallardo Morales, Carla Alejandra| Carlsss28 | (C) | Monitoring & Session Tracking (L) | Maintenance Technicians & Analytics/ROI (L) | Stripe checkout & QR check-in (C) |
+| Fernández Linares, Alvaro Sebastian | ORION-tech-c | Membership BC & Gym Onboarding (L) | (C) | Notification Preferences & Auth hardening (C) | (C) |
+| Espinoza Orrego, Valentino Andre | valentinoespinoza13 | (C) | (C) | Analytics frontend refactor (C) | Landing Page finalization (L) |
+| Limache Coronel, Imanol Fabrizio | ImaLi06 | (C) | Alerts Center & Anomaly reporting (L) | Technician assignment UI & Routine sessions (C) | (C) |
+| Ayllon Pauccar, Juan David | JuanDPAUC | (C) | Alerts Center & Anomaly reporting (C) | Technician assignment UI & Routine sessions (C) | (C) |
+
+#### 5.2.3.5. Sprint Backlog 4
+
+| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| TS60 | Registrar alta de negocio y pago inicial API | T01 | Membership BC domain layer (Membership aggregate, MembershipTier enum, BranchAccess) | Definir el agregado Membership, el enum MembershipTier (Basic/Mid/Platinum) y el value object BranchAccess con el límite de sedes por plan. | 5 hrs | Fernández | Done |
+| TS60 | Registrar alta de negocio y pago inicial API | T02 | Implement POST /api/v1/register-business | Registrar los datos personales y de empresa de un nuevo administrador en un registro pendiente previo al pago. | 4 hrs | Fernández | Done |
+| TS61 | Iniciar pago de membresía API | T03 | Integrate Stripe Java SDK and configure API keys/webhook secret | Añadir la dependencia stripe-java y configurar las variables de entorno de Stripe. | 4 hrs | Gallardo | Done |
+| TS61 | Iniciar pago de membresía API | T04 | Implement POST /api/v1/payments | Crear la sesión de pago en Stripe Checkout para el plan seleccionado. | 5 hrs | Ayllón | Done |
+| TS62 | Confirmar pago mediante webhook de Stripe API | T05 | Implement POST /api/v1/webhooks/stripe with signature verification | Verificar la firma del webhook antes de procesar eventos. | 5 hrs | Gallardo | Done |
+| TS62 | Confirmar pago mediante webhook de Stripe API | T06 | Handle checkout.session.completed / expired events | Procesar pagos completados y sesiones expiradas. | 4 hrs | Ayllón | Done |
+| US30 | Selección de plan y pago inicial | T07 | Build plan selection screen | Construir la pantalla de selección de planes. | 5 hrs | Fernández | Done |
+| US30 | Selección de plan y pago inicial | T08 | Implement Stripe Checkout handoff and success/cancel pages | Integrar el flujo con Stripe Checkout y páginas de éxito/cancelación. | 5 hrs | Gallardo | Done |
+| US30 | Selección de plan y pago inicial | T09 | Build business registration form | Construir el formulario de registro de empresa. | 5 hrs | Fernández | Done |
+| TS64 | Obtener membresía del cliente autenticado API | T10 | Implement GET /api/v1/memberships/me | Retornar el estado y plan de la membresía autenticada. | 4 hrs | Fernández | Done |
+| US32 | Gestión del ciclo de vida de la membresía | T11 | Build "My Membership" section | Construir la sección "My Membership". | 5 hrs | Fernández | Done |
+| TS65, TS66 | Cancelar / Deshacer cancelación | T12 | Implement PATCH /memberships/{id}/cancel and /undo-cancel | Cancelar o revertir la cancelación de la membresía. | 4 hrs | Fernández | Done |
+| TS68, TS69 | Degradar / Mejorar plan | T13 | Implement POST /memberships/{id}/upgrade-plan and /downgrade-plan | Cambiar el plan de membresía. | 5 hrs | Fernández | Done |
+| TS67 | Pagar deuda de membresía | T14 | Implement POST /memberships/{id}/pay-debt | Generar una nueva sesión de pago para regularizar la deuda. | 4 hrs | Fernández | Done |
+| US34 | Alta del primer gimnasio | T15 | Build GymCreateComponent and hasGymGuard | Construir la pantalla de creación del primer gimnasio. | 5 hrs | Fernández | Done |
+| US43 | Gestión de sedes | T16 | Build branch management screen | Construir la pantalla de gestión de sedes. | 5 hrs | Fernández | Done |
+| US37 | Lista blanca | T17 | Build gym whitelist management screen | Construir la pantalla de lista blanca. | 5 hrs | Fernández | Done |
+| US35 | Asociación de clientes | T18 | Build /gym/associate screen and GymSwitcherComponent | Construir la pantalla de asociación de clientes. | 5 hrs | Fernández | Done |
+| US36 | Cambio entre gimnasios | T19 | Implement hasClientGymGuard and ActiveGymStore | Implementar guard y store de gimnasio activo. | 4 hrs | Ayllón | Done |
+| TS90 | Sensores de movimiento API | T20 | Monitoring BC domain layer | Definir el agregado MotionSensor. | 5 hrs | Gallardo | Done |
+| TS90 | Sensores de movimiento API | T21 | Implement POST/GET /monitoring/motion-sensors | Registrar y listar sensores de movimiento. | 4 hrs | Ayllón | Done |
+| TS91 | Sensores de cámara API | T22 | Implement POST/GET /monitoring/camera-sensors | Registrar cámaras Edge y captura de movimiento. | 5 hrs | Gallardo | Done |
+| US44 | Monitoreo IoT | T23 | Build IoT Monitoring page | Construir la vista unificada de monitoreo IoT. | 5 hrs | Ayllón | Done |
+| US44 | Monitoreo IoT | T24 | Implement MotionSensorConnectivityScheduler | Implementar scheduler de conectividad. | 5 hrs | Gallardo | Done |
+| TS92 | Session Trackers | T25 | SessionTracker aggregate and scheduler | Definir el agregado SessionTracker y scheduler. | 5 hrs | Ayllón | Done |
+| TS92 | Session Trackers | T26 | Implement create/verify/end endpoints | Exponer el ciclo de vida completo del Session Tracker. | 4 hrs | Gallardo | Done |
+| US45 | Registro automático de sesión | T27 | Implement live session tracking | Implementar seguimiento de sesiones en tiempo real. | 5 hrs | Limache Coronel | Done |
+| TS89 | Reporte de anomalías API | T28 | Anomaly aggregate and POST /api/v1/anomalies | Definir el agregado Anomaly. | 5 hrs | Ayllón | Done |
+| US41 | Reporte de anomalías | T29 | Rework anomaly report flow | Reemplazar campos manuales por selector de reservas. | 4 hrs | Limache Coronel | Done |
+| TS100 | Alertas API | T30 | Shared Alert aggregate | Definir el agregado Alert. | 5 hrs | Limache Coronel | Done |
+| TS100 | Alertas API | T31 | Implement GET /api/v1/alerts | Exponer listado y resolución de alertas. | 4 hrs | Limache Coronel | Done |
+| US46 | Centro de alertas | T32 | Build unified alerts inbox | Construir la bandeja unificada de alertas. | 5 hrs | Limache Coronel | Done |
+| US46 | Centro de alertas | T33 | Fix AuthStore/AlertsStore dependency | Corregir dependencia circular. | 4 hrs | Limache Coronel | Done |
+| TS99 | Preferencias de notificación | T34 | Implement notification-preferences | Persistir preferencias del usuario. | 4 hrs | Fernández | Done |
+| US47 | Preferencias de notificación | T35 | Build notification preferences settings card | Construir tarjeta de configuración. | 4 hrs | Limache Coronel | Done |
+| TS96 | Técnicos API | T36 | Technician aggregate | Definir el agregado Technician. | 4 hrs | Gallardo | Done |
+| TS96 | Técnicos API | T37 | Implement POST/GET technicians | Registrar y listar técnicos. | 4 hrs | Ayllón | Done |
+| TS97 | Asignación de técnicos | T38 | Implement assign/accept endpoints | Asignar técnico y aceptar trabajo. | 5 hrs | Gallardo | Done |
+| US48 | Gestión de técnicos | T39 | Build technician management screen | Construir la pantalla de técnicos. | 5 hrs | Limache Coronel | Done |
+| TS98 | Bitácora de tickets | T40 | Implement completion-log | Registrar costo y notas de finalización. | 4 hrs | Ayllón | Done |
+| US49 | Bitácora de finalización | T41 | Add completion cost field | Añadir campo de costo al modal. | 4 hrs | Limache Coronel | Done |
+| US40 | Check-in QR | T42 | Integrate html5-qrcode scanner | Integrar lector QR. | 5 hrs | Gallardo | Done |
+| TS93 | Reportes de actividad | T43 | Analytics BC domain layer | Definir el agregado ActivityReport. | 5 hrs | Ayllón | Done |
+| TS93 | Reportes de actividad | T44 | Implement POST/GET activity-reports | Generar y consultar reportes. | 4 hrs | Gallardo | Done |
+| TS94 | Cotización de mantenimiento | T45 | MaintenanceQuote aggregate | Definir el agregado MaintenanceQuote. | 5 hrs | Ayllón | Done |
+| TS95 | ROI | T46 | ROIProjection aggregate | Definir el agregado ROIProjection. | 5 hrs | Gallardo | Done |
+| TS95 | ROI | T47 | Implement demand detection | Detectar demanda alta/baja y recomendaciones. | 5 hrs | Ayllón | Done |
+| US42 | Rutina en vivo | T48 | Implement exercise-block completion tracking | Implementar seguimiento de rutina. | 5 hrs | Limache Coronel | Done |
+| TS80, TS81 | Restablecimiento de contraseña | T49 | Implement forgot-password and verify | Generar y verificar código. | 4 hrs | Fernández | Done |
+| TS80, TS81 | Restablecimiento de contraseña | T50 | Build forgot-password UI | Construir flujo de recuperación. | 4 hrs | Fernández | Done |
+| - | Sprint 4 Closure | SF4-01 | Rebuild dashboard analytics | Reconstruir dashboard con datos reales. | 5 hrs | Espinoza | Done |
+| - | Sprint 4 Closure | SF4-02 | Fix analytics filter | Corregir filtro de pérdida por inactividad. | 4 hrs | Espinoza | Done |
+| - | Sprint 4 Closure | SF4-03 | Add HTTP 401/403 interceptor | Implementar interceptor global. | 4 hrs | Fernández | Done |
+| - | Sprint 4 Closure | SF4-04 | Finalize Landing Page v3.0.1 | Consolidar versión final de Landing Page. | 5 hrs | Gallardo | Done |
+| - | Sprint 4 Closure | SF4-05 | Add mobile hamburger navigation | Implementar menú móvil responsive. | 4 hrs | Ayllón | Done |
+| - | Sprint 4 Closure | SF4-06 | Embed product demo video | Integrar video demostrativo. | 4 hrs | Espinoza | Done |
+| - | Sprint 4 Closure | SF4-07 | Final production deployment verification | Validar despliegue final. | 4 hrs | Gallardo | Done |
+| - | Sprint 4 Closure | SF4-08 | Document Sprint 4 | Documentar Sprint 4 en el informe. | 5 hrs | Espinoza | Done |
+
+<img src="../assets/sprint4/Screenshot 2026-07-07 at 02.24.52.png" alt="bounded" width="500"/>
+
+#### 5.2.3.6. Development Evidence for Sprint Review
+El sprint concentró el mayor volumen de trabajo del proyecto: **403 commits (36 Pull Requests fusionados)** en `bytesquad-platform`, **154 commits (16 Pull Requests fusionados)** en `bytesquad-webapp` y **4 commits (3 Pull Requests fusionados)** en `bytesquad-website`, entre el 2026-06-19 y el 2026-07-06 (rama `develop`). A continuación se presenta una muestra representativa de los commits más relevantes por repositorio.
+
+Backend (`bytesquad-platform`):
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/role-based-authorization | 296bac2 | Merge pull request #62 feature/role-based-authorization | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/gym-bc-enhancements | e8c499c | Merge pull request #63 feature/gym-bc-enhancements | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/maintenance-bc-enhancements | c657f95 | Merge pull request #64 feature/maintenance-bc-enhancements | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/analytics-bc-enhancements | 6cc3b78 | Merge pull request #65 feature/analytics-bc-enhancements | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/membership-lifecycle | 5e7a123 | Merge pull request #66 feature/membership-lifecycle | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/membership-expiration | 3042731 | Merge pull request #67 feature/membership-expiration | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/membership-gating | d2e3182 | Merge pull request #68 feature/membership-gating | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | fix/security-signup-role-restriction | 747121d | fix(iam): restrict public sign-up to Client role only | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/iam-pending-registration | c5b04d6 | Merge pull request #70 feature/iam-pending-registration | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/membership-payment-aggregate | 8278874 | Merge pull request #71 feature/membership-payment-aggregate | 2026-07-06 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-platform | feature/business-registration-flow | 7f628dc | Merge pull request #72 feature/business-registration-flow | 2026-07-06 |
+
+Frontend (`bytesquad-webapp`):
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/gym-bc | ace804b | Merge pull request #25 feature/gym-bc | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/membership-bc | d5bd7e6 | Merge pull request #27 feature/membership-bc | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/monitoring-bc | dcbe45c | Merge pull request #28 feature/monitoring-bc | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/reservation-api | 40d7bb8 | Merge pull request #29 feature/reservation-api | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/profiles-bc | b2f13e4 | Merge pull request #30 feature/profiles-bc | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/routines-api | 5ecead4 | Merge pull request #31 feature/routines-api | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/analytics | d0ef2d2 | Merge pull request #32 feature/analytics | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/shared-cleanup | 2bd1494 | Merge pull request #33 feature/shared-cleanup | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/union-backend | 9048eee | Merge pull request #34 feature/union-backend | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | feature/staticwebappconfig | 3d9196d | fix: add SPA navigation fallback for Azure Static Web Apps | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | fix/login | 31d9b6f | Merge pull request #36 fix/login | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-webapp | fix/user | 100e5a6 | Merge pull request #37 fix/user | 2026-06-21 |
+
+Landing Page (`bytesquad-website`):
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website | fix/old-link | d12b26a | Merge pull request #22 fix/old-link | 2026-06-21 |
+| upc-pre-202610-1asi0730-12144-bytesquad/bytesquad-website | fix/viteconfig | e6294d4 | Merge pull request #23 fix/viteconfig | 2026-06-21 |
+
+
+#### 5.2.3.7. Services Documentation Evidence for Sprint Review
+
+##### Bounded Context: Membership (Membresías y Acceso)
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de Llamada | Ejemplo de Response | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/memberships/activate` | Activar membresía | `POST` | `/api/v1/memberships/activate` | `{ "id": 1, "clientId": 1, "plan": "Premium", "startDate": "...", "endDate": "...", "status": "Active" }` | Activa una nueva membresía para un cliente. |
+| `/api/v1/memberships/{id}` | Obtener membresía | `GET` | `/api/v1/memberships/1` | `{ "id": 1, "clientId": 1, "plan": "Premium", "status": "Active" }` | Retorna la membresía solicitada, o 404 si no existe. |
+| `/api/v1/memberships/by-client/{clientId}` | Listar membresías por cliente | `GET` | `/api/v1/memberships/by-client/1` | `[{ "id": 1, "plan": "Premium", "status": "Active" }]` | Retorna todas las membresías de un cliente. |
+| `/api/v1/memberships/{id}/plan` | Actualizar plan | `PUT` | `/api/v1/memberships/1/plan` | `{ "id": 1, "plan": "VIP", "status": "Active" }` | Cambia el plan de una membresía existente. |
+| `/api/v1/memberships/{id}/suspend` | Suspender membresía | `POST` | `/api/v1/memberships/1/suspend` | `{ "id": 1, "status": "Suspended" }` | Suspende una membresía activa. |
+| `/api/v1/memberships/{id}/renew` | Renovar membresía | `POST` | `/api/v1/memberships/1/renew` | `{ "id": 1, "endDate": "...", "status": "Active" }` | Extiende la fecha de fin de una membresía. |
+| `/api/v1/memberships/{id}/cancel` | Cancelar membresía | `DELETE` | `/api/v1/memberships/1/cancel` | `{ "id": 1, "status": "Cancelled" }` | Cancela una membresía. Retorna 400 si ya está cancelada o expirada. |
+| `/api/v1/branch-accesses/grant` | Evaluar acceso a sede | `POST` | `/api/v1/branch-accesses/grant` | `{ "id": 1, "membershipId": 1, "branchId": 1, "status": "Granted", "grantedByAdminId": 1 }` | Evalúa la membresía referenciada y registra una decisión de acceso (Granted/Denied). |
 
 ##### Bounded Context: Maintenance (Mantenimiento de Equipos)
 
@@ -835,25 +1016,29 @@ El backend fue construido con **ASP.NET Core (C#)** y expone una API RESTful ver
 | `/api/v1/roiprojections/projected-earnings` | Calcular ganancias proyectadas | `POST` | `/api/v1/roiprojections/projected-earnings` | `{ "id": 1, "projectedEarnings": 1500.0, ... }` | Calcula y actualiza las ganancias proyectadas. |
 | `/api/v1/roiprojections/generate` | Generar índice ROI | `POST` | `/api/v1/roiprojections/generate` | `{ "id": 1, "roiIndex": 1.8, "demandStatus": "High" }` | Genera el índice ROI final y el estado de demanda de la proyección. |
 
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
-Durante este sprint, el objetivo de despliegue se centró en el **Backend de SpotTrack**, el cual fue desplegado exitosamente y ya se encuentra operativo en el entorno de la nube de **Azure**.
-<img src="../assets/image11.png">
+#### 5.2.3.8. Software Deployment Evidence for Sprint Review
 
-<img src="../assets/image22.png">
+El backend (`spottrack-platform`) se mantiene contenedorizado mediante un `Dockerfile` multi-stage (build con Maven 3.9/Eclipse Temurin 26, ejecución sobre `eclipse-temurin:26-jre`) y un `docker-compose.yml` que expone las variables de entorno de base de datos, `JWT_SECRET` y las credenciales de Stripe (`STRIPE_SECRET_API_KEY`, `STRIPE_WEBHOOK_SECRET`), desplegado en Azure App Service conectado a Azure MySQL Flexible Database con `useSSL=true`.
 
 
+| Producto | Entorno | Tecnología | Enlace |
+| :--- | :--- | :--- | :-- |
+| SpotTrack Backend API | Docker + Azure App Service + Azure MySQL Flexible Database | C# + Net10 | https://spottrack-platform-aw.azurewebsites.net/  |
+| SpotTrack Web Application | Azure Static Web Apps (producción) | Vue | https://green-pebble-07422c50f.7.azurestaticapps.net/|
+| SpotTrack Landing Page | GitHub Pages (producción) | Vue | https://upc-pre-202610-1asi0730-12144-bytesquad.github.io/bytesquad-website/ |
 
-| Componente | Entorno de Despliegue | URL de Producción |
-| --- | --- | --- |
-| **SpotTrack platform** | Azure Web App | [](spottrack-platform-os.azurewebsites.net) |
+#### 5.2.3.9. Team Collaboration Insights during Sprint
+A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de webbapp, website y platform:
 
-Este despliegue garantiza que la lógica de negocio, las bases de datos y los servicios del backend estén completamente disponibles en la nube para ser consumidos de manera estable y segura.
+<img src="../assets/sprint4/Screenshot 2026-07-07 at 02.23.56.png" alt="bounded" width="500"/>
 
-#### 5.2.3.8.Team Collaboration Insights during Sprint.
-A continuación todas las estadisticas que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo en los repositorios de platform:
+<img src="../assets/sprint4/Screenshot 2026-07-07 at 02.23.30.png" alt="bounded" width="500"/>
 
-<img src="../assets/team-insight.png">
+<img src="../assets/sprint4/Screenshot 2026-07-07 at 02.24.28.png" alt="bounded" width="500"/>
+
+
+
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
@@ -1321,3 +1506,7 @@ En el Mapa, al pulsar “Reserve” sobre una máquina libre, la reserva se ejec
 Añadir una confirmación ligera antes de concretar la reserva (por ejemplo, un mensaje “¿Reservar Treadmill 1 por 10 minutos?”) o, como mínimo, ofrecer una opción de deshacer inmediatamente después de reservar, dando al usuario control sobre la acción.
 
 ## 5.4. Video About-the-Product.
+
+![Video About-the-Product](../assets/video-about-the-product.jpeg)
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAJvn5gRp82SIJg63b1GspdARSyzur-B95t93TAtlT1REw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yWaAfM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQAJvn5gRp82SIJg63b1GspdARSyzur-B95t93TAtlT1REw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yWaAfM) 
