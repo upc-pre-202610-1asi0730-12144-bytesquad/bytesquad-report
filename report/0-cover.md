@@ -32,9 +32,12 @@ Proyecto:
 
 </div>
 
-\newpage
 
 <nav>
+<br>
+<br>
+<br>
+<br>
 
 - [Registro de Versiones del Informe](00-preliminares.md#registro-de-versiones-del-informe)
   - [Registro de Versiones - AV1](00-preliminares.md#registro-de-versiones---av1)
@@ -166,5 +169,5 @@ Proyecto:
 
 </nav>
 
-\newpage
+
 
